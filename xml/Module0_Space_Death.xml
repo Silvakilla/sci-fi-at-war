@@ -1,0 +1,851 @@
+<?xml version="1.0"?>
+<SpaceDeath>
+
+    <!-- ===== -->
+    <!-- REBEL -->
+    <!-- ===== -->
+
+    <SpaceUnit Name="Corellian_Corvette_Death_Clone">
+        <Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID>
+        <Space_Model_Name>RV_Corvette_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_Corvette.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>.5</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Marauder_Missile_Cruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_MARAUDER_CRUISER</Text_ID>
+        <Space_Model_Name>RV_missile_ship_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_missile_ship.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Nebulon_Death_Clone">
+        <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
+        <Space_Model_Name>RV_nebulonb_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_nebulonb_D_death_00.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.76</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Assault_Frigate_Death_Clone">
+        <Text_ID>TEXT_UNIT_ASSAULT_FRIGATE</Text_ID>
+        <Space_Model_Name>RV_AssaultFrigate_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_Assaultfrigate.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Calamari_Cruiser_Death_Clone">
+        <Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
+        <Space_Model_Name>RV_MONCALCRUISER_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 1.0 </Scale_Factor>
+        <Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Chasemaster_Frigate_Death_Clone">
+        <Text_ID>TEXT_UNIT_CHASEMASTER</Text_ID>
+        <Space_Model_Name>Chasemaster_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>Chasemaster_D.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Galaxy_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+        <Space_Model_Name>Galaxy_Destroyer_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>Galaxy_Destroyer.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>3.85</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="MC30_Frigate_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>RV_MC30CMONCAL_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Underworld</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Strident_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_STRIDENT_DESTROYER</Text_ID>
+        <Space_Model_Name>Strident_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>Strident.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="MC80_Calamari_Cruiser_Death_Clone">
+        <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+        <Space_Model_Name> RV_MC_80_D.ALO </Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 0.7 </Scale_Factor>
+        <Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="MC90_Calamari_Cruiser_Death_Clone">
+        <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+        <Space_Model_Name> RV_MC_90_D.ALO </Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 0.65 </Scale_Factor>
+        <Layer_Z_Adjust> -190.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Calamari_Cruiser_Death_Clone">
+        <Text_ID> TEXT_UNIT_CALAMARI_CRUISER </Text_ID>
+        <Space_Model_Name>RV_MC_80b_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 0.5 </Scale_Factor>
+        <Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Dauntless_Death_Clone">
+        <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+        <Space_Model_Name>RV_Dauntless_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 0.65 </Scale_Factor>
+        <Layer_Z_Adjust> -190.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Corellian_Gunboat_Death_Clone">
+        <Text_ID>TEXT_UNIT_CORELLIAN_GUNBOAT</Text_ID>
+        <Space_Model_Name>RV_gunship_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_gunship.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>.35</Scale_Factor>
+        <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>corvette</Ship_Class>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="MC75_Death_Clone">
+        <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
+        <Space_Model_Name>RV_MC_75_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_MC_75.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.65</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="NebulonB2_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>RV_NebulonB2_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_NebulonB2.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.45</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Reb_Dread_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>Rebell_Dreadnaught_Dead.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Layer_Z_Adjust>60.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Balrus_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>RV_Balrus_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Eidolon.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.75</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="MC40_Death_Clone">
+        <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
+        <Space_Model_Name>RV_MC40.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>RV_MC40.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.35</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="MC104_Calamari_Cruiser_Death_Clone">
+        <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+        <Space_Model_Name> RV_MC_104_D.ALO </Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 1.00 </Scale_Factor>
+        <Layer_Z_Adjust> -190.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <UniqueUnit Name="Gallofree_Transport_Death_Clone">
+        <Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
+        <Space_Model_Name>RV_Transport_D.alo</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <CategoryMask> Fighter </CategoryMask>
+    </UniqueUnit>
+
+    <!-- ====== -->
+    <!-- EMPIRE -->
+    <!-- ====== -->
+
+    <SpaceUnit Name="Broadside_Class_Cruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_BROADSIDE_CRUISER</Text_ID>
+        <Space_Model_Name>EV_missile_ship_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_missile_ship.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="VictorIICruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_VICTORIICRUISER</Text_ID>
+        <Space_Model_Name>VictorIICruiser_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+        <Scale_Factor>0.90</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+    </SpaceUnit>
+
+    <UniqueUnit Name="Executor_Death_Clone">
+        <Text_ID>TEXT_UNIT_SSD_EXECUTOR</Text_ID>
+        <Space_Model_Name>EV_ExecutorStarDestroyer_D.alo</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>super</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </UniqueUnit>
+
+    <SpaceUnit Name="Imperious_Death_Clone">
+        <Text_ID>TEXT_UNIT_IMPERIOUS</Text_ID>
+        <Space_Model_Name>Imperious_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>Imperious.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Pelleaon_Star_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+        <Space_Model_Name>Pelleaon_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>Pelleaon_D.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Star_Destroyer2_Death_Clone">
+        <Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+        <Space_Model_Name>Ev_Imperator_MK2.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Layer_Z_Adjust>10.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Star_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
+        <Space_Model_Name>Ev_Imperator_MK1.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Layer_Z_Adjust>10.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Vengence_Death_Clone">
+        <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
+        <Space_Model_Name>EV_Vengence_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+        <Scale_Factor> 0.75 </Scale_Factor>
+        <Layer_Z_Adjust> -190.0 </Layer_Z_Adjust>
+        <Max_Speed> 0.25 </Max_Speed>
+        <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn>
+        <Max_Thrust> 0.05 </Max_Thrust>
+        <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+        <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+        <Affiliation> Rebel </Affiliation>
+        <Ship_Class> capital_ship </Ship_Class>
+        <Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Imperial_Lancer_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_Lancer.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Lancer.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.45</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Harrow_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+        <Space_Model_Name>EV_Harrow_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_VSD.alo</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.4</Scale_Factor>
+        <Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Imp_Dread_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_Dreadnought.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Dreadnought.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Layer_Z_Adjust>60.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Carrack_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_Carrack_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Carrack.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.35</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Eidolon_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_Eidolon_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.65</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Acclamator_Death_Clone">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>Empire_Acclamator_II.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.65</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Imperial_Striker_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_StrikeCruiser_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_carrier.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Imperial_Escort_Carrier_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_carrier.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_carrier.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Layer_Z_Adjust>-10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Interdictor_Death_Clone">
+        <Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
+        <Space_Model_Name>EV_Interdictor_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Interdictor.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Praetor_Super_Stardestroyer_Death">
+        <Text_ID>AOTR_IMPERIAL_CARRIER_ID</Text_ID>
+        <Space_Model_Name>EV_Praetor_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Praetor.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Friggin_Huge_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1.2</Scale_Factor>
+        <Layer_Z_Adjust>10.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Ship_Class>super</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Tartan_Patrol_Cruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_TARTAN_CRUISER</Text_ID>
+        <Space_Model_Name>EV_tartancruiser_d.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_missile_ship.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>.56</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Victory_Destroyer_2_Death_Clone">
+        <Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+        <Space_Model_Name>Ev_Victory_MkII.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.4</Scale_Factor>
+        <Layer_Z_Adjust>-180.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <UniqueUnit Name="Shuttle_Tyderium_Death_Clone">
+        <Text_ID>TEXT_UNIT_TYDERIUM_SHUTTLE</Text_ID>
+        <Space_Model_Name>EV_LambdaShuttle_space_D.alo</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <CategoryMask> Fighter </CategoryMask>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </UniqueUnit>
+
+    <UniqueUnit Name="Imperial_ATAT_Barge_Death_Clone">
+        <Text_ID>TEXT_UNIT_IMPERIAL_ATAT_BARGE</Text_ID>
+        <Space_Model_Name>EV_AT-Barge_D.alo</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <CategoryMask> Fighter </CategoryMask>
+    </UniqueUnit>
+
+    <UniqueUnit Name="Imperial_Landing_Craft_Death_Clone">
+        <Text_ID>TEXT_UNIT_IMPERIAL_LANDING_CRAFT</Text_ID>
+        <Space_Model_Name>EV_ImperialCraft_space_D.alo</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <CategoryMask> Fighter </CategoryMask>
+    </UniqueUnit>
+
+    <SpaceUnit Name="Victory_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+        <Space_Model_Name>Ev_Victory_MkI_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+        <Scale_Factor>0.3</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Imperial_Escort_Carrier_Death_Clone">
+        <Text_ID>TEXT_UNIT_DREADNOUGHT</Text_ID>
+        <Space_Model_Name>EV_ESCORT_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_ESCORT_D.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+        <Scale_Factor>0.55</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Death_Persistence_Duration>0.1</Death_Persistence_Duration>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Venator_Death_Clone">
+        <Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+        <Space_Model_Name>Ev_Venator_D.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+        <Scale_Factor>0.85</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+</SpaceDeath>

@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<Campaigns>
+
+    <Campaign Name="Multiplayer_Sandbox_Rim_Worlds">
+
+        <Campaign_Set> Multiplayer_Campaign_Set </Campaign_Set>
+        <Text_ID> TEXT_CAMPAIGN_MULTI_GALACTIC_CONFLICT </Text_ID>
+        <Description_Text> TEXT_CAMPAIGN_MULTI_DESCRIPTION_GALACTIC_CONFLICT </Description_Text>
+        
+		<Is_Quickmatch_Allowed> No </Is_Quickmatch_Allowed>
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+        <Locations>
+            Galaxy_Core_Art_Model,
+			AetenII,
+			AlzocIII,
+			Atzerri,
+			Bespin,
+			Bestine,
+			Bonadan,
+			Carida,
+			Coruscant,
+			Fresia,
+			Alderaan,
+			Kessel,
+			Kuat,
+			Kashyyyk,
+			Naboo,
+			Ilum,
+			Anaxes,
+			Sullust,
+			Wayland,
+			Corellia,
+			Byss,
+			Corulag,
+			Bothawui,
+			Abregado_Rae,
+			Eriadu,
+			Felucia,
+			Dagobah,
+			Dantooine,
+			Dathomir,
+			Endor,
+			Fondor,
+			Geonosis,
+			Honoghr,
+			Hoth,
+			Hypori,
+			Jabiim,
+			Kamino,
+			Korriban,
+			Manaan,
+			Mandalore,
+			MonCalimari,
+			Mustafar,
+			Myrkr,
+			NalHutta,
+			Polus,
+			Ryloth,
+			Saleucami,
+			Shola,
+			Taris,
+			Tatooine,
+			The_Maw,
+			Thyferra,
+			Utapau,
+			VergessoAsteroids,
+			Rattatak,
+			Nirauan,
+			Sluis_Van,
+			Zhar,
+			YagaMinor,
+			Ylesia,
+			Mechis,
+			AnoatAsteroids,
+			RocheAsteroids,
+			Hapes,
+			Denon,
+			Bilbringi,
+			Onderon,
+			Kalee,
+			Bakura,
+			Ord_Mantell,
+			Trigalis,
+			Yavin,
+			Tethys,
+			Kallisto,
+			Lysithea,
+			Carme,
+			Epimetheus,
+			Dione,
+			Pasiphae,
+			Amalthea
+        </Locations>
+
+        <Trade_Routes>
+            AlzocIII_Manaan,
+			Atzerri_Hoth,
+			Bespin_Bestine,
+			Bestine_Fondor,
+			Bonadan_Muunilinst,
+			Dagobah_VergessoAsteroids,
+			Endor_Polus,
+			Fondor_Geonosis,
+			Fondor_Jabiim,
+			Fondor_Myrkr,
+			Geonosis_Myrkr,
+			Honoghr_Korriban,
+			Hoth_Mustafar,
+			Hypori_Mandalore,
+			Kamino_Shola,
+			Korriban_Myrkr,
+			Mandalore_Utapau,
+			NalHutta_Ryloth,
+			Saleucami_Yavin,
+			Kamino_Elysium,
+			Rattatak_Naberrie,
+			Coruscant_Byss,
+			Rattatak_Thyferra,
+			Rattatak_Jabiim,
+			Sluis_Van_Coruscant,
+			Sluis_Van_Taris,
+			Thyferra_Taris,
+			Byss_Corellia,
+			Corellia_Kuat,
+			Kuat_Kessel,
+			Kessel_Korriban,
+			Korriban_Yavin,
+			NalHutta_Honoghr,
+			Endor_Bestine,
+			Polus_Lysithea,
+			Mustafar_Utapau,
+			Atzerri_Bespin,
+			Hoth_Tethys,
+			Nirauan_Tethys,
+			Nirauan_Epimetheus,
+			Hypori_Shola,
+			Saleucami_MonCalimari,
+			Dione_MonCalimari,
+			Dathomir_AetenII,
+			Myrkr_AetenII
+        </Trade_Routes>
+
+        <Home_Location> Rebel, Yavin </Home_Location>
+        <Home_Location> Empire, Coruscant </Home_Location>
+
+        <Is_Multiplayer> Yes </Is_Multiplayer>
+
+        <Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+        <Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+
+        <Supports_Custom_Settings>False</Supports_Custom_Settings>
+        <Show_Completed_Tab>False</Show_Completed_Tab>
+		
+		<Rebel_Story_Name> Story_plots_sandbox_36u_rebel.xml </Rebel_Story_Name>
+		<Empire_Story_Name> Story_plots_sandbox_36u_empire.xml </Empire_Story_Name>
+
+        <Human_Victory_Conditions>
+            Galactic_All_Planets_Controlled
+        </Human_Victory_Conditions>
+
+        <AI_Victory_Conditions>
+            Galactic_All_Planets_Controlled
+        </AI_Victory_Conditions>
+
+        <Starting_Credits> Rebel,  10000 </Starting_Credits>
+        <Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
+        <Max_Tech_Level> Rebel, 5 </Max_Tech_Level>
+
+        <Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Mon_Mothma_Team </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Droids_Team </Starting_Forces>
+        <Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
+        <Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
+
+        <Starting_Credits> Empire,  10000 </Starting_Credits>
+        <Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
+        <Max_Tech_Level> Empire, 5 </Max_Tech_Level>
+
+        <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
+        
+    </Campaign>
+
+</Campaigns>

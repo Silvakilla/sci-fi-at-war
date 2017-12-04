@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<LandDeath>
+
+    <GroundVehicle Name="Adv_Bridger_Photon_Telekinesis_Death_Clone">
+        <Variant_Of_Existing_Type>Adv_Bridger_Photon</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>no</Death_Clone_Is_Obstacle>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Specific_Death_Anim_Type>FTK_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+
+        <Custom_Hard_XExtent> 34.0 </Custom_Hard_XExtent>
+        <Custom_Hard_XExtent_Offset> -9.0 </Custom_Hard_XExtent_Offset>
+
+        <Death_Persistence_Duration> 0 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+        <IsDeathClone> true </IsDeathClone>
+    </GroundVehicle>
+
+    <GroundInfantry Name="F_Plex_Red_01_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_01</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_01_Force_Lightning_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_01</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_01_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_01</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_01_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_01</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_02_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_02</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_02_Force_Lightning_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_02</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_02_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_02</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_02_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_02</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_03_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_03</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_03_Force_Lightning_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_03</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_03_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_03</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Plex_Red_03_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>F_Plex_Red_03</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Soldier_Red_01_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>F_Soldier_Red_01</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Soldier_Red_01_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>F_Soldier_Red_01</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="F_Soldier_Red_01_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>F_Soldier_Red_01</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_F_Soldiers_Red_02_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_F_Soldiers_Red_02</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_F_Soldiers_Red_02_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_F_Soldiers_Red_02</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_F_Soldiers_Red_02_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_F_Soldiers_Red_02</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_F_Soldiers_Red_03_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_F_Soldiers_Red_03</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_F_Soldiers_Red_03_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_F_Soldiers_Red_03</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_F_Soldiers_Red_03_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_F_Soldiers_Red_03</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Grenadier_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type> TOS_K_Grenadier </Variant_Of_Existing_Type>
+    </GroundInfantry>
+
+    <GroundInfantry Name="K_Plex_Soldier_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>K_Plex_Soldier</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="K_Plex_Soldier_Force_Lightning_Death_Clone">
+        <Variant_Of_Existing_Type>K_Plex_Soldier</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="K_Plex_Soldier_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>K_Plex_Soldier</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="K_Plex_Soldier_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>K_Plex_Soldier</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Soldier_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_K_Soldier</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Soldier_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_K_Soldier</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Soldier_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_K_Soldier</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Underworld_Soldier_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Soldier_F_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_K_Soldier_F</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Soldier_F_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_K_Soldier_F</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="TOS_K_Soldier_F_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>TOS_K_Soldier_F</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+</LandDeath>

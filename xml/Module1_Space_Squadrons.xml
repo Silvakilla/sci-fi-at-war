@@ -1,0 +1,931 @@
+<?xml version="1.0"?>
+<Squadrons>
+
+    <!-- ===== -->
+    <!-- REBEL -->
+    <!-- ===== -->
+    <Squadron Name="Rebel_Aeroshuttle_Squadron">
+        <Variant_Of_Existing_Type>Aeroshuttle_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_F_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Danube_Squadron">
+        <Variant_Of_Existing_Type>Danube_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_F_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Type11_Squadron">
+        <Variant_Of_Existing_Type>Type11_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_F_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Noqduj_Squadron">
+        <Variant_Of_Existing_Type>Noqduj_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_K_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Nuqduj_Squadron">
+        <Variant_Of_Existing_Type>Nuqduj_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_K_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Shuttle_Squadron">
+        <Variant_Of_Existing_Type>Klingon_Shuttle_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_K_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <!-- ====== -->
+    <!-- EMPIRE -->
+    <!-- ====== -->
+    <Squadron Name="Empire_Aeroshuttle_Squadron">
+        <Variant_Of_Existing_Type>Aeroshuttle_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_F_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Danube_Squadron">
+        <Variant_Of_Existing_Type>Danube_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_F_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Type11_Squadron">
+        <Variant_Of_Existing_Type>Type11_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_F_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Noqduj_Squadron">
+        <Variant_Of_Existing_Type>Noqduj_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_K_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Nuqduj_Squadron">
+        <Variant_Of_Existing_Type>Nuqduj_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_K_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Shuttle_Squadron">
+        <Variant_Of_Existing_Type>Klingon_Shuttle_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_K_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <!-- ========== -->
+    <!-- FEDERATION -->
+    <!-- ========== -->
+
+    <Squadron Name="Aeroshuttle_Squadron">
+        <Text_ID>TEXT_UNIT_AEROSHUTTLE_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_AEROSHUTTLE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <Icon_Name>I_BUTTON_FV_AEROSHUTTLE.tga</Icon_Name>
+        <LOD_Bias>10</LOD_Bias>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Autoresolve_Health>48</Autoresolve_Health>
+        <Damage>25</Damage>
+        <Affiliation>Federation</Affiliation>
+        <Political_Control>0</Political_Control>
+
+        <Build_Cost_Credits>550</Build_Cost_Credits>
+        <Build_Time_Seconds>5</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Tech_Level>1</Tech_Level>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Aeroshuttle,
+            Aeroshuttle,
+            Aeroshuttle
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+        <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete/>
+
+        <FormationOrder>3</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+        <Create_Team_Type> </Create_Team_Type>
+        <Max_Squad_Size> 6 </Max_Squad_Size>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>TURBO</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+                <SFXEvent_GUI_Unit_Ability_Activated>Federation_Fighters_Movement</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Danube_Squadron">
+        <Text_ID>TEXT_UNIT_DANUBE_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_DANUBE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_DANUBE.tga</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>58</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>660</Build_Cost_Credits>
+        <Build_Time_Seconds>5</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Tech_Level>3</Tech_Level>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Danube,
+            Danube,
+            Danube
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size> 3 </Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
+                <Recharge_Seconds>50</Recharge_Seconds>
+                <Expiration_Seconds>6</Expiration_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>660</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Danube_Torp_Squadron">
+        <Text_ID>TEXT_UNIT_DANUBE_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_DANUBE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_Danube_Torp.TGA</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>No</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>20</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>720</Build_Cost_Credits>
+        <Build_Time_Seconds>12</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Danube_Torpedo,
+            Danube_Torpedo,
+            Danube_Torpedo
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size> 3 </Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>power_to_weapons</Type>
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Federation_Fighters_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Maquis_Fighter_Squadron">
+        <Text_ID>TEXT_UNIT_MAQUIS_FIGHTER_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_MAQUIS_FIGHTER_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_Peregrine.tga</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>58</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>750</Build_Cost_Credits>
+        <Build_Time_Seconds>5</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Slice_Cost_Credits>400</Slice_Cost_Credits>
+
+        <Tech_Level>6</Tech_Level>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Maquis_Fighter,
+            Maquis_Fighter,
+            Maquis_Fighter
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>3</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Request_Assistance</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Maquis_Runabout_Squadron">
+        <Text_ID>TEXT_UNIT_MAQUIS_RUNABOUT_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_MAQUIS_RUNABOUT_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Krayt_Class_Destroyer </Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender Crusader_Gunship </Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_DANUBE.tga</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>58</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>575</Build_Cost_Credits>
+        <Build_Time_Seconds>5</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Tech_Level>6</Tech_Level>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Maquis_Runabout,
+            Maquis_Runabout,
+            Maquis_Runabout
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>3</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Request_Assistance</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>520</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Peregrine_Squadron">
+        <Text_ID>TEXT_UNIT_PEREGRINE_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_PEREGRINE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_Peregrine.tga</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>35</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>750</Build_Cost_Credits>
+        <Build_Time_Seconds>5</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Peregrine,
+            Peregrine,
+            Peregrine
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>3</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
+                <Recharge_Seconds>50</Recharge_Seconds>
+                <Expiration_Seconds>6</Expiration_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Federation_Fighters_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Type9_Squadron">
+        <Text_ID>TEXT_UNIT_TYPE_9_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_TYPE_9_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_TYPE9.TGA</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Autoresolve_Health>15</Autoresolve_Health>
+        <Damage>15</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>650</Build_Cost_Credits>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Tech_Level>6</Tech_Level>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Type9,
+            Type9,
+            Type9,
+            Type9,
+            Type9
+        </Squadron_Units>
+
+        <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,25.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-25.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>5</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>5</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>TURBO</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+                <SFXEvent_GUI_Unit_Ability_Activated>Federation_Fighters_Movement</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Type11_Squadron">
+        <Text_ID>TEXT_UNIT_TYPE_11_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_TYPE_11_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_FV_Type11.TGA</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Autoresolve_Health>23</Autoresolve_Health>
+        <Damage>15</Damage>
+
+        <Affiliation>Federation</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>450</Build_Cost_Credits>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Tech_Level>6</Tech_Level>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Type11,
+            Type11,
+            Type11,
+            Type11,
+            Type11
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>5</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>FHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete></SFXEvent_Build_Complete>
+
+        <FormationOrder>5</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>LURE</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <!-- ======= -->
+    <!-- KLINGON -->
+    <!-- ======= -->
+
+    <Squadron Name="Noqduj_Squadron">
+        <Text_ID>TEXT_UNIT_NOQDUJ_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_NOQDUJ_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_kv_noqduj.TGA</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>20</Damage>
+
+        <Affiliation>Klingon</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>720</Build_Cost_Credits>
+        <Build_Time_Seconds>8</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Noqduj,
+            Noqduj,
+            Noqduj
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>3</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>KHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>KHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Klingon_Noqduj_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>power_to_weapons</Type>
+                <Expiration_Seconds>20</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Klingon_Noqduj_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Nuqduj_Squadron">
+        <Text_ID>TEXT_UNIT_NUQDUJ_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_NUQDUJ_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_kv_nuqduj.TGA</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>25</Damage>
+
+        <Affiliation>Klingon</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
+        <Build_Time_Seconds>6</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Nuqduj,
+            Nuqduj,
+            Nuqduj
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>3</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>KHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>KHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Klingon_Nuqduj_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Klingon_Shuttle_Squadron">
+        <Text_ID>TEXT_UNIT_KLINGON_SHUTTLE_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_KLINGON_SHUTTLE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <LOD_Bias>10</LOD_Bias>
+        <Icon_Name>I_BUTTON_kv_shuttle.TGA</Icon_Name>
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>22</Autoresolve_Health>
+        <Damage>35</Damage>
+
+        <Affiliation>Klingon</Affiliation>
+
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>450</Build_Cost_Credits>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
+        <Squadron_Units>
+            Klingon_Shuttle,
+            Klingon_Shuttle,
+            Klingon_Shuttle,
+            Klingon_Shuttle,
+            Klingon_Shuttle
+        </Squadron_Units>
+
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+        <Max_Squad_Size>5</Max_Squad_Size>
+
+        <SFXEvent_Build_Started>KHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>KHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Klingon_KShuttle_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>5</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+</Squadrons>

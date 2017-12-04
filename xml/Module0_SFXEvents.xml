@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<SFXEvents>
+
+    <!-- ===== -->
+    <!-- REBEL -->
+    <!-- ===== -->
+
+    <SFXEvent Name="Unit_Z6_Fire">
+        <Use_Preset>Preset_GUN</Use_Preset>
+        <Samples>Data\Audio\Weapons\Star_Wars\Blaster\Z6_Blaster.wav</Samples>
+    </SFXEvent>
+
+    <!-- ====== -->
+    <!-- EMPIRE -->
+    <!-- ====== -->
+
+    <SFXEvent Name="Unit_Commando_Fire">
+        <Use_Preset>Preset_GUN</Use_Preset>
+        <Samples>Data\Audio\Weapons\Star_Wars\DC17\Gun_dc17.wav</Samples>
+    </SFXEvent>
+
+</SFXEvents>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<LandBombingRunUnits>
+
+    <LandBombingUnit Name="Noqduj_Bombing_Run">
+        <Variant_Of_Existing_Type>Y-Wing_Bombing_Run</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_KV_noqduj</Text_ID>
+        <Land_Model_Name>kv_noqduj_Land.ALO</Land_Model_Name>
+        <Scale_Factor>1.4</Scale_Factor>
+        <Affiliation>Klingon</Affiliation>
+        <SFXEvent_Fire>Klingon_Photon_Loop_1</SFXEvent_Fire>
+        <SFXEvent_Select>Klingon_Noqduj_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Klingon_Noqduj_Movement</SFXEvent_Move>
+        <SFXEvent_Attack>Klingon_Noqduj_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>Klingon_Noqduj_Movement</SFXEvent_Guard>
+        <SFXEvent_Hardpoint>Klingon_Noqduj_Attackrun</SFXEvent_Hardpoint>
+        <SFXEvent_Bomb_Run_Select_Target> Klingon_Noqduj_Unit_Select </SFXEvent_Bomb_Run_Select_Target>
+        <SFXEvent_Bomb_Run_Incoming> Klingon_Noqduj_Attackrun </SFXEvent_Bomb_Run_Incoming>
+        <Projectile_Types> Land_Bombers_Photon_Bomb_Green </Projectile_Types>
+        <Icon_Name>I_BUTTON_kv_noqduj.tga</Icon_Name>
+    </LandBombingUnit>
+
+    <LandBombingUnit Name="Runabout_Bombing_Run">
+        <Variant_Of_Existing_Type>Y-Wing_Bombing_Run</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_FV_Danube</Text_ID>
+        <Land_Model_Name>FV_Danube_Torp.ALO</Land_Model_Name>
+        <Scale_Factor>1.5</Scale_Factor>
+        <Affiliation>Federation</Affiliation>
+        <SFXEvent_Fire>Federation_Quantum_Loop</SFXEvent_Fire>
+        <SFXEvent_Select>Federation_Fighters_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Federation_Fighters_Movement</SFXEvent_Move>
+        <SFXEvent_Attack>Federation_Fighters_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>Federation_Fighters_Movement</SFXEvent_Guard>
+        <SFXEvent_Hardpoint>Federation_Fighters_Attackrun</SFXEvent_Hardpoint>
+        <SFXEvent_Bomb_Run_Select_Target> Federation_Fighters_Unit_Select </SFXEvent_Bomb_Run_Select_Target>
+        <SFXEvent_Bomb_Run_Incoming> Federation_Fighters_Attackrun </SFXEvent_Bomb_Run_Incoming>
+        <Projectile_Types> Land_Bombers_Photon_Bomb_Orange </Projectile_Types>
+        <Icon_Name>I_BUTTON_FV_DANUBE_TORP.tga</Icon_Name>
+    </LandBombingUnit>
+
+</LandBombingRunUnits>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Deaths>
+
+    <GroundInfantry Name="Template_Trooper_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="Template_Trooper_Force_Lightning_Death_Clone">
+        <Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="Template_Trooper_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>Rebel_Trooper</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="Template_Trooper_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>Plex_Soldier</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundInfantry Name="Template_Trooper_Disruptor_Death_Clone_00">
+        <Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+        <Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+    </GroundInfantry>
+
+    <GroundInfantry Name="Template_Trooper_Disruptor_Death_Clone_01">
+        <Land_Model_Name>W_DISRUPTOR_DEATH.ALO</Land_Model_Name>
+        <Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+    </GroundInfantry>
+
+    <GroundInfantry Name="Template_Trooper_Melt_Death_Clone_00">
+        <Land_Model_Name>w_infect.alo</Land_Model_Name>
+        <Specific_Death_Anim_Type>DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+        <Death_SFXEvent_Start_Die>Unit_Infantry_Infected_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+</Deaths>

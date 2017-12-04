@@ -1,0 +1,14 @@
+Executor
+Aggressor
+Annihilator
+Enforcer
+Guardian
+Intimidator
+Iron Fist
+Knight Hammer
+Ravager
+Razor's Kiss
+Reaper
+Terror
+Vengeance
+Whelm

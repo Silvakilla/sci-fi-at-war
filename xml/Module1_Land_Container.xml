@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<LandContainer>
+
+    <!-- ========== -->
+    <!-- FEDERATION -->
+    <!-- ========== -->
+
+    <Container Name="F_Plex_Red_Team">
+        <Text_ID>TEXT_UNIT_TORPINFANTRY_SQUAD</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_TOOLTIP_TORPINFANTRY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+        <Select_Box_Scale>65</Select_Box_Scale>
+        <Show_Name>No</Show_Name>
+        <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+        <LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT, ABILITY_COUNTDOWN</LandBehavior>
+        <SpaceBehavior>REVEAL</SpaceBehavior>
+        <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+        <MovementClass>Infantry</MovementClass>
+        <Garrison_Category> Infantry </Garrison_Category>
+
+        <Max_Speed> .8 </Max_Speed>
+        <Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+        <Space_Layer> Land </Space_Layer>
+        <UnitCollisionClass> Infantry </UnitCollisionClass>
+        <FormationSpacing> .5 </FormationSpacing>
+        <FormationOrder> 3 </FormationOrder>
+        <MovementClass> Infantry </MovementClass>
+        <OccupationStyle>1x1</OccupationStyle>
+        <Is_Squashable> true </Is_Squashable>
+        <MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+        <ContainerArrangement> Dartboard </ContainerArrangement>
+        <Override_Acceleration> .1 </Override_Acceleration>
+        <Override_Deceleration> .1 </Override_Deceleration>
+
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+        <Icon_Name>I_BUTTON_FED_PLEX_SOLDIER_01.tga</Icon_Name>
+
+        <Idle_Chase_Range>50.0</Idle_Chase_Range>
+        <Guard_Chase_Range>200.0</Guard_Chase_Range>
+        <Attack_Move_Response_Range>150.0</Attack_Move_Response_Range>
+        <Targeting_Max_Attack_Distance>210.0</Targeting_Max_Attack_Distance>
+        <Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+        <CategoryMask>Infantry | AntiVehicle</CategoryMask>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+    </Container>
+
+    <Container Name="F_Soldier_Red_Team">
+        <Variant_Of_Existing_Type>Stormtrooper_Team</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_F_SOLDIER_SQUAD</Text_ID>
+        <Encyclopedia_Good_Against> Rebel_Trooper Plex_Soldier </Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To> MPTL Rebel_Infiltrator UC_Rebel_Buildable_Anti_Infantry_Turret </Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_TOOLTIP_F_SOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
+        <Icon_Name>i_button_fed_soldier_01.tga</Icon_Name>
+    </Container>
+
+    <!-- ======= -->
+    <!-- KLINGON -->
+    <!-- ======= -->
+
+    <Container Name="TOS_K_Grenadier_Team">
+        <Text_ID>TEXT_UNIT_K_GRENADIER_SQUAD</Text_ID>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+        <Encyclopedia_Text> TEXT_TOOLTIP_K_GRENADIER  </Encyclopedia_Text>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+
+        <Icon_Name>i_button_K_Grenadier.tga</Icon_Name>
+        <Show_Name>No</Show_Name>
+        <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+        <LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+        <SpaceBehavior>REVEAL</SpaceBehavior>
+        <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+        <MovementClass>Infantry</MovementClass>
+        <Garrison_Category> Infantry </Garrison_Category>
+
+        <Max_Speed> 1.1 </Max_Speed>
+        <Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+        <Space_Layer> Land </Space_Layer>
+        <UnitCollisionClass> Infantry </UnitCollisionClass>
+        <FormationSpacing> 1.0 </FormationSpacing>
+        <FormationOrder> 2 </FormationOrder>
+        <MovementClass> Infantry </MovementClass>
+        <OccupationStyle>1x1</OccupationStyle>
+        <Is_Squashable> true </Is_Squashable>
+        <MovementPredictionInterval> 4.0 </MovementPredictionInterval>
+        <ContainerArrangement> Dartboard </ContainerArrangement>
+        <OverrideAcceleration> .08 </OverrideAcceleration>
+        <OverrideDeceleration> .08 </OverrideDeceleration>
+
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+        <Targeting_Max_Attack_Distance>150.0</Targeting_Max_Attack_Distance>
+        <Idle_Chase_Range>50.0</Idle_Chase_Range>
+        <Guard_Chase_Range>200.0</Guard_Chase_Range>
+        <Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+        <Select_Box_Scale>60</Select_Box_Scale>
+        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+        <CategoryMask>Infantry</CategoryMask>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>PROXIMITY_MINES</Type>
+                <Recharge_Seconds>80.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Grenadier_Proximity </GUI_Activated_Ability_Name>
+                <Effective_Radius> 500.0 </Effective_Radius>
+                <SFXEvent_Target_Ability />
+                <Area_Effect_Decal_Distance> 60.0 </Area_Effect_Decal_Distance>
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>STIM_PACK</Type>
+                <Expiration_Seconds> 15.0 </Expiration_Seconds>
+                <Recharge_Seconds> 45.0 </Recharge_Seconds>
+                <Mod_Multiplier>SPEED_MULTIPLIER, 2.0f</Mod_Multiplier>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <Damage_Percent_When_Activated>.25</Damage_Percent_When_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Proximity_Mines_Ability Name="Grenadier_Proximity">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>0.0</Activation_Min_Range>
+                <Activation_Max_Range>70.0</Activation_Max_Range>
+                <Mine_Type>Proximity_Mine</Mine_Type>
+                <Trigger_Radius>30</Trigger_Radius>
+                <Number_Of_Mines>6</Number_Of_Mines>
+                <Activation_Time_In_Seconds>3</Activation_Time_In_Seconds>
+                <Activate_SFX>Unit_Lightsaber_Projectile_Block</Activate_SFX>
+                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
+            </Proximity_Mines_Ability>
+        </Abilities>
+
+    </Container>
+
+    <Container Name="K_Plex_Soldier_Team">
+        <Variant_Of_Existing_Type> F_Plex_Red_Team </Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_TORPINFANTRY_SQUAD</Text_ID>
+        <Encyclopedia_Good_Against> T2B_Tank Canderous_Assault_Tank MZ8_Pulse_Cannon_Tank </Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To> Destroyer_Droid Rebel_Trooper Underworld_Disruptor_Merc </Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_TOOLTIP_TORPINFANTRY </Encyclopedia_Text>
+
+        <Icon_Name>i_button_K_Plex_Soldier.tga</Icon_Name>
+    </Container>
+
+    <Container Name="TOS_K_Soldier_Team">
+        <Variant_Of_Existing_Type>Stormtrooper_Team</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_K_SOLDIER_SQUAD</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_K_SOLDIER</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+    </Container>
+
+
+</LandContainer>
