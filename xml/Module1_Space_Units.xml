@@ -1874,7 +1874,7 @@
 
     <SpaceUnit Name="Defiant">
         <Text_ID>TEXT_UNIT_DEFIANT</Text_ID>
-        <Encyclopedia_Text>TEXT_UNIT_DEFIANT_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_DEFIANT</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
@@ -5257,14 +5257,14 @@
         <Maintenance_Cost>0.2</Maintenance_Cost>
 
         <Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
-        <Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
         <Damage>100</Damage>
         <Autoresolve_Health>800</Autoresolve_Health>
         <Shield_Points>500</Shield_Points>
         <Tactical_Health>1200</Tactical_Health>
-        <Shield_Refresh_Rate>38</Shield_Refresh_Rate>
+        <Shield_Refresh_Rate>19</Shield_Refresh_Rate>
         <Energy_Capacity>3000</Energy_Capacity>
-        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+        <Energy_Refresh_Rate>250</Energy_Refresh_Rate>
 
         <Affiliation>Klingon</Affiliation>
 
@@ -6497,8 +6497,8 @@
                 <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
                 <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
                 <GUI_Activated_Ability_Name>Klingon_Cloak</GUI_Activated_Ability_Name>
-                <Recharge_Seconds>10.0</Recharge_Seconds>
-                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Recharge_Seconds>100.0</Recharge_Seconds>
+                <Expiration_Seconds>100.0</Expiration_Seconds>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <SFXEvent_GUI_Unit_Ability_Activated>Klingon_Vorcha_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_GUI_Unit_Ability_Deactivated>Klingon_Vorcha_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>

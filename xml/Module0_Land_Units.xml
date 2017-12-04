@@ -2437,6 +2437,8 @@
         <Targeting_Fire_Inaccuracy> Vehicle, 4.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
+
+        <SFXEvent_Fire>Unit_Plex_Soldier_Fire</SFXEvent_Fire>
     </GroundInfantry>
 
     <GroundInfantry Name="Squad_Shocktrooper">
@@ -2953,19 +2955,19 @@
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>400.0</Land_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
-		<Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
-		<Turret_Elevate_Extent_Degrees>50.0</Turret_Elevate_Extent_Degrees>
+		<Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>180.0</Turret_Elevate_Extent_Degrees>
 
 		<Projectile_Damage>8.0</Projectile_Damage>
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
-		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>5</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
-		<Targeting_Fire_Inaccuracy>Infantry, 20.0</Targeting_Fire_Inaccuracy>
+		<Targeting_Fire_Inaccuracy>Infantry, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Vehicle, 1.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Air, 2.0</Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>

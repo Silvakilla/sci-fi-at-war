@@ -630,7 +630,7 @@
 
     <Squadron Name="TIE_Defender_Squadron">
         <Text_ID>TEXT_UNIT_TIE_DEFENDER_SQUADRON</Text_ID>
-        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER_BOMBER </Encyclopedia_Unit_Class>
         <Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER_SQUADRON</Encyclopedia_Text>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>

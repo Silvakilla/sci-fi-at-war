@@ -279,7 +279,6 @@
 		<CategoryMask> Fighter </CategoryMask>
 	</UniqueUnit>
 
-
 	<TransportUnit Name="Imperial_ATAT_Barge_Landing">
 		<Variant_Of_Existing_Type>Imperial_ATAT_Barge</Variant_Of_Existing_Type>
 		<Behavior>TRANSPORT</Behavior>
@@ -624,7 +623,6 @@
 		<Tech_Level>99</Tech_Level>
 	</TransportUnit>
 
-
 	<TransportUnit Name="Alliance_Shuttle">
 		<Text_ID>TEXT_UNIT_ALLIANCE_SHUTTLE</Text_ID>
 		<Land_Model_Name>RV_HEROTRANSPORT.ALO</Land_Model_Name>
@@ -788,9 +786,5 @@
 		<Shield_Points>1750</Shield_Points>
 		<Shield_Refresh_Rate>250</Shield_Refresh_Rate>
 	</TransportUnit>
-
-	
-	
-	
 
 </TransportUnits>

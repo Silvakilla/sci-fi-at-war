@@ -165,6 +165,40 @@
         <Remove_Upon_Death>true</Remove_Upon_Death>
     </SpaceUnit>
 
+    <SpaceUnit Name="Republic_Star_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_STRIDENT_DESTROYER</Text_ID>
+        <Space_Model_Name>Republic_star_destroyer.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.6</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Mediator_Death_Clone">
+        <Text_ID>TEXT_UNIT_STRIDENT_DESTROYER</Text_ID>
+        <Space_Model_Name>rv_mediator_cruiser.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Scale_Factor>0.85</Scale_Factor>
+        <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+        <Max_Speed>0.25</Max_Speed>
+        <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+        <Max_Thrust>0.05</Max_Thrust>
+        <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>5</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>capital_ship</Ship_Class>
+        <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
     <SpaceUnit Name="MC80_Calamari_Cruiser_Death_Clone">
         <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
         <Space_Model_Name> RV_MC_80_D.ALO </Space_Model_Name>
@@ -836,7 +870,7 @@
         <Space_Model_Name>Ev_Venator_D.ALO</Space_Model_Name>
         <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
         <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-        <Scale_Factor>0.85</Scale_Factor>
+        <Scale_Factor>0.5</Scale_Factor>
         <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
         <Max_Speed>1.2</Max_Speed>
         <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>

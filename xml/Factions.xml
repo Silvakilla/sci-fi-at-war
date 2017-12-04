@@ -883,10 +883,6 @@
 
 		<Land_Surrender_SFXEvent> EHD_Retreat_Started_Land </Land_Surrender_SFXEvent>
 
-		<!-- <Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent> -->
-		<!-- <Reinforcements_Pick_Landing_Zone_SFXEvent> EHD_Choose_Landing </Reinforcements_Pick_Landing_Zone_SFXEvent> -->
-		<!-- <Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent> -->
-		<!-- <Reinforcements_Cancelled_SFXEvent> EHD_Reinforcements_Cancelled </Reinforcements_Cancelled_SFXEvent> -->
 		<Reinforcements_Selection_SFXEvent> EHD_Choose_Reinforcements </Reinforcements_Selection_SFXEvent>
 		<Reinforcements_Pick_Landing_Zone_SFXEvent> </Reinforcements_Pick_Landing_Zone_SFXEvent>
 		<Reinforcements_Enroute_SFXEvent> EHD_Reinforcements_En_Route </Reinforcements_Enroute_SFXEvent>
@@ -900,10 +896,17 @@
 		<Bombing_Run_Shadow_Blob_Material_Name> Bombing_Run_Empire </Bombing_Run_Shadow_Blob_Material_Name>
 		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
 
-		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Star_Destroyer, Acclamator_Assault_Ship, Victory_Destroyer, Executor_Super_Star_Destroyer, Accuser_Star_Destroyer, Admonitor_Star_Destroyer </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships>
+            Star_Destroyer_Class_I,
+            Star_Destroyer_Class_II,
+            Victory_Destroyer_Class_I,
+            Executor_Super_Star_Destroyer,
+            Praetor_Super_Star_Destroyer,
+			Accuser_Star_Destroyer,
+			Admonitor_Star_Destroyer
+		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 3 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
@@ -919,12 +922,14 @@
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			TIE_Interceptor_Squadron, TIE_Interceptor_Squadron
+			TIE_Interceptor_Squadron,
+            TIE_Interceptor_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
 		<Land_Skirmish_AI_Default_Forces> 
-			Imperial_Armytrooper_Squad, Imperial_Armytrooper_Squad
+			Imperial_Armytrooper_Squad,
+            Imperial_Armytrooper_Squad
 		</Land_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Cap_By_Player_Count>

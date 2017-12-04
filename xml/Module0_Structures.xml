@@ -170,7 +170,7 @@
         <Tech_Level>0</Tech_Level>
 
         <Required_Timeline>0</Required_Timeline>
-        <Required_Planets>Bilbringi, Fondor, Kuat, MonCalimari, Sullust, Sluis_Van, YagaMinor</Required_Planets>
+        <Required_Planets>Bilbringi, Fondor, Kuat, MonCalimari, Sullust, Sluis_Van, YagaMinor, Hypori, Mandalore</Required_Planets>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
         <Required_Special_Structures />
@@ -543,7 +543,7 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
-        <Required_Planets>Bilbringi, Fondor, Kuat, MonCalimari, Sullust, Sluis_Van, YagaMinor</Required_Planets>
+        <Required_Planets>Bilbringi, Fondor, Kuat, MonCalimari, Sullust, Sluis_Van, YagaMinor, Hypori, Mandalore</Required_Planets>
         <Required_Special_Structures />
 
         <Tactical_Health>13000</Tactical_Health>
