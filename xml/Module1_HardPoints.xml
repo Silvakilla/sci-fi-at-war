@@ -1638,7 +1638,7 @@
         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
 
-    <!--Ground Peregrine -->
+    <!-- Ground Peregrine -->
     <HardPoint Name="HP_Ground_Peregrine_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -1685,7 +1685,7 @@
         <Targeting_Fire_Inaccuracy>Structure, 35.0</Targeting_Fire_Inaccuracy>
     </HardPoint>
 
-    <!--Ground Runabout -->
+    <!-- Ground Runabout -->
     <HardPoint Name="HP_F_FFT_00">
         <Type> HARD_POINT_WEAPON_MISSILE </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -1734,7 +1734,7 @@
         <Allow_Opportunity_Fire_When_Targeting>true</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
 
-    <!--Quantum Torpedo Launcher -->
+    <!-- Quantum Torpedo Launcher -->
     <HardPoint Name="HP_F_SuperPhaser_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
@@ -1774,7 +1774,7 @@
         <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
     </HardPoint>
 
-    <!--Vanguard Tank -->
+    <!-- Vanguard Tank -->
     <HardPoint Name="HP_Secondary_F_Medium_Phaser_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -1821,7 +1821,7 @@
         <Fire_Inaccuracy_Distance> Structure, 5.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <!--Advanced Bridger -->
+    <!-- Advanced Bridger -->
     <HardPoint Name="HP_Bridger_Adv_Turret_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -1859,18 +1859,17 @@
         <Fire_Weapon_When_Undeployed>No</Fire_Weapon_When_Undeployed>
     </HardPoint>
 
-    <!--Constitution -->
+    <!-- Constitution -->
     <HardPoint Name="HP_Constitution_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
 
-        
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -1900,7 +1899,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -1931,7 +1930,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -1960,7 +1959,7 @@
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -1990,7 +1989,7 @@
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2015,7 +2014,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2040,7 +2039,7 @@
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2067,7 +2066,7 @@
         <Fire_Bone_B>HP01</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>65.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2096,7 +2095,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>65.0</Fire_Cone_Width>
         <Fire_Cone_Height>65.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2120,7 +2119,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2133,7 +2132,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2154,7 +2153,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2167,7 +2166,7 @@
         <Fire_Bone_B>HP03</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2188,7 +2187,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2201,7 +2200,7 @@
         <Fire_Bone_B>HP04</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2222,7 +2221,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2235,7 +2234,7 @@
         <Fire_Bone_B>HP05</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2256,7 +2255,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2269,7 +2268,7 @@
         <Fire_Bone_B>HP15</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2290,7 +2289,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2303,7 +2302,7 @@
         <Fire_Bone_B>HP16</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2324,7 +2323,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2337,7 +2336,7 @@
         <Fire_Bone_B>HP12</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2358,7 +2357,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2371,7 +2370,7 @@
         <Fire_Bone_B>HP11</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2392,7 +2391,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
 
@@ -2409,7 +2408,7 @@
         <Fire_Bone_B>HP01</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2424,7 +2423,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
 
@@ -2441,7 +2440,7 @@
         <Fire_Bone_B>HP09</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2458,7 +2457,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP29</Attachment_Bone>
         <Collision_Mesh>HP29</Collision_Mesh>
-        <Health>250.0</Health>
+        <Health>450.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -2484,7 +2483,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP06</Attachment_Bone>
@@ -2499,7 +2498,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2512,7 +2511,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -2533,7 +2532,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2546,7 +2545,7 @@
         <Fire_Bone_B>HP11</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -2567,7 +2566,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2580,7 +2579,7 @@
         <Fire_Bone_B>HP19</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -2601,7 +2600,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2614,7 +2613,7 @@
         <Fire_Bone_B>HP05</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -2635,7 +2634,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2648,7 +2647,7 @@
         <Fire_Bone_B>HP08</Fire_Bone_B>
         <Fire_Cone_Width>75</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -2669,7 +2668,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2682,7 +2681,7 @@
         <Fire_Bone_B>HP30</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -2698,7 +2697,7 @@
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Attachment_Bone>HP12</Attachment_Bone>
         <Collision_Mesh>HP12</Collision_Mesh>
@@ -2709,7 +2708,7 @@
         <Fire_Bone_B>HP12</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Norway_Photon_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Yellow_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -2724,7 +2723,7 @@
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>250.0</Health>
+        <Health>350.0</Health>
 
         <Attachment_Bone>HP20</Attachment_Bone>
         <Collision_Mesh>HP20</Collision_Mesh>
@@ -2735,7 +2734,7 @@
         <Fire_Bone_B>HP20</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Norway_Photon_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Yellow_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -2753,7 +2752,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP31</Attachment_Bone>
         <Collision_Mesh>HP31</Collision_Mesh>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -2765,7 +2764,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>225.0</Health>
+        <Health>325.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP29</Attachment_Bone>
@@ -2794,7 +2793,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2807,7 +2806,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2828,7 +2827,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2841,7 +2840,7 @@
         <Fire_Bone_B>HP31</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2862,7 +2861,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2875,7 +2874,7 @@
         <Fire_Bone_B>HP03</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2896,7 +2895,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2909,7 +2908,7 @@
         <Fire_Bone_B>HP12</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2930,7 +2929,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2943,7 +2942,7 @@
         <Fire_Bone_B>HP01</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2964,7 +2963,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2977,7 +2976,7 @@
         <Fire_Bone_B>HP16</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -2998,7 +2997,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3011,7 +3010,7 @@
         <Fire_Bone_B>HP30</Fire_Bone_B>
         <Fire_Cone_Width>60</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3028,7 +3027,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>280.0</Health>
+        <Health>380.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3041,7 +3040,7 @@
         <Fire_Bone_B>HP33</Fire_Bone_B>
         <Fire_Cone_Width>45</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3060,7 +3059,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP08</Attachment_Bone>
         <Collision_Mesh>HP08</Collision_Mesh>
-        <Health>260.0</Health>
+        <Health>460.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -3078,7 +3077,7 @@
 
         <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>0.0</Health>
+        <Health>400.0</Health>
     </HardPoint>
 
     <HardPoint Name="HP_Ambassador_Shield">
@@ -3086,7 +3085,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>275.0</Health>
+        <Health>475.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP11</Attachment_Bone>
@@ -3095,7 +3094,7 @@
         <Damage_Particles>HP11_DAMAGE</Damage_Particles>
     </HardPoint>
 
-    <!--Miranda -->
+    <!-- Miranda -->
     <HardPoint Name="HP_Miranda_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -3105,7 +3104,7 @@
         <Fire_Bone_B>HP03</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -3135,7 +3134,7 @@
         <Fire_Bone_B>HP04</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -3166,7 +3165,7 @@
         <Fire_Bone_B>HP05</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -3196,7 +3195,7 @@
         <Fire_Bone_B>HP06</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -3227,7 +3226,7 @@
         <Fire_Bone_B>HP01</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -3252,7 +3251,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -3279,7 +3278,7 @@
         <Fire_Bone_B>HP01</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -3308,7 +3307,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -3336,7 +3335,7 @@
         <Fire_Bone_B>HP13</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -3360,7 +3359,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor_Medium</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3390,7 +3389,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor_Medium</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3420,7 +3419,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor_Medium</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3450,7 +3449,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor_Medium</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3480,7 +3479,7 @@
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
         <Fire_Cone_Width>0.0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor_Medium</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3500,7 +3499,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Defiant_Torpedo_Quanten">
+    <HardPoint Name="HP_Defiant_Torpedo">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -3510,7 +3509,7 @@
         <Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
         <Fire_Cone_Width>30.0</Fire_Cone_Width>
         <Fire_Cone_Height>30.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -3534,7 +3533,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3564,7 +3563,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3595,7 +3594,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -3623,7 +3622,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -3642,7 +3641,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Voyager_Torpedo">
+    <HardPoint Name="HP_Voyager_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -3652,7 +3651,7 @@
         <Fire_Bone_B>Intrepid_Light</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -3667,7 +3666,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Voyager_Transphasen">
+    <HardPoint Name="HP_Voyager_Torpedo_02">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -3703,7 +3702,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3733,7 +3732,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3764,7 +3763,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3794,7 +3793,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>120.0</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3837,7 +3836,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
-        <Health>300.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -3849,7 +3848,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>325.0</Health>
+        <Health>525.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_S_BONE</Attachment_Bone>
@@ -3869,7 +3868,7 @@
 
         <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>0.0</Health>
+        <Health>500.0</Health>
     </HardPoint>
 
     <HardPoint Name="HP_Excalibur_Phaser_00">
@@ -3890,7 +3889,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3924,7 +3923,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3958,7 +3957,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -3992,7 +3991,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4026,7 +4025,7 @@
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
         <Fire_Cone_Width>0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4060,7 +4059,7 @@
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
         <Fire_Cone_Width>0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4094,7 +4093,7 @@
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4128,7 +4127,7 @@
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_13</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4162,7 +4161,7 @@
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>100</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -4194,7 +4193,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4226,7 +4225,7 @@
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4260,7 +4259,7 @@
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
         <Fire_Cone_Width>100</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -4283,7 +4282,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>450.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4296,7 +4295,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4317,7 +4316,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>450.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4330,7 +4329,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4351,7 +4350,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>450.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4364,7 +4363,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4385,7 +4384,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>450.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4398,7 +4397,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>70</Fire_Cone_Width>
         <Fire_Cone_Height>120.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4419,7 +4418,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4432,7 +4431,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>40</Fire_Cone_Width>
         <Fire_Cone_Height>150.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4453,7 +4452,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL9</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4466,7 +4465,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>40</Fire_Cone_Width>
         <Fire_Cone_Height>150.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -4487,7 +4486,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4500,7 +4499,7 @@
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>45</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4520,7 +4519,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4533,7 +4532,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>45</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4552,7 +4551,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4565,7 +4564,7 @@
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>45</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4585,7 +4584,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4598,7 +4597,7 @@
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
         <Fire_Cone_Width>45</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4620,7 +4619,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
-        <Health>300.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -4638,7 +4637,7 @@
 
         <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>0.0</Health>
+        <Health>500.0</Health>
     </HardPoint>
 
     <HardPoint Name="HP_Nebula_Shield">
@@ -4646,7 +4645,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_S_SHIELD</Attachment_Bone>
@@ -4667,7 +4666,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_8</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -4693,7 +4692,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_8</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -4720,7 +4719,7 @@
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_9</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -4748,7 +4747,7 @@
         <Fire_Bone_B>HP03</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4777,7 +4776,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4805,7 +4804,7 @@
         <Fire_Bone_B>HP01</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>12.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>12.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4818,7 +4817,7 @@
         <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
-    <HardPoint Name="HP_Danube_TORP">
+    <HardPoint Name="HP_Danube_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -4829,7 +4828,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>75.0</Fire_Cone_Width>
         <Fire_Cone_Height>75.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4842,7 +4841,7 @@
         <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
-    <HardPoint Name="HP_Danube_TORP_00">
+    <HardPoint Name="HP_Danube_Torpedo_02">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -4852,7 +4851,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4877,7 +4876,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4906,7 +4905,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4924,7 +4923,7 @@
         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Aeroshuttle_TORP_00">
+    <HardPoint Name="HP_Aeroshuttle_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -4934,7 +4933,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>70.0</Fire_Cone_Width>
         <Fire_Cone_Height>70.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -4947,12 +4946,12 @@
         <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
-    <!-- Excelsior Lakota -->
+    <!-- Excelsior -->
     <HardPoint Name="HP_Excelsior_Lacota_Missle_00">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
         <Damage_Type> Damage_Photon_Torp </Damage_Type>
         <Attachment_Bone>MuzzleB_00</Attachment_Bone>
         <Collision_Mesh>MuzzleB_00</Collision_Mesh>
@@ -4962,7 +4961,7 @@
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>0.0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>20.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -4978,7 +4977,7 @@
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
         <Damage_Type> Damage_Photon_Torp </Damage_Type>
         <Attachment_Bone>MuzzleB_01</Attachment_Bone>
         <Collision_Mesh>MuzzleB_01</Collision_Mesh>
@@ -4988,7 +4987,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -5004,7 +5003,7 @@
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
         <Damage_Type> Damage_Photon_Torp </Damage_Type>
         <Attachment_Bone>MuzzleB_02</Attachment_Bone>
         <Collision_Mesh>MuzzleB_02</Collision_Mesh>
@@ -5014,7 +5013,7 @@
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>1</Fire_Pulse_Count>
@@ -5043,7 +5042,7 @@
         <Type> HARD_POINT_ENGINE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>200.0</Health>
+        <Health>500.0</Health>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
@@ -5059,7 +5058,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_S_BONE</Attachment_Bone>
@@ -5073,7 +5072,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL10</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5086,7 +5085,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>100.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5107,7 +5106,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL10</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5120,7 +5119,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>100.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5141,7 +5140,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL10</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5154,7 +5153,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>100.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5175,7 +5174,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL10</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5188,7 +5187,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>80</Fire_Cone_Width>
         <Fire_Cone_Height>100.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5210,7 +5209,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5223,7 +5222,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5244,7 +5243,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5257,7 +5256,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5278,7 +5277,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5291,7 +5290,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5312,7 +5311,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5325,7 +5324,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -5346,7 +5345,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5359,7 +5358,7 @@
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -5380,7 +5379,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5393,7 +5392,7 @@
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_11</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -5414,7 +5413,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>240.0</Health>
+        <Health>440.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
 
@@ -5432,7 +5431,7 @@
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>360.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -5449,7 +5448,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
-        <Health>225.0</Health>
+        <Health>425.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -5467,7 +5466,7 @@
 
         <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>0.0</Health>
+        <Health>400.0</Health>
     </HardPoint>
 
     <HardPoint Name="HP_Galaxy_Shield">
@@ -5475,7 +5474,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>225.0</Health>
+        <Health>425.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_S_BONE</Attachment_Bone>
@@ -5500,7 +5499,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -5526,7 +5525,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -5558,7 +5557,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -5590,7 +5589,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -5621,7 +5620,7 @@
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>10</Fire_Pulse_Count>
@@ -5645,7 +5644,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
-        <Health>200.0</Health>
+        <Health>300.0</Health>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
         <Damage_Particles>HP_E_DAMAGE</Damage_Particles>
     </HardPoint>
@@ -5655,7 +5654,7 @@
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>225.0</Health>
+        <Health>325.0</Health>
         <Attachment_Bone>HP_S_BONE</Attachment_Bone>
         <Collision_Mesh>HP_S_BONE</Collision_Mesh>
         <Damage_Decal>HP_M-C_BLAST</Damage_Decal>
@@ -5965,7 +5964,7 @@
     </HardPoint>
 
     <!-- Sovereign -->
-    <HardPoint Name="HP_Soveign_Fighter_Bay">
+    <HardPoint Name="HP_Sovereign_Fighter_Bay">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -5977,12 +5976,12 @@
         <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Phaser_00">
+    <HardPoint Name="HP_Sovereign_Phaser_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5995,7 +5994,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6011,12 +6010,12 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Phaser_01">
+    <HardPoint Name="HP_Sovereign_Phaser_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6029,7 +6028,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6045,12 +6044,12 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Phaser_02">
+    <HardPoint Name="HP_Sovereign_Phaser_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6063,7 +6062,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6079,12 +6078,12 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Phaser_03">
+    <HardPoint Name="HP_Sovereign_Phaser_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6097,7 +6096,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6113,12 +6112,12 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Phaser_04">
+    <HardPoint Name="HP_Sovereign_Phaser_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6131,7 +6130,7 @@
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
         <Fire_Cone_Width>0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_12</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Heavy_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6147,7 +6146,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Torpedolauncher_back">
+    <HardPoint Name="HP_Sovereign_Torpedolauncher_back">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -6169,7 +6168,7 @@
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -6181,7 +6180,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Torpedolauncher_Front_00">
+    <HardPoint Name="HP_Sovereign_Torpedolauncher_Front_00">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -6203,7 +6202,7 @@
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -6215,7 +6214,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Torpedolauncher_Front_01">
+    <HardPoint Name="HP_Sovereign_Torpedolauncher_Front_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -6237,7 +6236,7 @@
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Quantum_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Blue_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -6250,26 +6249,26 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Engine">
+    <HardPoint Name="HP_Sovereign_Engine">
         <Type> HARD_POINT_ENGINE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
-        <Health>300.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
         <Damage_Particles>HP_E_DAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_Soveign_Shield">
+    <HardPoint Name="HP_Sovereign_Shield">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>325.0</Health>
+        <Health>525.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_S_BONE</Attachment_Bone>
@@ -6284,7 +6283,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>180.0</Health>
+        <Health>250.0</Health>
 
         <Damage_Type>Damage_Default_Federation</Damage_Type>
         <Attachment_Bone>MuzzleA_00</Attachment_Bone>
@@ -6295,7 +6294,7 @@
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6317,7 +6316,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
-        <Health>0.0</Health>
+        <Health>250.0</Health>
         <Damage_Type> Damage_Default </Damage_Type>
         <Attachment_Bone>MuzzleA_01</Attachment_Bone>
         <Collision_Mesh>MuzzleA_01</Collision_Mesh>
@@ -6327,7 +6326,7 @@
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
         <Fire_Cone_Width>0.0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Light_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -6352,7 +6351,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHASER_LVL12</Tooltip_Text>
-        <Health>180.0</Health>
+        <Health>350.0</Health>
 
         <Damage_Type>Damage_Default_Federation</Damage_Type>
         <Attachment_Bone>MuzzleA_02</Attachment_Bone>
@@ -6363,7 +6362,7 @@
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Fed_Phasor_Class_10</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -6385,7 +6384,7 @@
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
-        <Health>0.0</Health>
+        <Health>350.0</Health>
         <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
         <Attachment_Bone>MuzzleA_03</Attachment_Bone>
         <Collision_Mesh>MuzzleA_03</Collision_Mesh>
@@ -6395,7 +6394,7 @@
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>0.0</Fire_Cone_Width>
         <Fire_Cone_Height>0.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Puls_Phasor</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -6420,7 +6419,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
-        <Health>180.0</Health>
+        <Health>280.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6433,7 +6432,7 @@
         <Fire_Bone_B>Muzzleb_00</Fire_Bone_B>
         <Fire_Cone_Width>360</Fire_Cone_Width>
         <Fire_Cone_Height>180.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Fed_Photonic_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -6454,7 +6453,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
         <Collision_Mesh>HP_E_BONE</Collision_Mesh>
-        <Health>180.0</Health>
+        <Health>380.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
@@ -6478,7 +6477,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>150.0</Health>
+        <Health>350.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_S_BONE</Attachment_Bone>

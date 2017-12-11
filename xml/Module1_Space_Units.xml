@@ -523,7 +523,7 @@
 
         <HardPoints>
             HP_Danube_PPhaser,
-            HP_Danube_TORP_00
+            HP_Danube_Torpedo_01
         </HardPoints>
 
         <SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
@@ -661,7 +661,7 @@
 
         <HardPoints>
             HP_Danube_PPhaser,
-            HP_Danube_TORP
+            HP_Danube_Torpedo_02
         </HardPoints>
 
         <SFXEvent_Fire>  </SFXEvent_Fire>
@@ -1960,7 +1960,7 @@
             HP_Defiant_01,
             HP_Defiant_02,
             HP_Defiant_03,
-            HP_Defiant_Torpedo_Quanten
+            HP_Defiant_Torpedo
         </HardPoints>
 
         <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -3551,16 +3551,16 @@
         </Unit_Abilities_Data>-->
     </SpaceUnit>
 
-    <SpaceUnit Name="Sorveign">
-        <Text_ID>TEXT_UNIT_SORVEIGN</Text_ID>
-        <Encyclopedia_Text>TEXT_UNIT_SORVEIGN_TOOLTIP</Encyclopedia_Text>
+    <SpaceUnit Name="Sovereign">
+        <Text_ID>TEXT_UNIT_SOVEREIGN</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_SOVEREIGN_TOOLTIP</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-        <Icon_Name>I_BUTTON_FV_SORVEIGN.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_FV_SOVEREIGN.tga</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>FV_Soveign.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Sovereign.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -3634,23 +3634,23 @@
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
         <Death_Explosions>Large_Explosion_Space</Death_Explosions>
         <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-        <Death_Clone>Damage_Normal, Sorveign_Death_Clone</Death_Clone>
+        <Death_Clone>Damage_Normal, Sovereign_Death_Clone</Death_Clone>
 
         <Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
         <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Soveign_Phaser_00,
-            HP_Soveign_Phaser_01,
-            HP_Soveign_Phaser_02,
-            HP_Soveign_Phaser_03,
-            HP_Soveign_Phaser_04,
-            HP_Soveign_Torpedolauncher_Front_00,
-            HP_Soveign_Torpedolauncher_Front_01,
-            HP_Soveign_Torpedolauncher_back,
-            HP_Soveign_Engine,
-            HP_Soveign_Shield,
-            HP_Soveign_Fighter_Bay
+            HP_Sovereign_Phaser_00,
+            HP_Sovereign_Phaser_01,
+            HP_Sovereign_Phaser_02,
+            HP_Sovereign_Phaser_03,
+            HP_Sovereign_Phaser_04,
+            HP_Sovereign_Torpedolauncher_Front_00,
+            HP_Sovereign_Torpedolauncher_Front_01,
+            HP_Sovereign_Torpedolauncher_back,
+            HP_Sovereign_Engine,
+            HP_Sovereign_Shield,
+            HP_Sovereign_Fighter_Bay
         </HardPoints>
 
         <SFXEvent_Build_Started>FHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -4616,8 +4616,8 @@
                 <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
                 <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
                 <GUI_Activated_Ability_Name>Klingon_Cloak</GUI_Activated_Ability_Name>
-                <Recharge_Seconds>10.0</Recharge_Seconds>
-                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Recharge_Seconds>100.0</Recharge_Seconds>
+                <Expiration_Seconds>100.0</Expiration_Seconds>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <SFXEvent_GUI_Unit_Ability_Activated>Klingon_Brel_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_GUI_Unit_Ability_Deactivated>Klingon_Brel_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
@@ -5575,8 +5575,8 @@
                 <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
                 <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
                 <GUI_Activated_Ability_Name>Klingon_Cloak</GUI_Activated_Ability_Name>
-                <Recharge_Seconds>10.0</Recharge_Seconds>
-                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Recharge_Seconds>100.0</Recharge_Seconds>
+                <Expiration_Seconds>100.0</Expiration_Seconds>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <SFXEvent_GUI_Unit_Ability_Activated>Klingon_Ktinga_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_GUI_Unit_Ability_Deactivated>Klingon_Ktinga_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
@@ -5761,8 +5761,8 @@
                 <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
                 <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
                 <GUI_Activated_Ability_Name>Klingon_Cloak</GUI_Activated_Ability_Name>
-                <Recharge_Seconds>10.0</Recharge_Seconds>
-                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Recharge_Seconds>100.0</Recharge_Seconds>
+                <Expiration_Seconds>100.0</Expiration_Seconds>
                 <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                 <SFXEvent_GUI_Unit_Ability_Activated>Klingon_Kvort_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_GUI_Unit_Ability_Deactivated>Klingon_Kvort_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>

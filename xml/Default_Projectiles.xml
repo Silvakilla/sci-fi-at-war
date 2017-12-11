@@ -13,7 +13,7 @@
 		<Projectile_Width>1.0</Projectile_Width>
 		<Projectile_Length>6.0</Projectile_Length>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -63,7 +63,7 @@
 		<Projectile_Length>12.0</Projectile_Length>
 		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -149,7 +149,7 @@
 		<Projectile_Length>12.0</Projectile_Length>
 		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -177,7 +177,7 @@
 		<Projectile_Length>20.0</Projectile_Length>
 		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -205,7 +205,7 @@
 		<Projectile_Length>20.0</Projectile_Length>
 		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -239,7 +239,7 @@
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_IonCannon </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -269,7 +269,7 @@
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_IonCannon </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -297,7 +297,7 @@
 		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_IonCannon_LRG </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -336,7 +336,7 @@
 		<Projectile_Laser_Color>238,71,54,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
-		<Max_Speed>5</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
@@ -376,7 +376,7 @@
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
-		<Max_Speed>7.0</Max_Speed>
+		<Max_Speed>13.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
@@ -404,14 +404,14 @@
 
 	<Projectile Name="Proj_Ship_Concussion_Missile_Satellite">
 		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
-		<Max_Speed>8.5</Max_Speed>
+		<Max_Speed>17</Max_Speed>
 		<Scale_Factor>1.5</Scale_Factor>
 		<Projectile_Damage>25.0</Projectile_Damage>
 	</Projectile>
 
 	<Projectile Name="Proj_Ship_Concussion_Missile_Bossk">
 		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
-		<Max_Speed>10.0</Max_Speed>
+		<Max_Speed>17.0</Max_Speed>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Projectile_Damage>23.0</Projectile_Damage>
@@ -433,7 +433,7 @@
 		<Projectile_Laser_Color>139,230,104,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -473,7 +473,7 @@
 		<Projectile_Laser_Color>238,71,54,255</Projectile_Laser_Color>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -509,7 +509,7 @@
 		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Default </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
+		<Max_Speed>45.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -531,7 +531,7 @@
 		<Space_Model_Name>missile.alo</Space_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
-		<Max_Speed>7.5</Max_Speed>
+		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
         <Behavior>PROJECTILE,HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>ROCKET</Projectile_Category>
