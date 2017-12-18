@@ -9850,10 +9850,10 @@
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Tank_T4B_Fire</Fire_SFXEvent>
-        <Fire_Inaccuracy_Distance> LandHero, 8.0</Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Infantry, 8.0 </Fire_Inaccuracy_Distance>
-        <Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
+        <Fire_Inaccuracy_Distance> LandHero, 20.0</Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Infantry, 20.0 </Fire_Inaccuracy_Distance>
+        <Targeting_Fire_Inaccuracy> Vehicle, 10.0 </Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy> Structure, 5.0 </Targeting_Fire_Inaccuracy>
         <Fire_Category_Restrictions>Air</Fire_Category_Restrictions>
     </HardPoint>
 

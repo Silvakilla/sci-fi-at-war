@@ -246,7 +246,7 @@
         <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
         <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
 
-        <Icon_Name>I_BUTTON_SHOCKER.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_SHOCK_TROOPER.TGA</Icon_Name>
 
         <Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
         <Idle_Chase_Range>50.0</Idle_Chase_Range>

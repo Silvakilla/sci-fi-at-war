@@ -1426,7 +1426,7 @@
         <Projectile_Types>Proj_Plex_Missile_AAC</Projectile_Types>
 
         <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-        <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+        <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
         <Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
@@ -1979,7 +1979,7 @@
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
         <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
 
         <Targeting_Fire_Inaccuracy> Infantry, 3.0 </Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy> Vehicle, 5.0 </Targeting_Fire_Inaccuracy>
@@ -2412,20 +2412,70 @@
     </GroundInfantry>
 
     <GroundInfantry Name="Shocktrooper">
-        <Variant_Of_Existing_Type>Stormtrooper</Variant_Of_Existing_Type>
+        <LOD_Bias>5</LOD_Bias>
+        <Text_ID>TEXT_UNIT_SHOCKTROOPER</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Stealth_Capable>No</Stealth_Capable>
+        <Land_Model_Name>Stormtrooper_Plex.ALO</Land_Model_Name>
 
-        <Land_Model_Name>EI_SHOCKTROOPER.ALO</Land_Model_Name>
         <Land_Terrain_Model_Mapping>
-            Temperate, 			EI_SHOCKTROOPER.ALO,
-            Urban, 				EI_SHOCKTROOPER.ALO,
-            Arctic, 			EI_SHOCKTROOPER.ALO,
-            Volcanic, 			EI_SHOCKTROOPER.ALO,
-            Desert, 			EI_SHOCKTROOPER.ALO,
-            Forest, 			EI_SHOCKTROOPER.ALO,
-            Swamp, 				EI_SHOCKTROOPER.ALO
+            Temperate, 			Stormtrooper_Plex.ALO,
+            Urban, 				Stormtrooper_Plex.ALO,
+            Arctic, 			Stormtrooper_Plex.ALO,
+            Volcanic, 			Stormtrooper_Plex.ALO,
+            Desert, 			Stormtrooper_Plex.ALO,
+            Forest, 			Stormtrooper_Plex.ALO,
+            Swamp, 				Stormtrooper_Plex.ALO
         </Land_Terrain_Model_Mapping>
-
+        <Land_Model_Anim_Override_Name>Stormtrooper_Plex.ALO</Land_Model_Anim_Override_Name>
         <Icon_Name>I_BUTTON_SHOCKER.tga</Icon_Name>
+        <Behavior>SELECTABLE</Behavior>
+        <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <CanCellStack>yes</CanCellStack>
+        <Mass>1.0</Mass>
+        <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+
+        <Movement_Animation_Speed> 0.688 </Movement_Animation_Speed>
+        <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+        <Walk_Animation_Speed> .269 </Walk_Animation_Speed>
+        <Crouch_Animation_Speed> .393 </Crouch_Animation_Speed>
+        <Max_Speed>1</Max_Speed>
+        <Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+        <Formation_Formup_Wait_Style> WaitNone </Formation_Formup_Wait_Style>
+        <Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+        <Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+        <Space_Layer> Land </Space_Layer>
+        <UnitCollisionClass> Infantry </UnitCollisionClass>
+        <FormationSpacing> .5 </FormationSpacing>
+        <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+        <FormationOrder> 3 </FormationOrder>
+
+        <Scale_Factor>1.5</Scale_Factor>
+        <Type>Walk</Type>
+        <Deploys>No</Deploys>
+        <Affiliation>Empire</Affiliation>
+        <Political_Control>0</Political_Control>
+        <Size_Value>10</Size_Value>
+        <Damage>1</Damage>
+        <Sensor_Range>20</Sensor_Range>
+        <Shield_Points>0</Shield_Points>
+        <Tactical_Health>30</Tactical_Health>
+        <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+        <Energy_Capacity>0</Energy_Capacity>
+        <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+        <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+        <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+        <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+        <Victory_Relevant>yes</Victory_Relevant>
+
+        <Armor_Type> Armor_Infantry </Armor_Type>
 
         <Projectile_Types>Proj_Plex_Missile</Projectile_Types>
 
@@ -2433,12 +2483,78 @@
         <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
         <Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
 
-        <Targeting_Fire_Inaccuracy> Infantry, 35.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Vehicle, 4.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Air, 5.0 </Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy> Structure, 2.0 </Targeting_Fire_Inaccuracy>
+        <Fire_Inaccuracy_Distance> Infantry, 35.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Vehicle, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Air, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Structure, 2.0 </Fire_Inaccuracy_Distance>
 
+        <SFXEvent_Select>Unit_Select_Storm_Trooper</SFXEvent_Select>
+        <SFXEvent_Move>Unit_Move_Storm_Trooper</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Unit_Fleet_Move_Storm_Trooper</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Unit_Attack_Storm_Trooper</SFXEvent_Attack>
+        <SFXEvent_Guard>Unit_Guard_Storm_Trooper</SFXEvent_Guard>
         <SFXEvent_Fire>Unit_Plex_Soldier_Fire</SFXEvent_Fire>
+        <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Death</Death_SFXEvent_Start_Die>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_Storm_Trooper </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
+        <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
+        <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
+        <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+        <CategoryMask> Infantry | AntiVehicle</CategoryMask>
+        <MovementClass> Infantry </MovementClass>
+
+        <OccupationStyle>1x1</OccupationStyle>
+        <FormationRaggedness> 0.0 </FormationRaggedness>
+        <WaitsForFormationFormup>false</WaitsForFormationFormup>
+        <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+        <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
+        <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+        <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+        <Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+        <No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+        <No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+        <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+        <Is_Squashable> Yes </Is_Squashable>
+        <Create_Team>Yes</Create_Team>
+        <AI_Combat_Power>20</AI_Combat_Power>
+
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Rocket_Infantry_Attack_Priority</Targeting_Priority_Set>
+
+        <Idle_Chase_Range>50.0</Idle_Chase_Range>
+        <Guard_Chase_Range>200.0</Guard_Chase_Range>
+        <Land_FOW_Reveal_Range>225.0</Land_FOW_Reveal_Range>
+        <Attack_Move_Response_Range>200.0</Attack_Move_Response_Range>
+        <Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
+        <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+        <Surface_Type_Cover_Damage_Shield>.5</Surface_Type_Cover_Damage_Shield>
+        <Weather_Category>Infantry</Weather_Category>
+
+        <Encyclopedia_Text>TEXT_TOOLTIP_SHOCKTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+        <Death_Fade_Time>0.25</Death_Fade_Time>
+        <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+        <Death_Clone>Damage_Force_Whirlwind, Stormtrooper_Force_Whirlwind_Death_Clone</Death_Clone>
+        <Death_Clone>Damage_Crush, Stormtrooper_Crush_Death_Clone</Death_Clone>
+        <Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_00</Death_Clone>
+        <Death_Clone>Damage_Disruptor_Hand, Infantry_Disruptor_Death_Clone_01</Death_Clone>
+        <Death_Clone>Damage_Infection, Infantry_Melt_Death_Clone_00</Death_Clone>
+        <Death_Clone>Damage_Remote_Bomb, Stormtrooper_Remote_Bomb_Death_Clone</Death_Clone>
+
+        <Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Plex_Soldier</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="Squad_Shocktrooper">

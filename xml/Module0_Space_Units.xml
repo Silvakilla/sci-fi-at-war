@@ -1916,11 +1916,6 @@
             HP_NebulonB2_Turbolaser_02,
             HP_NebulonB2_Turbolaser_03,
             HP_NebulonB2_Turbolaser_04,
-            HP_NebulonB2_Turbolaser_05,
-            HP_NebulonB2_Turbolaser_06,
-            HP_NebulonB2_Turbolaser_07,
-            HP_NebulonB2_Turbolaser_08,
-            HP_NebulonB2_Main_Turbolaser_01,
             HP_NebulonB2_Main_Turbolaser_02,
             HP_NebulonB2_Main_Turbolaser_03,
             HP_NebulonB2_Missile_01,
@@ -9218,7 +9213,7 @@
         <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
-        <Icon_Name>i_button_imperator.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_IMPERATOR_I.TGA</Icon_Name>
         <GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>

@@ -334,7 +334,7 @@
 		<Projectile_Length>10</Projectile_Length>
 		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
 		<Projectile_Laser_Color>238,71,54,255</Projectile_Laser_Color>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type> Damage_Proton_Torp </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
@@ -374,7 +374,7 @@
 	<Projectile Name="Proj_Ship_Concussion_Missile">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 		<Max_Speed>13.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
@@ -529,7 +529,7 @@
 	<Projectile Name="Proj_Ship_Diamond_Boron_Missile">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>missile.alo</Space_Model_Name>
-		<Scale_Factor>2.0</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
