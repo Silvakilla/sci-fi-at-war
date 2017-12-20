@@ -624,7 +624,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
         <LOD_Bias>5</LOD_Bias>

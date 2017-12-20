@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<!-- Spawn Starting Heroes -->
+	<Event Name="Empire_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_01">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Grand_Moff_Tarkin_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Empire_AI_Heroes_02">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Tech Level 1 Heroes -->
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Boba_Fett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_01</Prereq>
+	</Event>
+
+    <Event Name="Replace_Tartan_Patrol_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Tartan_Patrol_Cruiser</Reward_Param1>
+        <Reward_Param2>Tartan_Patrol_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Eidolon_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Eidolon_Cruiser</Reward_Param1>
+        <Reward_Param2>Eidolon_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Escort_Carrier">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Escort_Carrier</Reward_Param1>
+        <Reward_Param2>Escort_Carrier</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Acclamator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Acclamator</Reward_Param1>
+        <Reward_Param2>Acclamator</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Venator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Venator</Reward_Param1>
+        <Reward_Param2>Venator</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Fighter_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_TIE_Fighter_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Fighter_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Bomber_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_TIE_Bomber_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Bomber_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_01</Prereq>
+    </Event>
+
+	<!-- Spawn Time Era 2 Heroes -->
+	<Event Name="Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
+    <Event Name="Replace_Broadside_Class_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Broadside_Class_Cruiser</Reward_Param1>
+        <Reward_Param2>Broadside_Class_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Victor_II_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Victor_II_Cruiser</Reward_Param1>
+        <Reward_Param2>Victor_II_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Lancer_Frigate">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Lancer_Frigate</Reward_Param1>
+        <Reward_Param2>Lancer_Frigate</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Imperial_Dreadnought">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Imperial_Dreadnought</Reward_Param1>
+        <Reward_Param2>Imperial_Dreadnought</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Victory_Destroyer_Class_I">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Victory_Destroyer_Class_I</Reward_Param1>
+        <Reward_Param2>Victory_Destroyer_Class_I</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Harrow_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Harrow_Destroyer</Reward_Param1>
+        <Reward_Param2>Harrow_Destroyer</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Interceptor_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_TIE_Interceptor_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Interceptor_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+	<!-- Spawn Time Era 3 Heroes -->
+	<Event Name="Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Piett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+    <Event Name="Replace_Imperial_Escort_Carrier">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Imperial_Escort_Carrier</Reward_Param1>
+        <Reward_Param2>Imperial_Escort_Carrier</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Star_Destroyer_Class_I">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Star_Destroyer_Class_I</Reward_Param1>
+        <Reward_Param2>Star_Destroyer_Class_I</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Phantom_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_TIE_Phantom_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Phantom_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Missile_Boat_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Missile_Boat_Squadron</Reward_Param1>
+        <Reward_Param2>Missile_Boat_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Scout_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_TIE_Scout_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Scout_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+	<!-- Spawn Time Era 4 Heroes -->
+	<Event Name="Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Arc_Hammer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Arc_Hammer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+
+    <Event Name="Replace_Interdictor_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Interdictor_Cruiser</Reward_Param1>
+        <Reward_Param2>Interdictor_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Carrack_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Carrack_Cruiser</Reward_Param1>
+        <Reward_Param2>Carrack_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Strike_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Strike_Cruiser</Reward_Param1>
+        <Reward_Param2>Strike_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Star_Destroyer_Class_II">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Star_Destroyer_Class_II</Reward_Param1>
+        <Reward_Param2>Star_Destroyer_Class_II</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Alpha_XG1_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Alpha_XG1_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>Alpha_XG1_Wing_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+	<!-- Spawn Time Era 5 Heroes -->
+	<Event Name="Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+
+    <Event Name="Replace_Executor_Super_Star_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Executor_Super_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Executor_Super_Star_Destroyer</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_Praetor_Super_Star_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Praetor_Super_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Praetor_Super_Star_Destroyer</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_Death_Star">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Death_Star</Reward_Param1>
+        <Reward_Param2>Death_Star</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_Death_Star_II">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Death_Star_II</Reward_Param1>
+        <Reward_Param2>Death_Star_II</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Defender_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_TIE_Defender_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Defender_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+</Story>

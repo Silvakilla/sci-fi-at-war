@@ -322,7 +322,7 @@
 
     <Container Name="Imperial_Stormtrooper_Commander_Team">
         <Text_ID>TEXT_UNIT_STORMTROOPER_COMMANDER_SQUAD</Text_ID>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>
         <Encyclopedia_Text> TEXT_TOOLTIP_STORMTROOPER_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
         <Icon_Name>FULIK.tga</Icon_Name>
 

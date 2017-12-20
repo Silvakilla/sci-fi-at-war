@@ -2059,7 +2059,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>
 
         <Land_Model_Name>EI_COMMANDER.ALO</Land_Model_Name>
         <Land_Model_Anim_Override_Name>EI_TROOPER.ALO</Land_Model_Anim_Override_Name>

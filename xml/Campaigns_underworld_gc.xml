@@ -925,7 +925,6 @@
 		<Show_Completed_Tab>True</Show_Completed_Tab>
 
 		<!-- Win Conditions -->
-
 		<Human_Victory_Conditions>
 			Galactic_All_Planets_Controlled,
 			Galactic_Opponent_Controls_No_Planets
@@ -937,15 +936,13 @@
 		</AI_Victory_Conditions>
 
 		<!-- Rebel Starting Forces -->
-
 		<Starting_Credits> Rebel,  8000 </Starting_Credits>
 		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
 		<!-- Yavin Space Starting Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Republic_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, MC_90 </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, MC_80_Liberty </Starting_Forces>
 
 		<!-- Yavin Land Starting Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Ground_Mining_Facility </Starting_Forces>
@@ -955,39 +952,69 @@
 
 		<!-- MonCalimari Space Starting Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Republic_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, MC_90 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, MC_80_Liberty </Starting_Forces>
 
 		<!-- MonCalimari Land Starting Forces -->
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Ground_Mining_Facility </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
 
-		<!-- Empire Starting Forces -->
+        <!-- Saleucami Space Starting Forces -->
+        <Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Rebel, MonCalimari, MC_80_Liberty </Starting_Forces>
+
+        <!-- Saleucami land Starting Forces -->
+        <Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
+        <Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
+
+        <!-- YagaMinor Space Starting Forces -->
+        <Starting_Forces> Rebel, YagaMinor, Rebel_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Rebel, MonCalimari, MC_80_Liberty </Starting_Forces>
+
+        <!-- YagaMinor Land Starting Forces -->
+        <Starting_Forces> Rebel, YagaMinor, Rebel_Infantry_Squad </Starting_Forces>
+        <Starting_Forces> Rebel, YagaMinor, Rebel_Infantry_Squad </Starting_Forces>
+
+        <!-- Empire Starting Forces -->
 		<Starting_Credits> Empire,  12000 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
 		<!-- Coruscant Space Starting Forces -->
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_II </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_II </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_I </Starting_Forces>
 
 		<!-- Coruscant Land Starting Forces -->
-		<Starting_Forces> Empire, Coruscant, Empire_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Empire_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 
 		<!-- Kuat Space Starting Forces -->
 		<Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Star_Destroyer_Class_II </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Star_Destroyer_Class_II </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Star_Destroyer_Class_I </Starting_Forces>
 
 		<!-- Kuat Land Starting Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_Forces> Empire, Kuat, Imperial_Armytrooper_Squad </Starting_Forces>
+
+		<!-- Corellia Space Starting Forces -->
+        <Starting_Forces> Empire, Corellia, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Corellia, Star_Destroyer_Class_I </Starting_Forces>
+
+        <!-- Corellia land Starting Forces -->
+        <Starting_Forces> Empire, Corellia, Imperial_Armytrooper_Squad </Starting_Forces>
+
+        <!-- Byss Space Starting Forces -->
+        <Starting_Forces> Empire, Byss, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Byss, Star_Destroyer_Class_I </Starting_Forces>
+
+        <!-- Byss land Starting Forces -->
+        <Starting_Forces> Empire, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
+
+        <!-- Corulag Space Starting Forces -->
+        <Starting_Forces> Empire, Corulag, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Corulag, Star_Destroyer_Class_I </Starting_Forces>
+
+        <!-- Corulag land Starting Forces -->
+        <Starting_Forces> Empire, Corulag, Imperial_Armytrooper_Squad </Starting_Forces>
 
 		<!-- Pirates Starting Forces -->
 		<!-- Earth Space Starting Forces -->
@@ -1408,39 +1435,6 @@
 		<Starting_Forces> Pirates, Wayland, Pirate_Skiff_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Wayland, Pirate_Swamp_Speeder_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Wayland, Pirate_Swamp_Speeder_Team </Starting_Forces>
-
-		<!-- Corellia Space Starting Forces -->
-		<Starting_Forces> Pirates, Corellia, Pirate_Asteroid_Base </Starting_Forces>
-
-		<!-- Corellia land Starting Forces -->
-		<Starting_Forces> Pirates, Corellia, Pirate_Command_Center </Starting_Forces>
-
-		<!-- Byss Space Starting Forces -->
-
-		<!-- Byss land Starting Forces -->
-
-		<!-- Corulag Space Starting Forces -->
-		<Starting_Forces> Pirates, Corulag, Pirate_Asteroid_Base </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Rebel_Dreadnought </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Venator </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Acclamator </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Strike_Cruiser </Starting_Forces>
-
-		<!-- Corulag land Starting Forces -->
-		<Starting_Forces> Pirates, Corulag, Pirate_Command_Center </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_PLEX_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Swamp_Speeder_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Swamp_Speeder_Team </Starting_Forces>
 
 		<!-- Bothawui Space Starting Forces -->
 		<Starting_Forces> Pirates, Bothawui, Pirate_Asteroid_Base </Starting_Forces>
@@ -1971,12 +1965,6 @@
 		<Starting_Forces> Pirates, Ryloth, Pirate_Swamp_Speeder_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Ryloth, Pirate_Swamp_Speeder_Team </Starting_Forces>
 
-		<!-- Saleucami Space Starting Forces -->
-
-
-		<!-- Saleucami land Starting Forces -->
-
-
 		<!-- Shola Space Starting Forces -->
 		<Starting_Forces> Pirates, Shola, Pirate_Asteroid_Base </Starting_Forces>
 		<Starting_Forces> Pirates, Shola, Corellian_Corvette </Starting_Forces>
@@ -2205,29 +2193,6 @@
 		<Starting_Forces> Pirates, Zhar, Pirate_Skiff_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Zhar, Pirate_Swamp_Speeder_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Zhar, Pirate_Swamp_Speeder_Team </Starting_Forces>
-
-		<!-- YagaMinor Space Starting Forces -->
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Asteroid_Base </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Rebel_Dreadnought </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Venator </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Acclamator </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Strike_Cruiser </Starting_Forces>
-
-		<!-- YagaMinor Land Starting Forces -->
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Command_Center </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_PLEX_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Swamp_Speeder_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Swamp_Speeder_Team </Starting_Forces>
 
 		<!-- Ylesia Space Starting Forces -->
 		<Starting_Forces> Pirates, Ylesia, Pirate_Asteroid_Base </Starting_Forces>
@@ -2841,52 +2806,79 @@
 		<Starting_Tech_Level> Rebel, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Rebel, 4 </Max_Tech_Level>
 
-		<!-- Yavin Space Starting Forces -->
-		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Republic_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, MC_90 </Starting_Forces>
+        <!-- Yavin Space Starting Forces -->
+        <Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Rebel, Yavin, MC_80_Liberty </Starting_Forces>
 
-		<!-- Yavin Land Starting Forces -->
-		<Starting_Forces> Rebel, Yavin, Rebel_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
+        <!-- Yavin Land Starting Forces -->
+        <Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
+        <Starting_Forces> Rebel, Yavin, Rebel_Infantry_Squad </Starting_Forces>
 
-		<!-- MonCalimari Space Starting Forces -->
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Republic_Star_Destroyer </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, MC_90 </Starting_Forces>
+        <!-- MonCalimari Space Starting Forces -->
+        <Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Rebel, MonCalimari, MC_80_Liberty </Starting_Forces>
 
-		<!-- MonCalimari Land Starting Forces -->
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
+        <!-- MonCalimari Land Starting Forces -->
+        <Starting_Forces> Rebel, MonCalimari, Rebel_Infantry_Squad </Starting_Forces>
+
+        <!-- Saleucami Space Starting Forces -->
+        <Starting_Forces> Rebel, Saleucami, Rebel_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Rebel, Saleucami, MC_80_Liberty </Starting_Forces>
+
+        <!-- Saleucami land Starting Forces -->
+        <Starting_Forces> Rebel, Saleucami, Rebel_Infantry_Squad </Starting_Forces>
+
+        <!-- YagaMinor Space Starting Forces -->
+        <Starting_Forces> Rebel, YagaMinor, Rebel_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Rebel, YagaMinor, MC_80_Liberty </Starting_Forces>
+
+        <!-- YagaMinor Land Starting Forces -->
+        <Starting_Forces> Rebel, YagaMinor, Rebel_Infantry_Squad </Starting_Forces>
 
 		<!-- Empire Starting Forces -->
 		<Starting_Credits> Empire,  8000 </Starting_Credits>
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
-		<!-- Coruscant Space Starting Forces -->
-		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_II </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_II </Starting_Forces>
+        <!-- Coruscant Space Starting Forces -->
+        <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_I </Starting_Forces>
 
-		<!-- Coruscant Land Starting Forces -->
-		<Starting_Forces> Empire, Coruscant, Empire_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Empire_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Imperial_Stormtrooper_Squad </Starting_Forces>
+        <!-- Coruscant Land Starting Forces -->
+        <Starting_Forces> Empire, Coruscant, Empire_Ground_Mining_Facility </Starting_Forces>
+        <Starting_Forces> Empire, Coruscant, Empire_Ground_Mining_Facility </Starting_Forces>
+        <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
+        <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 
-		<!-- Kuat Space Starting Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Star_Destroyer_Class_II </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Star_Destroyer_Class_II </Starting_Forces>
+        <!-- Kuat Space Starting Forces -->
+        <Starting_Forces> Empire, Kuat, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Kuat, Star_Destroyer_Class_I </Starting_Forces>
 
-		<!-- Kuat Land Starting Forces -->
-		<Starting_Forces> Empire, Kuat, Empire_Ground_Mining_Facility </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
+        <!-- Kuat Land Starting Forces -->
+        <Starting_Forces> Empire, Kuat, Empire_Ground_Mining_Facility </Starting_Forces>
+        <Starting_Forces> Empire, Kuat, Empire_Ground_Mining_Facility </Starting_Forces>
+        <Starting_Forces> Empire, Kuat, Imperial_Armytrooper_Squad </Starting_Forces>
+
+        <!-- Corellia Space Starting Forces -->
+        <Starting_Forces> Empire, Corellia, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Corellia, Star_Destroyer_Class_I </Starting_Forces>
+
+        <!-- Corellia land Starting Forces -->
+        <Starting_Forces> Empire, Corellia, Imperial_Armytrooper_Squad </Starting_Forces>
+
+        <!-- Byss Space Starting Forces -->
+        <Starting_Forces> Empire, Byss, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Byss, Star_Destroyer_Class_I </Starting_Forces>
+
+        <!-- Byss land Starting Forces -->
+        <Starting_Forces> Empire, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
+
+        <!-- Corulag Space Starting Forces -->
+        <Starting_Forces> Empire, Corulag, Empire_Star_Base_1 </Starting_Forces>
+        <Starting_Forces> Empire, Corulag, Star_Destroyer_Class_I </Starting_Forces>
+
+        <!-- Corulag land Starting Forces -->
+        <Starting_Forces> Empire, Corulag, Imperial_Armytrooper_Squad </Starting_Forces>
 
 		<!-- Pirates Starting Forces -->
 		<!-- Earth Space Starting Forces -->
@@ -3307,39 +3299,6 @@
 		<Starting_Forces> Pirates, Wayland, Pirate_Skiff_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Wayland, Pirate_Swamp_Speeder_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Wayland, Pirate_Swamp_Speeder_Team </Starting_Forces>
-
-		<!-- Corellia Space Starting Forces -->
-		<Starting_Forces> Pirates, Corellia, Pirate_Asteroid_Base </Starting_Forces>
-
-		<!-- Corellia land Starting Forces -->
-		<Starting_Forces> Pirates, Corellia, Pirate_Command_Center </Starting_Forces>
-
-		<!-- Byss Space Starting Forces -->
-
-		<!-- Byss land Starting Forces -->
-
-		<!-- Corulag Space Starting Forces -->
-		<Starting_Forces> Pirates, Corulag, Pirate_Asteroid_Base </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Rebel_Dreadnought </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Venator </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Acclamator </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Strike_Cruiser </Starting_Forces>
-
-		<!-- Corulag land Starting Forces -->
-		<Starting_Forces> Pirates, Corulag, Pirate_Command_Center </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_PLEX_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Swamp_Speeder_Team </Starting_Forces>
-		<Starting_Forces> Pirates, Corulag, Pirate_Swamp_Speeder_Team </Starting_Forces>
 
 		<!-- Bothawui Space Starting Forces -->
 		<Starting_Forces> Pirates, Bothawui, Pirate_Asteroid_Base </Starting_Forces>
@@ -3870,12 +3829,6 @@
 		<Starting_Forces> Pirates, Ryloth, Pirate_Swamp_Speeder_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Ryloth, Pirate_Swamp_Speeder_Team </Starting_Forces>
 
-		<!-- Saleucami Space Starting Forces -->
-
-
-		<!-- Saleucami land Starting Forces -->
-
-
 		<!-- Shola Space Starting Forces -->
 		<Starting_Forces> Pirates, Shola, Pirate_Asteroid_Base </Starting_Forces>
 		<Starting_Forces> Pirates, Shola, Corellian_Corvette </Starting_Forces>
@@ -4104,29 +4057,6 @@
 		<Starting_Forces> Pirates, Zhar, Pirate_Skiff_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Zhar, Pirate_Swamp_Speeder_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Zhar, Pirate_Swamp_Speeder_Team </Starting_Forces>
-
-		<!-- YagaMinor Space Starting Forces -->
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Asteroid_Base </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Corellian_Corvette </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Nebulon_B </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Rebel_Dreadnought </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Venator </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Acclamator </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Strike_Cruiser </Starting_Forces>
-
-		<!-- YagaMinor Land Starting Forces -->
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Command_Center </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Soldier_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_PLEX_Squad </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Pod_Walker_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Skiff_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Swamp_Speeder_Team </Starting_Forces>
-		<Starting_Forces> Pirates, YagaMinor, Pirate_Swamp_Speeder_Team </Starting_Forces>
 
 		<!-- Ylesia Space Starting Forces -->
 		<Starting_Forces> Pirates, Ylesia, Pirate_Asteroid_Base </Starting_Forces>
@@ -4629,8 +4559,8 @@
         <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Nebulon_B2 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Nebulon_B2 </Starting_Forces>
+        <Starting_Forces> Empire, Coruscant, MC_80A </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, MC_80A </Starting_Forces>
 
         <Starting_Forces> Pirates, Byss, Victory_Destroyer_Class_I</Starting_Forces>
         <!--<Starting_Forces> Pirates, Byss, Broadside_Class_Cruiser</Starting_Forces>

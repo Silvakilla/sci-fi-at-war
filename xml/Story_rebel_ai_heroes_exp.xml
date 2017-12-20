@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+	<!-- Spawn Starting Heroes -->
+	<Event Name="Spawn_Mon_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Droids">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Tech 1 Heroes -->
+	<Event Name="Rebels_Enter_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Antilles">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_01</Prereq>
+	</Event>
+
+    <Event Name="Replace_Corellian_Corvette">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Corellian_Corvette</Reward_Param1>
+        <Reward_Param2>Corellian_Corvette</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Marauder_Missile_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Marauder_Missile_Cruiser</Reward_Param1>
+        <Reward_Param2>Marauder_Missile_Cruiser</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Nebulon_B">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Nebulon_B</Reward_Param1>
+        <Reward_Param2>Nebulon_B</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_30C">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_MC_30C</Reward_Param1>
+        <Reward_Param2>MC_30C</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Rebel_Dreadnought">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Rebel_Dreadnought</Reward_Param1>
+        <Reward_Param2>Rebel_Dreadnought</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_T_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_T_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>T_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Y_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Y_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>Y_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+	<!-- Spawn Tech 2 Heroes -->
+	<Event Name="Rebels_Enter_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Rebel_AI_Heroes_10">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>
+
+	<!--<Event Name="Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_02</Prereq>
+	</Event>-->
+
+    <Event Name="Replace_Corellian_Gunboat">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Corellian_Gunboat</Reward_Param1>
+        <Reward_Param2>Corellian_Gunboat</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Alliance_Assault_Frigate">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Alliance_Assault_Frigate</Reward_Param1>
+        <Reward_Param2>Alliance_Assault_Frigate</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_40A">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_MC_40A</Reward_Param1>
+        <Reward_Param2>MC_40A</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_X_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_X_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>X_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+	<!-- Spawn Tech 3 Heroes -->
+	<Event Name="Rebels_Enter_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Home_One</Reward_Param1>
+        <Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Yoda">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_03</Prereq>
+	</Event>
+
+    <Event Name="Replace_Belarus_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Belarus_Cruiser</Reward_Param1>
+        <Reward_Param2>Belarus_Cruiser</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_75">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_MC_75</Reward_Param1>
+        <Reward_Param2>MC_75</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_80A">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_MC_80A</Reward_Param1>
+        <Reward_Param2>MC_80A</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_B_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_B_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>B_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_A_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_A_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>A_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+	<!-- Spawn Tech 4 Heroes -->
+	<Event Name="Rebels_Enter_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_BelIblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Garm_Bel_Iblis_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Tech_04</Prereq>
+	</Event>
+
+    <Event Name="Replace_Nebulon_B2">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Nebulon_B2</Reward_Param1>
+        <Reward_Param2>Nebulon_B2</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_80_Liberty">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_MC_80_Liberty</Reward_Param1>
+        <Reward_Param2>MC_80_Liberty</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Mediator_Cruiser">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Mediator_Cruiser</Reward_Param1>
+        <Reward_Param2>Mediator_Cruiser</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Strident_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Strident_Destroyer</Reward_Param1>
+        <Reward_Param2>Strident_Destroyer</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Republic_Star_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Republic_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Republic_Star_Destroyer</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_90">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_MC_90</Reward_Param1>
+        <Reward_Param2>MC_90</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Galaxy_Destroyer">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_Galaxy_Destroyer</Reward_Param1>
+        <Reward_Param2>Galaxy_Destroyer</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_E_Wing_Squadron">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AI_E_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>E_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+</Story>
