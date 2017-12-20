@@ -1426,7 +1426,7 @@
         <Projectile_Types>Proj_Plex_Missile_AAC</Projectile_Types>
 
         <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
-        <Targeting_Max_Attack_Distance>400.0</Targeting_Max_Attack_Distance>
+        <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 
         <Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>

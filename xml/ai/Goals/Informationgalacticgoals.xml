@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
-
 <Goals>
 
-	<!-- Deploy a scout force on a specific planet -->
 	<Scout_Planet>
 		<AIGoalApplicationFlags> Enemy | Neutral </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>

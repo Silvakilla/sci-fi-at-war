@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-
 <Goals>
 	<Build_MDU_Repair_Facility>
 		<AIGoalApplicationFlags> Tactical_Location </AIGoalApplicationFlags>

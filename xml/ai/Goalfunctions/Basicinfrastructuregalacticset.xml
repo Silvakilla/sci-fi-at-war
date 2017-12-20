@@ -31,11 +31,6 @@
 		<Function>Needs_Scanner</Function>
 	</Build_Scanner>
 
-	<!--<Build_Shipyard>
-		<Goal>Build_Shipyard</Goal>
-		<Function>Needs_Shipyard</Function>
-	</Build_Shipyard>-->
-
 	<Build_Hutt_Palace>
 		<Goal>Build_Hutt_Palace</Goal>
 		<Function>Needs_Hutt_Palace</Function>

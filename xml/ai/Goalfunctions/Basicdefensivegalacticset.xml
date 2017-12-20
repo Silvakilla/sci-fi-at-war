@@ -31,7 +31,7 @@
 		<Goal>Build_Turbolasers</Goal>
 		<Function>Needs_Turbolasers</Function>
 	</Build_Turbolasers>
-	<!--
+
 	<Generate_Magic_Ground_Defense>
 		<Goal>Generate_Magic_Ground_Defense</Goal>
 		<Function>Zero</Function>
@@ -72,6 +72,6 @@
 		<Goal>Generate_Magic_Cash_Drop</Goal>
 		<Function>Zero</Function>
 	</Generate_Magic_Cash_Drop>
-	-->
+
 </FunctionSet>
 
