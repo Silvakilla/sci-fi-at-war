@@ -3,38 +3,81 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac92040-7224-47af-babc-729e71a481fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" afterPath="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Projectiles.xml" afterPath="$PROJECT_DIR$/xml/Default_Projectiles.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Space_Units.xml" afterPath="$PROJECT_DIR$/xml/Default_Space_Units.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Module0_Land_Units.xml" afterPath="$PROJECT_DIR$/xml/Module0_Land_Units.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Module0_Space_Units.xml" afterPath="$PROJECT_DIR$/xml/Module0_Space_Units.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Musicevents.xml" afterPath="$PROJECT_DIR$/xml/Musicevents.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Template_Container.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/Template_Deaths.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/Template_Land_Units.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/Template_Space_Units.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_empire_land.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_empire_land.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_rebel_land.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_rebel_land.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_galactic.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_galactic.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_land.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_land.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_space.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_space.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicdefensivegalacticset.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicdefensivegalacticset.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinformationgalacticset.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinformationgalacticset.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinfrastructuregalacticset.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinfrastructuregalacticset.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivegalacticset.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivegalacticset.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivespaceset.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivespaceset.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Systemfunctions.xml" afterPath="$PROJECT_DIR$/xml/ai/Goalfunctions/Systemfunctions.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_galactic.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_galactic.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_land.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_land.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_rebel_land.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_rebel_land.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_galactic.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_galactic.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_space.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_space.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Defensivegalacticgoals.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Defensivegalacticgoals.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Informationgalacticgoals.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Informationgalacticgoals.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Infrastructuregalacticgoals.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Infrastructuregalacticgoals.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Landgoals.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Landgoals.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Offensivegalacticgoals.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Offensivegalacticgoals.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Systemgoals.xml" afterPath="$PROJECT_DIR$/xml/ai/Goals/Systemgoals.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Companies.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Companies.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Containers.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Containers.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Land_Units.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Land_Units.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Planets.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Planets.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Projectiles.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Projectiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Space_Units.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Space_Units.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Default_Squadrons.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Squadrons.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Gameobjectfiles.xml" afterPath="$PROJECT_DIR$/xml/Gameobjectfiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbases.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbases.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesempire.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesempire.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbuildableshutts.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildableshutts.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablespirate.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablespirate.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesrebel.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesrebel.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesskirmish.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesskirmish.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesunderworld.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesunderworld.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundcompaniesempire.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesempire.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundcompaniesindigenous.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesindigenous.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundcompaniesrebel.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundindigenous.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundindigenous.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundinfantry.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundinfantry.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundstructures.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundstructures.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundstructures_underworld.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundstructures_underworld.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundturrets.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundturrets.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundunittargetingpriorities.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundunittargetingpriorities.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Groundvehicles.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundvehicles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Hardpointdatafiles.xml" afterPath="$PROJECT_DIR$/xml/Hardpointdatafiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventfiles.xml" afterPath="$PROJECT_DIR$/xml/Sfxeventfiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventpresets.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventpresets.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_hud.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_hud.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_unitsground.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_unitsground.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_unitsheroes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_unitsheroes.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_unitsspace.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_unitsspace.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsambient.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsambient.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsbuildings.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsbuildings.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventscinematics.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventscinematics.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsdeaths.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsdeaths.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsengines.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsengines.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsfootsteps.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsfootsteps.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsgui.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsgui.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventshud.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventshud.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitscapital.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitscapital.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitscorvettes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitscorvettes.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsempireheroes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsempireheroes.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsfighters.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsfighters.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsfrigates.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsfrigates.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsground.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsground.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsrebelheroes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsrebelheroes.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitstransports.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitstransports.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsweapons.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsweapons.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_HardPoints.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Companies.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Container.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Death.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Units.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Projectiles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_SFXEvents.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Container.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Death.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Squadrons.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Units.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Structures.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_HardPoints.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Companies.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Container.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Death.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Units.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Landbombingrununits.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Planets.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Projectiles.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_SFXEvents.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Space_Death.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Space_Squadrons.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Space_Units.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Structures.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,315 +90,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Module0_Space_Units.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xml/Module0_Space_Units.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="10094" column="0" lean-forward="true" selection-start-line="10094" selection-start-column="0" selection-end-line="10094" selection-end-column="0" />
-              <folding>
-                <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Hardpoints#0;n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Hardpoints#0;n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#19;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#19;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#22;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#22;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#26;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#26;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#27;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#27;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#28;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#28;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#31;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#31;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#32;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#32;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#33;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#33;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#34;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#34;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Hardpoints#0;n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Hardpoints#0;n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#38;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#38;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Hardpoints#0;n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#52;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#52;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#61;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#61;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Hardpoints#0;n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#75;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#75;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#84;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#84;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#87;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#87;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#94;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#94;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#97;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#97;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Abilities#0;n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#HardPoints#0;n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
-                <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -388,6 +123,7 @@
       <find>Ylesia</find>
       <find>Proj_Empire_Bombardment_Turbolaser</find>
       <find>Proj_Hypervelocity_Gun</find>
+      <find>Default_Hero_Respawn_Time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -396,9 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xml/Transportunits.xml" />
-        <option value="$PROJECT_DIR$/xml/Gameconstants.xml" />
-        <option value="$PROJECT_DIR$/xml/Uniqueunits.xml" />
         <option value="$PROJECT_DIR$/xml/Module1_Space_Death.xml" />
         <option value="$PROJECT_DIR$/xml/Module1_Projectiles.xml" />
         <option value="$PROJECT_DIR$/xml/Module1_HardPoints.xml" />
@@ -447,6 +180,9 @@
         <option value="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" />
         <option value="$PROJECT_DIR$/xml/Musicevents.xml" />
         <option value="$PROJECT_DIR$/xml/Module0_Space_Units.xml" />
+        <option value="$PROJECT_DIR$/xml/Hardpointdatafiles.xml" />
+        <option value="$PROJECT_DIR$/xml/Sfxeventfiles.xml" />
+        <option value="$PROJECT_DIR$/xml/Gameobjectfiles.xml" />
       </list>
     </option>
   </component>
@@ -456,7 +192,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1292" />
@@ -501,6 +237,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\modding\sci-fi-at-war\xml\default" />
+      <recent name="E:\modding\sci-fi-at-war\xml\ground" />
+      <recent name="E:\modding\sci-fi-at-war\xml\sfx" />
+      <recent name="E:\modding\sci-fi-at-war\xml\module1" />
+      <recent name="E:\modding\sci-fi-at-war\xml\module0" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -532,27 +277,30 @@
       <workItem from="1512986339713" duration="21330000" />
       <workItem from="1513620113827" duration="1058000" />
       <workItem from="1513631507969" duration="1879000" />
-      <workItem from="1513766714281" duration="17198000" />
+      <workItem from="1513766714281" duration="17252000" />
+      <workItem from="1513800638373" duration="125000" />
+      <workItem from="1513974124613" duration="647000" />
+      <workItem from="1518026695565" duration="8000" />
+      <workItem from="1524826958469" duration="1812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51127000" />
+    <option name="totallyTimeSpent" value="53773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -573,19 +321,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xml/ai/Goals/Systemgoals.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/ai/Hintsets/Testhintsets.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,7 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -681,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1785">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1016">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2499">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-217">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-483">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-466">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-449">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="769">
           <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Default_Projectiles.xml">
+    <entry file="file://$PROJECT_DIR$/xml/default/Default_Projectiles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="1738" column="45" lean-forward="false" selection-start-line="1738" selection-start-column="45" selection-end-line="1738" selection-end-column="45" />
@@ -1059,9 +763,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="2614" column="89" lean-forward="false" selection-start-line="2614" selection-start-column="89" selection-end-line="2614" selection-end-column="89" />
+          <folding>
+            <element signature="n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Locations#0;n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Trade_Routes#0;n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Locations#0;n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Trade_Routes#0;n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="e#8457#18161#0" expanded="false" />
+            <element signature="n#Locations#0;n#Campaign#2;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Trade_Routes#0;n#Campaign#2;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Locations#0;n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Trade_Routes#0;n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Campaign#4;n#Campaigns#0;n#!!top" expanded="false" />
+            <element signature="n#Campaign#5;n#Campaigns#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/default/Default_Space_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="1293" column="0" lean-forward="true" selection-start-line="1293" selection-start-column="0" selection-end-line="1293" selection-end-column="0" />
+          <folding>
+            <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#UniqueUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#TransportUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="e#26172#35194#0" expanded="false" />
+            <element signature="n#UniqueUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#UniqueUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#UniqueUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#UniqueUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#UniqueUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#HardPoints#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Musicevents.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Guidialogs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1224">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Hypergameconstants.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Mobile_defense_units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Dataminerxmlfiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1322">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Gameconstants.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="490" column="30" lean-forward="false" selection-start-line="490" selection-start-column="30" selection-end-line="490" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module0/Module0_Space_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10094" column="0" lean-forward="false" selection-start-line="10094" selection-start-column="0" selection-end-line="10094" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Hardpointdatafiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/xml/Specialstructures.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="-1413">
           <caret line="1836" column="60" lean-forward="false" selection-start-line="1836" selection-start-column="60" selection-end-line="1836" selection-end-column="60" />
           <folding>
             <element signature="n#SpecialStructure#0;n#SpecialStructures#0;n#!!top" expanded="false" />
@@ -1154,431 +981,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml">
+    <entry file="file://$PROJECT_DIR$/xml/Sfxeventfiles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="2614" column="89" lean-forward="false" selection-start-line="2614" selection-start-column="89" selection-end-line="2614" selection-end-column="89" />
-          <folding>
-            <element signature="n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="e#8457#18161#0" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#2;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#2;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#4;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#5;n#Campaigns#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Default_Space_Units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="1293" column="0" lean-forward="true" selection-start-line="1293" selection-start-column="0" selection-end-line="1293" selection-end-column="0" />
-          <folding>
-            <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#TransportUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="e#26172#35194#0" expanded="false" />
-            <element signature="n#UniqueUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Musicevents.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Hardpointdatafiles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Gameconstants.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4073">
-          <caret line="3890" column="41" lean-forward="true" selection-start-line="3890" selection-start-column="41" selection-end-line="3890" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Guidialogs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Hypergameconstants.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Mobile_defense_units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Dataminerxmlfiles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1322">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xml/Gameobjectfiles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Module0_Space_Units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="10094" column="0" lean-forward="true" selection-start-line="10094" selection-start-column="0" selection-end-line="10094" selection-end-column="0" />
-          <folding>
-            <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Hardpoints#0;n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Hardpoints#0;n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#19;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#19;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#22;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#22;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#26;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#26;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#27;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#27;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#28;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#28;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#31;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#31;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#32;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#32;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#33;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#33;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#34;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#34;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Hardpoints#0;n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Hardpoints#0;n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#38;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#38;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Hardpoints#0;n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#52;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#52;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#61;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#61;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Hardpoints#0;n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#75;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#75;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Space_Escort_Unit_Types#0;n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#84;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#84;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#87;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#87;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#94;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#94;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#97;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#97;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Abilities#0;n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

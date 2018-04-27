@@ -25,17 +25,17 @@
 	<File>UpgradeObjects.xml</File>
 
 	<!-- Structures -->
-	<File>GroundBases.xml</File>
-	<File>GroundStructures.xml</File>
-	<File>GroundTurrets.xml</File>
+	<File>ground/GroundBases.xml</File>
+	<File>ground/GroundStructures.xml</File>
+	<File>ground/GroundTurrets.xml</File>
 	<File>SpecialStructures.xml</File>
 	<File>StarBases.xml</File>
 	<File>SecondaryStructures.xml</File>
 	<File>SpaceBuildablesSkirmish.xml</File>
-	<File>GroundBuildablesRebel.xml</File>
-	<File>GroundBuildablesEmpire.xml</File>
-	<File>GroundBuildablesPirate.xml</File>
-	<File>GroundBuildablesSkirmish.xml</File>
+	<File>ground/GroundBuildablesRebel.xml</File>
+	<File>ground/GroundBuildablesEmpire.xml</File>
+	<File>ground/GroundBuildablesPirate.xml</File>
+	<File>ground/GroundBuildablesSkirmish.xml</File>
 
 	<!-- Props -->
 	<File>SpaceProps.xml</File>
@@ -51,52 +51,52 @@
 	<File>Props_Felucia.xml</File>
 
     <!-- Units and Companies -->
-    <File>GroundInfantry.xml</File>
-    <File>GroundVehicles.xml</File>
-    <File>GroundIndigenous.xml</File>
+    <File>ground/GroundInfantry.xml</File>
+    <File>ground/GroundVehicles.xml</File>
+    <File>ground/GroundIndigenous.xml</File>
     <File>TransportUnits.xml</File>
     <File>NamedHeroUnits.xml</File>
     <File>GenericHeroUnits.xml</File>
     <File>UniqueUnits.xml</File>
     <File>Mobile_Defense_Units.XML</File>
-    <File>GroundCompaniesRebel.xml</File>
-    <File>GroundCompaniesEmpire.xml</File>
-    <File>GroundCompaniesIndigenous.xml</File>
+    <File>ground/GroundCompaniesRebel.xml</File>
+    <File>ground/GroundCompaniesEmpire.xml</File>
+    <File>ground/GroundCompaniesIndigenous.xml</File>
     <File>HeroCompanies.xml</File>
     <File>SpaceUnitsFighters.xml</File>
 
     <!-- Default Files EAW FOC -->
-    <File>Default_Squadrons.xml</File>
-    <File>Default_Containers.xml</File>
-    <File>Default_Planets.xml</File>
-    <File>Default_Projectiles.xml</File>
-    <File>Default_Space_Units.xml</File>
-    <File>Default_Land_Units.xml</File>
+    <File>default/Default_Squadrons.xml</File>
+    <File>default/Default_Containers.xml</File>
+    <File>default/Default_Planets.xml</File>
+    <File>default/Default_Projectiles.xml</File>
+    <File>default/Default_Space_Units.xml</File>
+    <File>default/Default_Land_Units.xml</File>
 
 	<!-- Empire VS Rebel -->
-	<File>Module0_Land_Companies.xml</File>
-    <File>Module0_Land_Container.xml</File>
-    <File>Module0_Land_Death.xml</File>
-    <File>Module0_Land_Units.xml</File>
-    <File>Module0_Projectiles.xml</File>
-    <File>Module0_Space_Container.xml</File>
-    <File>Module0_Space_Death.xml</File>
-    <File>Module0_Space_Squadrons.xml</File>
-    <File>Module0_Space_Units.xml</File>
-    <File>Module0_Structures.xml</File>
+	<File>module0/Land_Companies.xml</File>
+    <File>module0/Land_Container.xml</File>
+    <File>module0/Land_Death.xml</File>
+    <File>module0/Land_Units.xml</File>
+    <File>module0/Projectiles.xml</File>
+    <File>module0/Space_Container.xml</File>
+    <File>module0/Space_Death.xml</File>
+    <File>module0/Space_Squadrons.xml</File>
+    <File>module0/Space_Units.xml</File>
+    <File>module0/Structures.xml</File>
 	
 	<!-- Star Trek -->
 	<!--<File>Module1_Land_Companies.xml</File>
-    <File>Module1_Land_Container.xml</File>
-    <File>Module1_Land_Death.xml</File>
-    <File>Module1_Land_Units.xml</File>-->
-    <File>Module1_Projectiles.xml</File>
-    <File>Module1_Space_Container.xml</File>
-    <File>Module1_Space_Death.xml</File>
-    <File>Module1_Space_Squadrons.xml</File>
-    <File>Module1_Space_Units.xml</File>
-    <File>Module1_Structures.xml</File>
-	<File>Module1_Landbombingrununits.xml</File>
-	<File>Module1_Planets.xml</File>
+    <File>module1/Land_Container.xml</File>
+    <File>module1/Land_Death.xml</File>
+    <File>module1/Land_Units.xml</File>-->
+    <File>module1/Projectiles.xml</File>
+    <File>module1/Space_Container.xml</File>
+    <File>module1/Space_Death.xml</File>
+    <File>module1/Space_Squadrons.xml</File>
+    <File>module1/Space_Units.xml</File>
+    <File>module1/Structures.xml</File>
+	<File>module1/Landbombingrununits.xml</File>
+	<File>module1/Planets.xml</File>
 
 </Game_Object_Files>
