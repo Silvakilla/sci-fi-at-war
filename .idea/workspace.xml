@@ -3,81 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac92040-7224-47af-babc-729e71a481fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Companies.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Companies.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Containers.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Containers.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Land_Units.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Land_Units.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Planets.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Planets.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Projectiles.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Projectiles.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Space_Units.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Space_Units.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Default_Squadrons.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Squadrons.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Gameobjectfiles.xml" afterPath="$PROJECT_DIR$/xml/Gameobjectfiles.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbases.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbases.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesempire.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesempire.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbuildableshutts.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildableshutts.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablespirate.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablespirate.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesrebel.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesrebel.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesskirmish.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesskirmish.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundbuildablesunderworld.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundbuildablesunderworld.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundcompaniesempire.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesempire.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundcompaniesindigenous.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesindigenous.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundcompaniesrebel.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundindigenous.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundindigenous.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundinfantry.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundinfantry.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundstructures.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundstructures.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundstructures_underworld.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundstructures_underworld.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundturrets.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundturrets.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundunittargetingpriorities.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundunittargetingpriorities.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Groundvehicles.xml" afterPath="$PROJECT_DIR$/xml/ground/Groundvehicles.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Hardpointdatafiles.xml" afterPath="$PROJECT_DIR$/xml/Hardpointdatafiles.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventfiles.xml" afterPath="$PROJECT_DIR$/xml/Sfxeventfiles.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventpresets.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventpresets.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_hud.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_hud.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_unitsground.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_unitsground.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_unitsheroes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_unitsheroes.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxevents_exp_unitsspace.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxevents_exp_unitsspace.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsambient.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsambient.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsbuildings.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsbuildings.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventscinematics.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventscinematics.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsdeaths.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsdeaths.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsengines.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsengines.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsfootsteps.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsfootsteps.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsgui.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsgui.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventshud.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventshud.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitscapital.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitscapital.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitscorvettes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitscorvettes.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsempireheroes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsempireheroes.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsfighters.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsfighters.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsfrigates.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsfrigates.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsground.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsground.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitsrebelheroes.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitsrebelheroes.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsunitstransports.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsunitstransports.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/Sfxeventsweapons.xml" afterPath="$PROJECT_DIR$/xml/sfx/Sfxeventsweapons.xml" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_HardPoints.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Companies.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Container.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Death.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Land_Units.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Projectiles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_SFXEvents.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Container.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Death.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Squadrons.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Space_Units.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Module0_Structures.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_HardPoints.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Companies.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Container.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Death.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Land_Units.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Landbombingrununits.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Planets.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Projectiles.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_SFXEvents.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Space_Death.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Space_Squadrons.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Space_Units.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Module1_Structures.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -281,12 +206,27 @@
       <workItem from="1513800638373" duration="125000" />
       <workItem from="1513974124613" duration="647000" />
       <workItem from="1518026695565" duration="8000" />
-      <workItem from="1524826958469" duration="1812000" />
+      <workItem from="1524826958469" duration="2016000" />
     </task>
+    <task id="LOCAL-00001" summary="New Folder structure">
+      <created>1524865148648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524865148648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New Folder structure">
+      <created>1524865258528</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524865258528</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53773000" />
+    <option name="totallyTimeSpent" value="53977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -315,6 +255,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Folder structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
