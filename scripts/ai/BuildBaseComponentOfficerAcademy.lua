@@ -7,7 +7,7 @@ function Definitions()
 	TaskForce = {
 		{
 			"BaseForce",
-			"E_Ground_Officer_Academy | R_Ground_Officer_Academy | F_Ground_Officer_Academy | K_Ground_Officer_Academy = 1"
+			"E_Ground_Officer_Academy | R_Ground_Officer_Academy = 1"
 		}
 	}
 end

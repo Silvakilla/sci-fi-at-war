@@ -1913,6 +1913,8 @@
 			Sundered_Heart,
 			B_Wing_Squadron,
 			Alliance_Assault_Frigate,
+			MC_30C,
+			MC_75,
 			RS_Enhanced_Shielding_L1_Upgrade,
 			RS_Enhanced_Shielding_L2_Upgrade,
 			RS_Improved_Weapons_L1_Upgrade,
@@ -1921,7 +1923,8 @@
 			RS_Ion_Cannon_Use_Upgrade,
 			RS_Level_Four_Starbase_Upgrade,
             Rebel_F_Skirmish_Medium_Ship_Yard,
-            Rebel_K_Skirmish_Medium_Ship_Yard
+            Rebel_K_Skirmish_Medium_Ship_Yard,
+			Rebel_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2001,6 +2004,7 @@
 			Rogue_Squadron_Space,
 			Sundered_Heart,
 			MC_30C,
+			MC_75,
 			B_Wing_Squadron,
 			RS_Enhanced_Shielding_L1_Upgrade,
 			RS_Enhanced_Shielding_L2_Upgrade,
@@ -2011,7 +2015,8 @@
 			RS_Ion_Cannon_Use_Upgrade,
 			RS_Level_Five_Starbase_Upgrade,
             Rebel_F_Skirmish_Medium_Ship_Yard,
-            Rebel_K_Skirmish_Medium_Ship_Yard
+            Rebel_K_Skirmish_Medium_Ship_Yard,
+			Rebel_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2112,6 +2117,7 @@
 			Rogue_Squadron_Space,
 			Sundered_Heart,
 			MC_30C,
+			MC_75,
 			B_Wing_Squadron,
 			RS_Enhanced_Shielding_L1_Upgrade,
 			RS_Enhanced_Shielding_L2_Upgrade,
@@ -2124,7 +2130,8 @@
 			RS_Improved_Defenses_L3_Upgrade,
 			RS_Ion_Cannon_Use_Upgrade,
             Rebel_F_Skirmish_Medium_Ship_Yard,
-            Rebel_K_Skirmish_Medium_Ship_Yard
+            Rebel_K_Skirmish_Medium_Ship_Yard,
+			Rebel_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2350,7 +2357,7 @@
 			Interdictor_Cruiser,
 			Boba_Fett_Team_Space_MP,
 			Darth_Team_Space_MP,
-			Victory_Destroyer,
+			Victory_Destroyer_Class_I,
 			ES_Enhanced_Reactors_L1_Upgrade,
 			ES_Enhanced_Reactors_L2_Upgrade,
 			ES_Reinforced_Armor_L1_Upgrade,
@@ -2362,6 +2369,7 @@
 			ES_Level_Four_Starbase_Upgrade,
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
+			Empire_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2436,7 +2444,7 @@
 			Acclamator,
 			TIE_Scout_Squadron,
 			Interdictor_Cruiser,
-			Victory_Destroyer,
+			Victory_Destroyer_Class_I,
 			Broadside_Class_Cruiser,
 			Boba_Fett_Team_Space_MP,
 			Darth_Team_Space_MP,
@@ -2453,6 +2461,7 @@
 			ES_Level_Five_Starbase_Upgrade,
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
+			Empire_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2547,8 +2556,8 @@
 			Acclamator,
 			TIE_Scout_Squadron,
 			Interdictor_Cruiser,
-			Victory_Destroyer,
 			Broadside_Class_Cruiser,
+			Victory_Destroyer_Class_I,
 			Star_Destroyer_Class_I,
 			Boba_Fett_Team_Space_MP,
 			Darth_Team_Space_MP,
@@ -2571,6 +2580,7 @@
 			ES_Hypervelocity_Gun_Use_Upgrade,
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
+			Empire_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 

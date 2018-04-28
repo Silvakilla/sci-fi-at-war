@@ -1,13 +1,6 @@
 <?xml version="1.0" ?>
 <LandBombingRunUnits>
 
-	<!-- example of using wind disturbance
-      <LandBehavior>WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED, WIND_DISTURBANCE</LandBehavior>
-	  <Wind_Disturbance_Radius>50</Wind_Disturbance_Radius>
-	  <Wind_Disturbance_Strength>10</Wind_Disturbance_Strength>
-	  <Wind_Disturbance_Sphere_Alpha>0.4</Wind_Disturbance_Sphere_Alpha>
-	  -->
-
 	<LandBombingUnit Name="Y-Wing_Bombing_Run">
 		<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
 		<Land_Model_Name>rv_ywing.alo</Land_Model_Name>
@@ -126,7 +119,6 @@
 		<Select_Box_Scale>43</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Fly</Type>
 		<Deploys>No</Deploys>
 		<Affiliation>Empire</Affiliation>

@@ -2,14 +2,6 @@
 <GameConstants>
 
 	<Pay_As_You_Go>true</Pay_As_You_Go>
-    <!--
-    	<Starting_Credits_Rebel>250000</Starting_Credits_Rebel>
-    	<Starting_Credits_Empire>250000</Starting_Credits_Empire>
-    	<Credits_Accumulation_Factor_Rebel>.0005</Credits_Accumulation_Factor_Rebel>
-    	<Credits_Accumulation_Factor_Empire>.0005</Credits_Accumulation_Factor_Empire>
-    	<Hyperspace_Speed_Factor_Rebel>10.0</Hyperspace_Speed_Factor_Rebel>
-    	<Hyperspace_Speed_Factor_Empire>10.0</Hyperspace_Speed_Factor_Empire>
-    -->
 	<Starting_Galactic_Camera_Position>0.0, 0.0, 0.0</Starting_Galactic_Camera_Position>
 	<Main_Menu_Score_Name>./Data/Music/UND_Underworld_Theme.mp3</Main_Menu_Score_Name>
 	<Galactic_Map_Score_Name>./Data/Music/Credits.mp3</Galactic_Map_Score_Name>
@@ -66,8 +58,8 @@
     <Projectile_Grenade_Gravity_Lob_Mod>1.35</Projectile_Grenade_Gravity_Lob_Mod>
     <Default_Hero_Respawn_Time>5.0</Default_Hero_Respawn_Time>
 
-    <UNUSED_Max_Non_Hero_Ground_Forces_On_Planet> 10 </UNUSED_Max_Non_Hero_Ground_Forces_On_Planet>     <!--Combining -->
-    <UNUSED_Max_Hero_Ground_Forces_On_Planet> 5 </UNUSED_Max_Hero_Ground_Forces_On_Planet>                     <!--Combining -->
+    <UNUSED_Max_Non_Hero_Ground_Forces_On_Planet> 10 </UNUSED_Max_Non_Hero_Ground_Forces_On_Planet>
+    <UNUSED_Max_Hero_Ground_Forces_On_Planet> 5 </UNUSED_Max_Hero_Ground_Forces_On_Planet>
     <Max_Ground_Forces_On_Planet> 14 </Max_Ground_Forces_On_Planet>
 
 </GameConstants>

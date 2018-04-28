@@ -492,4 +492,259 @@
         <CategoryMask> Fighter </CategoryMask>
     </SpaceUnit>
 
+    <SpaceUnit Name="DV_Battleship_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Battleship.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>2.5</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Breen_Cruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Breen_Cruiser.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>2.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Breen_Warship_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Breen_Warship.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.5</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.6</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Brinok_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Brinok.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.8</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Underworld</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Bugship_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Bugship.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Chimera_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Chimera.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Underworld</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Dreadnought_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Dreadnought.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>3.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Underworld</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Galor_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Galor.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.8</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Hideki_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Hideki.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>4</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Hutet_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Hutet.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>4.5</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Underworld</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Keldon_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Keldon.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.85</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Rasilak_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Rasilak.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Sona_Battleship_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Sona_Battleship.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>4.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Sona_Destroyer_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Sona_Destroyer.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>2.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Dominion</Affiliation>
+        <Ship_Class>Corvette</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="DV_Tonga_Death_Clone">
+        <Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
+        <Space_Model_Name>DV_Tonga.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Underworld</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
 </SpaceDeath>

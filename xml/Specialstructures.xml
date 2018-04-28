@@ -3036,7 +3036,10 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Rebel,
-			Rebel_Infantry_Squad,
+			Rebel_Rifle_Infantry_Squad,
+			Rebel_Light_Elite_Infantry_Squad,
+			Rebel_Light_Elite_Rifle_Infantry_Squad,
+			Rebel_Heavy_Elite_Infantry_Squad,
 			Rebel_Tank_Buster_Squad,
 			Field_Com_Rebel_Team,
 			Rebel_Infiltrator_Team,
@@ -3376,6 +3379,7 @@
 			Rebel_Light_Tank_Brigade,
 			Rebel_Speeder_Wing,
 			Rebel_MDU_Company,
+			Rebel_Ground_Fighter,
 			RL_Light_Armor_L1_Upgrade,
 			RL_Light_Armor_L2_Upgrade,
 			RL_Enhanced_Repulsors_L1_Upgrade,
@@ -3723,6 +3727,7 @@
 			Rebel,
 			Rebel_Heavy_Tank_Brigade,
 			Rebel_Artillery_Brigade,
+			AAC_Tank_Company,
 			Gallofree_HTT_Company,
 			RL_Heavy_Armor_L1_Upgrade,
 			RL_Heavy_Armor_L2_Upgrade,
@@ -5463,7 +5468,8 @@
 			Mara_Jade_Team,
 			EC_Level_Two_Tech_Upgrade,
 			EC_Level_Three_Tech_Upgrade,
-
+			Imperial_Commando_Squad,
+			Imperial_Triton_Stormtrooper_Squad
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<Select_Box_Scale>300</Select_Box_Scale>

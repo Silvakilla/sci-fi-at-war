@@ -1641,7 +1641,7 @@
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
-        <Scale_Factor>0.45</Scale_Factor>
+        <Scale_Factor>0.7</Scale_Factor>
         <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
         <Damage>30</Damage>
@@ -2204,7 +2204,7 @@
         <Icon_Name>i_button_mc30c.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>RV_MC_30C.ALO</Space_Model_Name>
+        <Space_Model_Name>Rv_mc30cmoncal.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -2281,12 +2281,12 @@
         <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_MC30C_Lasercannon,
+            HP_MC30C_Lasercannon_01,
+            HP_MC30C_Lasercannon_02,
             HP_MC30C_Torpedo_01,
             HP_MC30C_Torpedo_02,
             HP_MC30C_Torpedo_03,
             HP_MC30C_Torpedo_04,
-            HP_MC30C_Torpedo_05,
             HP_MC30C_Engine
         </HardPoints>
 

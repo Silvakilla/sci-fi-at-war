@@ -1984,7 +1984,7 @@
 		<Projectile_Blast_Area_Range> 100.0 </Projectile_Blast_Area_Range>
 		<Projectile_Max_Flight_Distance>10000.0</Projectile_Max_Flight_Distance>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Damage>125.0</Projectile_Damage>
+		<Projectile_Damage>250.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -2041,7 +2041,7 @@
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Max_Flight_Distance>10000.0</Projectile_Max_Flight_Distance>
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
-		<Projectile_Damage>125.0</Projectile_Damage>
+		<Projectile_Damage>250.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>

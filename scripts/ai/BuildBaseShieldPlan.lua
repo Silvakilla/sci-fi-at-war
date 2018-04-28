@@ -7,12 +7,7 @@ function Definitions()
 	TaskForce = {
 		{
 			"StructureForce",
-			"
-			E_Ground_Base_Shield |
-			R_Ground_Base_Shield |
-			F_Ground_Base_Shield |
-			K_Ground_Base_Shield
-			= 1"
+			"E_Ground_Base_Shield | R_Ground_Base_Shield | = 1"
 		}
 	}
 end

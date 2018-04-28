@@ -7,12 +7,7 @@ function Definitions()
 	TaskForce = {
 		{
 			"StructureForce",
-			"
-			Rebel_Ground_Mining_Facility |
-			Empire_Ground_Mining_Facility |
-			F_Ground_Mining_Facility |
-			K_Ground_Mining_Facility
-			= 1"
+			"Rebel_Ground_Mining_Facility | Empire_Ground_Mining_Facility | = 1"
 		}
 	}
 end

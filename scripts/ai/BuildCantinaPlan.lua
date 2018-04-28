@@ -9,12 +9,7 @@ function Definitions()
 	TaskForce = {
 		{
 			"StructureForce",
-			"
-			Ground_Cantina_E |
-			Ground_Cantina_R |
-			F_Ground_Cantina |
-			K_Ground_Cantina
-			= 1"
+			"Ground_Cantina_E | Ground_Cantina_R | = 1"
 		}
 	}
 end

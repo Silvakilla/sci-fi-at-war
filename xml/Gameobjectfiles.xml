@@ -93,8 +93,8 @@
     <File>module1/Projectiles.xml</File>
     <File>module1/Space_Container.xml</File>
     <File>module1/Space_Death.xml</File>
-    <File>module1/Space_Squadrons.xml</File>
-    <File>module1/Space_Units.xml</File>
+	<File>module1/Space_Squadrons.xml</File>
+	<File>module1/Space_Units.xml</File>
     <File>module1/Structures.xml</File>
 	<File>module1/Landbombingrununits.xml</File>
 	<File>module1/Planets.xml</File>

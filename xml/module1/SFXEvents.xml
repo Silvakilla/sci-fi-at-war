@@ -6010,4 +6010,767 @@
         <Overlap_Test> Unit_RHD </Overlap_Test>
     </SFXEvent>
 
+    <!-- Cardassian Freighter -->
+    <SFXEvent Name="Cardassian_Freighter_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/card_freighter_select1.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_select2.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Freighter_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/card_freighter_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Freighter_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/card_freighter_move1.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_move2.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Freighter_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/card_freighter_move1.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_move2.wav Data/Audio/Speech/Star_Trek/Dominion/card_freighter_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Starbase -->
+    <SFXEvent Name="Unit_Select_Dominion_Space_Station">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_select3.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_select4.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_select5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Attack_Dominion_Space_Station">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_attack3.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_attack4.wav Data/Audio/Speech/Star_Trek/Dominion/Dominion_Starbase_attack5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Taunts -->
+    <SFXEvent Name="Unit_Taunt_Damar">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/damar_select1.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Taunt_Dukat">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dukat_Select4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Taunt_Weyoun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Attack5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Warp_IN">
+        <Use_Preset>Preset_EXPC</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dominion_Warp_IN.wav</Samples>
+        <Max_Instances>3</Max_Instances>
+        <Priority>5</Priority>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Warp_OUT">
+        <Use_Preset>Preset_EXPC</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dominion_Warp_OUT.wav</Samples>
+        <Max_Instances>3</Max_Instances>
+        <Priority>5</Priority>
+    </SFXEvent>
+
+    <!-- Damar -->
+    <SFXEvent Name="Damar_Kanar_Bomb">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/damar_kanar.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Damar_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/damar_select1.wav Data/Audio/Speech/Star_Trek/Dominion/damar_select2.wav Data/Audio/Speech/Star_Trek/Dominion/damar_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Damar_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/damar_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/damar_attack2.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Damar_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/damar_move.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Damar_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/damar_move.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Weyoun -->
+    <SFXEvent Name="Weyoun_Respawn">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Respawn.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Weyoun_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Select1.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Select2.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Weyoun_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Attack3.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Attack4.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Attack5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Weyoun_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Move1.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Move2.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Weyoun_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Fleet3.wav Data/Audio/Speech/Star_Trek/Dominion/Weyoun_Fleet4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Dukat -->
+    <SFXEvent Name="Dukat_Pah_Wraiths">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/dukat_pah_wraith_1.wav Data/Audio/Speech/Star_Trek/Dominion/dukat_pah_wraith_2.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dukat_Death">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/dukat_death.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dukat_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dukat_Select1.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Select2.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Select3.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Select4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dukat_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dukat_Attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dukat_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move1.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move2.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move3.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dukat_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move1.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move2.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move3.wav Data/Audio/Speech/Star_Trek/Dominion/Dukat_Move4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Brinok -->
+    <SFXEvent Name="Cardassian_Brinok_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Brinok_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Brinok_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Brinok_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Brinok_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Brinok_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Brinok_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Brinok_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Brinok_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Rasilak -->
+    <SFXEvent Name="Cardassian_Rasilak_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Rasilak_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Rasilak_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Rasilak_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Rasilak_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Rasilak_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Rasilak_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Rasilak_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Rasilak_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Tonga -->
+    <SFXEvent Name="Cardassian_Tonga_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Tonga_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Tonga_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Tonga_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Tonga_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Tonga_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Tonga_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Tonga_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Tonga_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Hideki -->
+    <SFXEvent Name="Cardassian_Hideki_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hideki_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Hideki_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hideki_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Hideki_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hideki_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Hideki_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hideki_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Hideki_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Peltast -->
+    <SFXEvent Name="Cardassian_Peltast_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Peltast_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Peltast_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Peltast_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Peltast_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Peltast_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Peltast_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Peltast_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Peltast_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Galor -->
+    <SFXEvent Name="Cardassian_Galor_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Galor_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Galor_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Galor_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Galor_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Galor_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Galor_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Galor_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Galor_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Keldon -->
+    <SFXEvent Name="Cardassian_Keldon_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Keldon_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Keldon_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Keldon_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Keldon_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Keldon_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Keldon_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Keldon_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Keldon_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Hutet -->
+    <SFXEvent Name="Cardassian_Hutet_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hutet_select1.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_select2.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Hutet_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hutet_attack1.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_attack2.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Hutet_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hutet_move1.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_move2.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Cardassian_Hutet_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Hutet_fleet1.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_fleet2.wav Data/Audio/Speech/Star_Trek/Dominion/Hutet_fleet3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Breen -->
+    <SFXEvent Name="Breen_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Breen_1.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_2.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_3.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_4.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_5.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_6.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_7.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_8.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Breen_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Breen_1.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_2.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_3.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_4.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_5.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_6.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_7.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_8.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Breen_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Breen_1.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_2.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_3.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_4.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_5.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_6.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_7.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_8.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Breen_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Breen_1.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_2.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_3.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_4.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_5.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_6.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_7.wav Data/Audio/Speech/Star_Trek/Dominion/Breen_8.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Chimera -->
+    <SFXEvent Name="Dominion_Chimera_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Chimera_unitsel_1.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_unitsel_2.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Chimera_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Chimera_attack_1.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_attack_2.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Chimera_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Chimera_move_1.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_move_2.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Chimera_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Chimera_fleet_1.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_fleet_2.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_fleet_3.wav Data/Audio/Speech/Star_Trek/Dominion/Chimera_fleet_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Battleship -->
+    <SFXEvent Name="Dominion_Battleship_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Battleship_unitsel_1.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_unitsel_2.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Battleship_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Battleship_attack_1.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_attack_2.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Battleship_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Battleship_move_1.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_move_2.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Battleship_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Battleship_fleet_1.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_fleet_2.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_fleet_3.wav Data/Audio/Speech/Star_Trek/Dominion/Battleship_fleet_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Dreadnought -->
+    <SFXEvent Name="Dominion_Dreadnought_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_unitsel_1.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_unitsel_2.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Dreadnought_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_attack_1.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_attack_2.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Dreadnought_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_move_1.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_move_2.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Dreadnought_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_fleet_1.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_fleet_2.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_fleet_3.wav Data/Audio/Speech/Star_Trek/Dominion/Dreadnought_fleet_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Bugship -->
+    <SFXEvent Name="Dominion_Bugship_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Bugship_unitsel_1.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_unitsel_2.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Bugship_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Bugship_attack_1.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_attack_2.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Bugship_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Bugship_move_1.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_move_2.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Bugship_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Bugship_fleet_1.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_fleet_2.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_fleet_3.wav Data/Audio/Speech/Star_Trek/Dominion/Bugship_fleet_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Shuttle and Bomber -->
+    <SFXEvent Name="Dominion_Fighters_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Fighters_unitsel_1.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_unitsel_2.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_unitsel_3.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_unitsel_4.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_unitsel_5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Fighters_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Fighters_attack_1.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_attack_2.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_attack_3.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_attack_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Fighters_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Fighters_move_1.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_move_2.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_move_3.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_move_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Dominion_Fighters_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Dominion/Fighters_fleet_1.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_fleet_2.wav Data/Audio/Speech/Star_Trek/Dominion/Fighters_fleet_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
 </SFXEvents>

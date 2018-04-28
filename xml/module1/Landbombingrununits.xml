@@ -37,4 +37,22 @@
         <Icon_Name>I_BUTTON_FV_DANUBE_TORP.tga</Icon_Name>
     </LandBombingUnit>
 
+    <LandBombingUnit Name="Dominion_Bombing_Run">
+        <Variant_Of_Existing_Type>Y-Wing_Bombing_Run</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_DV_Bomber</Text_ID>
+        <Land_Model_Name>DV_Bomber_Land.ALO</Land_Model_Name>
+        <Scale_Factor>1.4</Scale_Factor>
+        <Affiliation>Dominion</Affiliation>
+        <SFXEvent_Fire>Dominion_Photon_Loop</SFXEvent_Fire>
+        <SFXEvent_Select>Dominion_Fighters_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Dominion_Fighters_Movement</SFXEvent_Move>
+        <SFXEvent_Attack>Dominion_Fighters_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>Dominion_Fighters_Movement</SFXEvent_Guard>
+        <SFXEvent_Hardpoint>Dominion_Fighters_Attackrun</SFXEvent_Hardpoint>
+        <SFXEvent_Bomb_Run_Select_Target> Dominion_Fighters_Unit_Select </SFXEvent_Bomb_Run_Select_Target>
+        <SFXEvent_Bomb_Run_Incoming> Dominion_Fighters_Attackrun </SFXEvent_Bomb_Run_Incoming>
+        <Projectile_Types> Land_Bombers_Photon_Bomb_D_Blue </Projectile_Types>
+        <Icon_Name>I_BUTTON_DV_Bomber.tga</Icon_Name>
+    </LandBombingUnit>
+
 </LandBombingRunUnits>

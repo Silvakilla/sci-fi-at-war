@@ -3,10 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac92040-7224-47af-babc-729e71a481fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentAdvancedVehicleFactory.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentAdvancedVehicleFactory.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentBarracks.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentBarracks.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentCommArray.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentCommArray.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentHeavyVehicleFactory.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentHeavyVehicleFactory.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentLightVehicleFactory.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentLightVehicleFactory.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentOfficerAcademy.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentOfficerAcademy.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentResearchFacility.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentResearchFacility.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseShieldPlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildBaseShieldPlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildCantinaPlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildCantinaPlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildEconomicStructurePlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildEconomicStructurePlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildGroundDefensiveStructurePlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildGroundDefensiveStructurePlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildJammingStationPlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildJammingStationPlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildScannerPlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildScannerPlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildSpaceDefensiveStructurePlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildSpaceDefensiveStructurePlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildTurbolasers.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildTurbolasers.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildWeaponStructurePlan.lua" afterPath="$PROJECT_DIR$/scripts/ai/BuildWeaponStructurePlan.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundStructure.lua" afterPath="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundStructure.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/luacvt.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/luadisasm.exe" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua" afterPath="$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/BuildRefinerySpace.lua" afterPath="$PROJECT_DIR$/scripts/ai/spacemode/BuildRefinerySpace.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/BuildStructureSpace.lua" afterPath="$PROJECT_DIR$/scripts/ai/spacemode/BuildStructureSpace.lua" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua" afterPath="$PROJECT_DIR$/scripts/ai/spacemode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua" />
+      <change beforePath="$PROJECT_DIR$/text/mastertextfile_english.dat" afterPath="$PROJECT_DIR$/text/mastertextfile_english.dat" />
+      <change beforePath="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" afterPath="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Gameconstants.xml" afterPath="$PROJECT_DIR$/xml/Gameconstants.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Gameobjectfiles.xml" afterPath="$PROJECT_DIR$/xml/Gameobjectfiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Herocompanies.xml" afterPath="$PROJECT_DIR$/xml/Herocompanies.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Hypergameconstants.xml" afterPath="$PROJECT_DIR$/xml/Hypergameconstants.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Landbombingrununits.xml" afterPath="$PROJECT_DIR$/xml/Landbombingrununits.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Specialstructures.xml" afterPath="$PROJECT_DIR$/xml/Specialstructures.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/Starbases.xml" afterPath="$PROJECT_DIR$/xml/Starbases.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/default/Default_Projectiles.xml" afterPath="$PROJECT_DIR$/xml/default/Default_Projectiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/HardPoints.xml" afterPath="$PROJECT_DIR$/xml/module0/HardPoints.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Land_Companies.xml" afterPath="$PROJECT_DIR$/xml/module0/Land_Companies.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Land_Units.xml" afterPath="$PROJECT_DIR$/xml/module0/Land_Units.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module0/Space_Units.xml" afterPath="$PROJECT_DIR$/xml/module0/Space_Units.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/HardPoints.xml" afterPath="$PROJECT_DIR$/xml/module1/HardPoints.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Landbombingrununits.xml" afterPath="$PROJECT_DIR$/xml/module1/Landbombingrununits.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Planets.xml" afterPath="$PROJECT_DIR$/xml/module1/Planets.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Projectiles.xml" afterPath="$PROJECT_DIR$/xml/module1/Projectiles.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/SFXEvents.xml" afterPath="$PROJECT_DIR$/xml/module1/SFXEvents.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Space_Death.xml" afterPath="$PROJECT_DIR$/xml/module1/Space_Death.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Space_Squadrons.xml" afterPath="$PROJECT_DIR$/xml/module1/Space_Squadrons.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Space_Units.xml" afterPath="$PROJECT_DIR$/xml/module1/Space_Units.xml" />
+      <change beforePath="$PROJECT_DIR$/xml/module1/Structures.xml" afterPath="$PROJECT_DIR$/xml/module1/Structures.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +62,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Hardpo</find>
-      <find>Shield_Capital</find>
-      <find>Hardpoint</find>
-      <find>HP_TIE_DEFENDER_TORP_00</find>
-      <find>Proj_Ship_Proton_Torpedo</find>
-      <find>HP_Soveign_Phaser_00</find>
-      <find>Fed_Phasor_Class_12</find>
-      <find>Proj_Fed_Photonic_Torpedo</find>
-      <find>Proj_Ship_Norway_Photon_Torpedo</find>
-      <find>HP_AAC_00</find>
-      <find>T2B_Tank</find>
-      <find>scale</find>
-      <find>Scale</find>
-      <find>HP_NebulonB2_Main_Turbolaser_02</find>
-      <find>HP_NebulonB2_Missile_01</find>
-      <find>Proj_Ship_Concussion_Missile</find>
       <find>Shocktrooper_Team</find>
       <find>Rebel_Rifle_Infantry_Team</find>
       <find>Stormtrooper_Team</find>
@@ -49,6 +80,22 @@
       <find>Proj_Empire_Bombardment_Turbolaser</find>
       <find>Proj_Hypervelocity_Gun</find>
       <find>Default_Hero_Respawn_Time</find>
+      <find>Nebulon</find>
+      <find>Defiant</find>
+      <find>Y_Wing_Bombing_Run_Bomb</find>
+      <find>Proj_Ship_Small_Laser_Cannon_Red</find>
+      <find>Proj_Ship_Small_Laser_Cannon_Green</find>
+      <find>Star D</find>
+      <find>Star Destr</find>
+      <find>Proj_Orange_Light_Phaser_Fighter</find>
+      <find>HP_Aeroshuttle_PPhaser_00</find>
+      <find>Mandal</find>
+      <find>Utapau</find>
+      <find>HP_Brel_01</find>
+      <find>HP_Miranda_00</find>
+      <find>HP_Bugship_Polaron_00</find>
+      <find>HP_Chimera_Torpedo_00</find>
+      <find>HP_MC30C_Torpedo_01</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,57 +104,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xml/Module1_Space_Death.xml" />
-        <option value="$PROJECT_DIR$/xml/Module1_Projectiles.xml" />
-        <option value="$PROJECT_DIR$/xml/Module1_HardPoints.xml" />
-        <option value="$PROJECT_DIR$/xml/Module1_Structures.xml" />
-        <option value="$PROJECT_DIR$/xml/Module1_Space_Units.xml" />
-        <option value="$PROJECT_DIR$/xml/Starbases.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_Space_Death.xml" />
-        <option value="$PROJECT_DIR$/xml/Default_Companies.xml" />
-        <option value="$PROJECT_DIR$/xml/Specialstructures.xml" />
-        <option value="$PROJECT_DIR$/xml/Story_plots_empire_ai_heroes_exp.xml" />
-        <option value="$PROJECT_DIR$/xml/Story_plots_rebel_ai_heroes_exp.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_HardPoints.xml" />
-        <option value="$PROJECT_DIR$/xml/Story_empire_ai_heroes_exp.xml" />
-        <option value="$PROJECT_DIR$/xml/Story_sandbox_36u_empire.xml" />
-        <option value="$PROJECT_DIR$/xml/Story_sandbox_36u_rebel.xml" />
-        <option value="$PROJECT_DIR$/xml/Story_rebel_ai_heroes_exp.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_Space_Squadrons.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_Land_Container.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_Land_Companies.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_Structures.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_empire_land.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_rebel_land.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_galactic.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_land.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_space.xml" />
-        <option value="$PROJECT_DIR$/xml/Module0_Land_Units.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinformationgalacticset.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinfrastructuregalacticset.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivegalacticset.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivespaceset.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Systemfunctions.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_galactic.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_land.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_rebel_land.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_galactic.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_space.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Informationgalacticgoals.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Infrastructuregalacticgoals.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Landgoals.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Offensivegalacticgoals.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Systemgoals.xml" />
-        <option value="$PROJECT_DIR$/xml/ai/Goals/Defensivegalacticgoals.xml" />
         <option value="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicdefensivegalacticset.xml" />
         <option value="$PROJECT_DIR$/xml/Default_Projectiles.xml" />
         <option value="$PROJECT_DIR$/xml/Default_Space_Units.xml" />
-        <option value="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" />
         <option value="$PROJECT_DIR$/xml/Musicevents.xml" />
         <option value="$PROJECT_DIR$/xml/Module0_Space_Units.xml" />
         <option value="$PROJECT_DIR$/xml/Hardpointdatafiles.xml" />
         <option value="$PROJECT_DIR$/xml/Sfxeventfiles.xml" />
+        <option value="$PROJECT_DIR$/xml/default/Default_Projectiles.xml" />
+        <option value="$PROJECT_DIR$/xml/Landbombingrununits.xml" />
+        <option value="$PROJECT_DIR$/xml/Hypergameconstants.xml" />
+        <option value="$PROJECT_DIR$/xml/module0/Space_Units.xml" />
+        <option value="$PROJECT_DIR$/xml/module0/Land_Units.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Landbombingrununits.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Space_Death.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Projectiles.xml" />
         <option value="$PROJECT_DIR$/xml/Gameobjectfiles.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Space_Squadrons.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Structures.xml" />
+        <option value="$PROJECT_DIR$/xml/Starbases.xml" />
+        <option value="$PROJECT_DIR$/xml/module0/Land_Companies.xml" />
+        <option value="$PROJECT_DIR$/xml/Specialstructures.xml" />
+        <option value="$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Planets.xml" />
+        <option value="$PROJECT_DIR$/xml/Herocompanies.xml" />
+        <option value="$PROJECT_DIR$/xml/Gameconstants.xml" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentAdvancedVehicleFactory.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentBarracks.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentCommArray.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentHeavyVehicleFactory.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentLightVehicleFactory.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentOfficerAcademy.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseComponentResearchFacility.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildBaseShieldPlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildCantinaPlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildEconomicStructurePlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildGroundDefensiveStructurePlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildJammingStationPlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildScannerPlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildSpaceDefensiveStructurePlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildTurbolasers.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/BuildWeaponStructurePlan.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundStructure.lua" />
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/xml/module1/Space_Units.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/SFXEvents.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/HardPoints.xml" />
+        <option value="$PROJECT_DIR$/xml/module0/HardPoints.xml" />
+        <option value="$PROJECT_DIR$/scripts/ai/spacemode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/spacemode/BuildStructureSpace.lua" />
+        <option value="$PROJECT_DIR$/scripts/ai/spacemode/BuildRefinerySpace.lua" />
       </list>
     </option>
   </component>
@@ -138,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,18 +197,34 @@
             <path>
               <item name="sci-fi-at-war" type="b2602c69:ProjectViewProjectNode" />
               <item name="sci-fi-at-war" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sci-fi-at-war" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sci-fi-at-war" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sci-fi-at-war" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sci-fi-at-war" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="module0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sci-fi-at-war" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sci-fi-at-war" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="module1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -206,7 +270,8 @@
       <workItem from="1513800638373" duration="125000" />
       <workItem from="1513974124613" duration="647000" />
       <workItem from="1518026695565" duration="8000" />
-      <workItem from="1524826958469" duration="2016000" />
+      <workItem from="1524826958469" duration="27191000" />
+      <workItem from="1524904226908" duration="9458000" />
     </task>
     <task id="LOCAL-00001" summary="New Folder structure">
       <created>1524865148648</created>
@@ -222,25 +287,33 @@
       <option name="project" value="LOCAL" />
       <updated>1524865258528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New Folder structure">
+      <created>1524865300375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524865300375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53977000" />
+    <option name="totallyTimeSpent" value="88610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -249,9 +322,54 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -265,495 +383,1043 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xml/ai/Hintsets/Testhintsets.xml">
+    <entry file="file://$PROJECT_DIR$/scripts/freestore/GenericFreeStore.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-540">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_empire_land.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_expansiongeneric_galactic.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_expansiongeneric_land.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_expansiongeneric_landskirmish.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_rebel_land.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_budgeting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_galactic.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_land.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_space.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Basicgalacticequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Basiclandequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Budgetingequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Defensivegalacticequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Heroequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Informationgalacticequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Infrastructuregalacticequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Offensivegalaticequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Offensivespaceequations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1785">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Perceptualequations/Story_empire_equations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Players/Ai_player_underworld.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Players/Basicrebelnogalacticai.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Players/Basicrebelplayer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Players/Basicempireplayer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Players/Player_none.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Templates/Basicempiretemplates.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1016">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Templates/Basicgenerictemplates.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2499">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Templates/Basicrebeltemplates.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Templates/Nativelifetemplates.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ai/GenerateMagicGroundDefense.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="34" column="2" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ai/GenerateMagicGroundDefenseEasy.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ai/GenerateMagicSpaceDefense.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ai/GenerateMagicSpaceDefenseHard.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Goals/Defensivegalacticgoals.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="193" column="0" lean-forward="true" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/ai/EmpireAdvanceTechPlan.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ai/Goalfunctions/Basicdefensivegalacticset.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Factions.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="117" column="67" lean-forward="false" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/default/Default_Projectiles.xml">
+    <entry file="file://$PROJECT_DIR$/scripts/gameobject/BobaFettPlan.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="1738" column="45" lean-forward="false" selection-start-line="1738" selection-start-column="45" selection-end-line="1738" selection-end-column="45" />
+        <state relative-caret-position="-591">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gameobject/CreditPowerUp.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gameobject/DarthVader.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gameobject/ObiWanPlan.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gameobject/Training_Facility.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/gameobject/Tarkin.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library/PGAICommands.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1989">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library/PGBase.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3060">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library/PGBaseDefinitions.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-778">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/library/PGCommands.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/miscellaneous/Dummy.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1526">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/miscellaneous/FleetEvents.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/miscellaneous/GameScoring.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/ai/Galacticmarkup/Alderaansdemisehints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/ai/Galacticmarkup/Defaultgalactichints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/ai/Galacticmarkup/Shipyardsofkuathints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/BuildBaseComponentAdvancedVehicleFactory.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/BuildBaseComponentBarracks.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/BuildBaseShieldPlan.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_BuildUnderworldBarracks.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="187" column="0" lean-forward="true" selection-start-line="187" selection-start-column="0" selection-end-line="187" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Sfxeventfiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module1/SFXEvents.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2905">
+          <caret line="6747" column="4" lean-forward="false" selection-start-line="6747" selection-start-column="4" selection-end-line="6747" selection-end-column="4" />
           <folding>
-            <element signature="n#Projectile#0;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#1;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#2;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#3;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#4;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#5;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#6;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#7;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#8;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#9;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#10;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#11;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#12;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#13;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#14;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#15;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#16;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#17;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#18;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#19;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#20;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#21;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#22;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#23;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#24;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#25;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#26;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#27;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#28;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#29;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#30;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#31;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#32;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#33;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#34;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#35;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#36;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#37;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#38;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#39;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#40;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#41;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#42;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#43;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#44;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#45;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#46;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#47;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#48;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#49;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#50;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#51;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#52;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#53;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#54;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#55;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#56;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#57;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#58;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#59;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#60;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#61;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#62;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#63;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#64;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#65;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#66;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#67;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#68;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#69;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#70;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#71;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#72;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#73;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#74;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#75;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#76;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#77;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#78;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#79;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#80;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#81;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#82;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#83;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#84;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#85;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#86;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#87;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#88;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#89;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#90;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#91;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#92;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#93;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#94;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#95;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#96;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#97;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#98;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#99;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#100;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#101;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#102;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#103;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#104;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#105;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#106;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#107;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#108;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#109;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#110;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#111;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#112;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#113;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#114;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#115;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#116;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#117;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#118;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#119;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#120;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#121;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#122;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#123;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#124;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#125;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#126;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#127;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#128;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#129;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#130;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#131;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#132;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#133;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#134;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#135;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#136;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#137;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#138;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#139;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#140;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#141;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#142;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#143;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#144;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#145;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#146;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#147;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#148;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#149;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#150;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#151;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#152;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#153;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#154;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#155;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#156;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#157;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#158;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#159;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#160;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#161;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#162;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#163;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#164;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#165;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#166;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#167;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#168;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#169;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#170;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#171;n#Projectiles#0;n#!!top" expanded="false" />
-            <element signature="n#Projectile#172;n#Projectiles#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#0;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#1;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#2;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#3;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#4;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#5;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#6;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#7;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#8;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#9;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#10;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#11;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#12;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#13;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#14;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#15;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#16;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#17;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#18;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#19;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#20;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#21;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#22;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#23;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#24;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#25;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#26;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#27;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#28;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#29;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#30;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#31;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#32;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#33;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#34;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#35;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#36;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#37;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#38;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#39;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#40;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#41;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#42;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#43;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#44;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#45;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#46;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#47;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#48;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#49;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#50;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#51;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#52;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#53;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#54;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#55;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#56;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#57;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#58;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#59;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#60;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#61;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#62;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#63;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#64;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#65;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#66;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#67;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#68;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#69;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#70;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#71;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#72;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#73;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#74;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#75;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#76;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#77;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#78;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#79;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#80;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#81;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#82;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#83;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#84;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#85;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#86;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#87;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#88;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#89;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#90;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#91;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#92;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#93;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#94;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#95;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#96;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#97;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#98;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#99;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#100;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#101;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#102;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#103;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#104;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#105;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#106;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#107;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#108;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#109;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#110;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#111;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#112;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#113;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#114;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#115;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#116;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#117;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#118;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#119;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#120;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#121;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#122;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#123;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#124;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#125;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#126;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#127;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#128;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#129;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#130;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#131;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#132;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#133;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#134;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#135;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#136;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#137;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#138;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#139;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#140;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#141;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#142;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#143;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#144;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#145;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#146;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#147;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#148;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#149;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#150;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#151;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#152;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#153;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#154;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#155;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#156;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#157;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#158;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#159;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#160;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#161;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#162;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#163;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#164;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#165;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#166;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#167;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#168;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#169;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#170;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#171;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#172;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#173;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#174;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#175;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#176;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#177;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#178;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#179;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#180;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#181;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#182;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#183;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#184;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#185;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#186;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#187;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#188;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#189;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#190;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#191;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#192;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#193;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#194;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#195;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#196;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#197;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#198;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#199;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#200;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#201;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#202;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#203;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#204;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#205;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#206;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#207;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#208;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#209;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#210;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#211;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#212;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#213;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#214;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#215;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#216;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#217;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#218;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#219;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#220;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#221;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#222;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#223;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#224;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#225;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#226;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#227;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#228;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#229;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#230;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#231;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#232;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#233;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#234;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#235;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#236;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#237;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#238;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#239;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#240;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#241;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#242;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#243;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#244;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#245;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#246;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#247;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#248;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#249;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#250;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#251;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#252;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#253;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#254;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#255;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#256;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#257;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#258;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#259;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#260;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#261;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#262;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#263;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#264;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#265;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#266;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#267;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#268;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#269;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#270;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#271;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#272;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#273;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#274;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#275;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#276;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#277;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#278;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#279;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#280;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#281;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#282;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#283;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#284;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#285;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#286;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#287;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#288;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#289;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#290;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#291;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#292;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#293;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#294;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#295;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#296;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#297;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#298;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#299;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#300;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#301;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#302;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#303;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#304;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#305;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#306;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#307;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#308;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#309;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#310;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#311;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#312;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#313;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#314;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#315;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#316;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#317;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#318;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#319;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#320;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#321;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#322;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#323;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#324;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#325;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#326;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#327;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#328;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#329;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#330;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#331;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#332;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#333;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#334;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#335;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#336;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#337;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#338;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#339;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#340;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#341;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#342;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#343;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#344;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#345;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#346;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#347;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#348;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#349;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#350;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#351;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#352;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#353;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#354;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#355;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#356;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#357;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#358;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#359;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#360;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#361;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#362;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#363;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#364;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#365;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#366;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#367;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#368;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#369;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#370;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#371;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#372;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#373;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#374;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#375;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#376;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#377;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#378;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#379;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#380;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#381;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#382;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#383;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#384;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#385;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#386;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#387;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#388;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#389;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#390;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#391;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#392;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#393;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#394;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#395;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#396;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#397;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#398;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#399;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#400;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#401;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#402;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#403;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#404;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#405;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#406;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#407;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#408;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#409;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#410;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#411;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#412;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#413;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#414;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#415;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#416;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#417;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#418;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#419;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#420;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#421;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#422;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#423;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#424;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#425;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#426;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#427;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#428;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#429;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#430;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#431;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#432;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#433;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#434;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#435;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#436;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#437;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#438;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#439;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#440;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#441;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#442;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#443;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#444;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#445;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#446;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#447;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#448;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#449;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#450;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#451;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#452;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#453;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#454;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#455;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#456;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#457;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#458;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#459;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#460;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#461;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#462;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#463;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#464;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#465;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#466;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#467;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#468;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#469;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#470;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#471;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#472;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#473;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#474;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#475;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#476;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#477;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#478;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#479;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#480;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#481;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#482;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#483;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#484;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#485;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#486;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#487;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#488;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#489;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#490;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#491;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#492;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#493;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#494;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#495;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#496;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#497;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#498;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#499;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#500;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#501;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#502;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#503;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#504;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#505;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#506;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#507;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#508;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#509;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#510;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#511;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#512;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#513;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#514;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#515;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#516;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#517;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#518;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#519;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#520;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#521;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#522;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#523;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#524;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#525;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#526;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#527;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#528;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#529;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#530;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#531;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#532;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#533;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#534;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#535;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#536;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#537;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#538;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#539;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#540;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#541;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#542;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#543;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#544;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#545;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#546;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#547;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#548;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#549;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#550;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#551;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#552;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#553;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#554;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#555;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#556;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#557;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#558;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#559;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#560;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#561;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#562;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#563;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#564;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#565;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#566;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#567;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#568;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#569;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#570;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#571;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#572;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#573;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#574;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#575;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#576;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#577;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#578;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#579;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#580;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#581;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#582;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#583;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#584;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#585;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#586;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#587;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#588;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#589;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#590;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#591;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#592;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#593;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#594;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#595;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#596;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#597;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#598;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#599;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#600;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#601;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#602;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#603;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#604;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#605;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#606;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#607;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#608;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#609;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#610;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#611;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#612;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#613;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#614;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#615;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#616;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#617;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#618;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#619;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#620;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#621;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#622;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#623;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#624;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#625;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#626;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#627;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#628;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#629;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#630;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#631;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#632;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#633;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#634;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#635;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#636;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#637;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#638;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#639;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#640;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#641;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#642;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#643;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#644;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#645;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#646;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#647;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#648;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#649;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#650;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#651;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#652;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#653;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#654;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#655;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#656;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#657;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#658;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#659;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#660;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#661;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#662;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#663;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#664;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#665;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#666;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#667;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#668;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#669;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#670;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#671;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#672;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#673;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#674;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#675;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#676;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#677;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#678;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#679;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#680;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#681;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#682;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#683;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#684;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#685;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#686;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#687;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#688;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#689;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#690;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#691;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#692;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#693;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#694;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#695;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#696;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#697;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#698;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#699;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#700;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#701;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#702;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#703;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#704;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#705;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#706;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#707;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#708;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#709;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#710;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#711;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#712;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#713;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#714;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#715;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#716;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#717;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#718;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#719;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#720;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#721;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#722;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#723;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#724;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#725;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#726;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#727;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#728;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#729;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#730;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#731;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#732;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#733;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#734;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#735;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#736;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#737;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#738;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#739;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#740;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#741;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#742;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#743;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#744;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#745;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#746;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#747;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#748;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#749;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#750;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#751;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#752;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#753;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#754;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#755;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#756;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#757;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#758;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#759;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#760;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#761;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#762;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#763;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#764;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#765;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#766;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#767;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#768;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#769;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#770;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#771;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#772;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#773;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#774;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#775;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#776;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#777;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#778;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#779;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#780;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#781;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#782;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#783;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#784;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#785;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#786;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#787;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#788;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#789;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#790;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#791;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#792;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#793;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#794;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#795;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#796;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#797;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#798;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#799;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#800;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#801;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#802;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#803;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#804;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#805;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#806;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#807;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#808;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#809;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#810;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#811;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#812;n#SFXEvents#0;n#!!top" expanded="false" />
+            <element signature="n#SFXEvent#813;n#SFXEvents#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Campaigns_underworld_gc.xml">
+    <entry file="file://$PROJECT_DIR$/xml/module1/HardPoints.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="2614" column="89" lean-forward="false" selection-start-line="2614" selection-start-column="89" selection-end-line="2614" selection-end-column="89" />
-          <folding>
-            <element signature="n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#0;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#1;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="e#8457#18161#0" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#2;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#2;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Locations#0;n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Trade_Routes#0;n#Campaign#3;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#4;n#Campaigns#0;n#!!top" expanded="false" />
-            <element signature="n#Campaign#5;n#Campaigns#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="568">
+          <caret line="14772" column="30" lean-forward="false" selection-start-line="14772" selection-start-column="30" selection-end-line="14772" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/default/Default_Space_Units.xml">
+    <entry file="file://$PROJECT_DIR$/xml/Dynamictrackfx.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="1293" column="0" lean-forward="true" selection-start-line="1293" selection-start-column="0" selection-end-line="1293" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module1/Space_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="8017" column="0" lean-forward="true" selection-start-line="8017" selection-start-column="0" selection-end-line="8017" selection-end-column="0" />
           <folding>
             <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#TransportUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="e#26172#35194#0" expanded="false" />
-            <element signature="n#UniqueUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#UniqueUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#HardPoints#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
-            <element signature="n#Unit_Abilities_Data#0;n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
@@ -762,35 +1428,135 @@
             <element signature="n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
             <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#19;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#22;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#26;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#27;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#28;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#31;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#32;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#33;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#34;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#38;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#52;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#61;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#75;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#84;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#87;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#94;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#97;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#101;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#102;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#103;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#TransportUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#TransportUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#104;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#105;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#106;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#107;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#108;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#109;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#110;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#111;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#112;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#113;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#114;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#115;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#116;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#117;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#118;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#TransportUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#TransportUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#119;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#120;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#121;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#122;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#123;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#124;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#125;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#126;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#127;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#128;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#129;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#130;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#131;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#132;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#133;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#134;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#135;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#136;n#SpaceUnits#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Musicevents.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Guidialogs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1224">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Hypergameconstants.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Mobile_defense_units.xml">
+    <entry file="file://$PROJECT_DIR$/xml/Story_rebel_ai_heroes_exp.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -798,145 +1564,287 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Dataminerxmlfiles.xml">
+    <entry file="file://$PROJECT_DIR$/xml/Story_empire_ai_heroes_exp.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1322">
+        <state relative-caret-position="595">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Story_plots_empire_ai_heroes_exp.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Gameconstants.xml">
+    <entry file="file://$PROJECT_DIR$/xml/Story_plots_sandbox_36u_empire.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="490" column="30" lean-forward="false" selection-start-line="490" selection-start-column="30" selection-end-line="490" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/module0/Module0_Space_Units.xml">
+    <entry file="file://$PROJECT_DIR$/xml/Story_sandbox_36u_empire.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10094" column="0" lean-forward="false" selection-start-line="10094" selection-start-column="0" selection-end-line="10094" selection-end-column="0" />
+        <state relative-caret-position="-714">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Hardpointdatafiles.xml">
+    <entry file="file://$PROJECT_DIR$/xml/module0/HardPoints.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="840">
+          <caret line="1806" column="47" lean-forward="true" selection-start-line="1806" selection-start-column="47" selection-end-line="1806" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Specialstructures.xml">
+    <entry file="file://$PROJECT_DIR$/xml/module0/Space_Units.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1413">
-          <caret line="1836" column="60" lean-forward="false" selection-start-line="1836" selection-start-column="60" selection-end-line="1836" selection-end-column="60" />
+        <state relative-caret-position="424">
+          <caret line="2285" column="31" lean-forward="false" selection-start-line="2285" selection-start-column="12" selection-end-line="2285" selection-end-column="31" />
           <folding>
-            <element signature="n#SpecialStructure#0;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#1;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#2;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#3;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#4;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#5;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#6;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#7;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#8;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#9;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#10;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#11;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#12;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#13;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#14;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#15;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#16;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#17;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#18;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#19;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#20;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#21;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#22;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#23;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#24;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#25;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#26;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#27;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#28;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#29;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#30;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#31;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#32;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#33;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#34;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#35;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#36;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#37;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#38;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#39;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#40;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#41;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#42;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#43;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#44;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#45;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#46;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#47;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#48;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#49;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#50;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#51;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#52;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#53;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#54;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#55;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#56;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#57;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#58;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#59;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#60;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#61;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#62;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#63;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#64;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#65;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#66;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#67;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#68;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#69;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#70;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#71;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#72;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="e#274420#274579#0" expanded="false" />
-            <element signature="e#274699#278290#0" expanded="false" />
-            <element signature="e#278410#281484#0" expanded="false" />
-            <element signature="n#SpecialStructure#73;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#74;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#75;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#76;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#77;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#78;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#79;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#80;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#81;n#SpecialStructures#0;n#!!top" expanded="false" />
-            <element signature="n#SpecialStructure#82;n#SpecialStructures#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#17;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#18;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#19;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#20;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#21;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#22;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#23;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#24;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#25;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#26;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#27;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#28;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#29;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#30;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#31;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#32;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#33;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#34;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#35;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#36;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#37;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#38;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#39;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#40;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#41;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#42;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#43;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#44;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#45;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#46;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#47;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#48;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#49;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#50;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#51;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#52;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#53;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#54;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#55;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#56;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#57;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#58;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#59;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#60;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#61;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#62;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#63;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#64;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#65;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#66;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#67;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#68;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#69;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#70;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#71;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#72;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#73;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#74;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#75;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#76;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#77;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#78;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#79;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#80;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#81;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#82;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#83;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#84;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#85;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#86;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#87;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#88;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#89;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#90;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#91;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#92;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#93;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#94;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#95;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#96;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#97;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#98;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#99;n#SpaceUnits#0;n#!!top" expanded="false" />
+            <element signature="n#SpaceUnit#100;n#SpaceUnits#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Sfxeventfiles.xml">
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        <state relative-caret-position="527">
+          <caret line="52" column="146" lean-forward="false" selection-start-line="52" selection-start-column="146" selection-end-line="52" selection-end-column="146" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Gameobjectfiles.xml">
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/HideTransports.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="73" column="18" lean-forward="false" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/HideSurpriseUnits.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/BurnUnits.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/BuildStructureSpace.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="52" column="122" lean-forward="false" selection-start-line="52" selection-start-column="122" selection-end-line="52" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/PurchaseSpaceUpgradesGeneric.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_DefendSpaceStation.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/SpaceScout.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/GroundToSpaceDamage.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/GroundToSpaceDisable.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/BuildRefinerySpace.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="51" column="66" lean-forward="false" selection-start-line="51" selection-start-column="66" selection-end-line="51" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/BombingRun.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/SystematicDisable.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/spacemode/SpaceArtillery.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/BuildSpaceForcesPlan.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/ai/UpgradeStarbasePlan.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

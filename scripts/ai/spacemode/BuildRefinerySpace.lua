@@ -49,7 +49,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"
-		,"UC_Empire_Mineral_Extractor | UC_Rebel_Mineral_Extractor | UC_Underworld_Mineral_Extractor = 1"
+		,"UC_Empire_Mineral_Extractor | UC_Rebel_Mineral_Extractor = 1"
 	}
 	}
 --	RequiredCategories = {"Structure"}

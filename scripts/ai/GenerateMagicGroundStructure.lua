@@ -50,7 +50,7 @@ function Definitions()
 	{
 		"ReserveForce"
 		,"DenyHeroAttach"
-		,"E_Galactic_Turbolaser_Tower_Defenses | R_Galactic_Turbolaser_Tower_Defenses | E_Ground_Advanced_Vehicle_Factory | E_Ground_Heavy_Vehicle_Factory | R_Ground_Heavy_Vehicle_Factory | E_Ground_Light_Vehicle_Factory | R_Ground_Light_Vehicle_Factory | U_Ground_Vehicle_Factory | U_Ground_Droid_Works | U_Ground_Barracks | U_Ground_Palace = 1"	
+		,"E_Galactic_Turbolaser_Tower_Defenses | R_Galactic_Turbolaser_Tower_Defenses | E_Ground_Advanced_Vehicle_Factory | E_Ground_Heavy_Vehicle_Factory | R_Ground_Heavy_Vehicle_Factory | E_Ground_Light_Vehicle_Factory | R_Ground_Light_Vehicle_Factory = 1"
 	}
 	}
 	AllowFreeStoreUnits = false

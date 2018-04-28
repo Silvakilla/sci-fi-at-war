@@ -7,14 +7,7 @@ function Definitions()
 	TaskForce = {
 		{
 			"StructureForce",
-			"
-			R_Orbital_Jamming_Station |
-			E_Orbital_Jamming_Station |
-			F_Orbital_Jamming_Station |
-			K_Orbital_Jamming_Station |
-			Empire_Heavy_Ship_Yard |
-			Rebel_Heavy_Ship_Yard
-			= 1"
+			"R_Orbital_Jamming_Station | E_Orbital_Jamming_Station | Empire_Heavy_Ship_Yard | Rebel_Heavy_Ship_Yard = 1"
 		}
 	}
 end

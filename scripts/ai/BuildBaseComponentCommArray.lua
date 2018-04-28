@@ -7,7 +7,7 @@ function Definitions()
 	TaskForce = {
 		{
 			"BaseForce",
-			"Communications_Array_E | Communications_Array_R | F_Communications_Array | K_Communications_Array = 1"
+			"Communications_Array_E | Communications_Array_R = 1"
 		}
 	}
 

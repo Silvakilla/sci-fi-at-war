@@ -7,14 +7,7 @@ function Definitions()
 	TaskForce = {
         {
             "StructureForce",
-            "
-            Empire_Light_Ship_Yard |
-            Rebel_Light_Ship_Yard |
-            Empire_Medium_Ship_Yard |
-            Rebel_Medium_Ship_Yard |
-            Empire_Heavy_Ship_Yard |
-            Rebel_Heavy_Ship_Yard
-            = 1"
+            "Empire_Light_Ship_Yard | Rebel_Light_Ship_Yard | Empire_Medium_Ship_Yard | Rebel_Medium_Ship_Yard | Empire_Heavy_Ship_Yard | Rebel_Heavy_Ship_Yard = 1"
         }
 	}
 end
