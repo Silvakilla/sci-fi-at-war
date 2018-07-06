@@ -1028,7 +1028,6 @@
 		Armor_Destroyer_Droid,
 		Armor_Bunker		<!-- Bunkers and pillboxes -->
 		Armor_SSD			<!-- Armor for the Executor and other SSDs-->
-				
 	</Armor_Types>
 
 	<!-- DAMAGE vs. ARMOR Matrix -->

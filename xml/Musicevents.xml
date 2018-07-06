@@ -2,7 +2,7 @@
 <MusicEvents>
 
     <MusicEvent Name="Main_Menu_Music_Event">
-        <Files>Duel_of_Fates.MP3</Files>
+        <Files>ST_MainTheme.MP3, Duel_of_Fates.MP3</Files>
         <Volume_Percent>80</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -35,16 +35,50 @@
 
     <MusicEvent Name="Galactic_Map_Rebel_Music_Event">
         <Files>
-            AOTC_Ambush_On_Coruscant.mp3,
-            ROTJ_Alliance_Assembly.mp3,
-            ROTJ_Shuttle_Tydirium_Appraches_Endor.mp3,
-            ANH_Tales_of_a_Jedi_Knight.mp3,
-            ANH_Millenium_Falcon.mp3,
+            ESB_The_Imperial_Probe.mp3,
+            ROTJ_Approaching_The_Death_Star.mp3,
+            ROTJ_Emperors_Throne_Room.mp3,
+            ANH_Imperial_Attack_2.mp3,
+            ANH_The_Tractor_Beam.mp3,
             Imperial_March.mp3,
             Star_Wars_III_Anakins_Betrayal.mp3,
             Homeworld_1_Taiidan_Imperial_Battle_music.mp3,
             HomeWorld_2_SoundTrack_Battle_04.mp3,
-            Starship_Troopers_Theme.mp3
+            Starship_Troopers_Theme.mp3,
+            Fed_Ambient_00.mp3,
+            Fed_Ambient_01.mp3,
+            Fed_Ambient_02.mp3,
+            Fed_Galaxy.mp3,
+            Fed_Galaxy_00.mp3,
+            Fed_Galaxy_01.mp3,
+            Fed_Galaxy_02.mp3,
+            Fed_Galaxy_03.mp3,
+            Fed_Galaxy_04.mp3,
+            Fed_Galaxy_05.mp3,
+            FirstContact_End.mp3,
+            Kli_Galaxy_00.mp3,
+            Kli_Galaxy_01.mp3,
+            Kli_Galaxy_02.mp3,
+            Kli_Galaxy_03.mp3,
+            Kli_Ambient_00.mp3,
+            Kli_Ambient_01.mp3,
+            Kli_Ambient_02.mp3,
+            Rom_Ambient_00.mp3,
+            Rom_Ambient_01.mp3,
+            Rom_Ambient_02.mp3,
+            Rom_Ambient_03.mp3,
+            Rom_Galaxy_00.mp3,
+            Rom_Galaxy_01.mp3,
+            Rom_Galaxy_02.mp3,
+            Rom_Galaxy_03.mp3,
+            Rom_Galaxy_04.mp3,
+            Dom_Ambient_00.mp3,
+            Dom_Ambient_01.mp3,
+            Dom_Ambient_02.mp3,
+            Dom_Galaxy_00.mp3,
+            Dom_Galaxy_01.mp3,
+            Dom_Galaxy_02.mp3,
+            Dom_Galaxy_03.mp3
         </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>
@@ -63,7 +97,41 @@
             Star_Wars_III_Anakins_Betrayal.mp3,
             Homeworld_1_Taiidan_Imperial_Battle_music.mp3,
             HomeWorld_2_SoundTrack_Battle_04.mp3,
-            Starship_Troopers_Theme.mp3
+            Starship_Troopers_Theme.mp3,
+            Fed_Ambient_00.mp3,
+            Fed_Ambient_01.mp3,
+            Fed_Ambient_02.mp3,
+            Fed_Galaxy.mp3,
+            Fed_Galaxy_00.mp3,
+            Fed_Galaxy_01.mp3,
+            Fed_Galaxy_02.mp3,
+            Fed_Galaxy_03.mp3,
+            Fed_Galaxy_04.mp3,
+            Fed_Galaxy_05.mp3,
+            FirstContact_End.mp3,
+            Kli_Galaxy_00.mp3,
+            Kli_Galaxy_01.mp3,
+            Kli_Galaxy_02.mp3,
+            Kli_Galaxy_03.mp3,
+            Kli_Ambient_00.mp3,
+            Kli_Ambient_01.mp3,
+            Kli_Ambient_02.mp3,
+            Rom_Ambient_00.mp3,
+            Rom_Ambient_01.mp3,
+            Rom_Ambient_02.mp3,
+            Rom_Ambient_03.mp3,
+            Rom_Galaxy_00.mp3,
+            Rom_Galaxy_01.mp3,
+            Rom_Galaxy_02.mp3,
+            Rom_Galaxy_03.mp3,
+            Rom_Galaxy_04.mp3,
+            Dom_Ambient_00.mp3,
+            Dom_Ambient_01.mp3,
+            Dom_Ambient_02.mp3,
+            Dom_Galaxy_00.mp3,
+            Dom_Galaxy_01.mp3,
+            Dom_Galaxy_02.mp3,
+            Dom_Galaxy_03.mp3
         </Files>
         <Volume_Percent>60</Volume_Percent>
         <Fade_In_Seconds>2.0</Fade_In_Seconds>

@@ -2874,13 +2874,17 @@
 			DarkTrooper_P1_Company,
 			DarkTrooper_P2_Company,
 			DarkTrooper_P3_Company,
+			Imperial_Purgetrooper_Company,
+			Imperial_Shock_Trooper_Heavy_Squad,
 			EL_Increased_Mobility_Upgrade,
 			EL_Weatherproof_Upgrade,
 		</Tactical_Buildable_Objects_Multiplayer>
 
 		<AI_Combat_Power>300</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Armytrooper_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Armytrooper_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_3>Imperial_Stormtrooper_Squad, 2</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>Imperial_Stormtrooper_Squad, -1</Reserve_Spawned_Units_Tech_3>
 
 		<Starting_Spawned_Units_Tech_0>Scout_Trooper, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Scout_Trooper, -1</Reserve_Spawned_Units_Tech_0>
@@ -3201,9 +3205,11 @@
 			Empire,
 			Imperial_Anti_Infantry_Brigade,
 			Imperial_Heavy_Scout_Squad,
+			Imperial_AT_AR_Squad,
 			Imperial_Anti_Aircraft_Company,
 			Imperial_Ground_Fighter,
 			Empire_MDU_Company,
+			AT_PT_Company,
 			EL_Light_Reflective_Armor_L1_Upgrade,
 			EL_Light_Reflective_Armor_L2_Upgrade,
 			EL_Enhanced_Reactors_L1_Upgrade,
@@ -3213,6 +3219,8 @@
 		<AI_Combat_Power>500</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 4</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_5>AT_KT_Walker_Company, 4</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>AT_KT_Walker_Company, -1</Reserve_Spawned_Units_Tech_5>
 
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -3531,11 +3539,12 @@
 
 		<Tactical_Buildable_Objects_Multiplayer>
 			Empire,
-			Imperial_Armor_Group,
+			TX_130T_Company,
 			Imperial_Artillery_Corp,
 			Imperial_Heavy_Assault_Company,
 			Lancet_Air_Wing,
 			HAV_Juggernaut_Company,
+			Imperial_AT_MP_Squad,
 			EL_Heavy_Reflective_Armor_L1_Upgrade,
 			EL_Heavy_Reflective_Armor_L2_Upgrade,
 			EL_Improved_ATAT_Reactors_L1_Upgrade,

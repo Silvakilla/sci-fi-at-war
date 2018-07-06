@@ -605,4 +605,76 @@
         </Unit_Abilities_Data>
     </Container>
 
+    <Container Name="Shock_Trooper_Heavy_Team">
+        <Text_ID>TEXT_UNIT_SHOCK_HEAVY_SQUAD</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_TOOLTIP_SHOCK_HEAVY TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+        <Select_Box_Scale>65</Select_Box_Scale>
+        <Show_Name>No</Show_Name>
+        <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
+        <LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT, ABILITY_COUNTDOWN</LandBehavior>
+        <SpaceBehavior>REVEAL</SpaceBehavior>
+        <Garrison_Category>Infantry</Garrison_Category>
+        <CategoryMask>Infantry</CategoryMask>
+        <Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>
+        <MovementClass>Infantry</MovementClass>
+
+        <Max_Speed>0.8</Max_Speed>
+        <Max_Rate_Of_Turn>12.0</Max_Rate_Of_Turn>
+        <Space_Layer>Land</Space_Layer>
+        <UnitCollisionClass>Infantry</UnitCollisionClass>
+        <FormationSpacing>1</FormationSpacing>
+        <MovementClass>Infantry</MovementClass>
+        <OccupationStyle>1x1</OccupationStyle>
+        <Is_Squashable>true</Is_Squashable>
+        <MovementPredictionInterval>4.0</MovementPredictionInterval>
+        <ContainerArrangement>Rows</ContainerArrangement>
+        <FormationOrder>2</FormationOrder>
+        <OverrideAcceleration>.05</OverrideAcceleration>
+        <OverrideDeceleration>.05</OverrideDeceleration>
+
+
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>80</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>200</Radar_Icon_Scale_Space>
+
+        <Icon_Name>I_BUTTON_HEAVY_SHOCKTROOPER.tga</Icon_Name>
+
+        <Targeting_Max_Attack_Distance>140.0</Targeting_Max_Attack_Distance>
+        <Idle_Chase_Range>50.0</Idle_Chase_Range>
+        <Guard_Chase_Range>200.0</Guard_Chase_Range>
+        <Attack_Move_Response_Range>130.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>PLACE_REMOTE_BOMB</Type>
+                <Recharge_Seconds>18.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name>Shock_Trooper_Heavy_Remote_Bomb_Attack</GUI_Activated_Ability_Name>
+                <SFXEvent_Target_Ability> Unit_Thermal_Sabateur </SFXEvent_Target_Ability>
+                <Supports_Autofire>False</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>DETONATE_REMOTE_BOMB</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Remote_Bomb_Ability Name="Shock_Trooper_Heavy_Remote_Bomb_Attack">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>5.0</Activation_Min_Range>
+                <Activation_Max_Range>130.0</Activation_Max_Range>
+                <Bomb_Type>Proj_Remote_Bomb</Bomb_Type>
+                <Toss_Anim>BOMBTOSS</Toss_Anim>
+                <Spawn_Frame>12.0</Spawn_Frame>
+                <Spawn_Bone>MuzzleB_00</Spawn_Bone>
+            </Remote_Bomb_Ability>
+        </Abilities>
+    </Container>
+
 </LandContainer>

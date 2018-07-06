@@ -41,11 +41,14 @@
 
 require("pgevents")
 
-
-function Definitions()	
+function Definitions()
+	-- XML-Tag und Name für Goal
 	Category = "Generate_Magic_Ground_Defense"
+
+	-- Ziel wird ignoriert...
 	IgnoreTarget = true
-	
+
+	-- TaskForce Liste erhält ein TaskForce-Objekt
 	TaskForce = {
 	{
 		"ReserveForce"
@@ -57,22 +60,30 @@ function Definitions()
 		,"-Gallofree_HTT_Company"	
 	}
 	}
+
+	-- Keine freien Einheiten
 	AllowFreeStoreUnits = false
+
+	-- Der Plan ist magisch
 	MagicPlan = true
+
+	-- Der Plan erlaubt es stehlen von irgendwas
 	MagicPlanStealing = false
 end
 
-function ReserveForce_Thread()		
+function ReserveForce_Thread()
 	ReserveForce.Set_As_Goal_System_Removable(false)
 	BlockOnCommand(ReserveForce.Produce_Force(Target))
 	LandUnits(ReserveForce)
-	ReserveForce.Set_Plan_Result(true)	
+	ReserveForce.Set_Plan_Result(true)
 	Sleep(20)
 	wait_start_time = GetCurrentTime()
 	wait_duration = Determine_Magic_Wait_Duration()
+
 	while (GetCurrentTime() - wait_start_time < wait_duration) and
 			(EvaluatePerception("Needs_Magic_Ground_Defense", PlayerObject, Target) == 0.0) do
 		Sleep(1)
 	end
+
 	ScriptExit()
 end

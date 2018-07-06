@@ -104,7 +104,7 @@
         </Is_Like>
     </Build_Turbolasers>
 
-    <Generate_Magic_Ground_Defense>
+    <!--<Generate_Magic_Ground_Defense>
         <AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
         <GameMode> Galactic </GameMode>
         <Category> Defensive </Category>
@@ -174,7 +174,7 @@
             Generate_Magic_Ground_Defense,
             Generate_Magic_Ground_Defense_Easy,
         </Is_Like>
-    </Generate_Magic_Space_Defense_Hard>
+    </Generate_Magic_Space_Defense_Hard>-->
 
     <Generate_Magic_Ground_Structure>
         <AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>

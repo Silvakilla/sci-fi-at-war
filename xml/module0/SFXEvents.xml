@@ -19,4 +19,52 @@
         <Samples>Data\Audio\Weapons\Star_Wars\DC17\Gun_dc17.wav</Samples>
     </SFXEvent>
 
+    <SFXEvent Name="Unit_Select_ATPT">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Select1.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Select2.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Select3.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Select4.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Complete_ATPT">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Select1.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Select2.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Move_ATPT">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Move1.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Move2.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Attack_ATPT">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Attack1.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Attack2.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Attack3.wav
+            Data\Audio\Speech\Star_Wars\AT_PT\ATPT_Attack4.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
+    </SFXEvent>
+
 </SFXEvents>

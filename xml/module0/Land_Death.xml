@@ -351,4 +351,196 @@
         <IsDeathClone> true </IsDeathClone>
     </GroundVehicle>
 
+    <GroundVehicle Name="AT_AR_Walker_Death_Clone_00">
+        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_XExtent_Offset>-15.0</Custom_Hard_XExtent_Offset>
+        <Custom_Hard_XExtent>15.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>6.0</Custom_Hard_YExtent>
+        <Death_Persistence_Duration>30</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_AR_Walker_Death_Clone_01">
+        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_YExtent_Offset>-15.0</Custom_Hard_YExtent_Offset>
+        <Custom_Hard_XExtent>6.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>15.0</Custom_Hard_YExtent>
+        <Death_Persistence_Duration>30</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_AR_Walker_Death_Clone_02">
+        <Variant_Of_Existing_Type>AT_AR_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_XExtent>15.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>6.0</Custom_Hard_YExtent>
+        <Death_Persistence_Duration>30</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index>2</Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_PT_Death_Clone">
+        <Variant_Of_Existing_Type>AT_PT</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+        <Custom_Hard_XExtent_Offset>15.0</Custom_Hard_XExtent_Offset>
+        <Custom_Hard_XExtent>47.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>10.0</Custom_Hard_YExtent>
+        <Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+        <Death_Persistence_Duration>25</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+        <Presence_Range>80.0</Presence_Range>
+        <Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
+        <Land_Model_Name>Ev_ATPT_D.alo</Land_Model_Name>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_PT_Death_Clone_02">
+        <Variant_Of_Existing_Type>AT_PT</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+        <Custom_Hard_XExtent_Offset>15.0</Custom_Hard_XExtent_Offset>
+        <Custom_Hard_XExtent>47.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>10.0</Custom_Hard_YExtent>
+        <Death_Explosions>Medium_Explosion_Land</Death_Explosions>
+        <Death_Persistence_Duration>25</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+        <Presence_Range>80.0</Presence_Range>
+        <Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
+        <Land_Model_Name>Ev_ATPT_D.alo</Land_Model_Name>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_KT_Walker_Death_Clone_00">
+        <Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+        <Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_KT_Walker_Death_Clone_01">
+        <Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_YExtent_Offset> -15.0 </Custom_Hard_YExtent_Offset>
+        <Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_KT_Walker_Death_Clone_02">
+        <Variant_Of_Existing_Type>AT_KT_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_MP_Death_Clone_00">
+        <Variant_Of_Existing_Type>AT_MP</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_XExtent_Offset> -15.0 </Custom_Hard_XExtent_Offset>
+        <Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index> 0 </Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_MP_Death_Clone_01">
+        <Variant_Of_Existing_Type>AT_MP</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_YExtent_Offset> -15.0 </Custom_Hard_YExtent_Offset>
+        <Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 15.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index> 1 </Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundVehicle Name="AT_MP_Death_Clone_02">
+        <Variant_Of_Existing_Type>AT_MP</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED</LandBehavior>
+        <Custom_Hard_XExtent> 15.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 6.0 </Custom_Hard_YExtent>
+        <Death_Persistence_Duration> 30 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_AT_ST_Death_SFX</Death_SFXEvent_End_Die>
+        <Specific_Death_Anim_Index> 2 </Specific_Death_Anim_Index>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+    </GroundVehicle>
+
+    <GroundInfantry Name="Shock_Trooper_Heavy_Force_Whirlwind_Death_Clone">
+        <Variant_Of_Existing_Type>Shock_Trooper_Heavy</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="Shock_Trooper_Heavy_Crush_Death_Clone">
+        <Variant_Of_Existing_Type>Shock_Trooper_Heavy</Variant_Of_Existing_Type>
+        <Specific_Death_Anim_Type>Crushed</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+    </GroundInfantry>
+
+    <GroundInfantry Name="Shock_Trooper_Heavy_Remote_Bomb_Death_Clone">
+        <Variant_Of_Existing_Type>Shock_Trooper_Heavy</Variant_Of_Existing_Type>
+        <Death_SFXEvent_Start_Die>Unit_Stormtrooper_Bomb_Death</Death_SFXEvent_Start_Die>
+    </GroundInfantry>
+
+    <GroundVehicle Name="Sabertank_Telekinesis_Death_Clone">
+        <Variant_Of_Existing_Type>TX_130T</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>no</Death_Clone_Is_Obstacle>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Specific_Death_Anim_Type>FTK_DIE</Specific_Death_Anim_Type>
+        <Specific_Death_Anim_Index />
+
+        <Custom_Hard_XExtent>30.0</Custom_Hard_XExtent>
+        <Custom_Hard_YExtent>20.0</Custom_Hard_YExtent>
+
+        <Death_Persistence_Duration>0</Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_End_Die>
+        <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
+        <IsDeathClone>true</IsDeathClone>
+    </GroundVehicle>
+
+
 </LandDeath>

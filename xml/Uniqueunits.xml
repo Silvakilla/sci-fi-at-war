@@ -459,7 +459,6 @@
 		<Layer_Z_Adjust> -290 </Layer_Z_Adjust>
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
-
 		<Death_Clone>Damage_Normal, Home_One_Death_Clone</Death_Clone>
 
 		<Damage>80</Damage>
@@ -533,18 +532,14 @@
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>5300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
 
-	<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>CONCENTRATE_FIRE</Type>
 				<Effective_Radius>6000</Effective_Radius>
@@ -554,35 +549,29 @@
 				<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
 			</Unit_Ability>
-			
-			<!-- Secondary ability -->
+
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
 				<Recharge_Seconds>20</Recharge_Seconds>
 				<Expiration_Seconds>15</Expiration_Seconds>
-		
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			
 		</Unit_Abilities_Data>
 
-		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
 		<Abilities SubObjectList="Yes">
 			<Concentrate_Fire_Attack_Ability Name="Akbar_Home_One_Ability">
 				<Activation_Style> User_Input </Activation_Style>
 				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
 				<Target_Damage_Increase_Percent>0.5</Target_Damage_Increase_Percent>
 				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
@@ -601,26 +590,23 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
+
 			<Reduce_Production_Price_Ability Name="Akbar_Reduce_Production_Price">
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<!-- Price reduced by 25% -->
 				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
-			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
-				<Activation_Style>Combat_Automatic</Activation_Style>
-			</Cancel_Special_Ability>-->
 		</Abilities>
+
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
-      <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -642,7 +628,6 @@
 		<Ship_Class> capital_ship </Ship_Class>
 		<Glory_Cinematics> CAM_HomeOne_Die.tec </Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</UniqueUnit>
 
 	<!-- Red 5 is used by Luke Skywalker (Rebel Major Hero) during space battles -->

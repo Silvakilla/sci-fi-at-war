@@ -1102,7 +1102,7 @@
 		<Text_ID>TEXT_HERO_MON_MOTHMA_TEAM</Text_ID>
 		<Icon_Name>i_button_mon_mothma.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Rebel,Klingon</Affiliation>
+		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>1</Tech_Level>

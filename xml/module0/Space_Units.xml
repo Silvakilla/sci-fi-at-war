@@ -3481,7 +3481,7 @@
         <Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
         <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
         <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-        <Population_Value>4</Population_Value>
+        <Population_Value>10</Population_Value>
         <Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
         <Unit_Abilities_Data SubObjectList="Yes">
@@ -3546,8 +3546,8 @@
         <Shield_Refresh_Rate>150</Shield_Refresh_Rate>
         <Autoresolve_Health>13520</Autoresolve_Health>
         <Tactical_Health>9000</Tactical_Health>
-        <Armor_Type> Armor_SSD </Armor_Type>
-        <Shield_Armor_Type> Shield_SSD </Shield_Armor_Type>
+        <Armor_Type> Armor_Star_Destroyer </Armor_Type>
+        <Shield_Armor_Type> Shield_Capital </Shield_Armor_Type>
         <Energy_Capacity>5000</Energy_Capacity>
         <Energy_Refresh_Rate>600</Energy_Refresh_Rate>
         <Damage>640</Damage>
@@ -3559,7 +3559,7 @@
         <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
         <Bank_Turn_Angle>65</Bank_Turn_Angle>
         <MovementClass> Space </MovementClass>
-        <Space_Layer> Frigate </Space_Layer>
+        <Space_Layer> Capital </Space_Layer>
         <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
         <Ranking_In_Category>4</Ranking_In_Category>
         <Formation_Priority>3</Formation_Priority>

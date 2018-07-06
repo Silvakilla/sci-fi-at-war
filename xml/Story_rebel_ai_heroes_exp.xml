@@ -161,13 +161,13 @@
 		<Event_Param1>3</Event_Param1>
 	</Event>
 
-	<Event Name="Spawn_Ackbar">
+	<!--<Event Name="Spawn_Ackbar">
 		<Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
         <Reward_Param1>Home_One</Reward_Param1>
         <Reward_Param2>Yavin</Reward_Param2>
 		<Prereq>Rebels_Enter_Tech_03</Prereq>
-	</Event>
+	</Event>-->
 
 	<Event Name="Spawn_Yoda">
 		<Event_Type>STORY_TRIGGER</Event_Type>

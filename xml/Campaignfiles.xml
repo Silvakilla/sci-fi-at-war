@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <Campaign_Files>
-	<File>Campaigns_Underworld_GC.xml</File>
-	<File>Campaigns_Multiplayer.xml</File>
+	<File>Campaigns_singleplayer.xml</File>
+	<File>Campaigns_multiplayer.xml</File>
 </Campaign_Files>
