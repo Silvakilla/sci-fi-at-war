@@ -406,7 +406,7 @@
         <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
         <Presence_Range>80.0</Presence_Range>
         <Specific_Death_Anim_Index>0</Specific_Death_Anim_Index>
-        <Land_Model_Name>Ev_ATPT_D.alo</Land_Model_Name>
+        <Land_Model_Name>empire/land/at_pt/Ev_ATPT_D.alo</Land_Model_Name>
     </GroundVehicle>
 
     <GroundVehicle Name="AT_PT_Death_Clone_02">
@@ -423,7 +423,7 @@
         <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
         <Presence_Range>80.0</Presence_Range>
         <Specific_Death_Anim_Index>1</Specific_Death_Anim_Index>
-        <Land_Model_Name>Ev_ATPT_D.alo</Land_Model_Name>
+        <Land_Model_Name>empire/land/at_pt/Ev_ATPT_D.alo</Land_Model_Name>
     </GroundVehicle>
 
     <GroundVehicle Name="AT_KT_Walker_Death_Clone_00">
@@ -541,6 +541,5 @@
         <IsDeathCloneObstacle>true</IsDeathCloneObstacle>
         <IsDeathClone>true</IsDeathClone>
     </GroundVehicle>
-
 
 </LandDeath>

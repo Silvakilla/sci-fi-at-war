@@ -12,7 +12,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_ATAT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_WALKER</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>EV_AT-AT.ALO</Land_Model_Name>
+		<Land_Model_Name>empire/land/at_at/EV_AT-AT.ALO</Land_Model_Name>
 		<Icon_Name>i_button_atat.tga</Icon_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>ABILITY_COUNTDOWN, DEPLOY_TROOPERS, WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,STUNNABLE,DAMAGE_TRACKING,SQUASH,AFFECTED_BY_SHIELD</LandBehavior>
@@ -337,7 +337,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_ATST</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>EV_AT-ST.ALO</Land_Model_Name>
+		<Land_Model_Name>empire/land/at_st/EV_AT-ST.ALO</Land_Model_Name>
 		<Behavior>SELECTABLE</Behavior>
 		<LandBehavior>BARRAGE, ABILITY_COUNTDOWN,AFFECTED_BY_SHIELD,HUNT, WALK_LOCOMOTOR,TARGETING,IDLE,WEAPON,TURRET,POWERED,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, SQUASH, GARRISON_UNIT</LandBehavior>
 		<!-- Ground vehicles priority 1, ground infantry priority 2, air vehicles priority 3 (N/A = 9999) -->

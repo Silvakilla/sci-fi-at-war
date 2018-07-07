@@ -55,7 +55,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>1.5</Scale_Factor>
         <Is_Dummy>Yes</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -128,7 +128,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>1.5</Scale_Factor>
         <Is_Dummy>Yes</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -201,7 +201,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>1.5</Scale_Factor>
         <Is_Dummy>Yes</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -274,7 +274,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Dummy>No</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -364,7 +364,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Dummy>No</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -453,7 +453,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Dummy>No</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -546,7 +546,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Dummy>No</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -636,7 +636,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Dummy>No</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>
@@ -725,7 +725,7 @@
         <GUI_Row> 0 </GUI_Row>
         <Scale_Factor>2.5</Scale_Factor>
         <Is_Dummy>No</Is_Dummy>
-        <Space_Model_Name>SB_Med_ShYd.ALO</Space_Model_Name>
+        <Space_Model_Name>buildings/space/medium_shipyard.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Political_Control>0</Political_Control>

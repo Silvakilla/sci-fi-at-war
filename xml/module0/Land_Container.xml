@@ -434,7 +434,6 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Scout_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
         </Unit_Abilities_Data>
-
     </Container>
 
     <Container Name="Imperial_Commando_Team">
