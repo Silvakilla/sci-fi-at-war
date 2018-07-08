@@ -856,7 +856,8 @@
 			Amalthea,
 			Earth,
 			Kronos,
-			Omarion
+			Omarion,
+            Romulus
 		</Locations>
 
 		<Trade_Routes>
@@ -2711,7 +2712,8 @@
 			Amalthea,
 			Earth,
 			Kronos,
-			Omarion
+			Omarion,
+            Romulus
 		</Locations>
 
 		<Trade_Routes>

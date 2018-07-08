@@ -1924,7 +1924,8 @@
 			RS_Level_Four_Starbase_Upgrade,
             Rebel_F_Skirmish_Medium_Ship_Yard,
             Rebel_K_Skirmish_Medium_Ship_Yard,
-			Rebel_D_Skirmish_Medium_Ship_Yard
+			Rebel_D_Skirmish_Medium_Ship_Yard,
+            Rebel_R_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2016,7 +2017,8 @@
 			RS_Level_Five_Starbase_Upgrade,
             Rebel_F_Skirmish_Medium_Ship_Yard,
             Rebel_K_Skirmish_Medium_Ship_Yard,
-			Rebel_D_Skirmish_Medium_Ship_Yard
+			Rebel_D_Skirmish_Medium_Ship_Yard,
+            Rebel_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2131,7 +2133,8 @@
 			RS_Ion_Cannon_Use_Upgrade,
             Rebel_F_Skirmish_Medium_Ship_Yard,
             Rebel_K_Skirmish_Medium_Ship_Yard,
-			Rebel_D_Skirmish_Medium_Ship_Yard
+			Rebel_D_Skirmish_Medium_Ship_Yard,
+            Rebel_D_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2369,7 +2372,8 @@
 			ES_Level_Four_Starbase_Upgrade,
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
-			Empire_D_Skirmish_Medium_Ship_Yard
+			Empire_D_Skirmish_Medium_Ship_Yard,
+			Empire_R_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2461,7 +2465,8 @@
 			ES_Level_Five_Starbase_Upgrade,
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
-			Empire_D_Skirmish_Medium_Ship_Yard
+			Empire_D_Skirmish_Medium_Ship_Yard,
+            Empire_R_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2580,7 +2585,8 @@
 			ES_Hypervelocity_Gun_Use_Upgrade,
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
-			Empire_D_Skirmish_Medium_Ship_Yard
+			Empire_D_Skirmish_Medium_Ship_Yard,
+            Empire_R_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 

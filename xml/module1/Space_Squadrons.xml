@@ -1188,4 +1188,336 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
     </Squadron>
 
+    <!-- ======= -->
+    <!-- ROMULAN -->
+    <!-- ======= -->
+
+    <Squadron Name="Interceptor_Squadron">
+        <LOD_Bias>10</LOD_Bias>
+        <Text_ID>TEXT_UNIT_INTERCEPTOR_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_INTERCEPTOR_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Icon_Name>I_BUTTON_RMV_Interceptor.TGA</Icon_Name>
+
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Autoresolve_Health>22</Autoresolve_Health>
+        <Damage>35</Damage>
+        <Affiliation>Romulan</Affiliation>
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>650</Build_Cost_Credits>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>400</Slice_Cost_Credits>
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+        <Squadron_Units>Interceptor, Interceptor, Interceptor, Interceptor, Interceptor</Squadron_Units>
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Interceptor_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+        <Create_Team_Type> </Create_Team_Type>
+        <Max_Squad_Size> 5 </Max_Squad_Size>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+
+        <Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Scorpion_Squadron">
+        <LOD_Bias>10</LOD_Bias>
+        <Text_ID>TEXT_UNIT_SCORPION_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_SCORPION_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Icon_Name>I_BUTTON_RMV_Scorpion.TGA</Icon_Name>
+
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>22</Autoresolve_Health>
+        <Damage>40</Damage>
+        <Affiliation>Romulan</Affiliation>
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>650</Build_Cost_Credits>
+        <Build_Time_Seconds>21</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>400</Slice_Cost_Credits>
+        <Required_Timeline />
+        <Required_Star_Base_Level>4</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+        <Squadron_Units>Scorpion, Scorpion, Scorpion, Scorpion, Scorpion</Squadron_Units>
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Interceptor_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>5</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+        <Create_Team_Type> </Create_Team_Type>
+        <Max_Squad_Size> 6 </Max_Squad_Size>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+
+        <Tactical_Build_Cost_Multiplayer>635</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>19</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Shuttle_Squadron">
+        <LOD_Bias>10</LOD_Bias>
+        <Text_ID>TEXT_UNIT_SHUTTLE_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_SHUTTLE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Icon_Name>I_BUTTON_RMV_Shuttle.TGA</Icon_Name>
+
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>20</Damage>
+        <Affiliation>Romulan</Affiliation>
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>720</Build_Cost_Credits>
+        <Build_Time_Seconds>8</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>400</Slice_Cost_Credits>
+        <Required_Timeline />
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+        <Squadron_Units>Romulan_Shuttle, Romulan_Shuttle, Romulan_Shuttle</Squadron_Units>
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Shuttle_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+        <Create_Team_Type> </Create_Team_Type>
+        <Max_Squad_Size> 6 </Max_Squad_Size>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Shuttle_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Shuttle_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+
+        <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
+    <Squadron Name="Talon_Squadron">
+        <LOD_Bias>10</LOD_Bias>
+        <Text_ID>TEXT_UNIT_TALON_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_TALON_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Icon_Name>I_BUTTON_RMV_Talon.TGA</Icon_Name>
+
+        <GUI_Row> 0 </GUI_Row>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>Nos</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Autoresolve_Health>54</Autoresolve_Health>
+        <Damage>25</Damage>
+        <Affiliation>Romulan</Affiliation>
+        <Political_Control>0</Political_Control>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
+        <Build_Time_Seconds>6</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>400</Slice_Cost_Credits>
+        <Required_Timeline />
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+        <Squadron_Units>Talon, Talon, Talon</Squadron_Units>
+        <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Talon_Unit_Select</SFXEvent_Build_Complete>
+
+        <FormationOrder>1</FormationOrder>
+        <Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>200.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Property_Flags> SmallShip </Property_Flags>
+
+        <Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+        <Create_Team_Type> </Create_Team_Type>
+        <Max_Squad_Size> 6 </Max_Squad_Size>
+        <Population_Value>1</Population_Value>
+        <Score_Cost_Credits> 900</Score_Cost_Credits>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Talon_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Talon_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+
+        <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>11</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+    </Squadron>
+
 </Squadrons>

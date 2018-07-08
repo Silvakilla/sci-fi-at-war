@@ -251,6 +251,72 @@
         <Required_Special_Structures>Rebel_D_Shipyard</Required_Special_Structures>
     </SpaceUnit>
 
+    <SpaceUnit Name="Rebel_Bird_of_Prey">
+        <Variant_Of_Existing_Type>Bird_of_Prey</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Buzzard">
+        <Variant_Of_Existing_Type>Buzzard</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Romulan_D7">
+        <Variant_Of_Existing_Type>Romulan_D7</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Deckrk">
+        <Variant_Of_Existing_Type>Deckrk</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Hawk">
+        <Variant_Of_Existing_Type>Gawk</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Raptor">
+        <Variant_Of_Existing_Type>Raptor</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Shadow">
+        <Variant_Of_Existing_Type>Shadow</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Shrike">
+        <Variant_Of_Existing_Type>Shrike</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Valdore">
+        <Variant_Of_Existing_Type>Valdore</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Romulan_Venator">
+        <Variant_Of_Existing_Type>Romulan_Venator</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Warbird">
+        <Variant_Of_Existing_Type>Warbird</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
     <!-- ====== -->
     <!-- EMPIRE -->
     <!-- ====== -->
@@ -499,6 +565,72 @@
         <Variant_Of_Existing_Type>Tonga</Variant_Of_Existing_Type>
         <Affiliation>Empire</Affiliation>
         <Required_Special_Structures>Empire_D_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Bird_of_Prey">
+        <Variant_Of_Existing_Type>Bird_of_Prey</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Buzzard">
+        <Variant_Of_Existing_Type>Buzzard</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Romulan_D7">
+        <Variant_Of_Existing_Type>Romulan_D7</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Deckrk">
+        <Variant_Of_Existing_Type>Deckrk</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Hawk">
+        <Variant_Of_Existing_Type>Gawk</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Raptor">
+        <Variant_Of_Existing_Type>Raptor</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Shadow">
+        <Variant_Of_Existing_Type>Shadow</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Shrike">
+        <Variant_Of_Existing_Type>Shrike</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Valdore">
+        <Variant_Of_Existing_Type>Valdore</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Romulan_Venator">
+        <Variant_Of_Existing_Type>Romulan_Venator</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Warbird">
+        <Variant_Of_Existing_Type>Warbird</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
     </SpaceUnit>
 
     <!-- ========== -->
@@ -9797,6 +9929,2823 @@
     <!-- ROMULAN -->
     <!-- ======= -->
 
+    <SpaceUnit Name="Bird_of_Prey">
+        <Text_ID>TEXT_UNIT_BIRD_OF_PREY</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text> TEXT_UNIT_BIRD_OF_PREY_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_BOP.TGA</Icon_Name>
 
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/bird_of_prey/RMV_BirdOfPrey.ALO</Space_Model_Name>
+        <Select_Box_Scale>25</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.9995</Mass>
+        <Scale_Factor>4.5</Scale_Factor>
+        <Moniker>RMV_BOP.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>7</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.85</Max_Speed>
+        <Max_Rate_Of_Turn>1.05</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Corvette </Space_Layer>
+        <Layer_Z_Adjust> -160 </Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>3.65</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>38.0</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>0.65</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_Tartan </Armor_Type>
+        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+        <Damage>18</Damage>
+        <Autoresolve_Health>700</Autoresolve_Health>
+        <Shield_Points>450</Shield_Points>
+        <Tactical_Health>450</Tactical_Health>
+        <Shield_Refresh_Rate>16</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+        <Ship_Class>corvette</Ship_Class>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1000</Slice_Cost_Credits>
+        <Tech_Level>6</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>1000</Build_Cost_Credits>
+        <Build_Time_Seconds>14</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <AI_Combat_Power>1250</AI_Combat_Power>
+        <Size_Value>120</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_BirdOfPrey_Death_Clone </Death_Clone>
+
+        <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Bird_of_Prey_Torpedo_01,
+            HP_Bird_of_Prey_Phaser_01,
+            HP_Bird_of_Prey_Phaser_02,
+            HP_Bird_of_Prey_Phaser_03
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Request_Assistance</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_TMP_BOP_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_TMP_BOP_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_TMP_BOP_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_TMP_BOP_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_TMP_BOP_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage>Romulan_TMP_BOP_Attackrun</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.03  0.05</Radar_Icon_Size>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+        <Population_Value>2</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>650</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_TMP_BOP_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_TMP_BOP_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Buzzard">
+        <Text_ID>TEXT_UNIT_BUZZARD</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text> TEXT_UNIT_BUZZARD_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Buzzard.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/buzzard/RMV_Buzzard.ALO</Space_Model_Name>
+        <Select_Box_Scale>65</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.995</Mass>
+        <Scale_Factor>6.0</Scale_Factor>
+        <Moniker>RMV_Buzzard.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.5</Max_Speed>
+        <Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Frigate </Space_Layer>
+        <Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>30</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.3</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_MC30_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        <Damage>28</Damage>
+        <Autoresolve_Health>2000</Autoresolve_Health>
+        <Shield_Points>800</Shield_Points>
+        <Tactical_Health>2200</Tactical_Health>
+        <Shield_Refresh_Rate>27</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+        <Ship_Class>frigate</Ship_Class>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>3500</Build_Cost_Credits>
+        <Build_Time_Seconds>27</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>2500</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>Talon_Squadron, 3</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>Talon_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Buzzard_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Buzzard_Pulse_00,
+            HP_Buzzard_Pulse_01,
+            HP_Buzzard_Pulse_02,
+            HP_Buzzard_Pulse_03,
+            HP_Buzzard_Torpedo_00,
+            HP_Buzzard_Engine,
+            HP_Buzzard_Fighter_Bay_00,
+            HP_Buzzard_Fighter_Bay_01,
+            HP_Buzzard_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Buzzard_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Buzzard_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Buzzard_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Buzzard_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Buzzard_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage></SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Frigate | AntiCorvette </CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.06  0.07</Radar_Icon_Size>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+        <Population_Value>3</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>3400</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Buzzard_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Buzzard_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>FULL_SALVO</Type>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Expiration_Seconds>2.5</Expiration_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Buzzard_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+                <GUI_Activated_Ability_Name>Interceptor_Full_Salvo</GUI_Activated_Ability_Name>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FULL_PHOTON_SALVO_DESCRIPTION</Alternate_Description_Text>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Romulan_D7">
+        <Variant_Of_Existing_Type>D7</Variant_Of_Existing_Type>
+        <Text_ID>TEXT_UNIT_D7</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text> TEXT_UNIT_D7_TOOLTIP</Encyclopedia_Text>
+
+        <Icon_Name>I_BUTTON_RMV_D7.TGA</Icon_Name>
+        <Space_Model_Name>romulan/space/d7/RMV_D7.ALO</Space_Model_Name>
+
+        <Moniker>RMV_D7.txt</Moniker>
+        <Autoresolve_Health>1000</Autoresolve_Health>
+        <Shield_Points>650</Shield_Points>
+        <Tactical_Health>550</Tactical_Health>
+        <Affiliation>Romulan</Affiliation>
+        <Tech_Level>6</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Star_Base_Level>0</Required_Star_Base_Level>
+        <Build_Cost_Credits>1200</Build_Cost_Credits>
+        <Build_Time_Seconds>18</Build_Time_Seconds>
+        <Ship_Class>corvette</Ship_Class>
+        <Death_Clone>Damage_Normal, RMV_D7_Death_Clone </Death_Clone>
+
+        <HardPoints>
+            HP_ROM_D7_00,
+            HP_ROM_D7_01,
+            HP_ROM_D7_Torpedo,
+            HP_ROM_D7_Engine_01,
+            HP_ROM_D7_Engine_02
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Request_Assistance</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Griffin_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Select>Romulan_Griffin_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Griffin_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Griffin_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Griffin_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+
+        <Tactical_Build_Cost_Multiplayer>1320</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>14</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>650</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Griffin_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Griffin_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Deckrk">
+        <Text_ID>TEXT_UNIT_DECKRK</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_DECKRK_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Deckrk.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/deckrk/RMV_Deckrk.ALO</Space_Model_Name>
+        <Select_Box_Scale>250</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.9995</Mass>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Moniker>RMV_Deckrk.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.68</Max_Speed>
+        <Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Frigate </Space_Layer>
+        <Layer_Z_Adjust>-120.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>60</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.5</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_MC30_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        <Ship_Class>frigate</Ship_Class>
+        <Damage>25</Damage>
+        <Autoresolve_Health>850</Autoresolve_Health>
+        <Shield_Points>425</Shield_Points>
+        <Tactical_Health>1650</Tactical_Health>
+        <Shield_Refresh_Rate>37</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>3</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>2700</Build_Cost_Credits>
+        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>2200</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Deckrk_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Deckrk_Disruptor_00,
+            HP_Deckrk_Disruptor_01,
+            HP_Deckrk_Disruptor_02,
+            HP_Deckrk_Disruptor_03,
+            HP_Deckrk_Torpedo_00,
+            HP_Deckrk_Torpedo_01,
+            HP_Deckrk_Engine,
+            HP_Deckrk_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Deckrk_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Deckrk_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Deckrk_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Deckrk_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Deckrk_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage>Romulan_Deckrk_Attackrun</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Frigate | AntiCorvette</CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.06  0.04</Radar_Icon_Size>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+        <Population_Value>2</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Deckrk_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Deckrk_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+
+            <Force_Healing_Ability Name="Repair_Facility_Healing">
+                <Activation_Style>Space_Automatic</Activation_Style>
+                <Heal_Range>1000.0</Heal_Range>
+                <Heal_Amount>50.0</Heal_Amount>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+                <Heal_Interval_In_Secs>1.0</Heal_Interval_In_Secs>
+                <Single_Target_Heal>No</Single_Target_Heal>
+                <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+                <!-- We can heal the following unit types: -->
+                <Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Hero</Applicable_Unit_Categories>
+                <Applicable_Unit_Types />
+                <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+                <Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+                <Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+                <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+                <Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+                <Target_Light_Effect_Color2 />
+                <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+                <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+                <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+                <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+                <Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+                <Owner_Light_Effect_Color2 />
+                <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+                <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+                <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+            </Force_Healing_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Griffin">
+        <Text_ID>TEXT_UNIT_GRIFFIN</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_GRIFFIN_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Griffin.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/griffin/RMV_Griffin.ALO</Space_Model_Name>
+        <Select_Box_Scale>180</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.995</Mass>
+        <Scale_Factor>1.75</Scale_Factor>
+        <Moniker>RMV_Griffin.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.6</Max_Speed>
+        <Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Frigate </Space_Layer>
+        <Layer_Z_Adjust>-160.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>30</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.3</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_MC30_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        <Ship_Class>frigate</Ship_Class>
+        <Damage>30</Damage>
+        <Autoresolve_Health>2000</Autoresolve_Health>
+        <Shield_Points>825</Shield_Points>
+        <Tactical_Health>2850</Tactical_Health>
+        <Shield_Refresh_Rate>30</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>3750</Build_Cost_Credits>
+        <Build_Time_Seconds>31</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>3000</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>Talon_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>Talon_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Griffin_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Griffin_Fighter_Bay,
+            HP_Griffin_Pulse_00,
+            HP_Griffin_Pulse_01,
+            HP_Griffin_Pulse_02,
+            HP_Griffin_Pulse_03,
+            HP_Griffin_Disruptor_00,
+            HP_Griffin_Torpedo_00,
+            HP_Griffin_Engine,
+            HP_Griffin_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Griffin_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Griffin_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Griffin_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Griffin_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Griffin_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage></SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Frigate | AntiCorvette </CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.06  0.07</Radar_Icon_Size>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+        <Population_Value>4</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>3550</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Griffin_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Griffin_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>CORRUPT_SYSTEMS</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_SENSOR_JAMMING_NAME</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name> Griffin_Sensor_Jamming </GUI_Activated_Ability_Name>
+                <Area_Effect_Decal_Distance> 400.0 </Area_Effect_Decal_Distance>
+                <SFXEvent_Target_Ability> Romulan_Griffin_Cloak</SFXEvent_Target_Ability>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+
+            <Corrupt_Systems_Ability Name="Griffin_Sensor_Jamming">
+                <Activation_Style> User_Input </Activation_Style>
+                <Activation_Min_Range>20.0</Activation_Min_Range>
+                <Activation_Max_Range>400.0</Activation_Max_Range>
+                <Duration_In_Seconds>15</Duration_In_Seconds>
+                <Shield_Drain_Per_Second>0</Shield_Drain_Per_Second>
+                <Inaccuracy_Radius>500</Inaccuracy_Radius>
+                <Target_Particle_Effect>Corrupt_Systems_Effect</Target_Particle_Effect>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect</Owner_Particle_Effect>
+                <SFXEvent_Activate>Romulan_Griffin_Cloak</SFXEvent_Activate>
+            </Corrupt_Systems_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Hawk">
+        <Text_ID>TEXT_UNIT_HAWK</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_HAWK_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Hawk.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/hawk/RMV_Hawk.ALO</Space_Model_Name>
+        <Select_Box_Scale>110</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.9995</Mass>
+        <Scale_Factor>3.2</Scale_Factor>
+        <Moniker>RMV_Hawk.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.95</Max_Speed>
+        <Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Corvette </Space_Layer>
+        <Layer_Z_Adjust> -160 </Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>3.5</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>35.0</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>0.6</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_Tartan </Armor_Type>
+        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+        <Ship_Class>corvette</Ship_Class>
+        <Damage>22</Damage>
+        <Autoresolve_Health>1700</Autoresolve_Health>
+        <Shield_Points>575</Shield_Points>
+        <Tactical_Health>2400</Tactical_Health>
+        <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>2000</Build_Cost_Credits>
+        <Build_Time_Seconds>23</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>2200</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>Talon_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>Talon_Squadron, 0</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Hawk_Death_Clone </Death_Clone>
+
+        <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Hawk_Disruptor,
+            HP_Hawk_00,
+            HP_Hawk_01,
+            HP_Hawk_02,
+            HP_Hawk_03,
+            HP_Hawk_Torpedo_00,
+            HP_Hawk_Shield,
+            HP_Hawk_Engine_01,
+            HP_Hawk_Engine_02,
+            HP_Hawk_Fighter_Bay
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Hawk_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Hawk_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Hawk_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Hawk_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Hawk_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage>Romulan_Hawk_Attackrun</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Frigate | AntiCorvette</CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.03  0.05</Radar_Icon_Size>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+        <Population_Value>2</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>800</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Hawk_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Hawk_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Interceptor">
+        <LOD_Bias>10</LOD_Bias>
+
+        <Text_ID>TEXT_UNIT_INTERCEPTOR</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_INTERCEPTOR_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Space_Model_Name>romulan/space/interceptor/RMV_Interceptor.ALO</Space_Model_Name>
+        <Icon_Name>I_BUTTON_RMV_Interceptor.tga</Icon_Name>
+        <Scale_Factor>4.0</Scale_Factor>
+        <Select_Box_Scale>7</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+        <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Mass>0.99</Mass>
+        <Fires_Forward>no</Fires_Forward>
+        <Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+        <Max_Lift>1.75</Max_Lift>
+        <Max_Speed>4.75</Max_Speed>
+        <Min_Speed>2.5</Min_Speed>
+        <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+        <Max_Thrust>1.0</Max_Thrust>
+        <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>80</Bank_Turn_Angle>
+        <Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Maintenance_Cost>0.1</Maintenance_Cost>
+        <Affiliation>Romulan</Affiliation>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Shield_Points>30</Shield_Points>
+        <Tactical_Health>40</Tactical_Health>
+        <Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+        <Energy_Capacity>500</Energy_Capacity>
+        <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+        <Ship_Class>fighter</Ship_Class>
+        <Armor_Type> Armor_Bomber </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Land_Bomber_Type>Y-Wing_Bombing_Run</Land_Bomber_Type>
+        <Political_Control>0</Political_Control>
+        <Squadron_Capacity>0</Squadron_Capacity>
+        <Number_per_Squadron>5</Number_per_Squadron>
+        <Build_Cost_Credits>120</Build_Cost_Credits>
+        <Build_Time_Seconds>13</Build_Time_Seconds>
+        <Size_Value>8</Size_Value>
+        <SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Damage>5</Damage>
+        <Death_Explosions>Small_Explosion_Space</Death_Explosions>
+        <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Target_Stealth_Units>Yes</Target_Stealth_Units>
+
+        <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Rom_Interceptor_00,
+            HP_Rom_Interceptor_01
+        </HardPoints>
+
+        <SFXEvent_Fire> Romulan_Interceptor_Attackrun </SFXEvent_Fire>
+        <SFXEvent_Select>Romulan_Interceptor_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Interceptor_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Interceptor_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Interceptor_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>  </SFXEvent_Guard>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+
+        <SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+        <SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+        <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+        <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Fighter | AntiBomber</CategoryMask>
+        <Property_Flags> SmallShip </Property_Flags>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+        <Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+        <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+        <MovementClass> Space </MovementClass>
+        <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+        <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+        <Create_Team>Yes</Create_Team>
+        <AI_Combat_Power>80</AI_Combat_Power>
+        <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+        <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+        <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+        <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+        <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+        <Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Strafe_Distance>500.0</Strafe_Distance>
+        <Population_Value>0</Population_Value>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Raptor">
+        <Text_ID>TEXT_UNIT_RAPTOR</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_RAPTOR_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Raptor.tga</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/raptor/RMV_Raptor.ALO</Space_Model_Name>
+        <Select_Box_Scale>180</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.995</Mass>
+        <Scale_Factor>1.1</Scale_Factor>
+        <Moniker>RMV_Raptor.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.75</Max_Speed>
+        <Max_Rate_Of_Turn>0.85</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Frigate </Space_Layer>
+        <Layer_Z_Adjust>-60.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.6</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>35</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.5</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_MC30_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        <Ship_Class>frigate</Ship_Class>
+        <Damage>25</Damage>
+        <Autoresolve_Health>1000</Autoresolve_Health>
+        <Shield_Points>240</Shield_Points>
+        <Tactical_Health>800</Tactical_Health>
+        <Shield_Refresh_Rate>28</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>2</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>1800</Build_Cost_Credits>
+        <Build_Time_Seconds>14</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>1400</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>BARRAGE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Raptor_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+
+        <CategoryMask> Frigate | AntiCorvette</CategoryMask>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+        <HardPoints>
+            HP_Raptor_Torpedo_00,
+            HP_Raptor_Disruptor_00,
+            HP_Raptor_Disruptor_01,
+            HP_Raptor_TriCobalt_00,
+            HP_Raptor_TriCobalt_01,
+            HP_Raptor_Engine,
+            HP_Raptor_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Raptor_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Raptor_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Raptor_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Raptor_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Raptor_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage></SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.04  0.05</Radar_Icon_Size>
+
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>SpaceArtillery</Targeting_Priority_Set>
+        <Population_Value>2</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>1750</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Raptor_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Raptor_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>BARRAGE</Type>
+                <Projectile_Types_Override>Proj_Norway_Barrage</Projectile_Types_Override>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Recharge_Seconds>40</Recharge_Seconds>
+                <Mod_Multiplier>FIRE_RATE_MULTIPLIER,			3.0f</Mod_Multiplier>
+                <SFXEvent_Target_Ability> Romulan_Raptor_Attackrun </SFXEvent_Target_Ability>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Raptor_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FIRE_TRI_COBALT_BARRAGE</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_FIRE_TRI_COBALT_BARRAGE_DESCRIPTION</Alternate_Description_Text>
+                <Area_Effect_Decal_Distance> 320.0 </Area_Effect_Decal_Distance>
+                <Targeting_Fire_Inaccuracy_Fixed_Radius_Override>320.0</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
+                <Target_Position_Z_Offset>-150</Target_Position_Z_Offset>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Scorpion">
+        <LOD_Bias>10</LOD_Bias>
+
+        <Text_ID>TEXT_UNIT_SCORPION</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_SCORPION_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Space_Model_Name>romulan/space/scorpion/RMV_Scorpion.ALO</Space_Model_Name>
+        <Icon_Name>I_BUTTON_RMV_Scorpion.tga</Icon_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Select_Box_Scale>24</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+        <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Mass>0.99</Mass>
+        <Fires_Forward>no</Fires_Forward>
+        <Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+        <Max_Lift>1.75</Max_Lift>
+        <Max_Speed>4.35</Max_Speed>
+        <Min_Speed>2.5</Min_Speed>
+        <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+        <Max_Thrust>1.0</Max_Thrust>
+        <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>80</Bank_Turn_Angle>
+        <Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Maintenance_Cost>0.1</Maintenance_Cost>
+        <Affiliation>Romulan</Affiliation>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+        <Shield_Points>40</Shield_Points>
+        <Tactical_Health>50</Tactical_Health>
+        <Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+        <Energy_Capacity>500</Energy_Capacity>
+        <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+        <Ship_Class>fighter</Ship_Class>
+        <Armor_Type> Armor_Bomber </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Land_Bomber_Type>Y-Wing_Bombing_Run</Land_Bomber_Type>
+        <Political_Control>0</Political_Control>
+        <Squadron_Capacity>0</Squadron_Capacity>
+        <Number_per_Squadron>5</Number_per_Squadron>
+        <Build_Cost_Credits>160</Build_Cost_Credits>
+        <Build_Time_Seconds>13</Build_Time_Seconds>
+        <Size_Value>8</Size_Value>
+        <SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Damage>5</Damage>
+        <Death_Explosions>Small_Explosion_Space</Death_Explosions>
+        <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+        <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Rom_Scorpion_Disruptor,
+            HP_Rom_Scorpion_TORP
+        </HardPoints>
+
+        <SFXEvent_Fire> Romulan_Interceptor_Attackrun </SFXEvent_Fire>
+        <SFXEvent_Select>Romulan_Interceptor_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Interceptor_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Interceptor_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Interceptor_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>  </SFXEvent_Guard>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+
+        <SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+        <SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+        <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+        <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Fighter | AntiBomber</CategoryMask>
+        <Property_Flags> SmallShip </Property_Flags>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+        <Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+        <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+        <MovementClass> Space </MovementClass>
+        <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+        <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+        <Create_Team>Yes</Create_Team>
+        <AI_Combat_Power>80</AI_Combat_Power>
+        <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+        <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+        <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+        <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+        <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+        <Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Strafe_Distance>500.0</Strafe_Distance>
+        <Population_Value>0</Population_Value>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Interceptor_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Shadow">
+        <Text_ID>TEXT_UNIT_SHADOW</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_SHADOW_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Shadow.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/shadow/RMV_Shadow.ALO</Space_Model_Name>
+        <Select_Box_Scale>180</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.9995</Mass>
+        <Scale_Factor>1.5</Scale_Factor>
+        <Moniker>RMV_Shadow.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.5</Max_Speed>
+        <Max_Rate_Of_Turn>0.85</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Frigate </Space_Layer>
+        <Layer_Z_Adjust> -180 </Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>3.6</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>36.0</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>0.6</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_MC30_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        <Ship_Class>corvette</Ship_Class>
+        <Damage>40</Damage>
+        <Autoresolve_Health>2000</Autoresolve_Health>
+        <Shield_Points>750</Shield_Points>
+        <Tactical_Health>3000</Tactical_Health>
+        <Shield_Refresh_Rate>34</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>3600</Build_Cost_Credits>
+        <Build_Time_Seconds>34</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>3500</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>Talon_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>Talon_Squadron, 0</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Shadow_Death_Clone </Death_Clone>
+
+        <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Shadow_Fighter_Bay,
+            HP_Shadow_Disruptor_00,
+            HP_Shadow_Torpedo_00,
+            HP_Shadow_Pulse_00,
+            HP_Shadow_Pulse_01,
+            HP_Shadow_Pulse_02,
+            HP_Shadow_Pulse_03,
+            HP_Shadow_Engine_01,
+            HP_Shadow_Engine_02,
+            HP_Shadow_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Shadow_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Shadow_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Shadow_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Shadow_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Shadow_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage>Romulan_Shadow_Attackrun</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Frigate | AntiCorvette</CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.035  0.07</Radar_Icon_Size>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+        <Population_Value>2</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>3350</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>26</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Shadow_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Shadow_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>TARGETED_INVULNERABILITY</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> </GUI_Activated_Ability_Name>
+                <Spawned_Object_Type> Proj_Romulan_Shadow_Shield_Boost_Blast</Spawned_Object_Type>
+                <Effective_Radius>800</Effective_Radius>
+                <Friendly_Ability> true </Friendly_Ability>
+                <Supports_Autofire>True</Supports_Autofire>
+                <SFXEvent_Target_Ability> Romulan_Shadow_Cloak </SFXEvent_Target_Ability>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ROMULAN_SHIELD_BOOST</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ROMULAN_SHIELD_BOOST_DESCRIPTION</Alternate_Description_Text>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+
+            <Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+                <Initially_Enabled>Yes</Initially_Enabled>
+                <Activation_Style>Galactic_Automatic</Activation_Style>
+                <Causes_Despawn>No</Causes_Despawn>
+                <Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+            </Galactic_Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Shrike">
+        <Text_ID>TEXT_UNIT_SHRIKE</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_SHRIKE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CORVETTE </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Shrike.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/shrike/RMV_Shrike.ALO</Space_Model_Name>
+        <Select_Box_Scale>90</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.9995</Mass>
+        <Scale_Factor>1.00</Scale_Factor>
+        <Moniker>RMV_Shrike.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>4.48</Max_Speed>
+        <Min_Speed>3.3</Min_Speed>
+        <Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Ship_Class>fighter</Ship_Class>
+        <Layer_Z_Adjust> -20 </Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>3.78</Max_Rate_Of_Roll>
+        <Max_Lift>1.25</Max_Lift>
+        <Bank_Turn_Angle>60.0</Bank_Turn_Angle>
+        <OverrideAcceleration> .3 </OverrideAcceleration>
+        <OverrideDeceleration> .3 </OverrideDeceleration>
+        <Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+
+        <Max_Thrust>1.5</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_Tartan </Armor_Type>
+        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+        <Damage>20</Damage>
+        <Autoresolve_Health>800</Autoresolve_Health>
+        <Shield_Points>600</Shield_Points>
+        <Tactical_Health>600</Tactical_Health>
+        <Shield_Refresh_Rate>14</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>1</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>2</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>875</Build_Cost_Credits>
+        <Build_Time_Seconds>17</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <AI_Combat_Power>1500</AI_Combat_Power>
+        <Size_Value>120</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Shrike_Death_Clone </Death_Clone>
+
+        <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Shrike_00,
+            HP_Shrike_01,
+            HP_Shrike_Torpedo
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Shrike_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Shrike_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Shrike_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Shrike_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Shrike_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage>Romulan_Shrike_Attackrun</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.03  0.05</Radar_Icon_Size>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+        <Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
+        <Population_Value>2</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Shrike_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Shrike_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+
+            <Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+                <Initially_Enabled>Yes</Initially_Enabled>
+                <Activation_Style>Galactic_Automatic</Activation_Style>
+                <Causes_Despawn>No</Causes_Despawn>
+                <Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+            </Galactic_Stealth_Ability>
+
+            <System_Spy_Ability Name="Romulan_Spy">
+                <Initially_Enabled>Yes</Initially_Enabled>
+                <Activation_Style>Galactic_Automatic</Activation_Style>
+                <Causes_Despawn>No</Causes_Despawn>
+                <Duration_In_Secs>-1.0</Duration_In_Secs>
+                <See_Base_Levels>Yes</See_Base_Levels>
+                <See_Credit_Income>No</See_Credit_Income>
+                <See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+                <See_Num_Fleets>Yes</See_Num_Fleets>
+                <See_Fleet_Contents>Yes</See_Fleet_Contents>
+                <See_Num_Ground_Companies>Yes</See_Num_Ground_Companies>
+                <See_Ground_Company_Contents>Yes</See_Ground_Company_Contents>
+                <See_Special_Structures>Yes</See_Special_Structures>
+                <See_Political_Control>Yes</See_Political_Control>
+                <See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+                <See_Current_Production>No</See_Current_Production>
+                <See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+                <See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+            </System_Spy_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Romulan_Shuttle">
+        <LOD_Bias>10</LOD_Bias>
+
+        <Text_ID>TEXT_UNIT_SHUTTLE</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_SHUTTLE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Space_Model_Name>romulan/space/shuttle/RMV_Shuttle.ALO</Space_Model_Name>
+        <Icon_Name>I_BUTTON_RMV_Shuttle.TGA</Icon_Name>
+        <Scale_Factor>0.45</Scale_Factor>
+        <Select_Box_Scale>60</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+        <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Mass>0.99</Mass>
+        <Fires_Forward>no</Fires_Forward>
+        <Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+        <Max_Lift>2.8</Max_Lift>
+        <Max_Speed>4.0</Max_Speed>
+        <Min_Speed>2.5</Min_Speed>
+        <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+        <Max_Thrust>1.0</Max_Thrust>
+        <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>80</Bank_Turn_Angle>
+        <Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Maintenance_Cost>0.1</Maintenance_Cost>
+        <Affiliation>Romulan</Affiliation>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Shield_Points>40</Shield_Points>
+        <Tactical_Health>45</Tactical_Health>
+        <Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+        <Energy_Capacity>500</Energy_Capacity>
+        <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+        <Ship_Class>fighter</Ship_Class>
+        <Armor_Type> Armor_Bomber </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>no</Is_Escort>
+        <Is_Bomber>yes</Is_Bomber>
+        <Land_Bomber_Type>Kestrel_Bombing_Run</Land_Bomber_Type>
+        <Political_Control>0</Political_Control>
+        <Squadron_Capacity>0</Squadron_Capacity>
+        <Number_per_Squadron>3</Number_per_Squadron>
+        <Build_Cost_Credits>175</Build_Cost_Credits>
+        <Build_Time_Seconds>13</Build_Time_Seconds>
+        <Size_Value>8</Size_Value>
+        <SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Damage>5</Damage>
+        <Death_Explosions>Small_Explosion_Space</Death_Explosions>
+        <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+        <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Rom_Shuttle_TORP
+        </HardPoints>
+
+        <SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
+        <SFXEvent_Select>Romulan_Shuttle_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Shuttle_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Shuttle_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Shuttle_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>  </SFXEvent_Guard>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+
+        <SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+        <SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+        <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+        <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Bomber | AntiCapital</CategoryMask>
+        <Property_Flags> SmallShip </Property_Flags>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+        <Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+        <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+        <MovementClass> Space </MovementClass>
+        <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+        <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+        <Create_Team>Yes</Create_Team>
+        <AI_Combat_Power>75</AI_Combat_Power>
+        <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+        <Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+        <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+        <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+        <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+        <Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Strafe_Distance>500.0</Strafe_Distance>
+        <Population_Value>0</Population_Value>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Shuttle_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Shuttle_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Talon">
+        <LOD_Bias>10</LOD_Bias>
+
+        <Text_ID>TEXT_UNIT_TALON</Text_ID>
+        <Encyclopedia_Text>TEXT_UNIT_TALON_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Space_Model_Name>romulan/space/talon/RMV_Talon.ALO</Space_Model_Name>
+        <Icon_Name>I_BUTTON_RMV_Talon.TGA</Icon_Name>
+        <Scale_Factor>0.22</Scale_Factor>
+        <Select_Box_Scale>90</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+        <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Mass>0.99</Mass>
+        <Fires_Forward>no</Fires_Forward>
+        <Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+        <Max_Lift>2.8</Max_Lift>
+        <Max_Speed>4.0</Max_Speed>
+        <Min_Speed>2.5</Min_Speed>
+        <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+        <Max_Thrust>1.0</Max_Thrust>
+        <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>80</Bank_Turn_Angle>
+        <Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Maintenance_Cost>0.1</Maintenance_Cost>
+        <Affiliation>Romulan</Affiliation>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Shield_Points>35</Shield_Points>
+        <Tactical_Health>45</Tactical_Health>
+        <Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+        <Energy_Capacity>500</Energy_Capacity>
+        <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+        <Ship_Class>fighter</Ship_Class>
+        <Armor_Type> Armor_Bomber </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+        <Formation_Priority>2</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Land_Bomber_Type>Y-Wing_Bombing_Run</Land_Bomber_Type>
+        <Political_Control>0</Political_Control>
+        <Squadron_Capacity>0</Squadron_Capacity>
+        <Number_per_Squadron>3</Number_per_Squadron>
+        <Build_Cost_Credits>120</Build_Cost_Credits>
+        <Build_Time_Seconds>13</Build_Time_Seconds>
+        <Size_Value>8</Size_Value>
+        <SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Damage>5</Damage>
+        <Death_Explosions>Small_Explosion_Space</Death_Explosions>
+        <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+        <Land_FOW_Reveal_Range>180.0</Land_FOW_Reveal_Range>
+        <Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Talon_00,
+            HP_Talon_01
+        </HardPoints>
+
+        <SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
+        <SFXEvent_Select>Romulan_Talon_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Talon_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Talon_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Talon_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard>  </SFXEvent_Guard>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+
+        <SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
+        <SFXEvent_Health_Critical_Warning>  </SFXEvent_Health_Critical_Warning>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+        <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+        <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Fighter | AntiBomber</CategoryMask>
+        <Property_Flags> SmallShip </Property_Flags>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+        <Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+        <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+        <MovementClass> Space </MovementClass>
+        <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+        <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+        <Create_Team>Yes</Create_Team>
+        <AI_Combat_Power>80</AI_Combat_Power>
+        <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+        <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+        <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+        <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+        <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+        <Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+        <Strafe_Distance>500.0</Strafe_Distance>
+        <Population_Value>0</Population_Value>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Fighter_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>15.0</Recharge_Seconds>
+                <Expiration_Seconds>30.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Talon_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Talon_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Fighter_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Valdore">
+        <Text_ID>TEXT_UNIT_VALDORE</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_VALDORE_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Valdore.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/valdore/RMV_Valdore.ALO</Space_Model_Name>
+        <Select_Box_Scale>350</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.995</Mass>
+        <Scale_Factor>1.25</Scale_Factor>
+        <Moniker>RMV_Valdore.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>4.0</Max_Speed>
+        <Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Capital </Space_Layer>
+        <Layer_Z_Adjust>-160.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.35</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>45</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.75</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
+        <Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+        <Ship_Class>Capital</Ship_Class>
+        <Damage>60</Damage>
+        <Autoresolve_Health>2500</Autoresolve_Health>
+        <Shield_Points>1750</Shield_Points>
+        <Tactical_Health>4550</Tactical_Health>
+        <Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>5</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>4</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets/>
+        <Build_Cost_Credits>5820</Build_Cost_Credits>
+        <Build_Time_Seconds>60</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>4250</AI_Combat_Power>
+        <Size_Value>360</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Valdore_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1600.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Valdore_Disruptor_00,
+            HP_Valdore_Disruptor_01,
+            HP_Valdore_Pulse_00,
+            HP_Valdore_Pulse_01,
+            HP_Valdore_Pulse_02,
+            HP_Valdore_Pulse_03,
+            HP_Valdore_Pulse_04,
+            HP_Valdore_Pulse_05,
+            HP_Valdore_Torpedo_00,
+            HP_Valdore_Engine_01,
+            HP_Valdore_Engine_02,
+            HP_Valdore_Engine_03,
+            HP_Valdore_Fighter_Bay,
+            HP_Valdore_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Valdore_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Valdore_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Valdore_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Valdore_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Valdore_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage></SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Capital | AntiFrigate </CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+        <Radar_Icon_Name>I_RADAR_RMV_Valdore.TGA</Radar_Icon_Name>
+        <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+        <Population_Value>4</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>5200</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Valdore_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Valdore_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.25f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <Expiration_Seconds>7</Expiration_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Valdore_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Romulan_Venator">
+        <Text_ID>TEXT_UNIT_ROMULAN_VENATOR</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_ROMULAN_VENATOR_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Venator.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/venator/RMV_Venator.ALO</Space_Model_Name>
+        <Select_Box_Scale>300</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.995</Mass>
+        <Scale_Factor>1.15</Scale_Factor>
+        <Moniker>RMV_Venator.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.8</Max_Speed>
+        <Max_Rate_Of_Turn>0.9</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Frigate </Space_Layer>
+        <Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>40</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.5</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_Victory_Class </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+        <Ship_Class>frigate</Ship_Class>
+        <Damage>35</Damage>
+        <Autoresolve_Health>2250</Autoresolve_Health>
+        <Shield_Points>1000</Shield_Points>
+        <Tactical_Health>3500</Tactical_Health>
+        <Shield_Refresh_Rate>31</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>0</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets />
+        <Build_Cost_Credits>4200</Build_Cost_Credits>
+        <Build_Time_Seconds>33</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>3800</AI_Combat_Power>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, HUNT </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Venator_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Venator_Disruptor_00,
+            HP_Venator_Pulse_00,
+            HP_Venator_Pulse_01,
+            HP_Venator_Pulse_02,
+            HP_Venator_Pulse_03,
+            HP_Venator_Torpedo_00,
+            HP_Venator_Engine,
+            HP_Venator_Fighter_Bay,
+            HP_Venator_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Venator_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Venator_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Venator_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Venator_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Venator_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage></SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Frigate | AntiCorvette </CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+        <Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.06  0.07</Radar_Icon_Size>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+        <Population_Value>4</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Venator_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Venator_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>HUNT</Type>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+        </Abilities>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Warbird">
+        <Text_ID>TEXT_UNIT_WARBIRD</Text_ID>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Encyclopedia_Text>TEXT_UNIT_WARBIRD_TOOLTIP</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+        <Icon_Name>I_BUTTON_RMV_Warbird.TGA</Icon_Name>
+
+        <GUI_Row> 1 </GUI_Row>
+        <Space_Model_Name>romulan/space/warbird/RMV_Warbird.ALO</Space_Model_Name>
+        <Select_Box_Scale>440</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.995</Mass>
+        <Scale_Factor>1.3</Scale_Factor>
+        <Moniker>RMV_Warbird.txt</Moniker>
+        <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>3.7</Max_Speed>
+        <Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
+        <MovementClass> Space </MovementClass>
+        <Space_Layer> Capital </Space_Layer>
+        <Layer_Z_Adjust>-190.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>20</Bank_Turn_Angle>
+        <OverrideAcceleration> .05 </OverrideAcceleration>
+        <OverrideDeceleration> .05 </OverrideDeceleration>
+
+        <Max_Thrust>1.5</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Maintenance_Cost>0.2</Maintenance_Cost>
+
+        <Armor_Type> Armor_Star_Destroyer </Armor_Type>
+        <Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+        <Ship_Class>Capital</Ship_Class>
+        <Damage>55</Damage>
+        <Autoresolve_Health>2500</Autoresolve_Health>
+        <Shield_Points>1800</Shield_Points>
+        <Tactical_Health>5000</Tactical_Health>
+        <Shield_Refresh_Rate>55</Shield_Refresh_Rate>
+        <Energy_Capacity>3000</Energy_Capacity>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+        <Affiliation>Romulan</Affiliation>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+        <Slice_Cost_Credits>1400</Slice_Cost_Credits>
+        <Tech_Level>4</Tech_Level>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>4</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets/>
+        <Build_Cost_Credits>5500</Build_Cost_Credits>
+        <Build_Time_Seconds>55</Build_Time_Seconds>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Squadron_Capacity>12</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <AI_Combat_Power>4250</AI_Combat_Power>
+        <Size_Value>360</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>RMV_Talon_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>RMV_Talon_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+
+        <Starting_Spawned_Units_Tech_0>RMV_Shuttle_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>RMV_Shuttle_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+        <Death_Clone>Damage_Normal, RMV_Warbird_Death_Clone</Death_Clone>
+
+        <Space_FOW_Reveal_Range>1600.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+        <HardPoints>
+            HP_Warbird_Shield_Inversion,
+            HP_Warbird_Disruptor_00,
+            HP_Warbird_Pulse_00,
+            HP_Warbird_Pulse_01,
+            HP_Warbird_Pulse_02,
+            HP_Warbird_Pulse_03,
+            HP_Warbird_Torpedo_00,
+            HP_Warbird_Engine,
+            HP_Warbird_Fighter_Bay,
+            HP_Warbird_Shield
+        </HardPoints>
+
+        <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Romulan_Warbird_Unit_Select</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Romulan_Warbird_Unit_Select</SFXEvent_Select>
+        <SFXEvent_Move>Romulan_Warbird_Movement</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Romulan_Warbird_Fleet</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Romulan_Warbird_Attackrun</SFXEvent_Attack>
+        <SFXEvent_Guard></SFXEvent_Guard>
+        <SFXEvent_Barrage></SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>  </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>RMHD_Enter_Nebula</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE,  </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+        <CategoryMask> Capital | AntiFrigate </CategoryMask>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+        <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+        <Radar_Icon_Name>I_RADAR_RMV_Warbird.TGA</Radar_Icon_Name>
+        <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+        <Population_Value>6</Population_Value>
+        <Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+        <Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites />
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+                <Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <Alternate_Name_Text>TEXT_TOOLTIP_CLOAK</Alternate_Name_Text>
+                <GUI_Activated_Ability_Name>Romulan_Cloak</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+                <Expiration_Seconds>180.0</Expiration_Seconds>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Warbird_Cloak</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated>Romulan_Warbird_Cloak</SFXEvent_GUI_Unit_Ability_Deactivated>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>LEECH_SHIELDS</Type>
+                <Recharge_Seconds>60.0</Recharge_Seconds>
+                <GUI_Activated_Ability_Name> Warbird_Shield_Inversion_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                <Effective_Radius> 500.0 </Effective_Radius>
+                <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Warbird_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_Target_Ability> Romulan_Warbird_Attackrun </SFXEvent_Target_Ability>
+                <SFXEvent_Special_Ability_Loop> Romulan_Shield_Inversion_Beam </SFXEvent_Special_Ability_Loop>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ROMULAN_SHIELD_INVERSION_BEAM</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ROMULAN_SHIELD_INVERSION_BEAM_DESCRIPTION</Alternate_Description_Text>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Stealth_Ability Name="Romulan_Cloak">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>0, 0, 0, 0</Stealth_Color>
+                <Stealth_Transition_Time>.3</Stealth_Transition_Time>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+            </Stealth_Ability>
+
+            <Leech_Shields_Ability Name="Warbird_Shield_Inversion_Beam">
+                <Activation_Style> User_Input </Activation_Style>
+                <Applicable_Unit_Categories> Corvette | Frigate | Capital </Applicable_Unit_Categories>
+                <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                <Activation_Min_Range>10</Activation_Min_Range>
+                <Activation_Max_Range>2000</Activation_Max_Range>
+                <Duration_In_Secs> 25.0 </Duration_In_Secs>
+                <Shield_Damage_Per_Second> 100.0 </Shield_Damage_Per_Second>
+                <Damage_Multiplier> 3.0 </Damage_Multiplier>
+                <Beam_Color>25, 200, 25, 255</Beam_Color>
+                <Beam_Bone_Name>HP01</Beam_Bone_Name>
+                <Beam_Frames>10</Beam_Frames>
+                <Beam_Width>40.0</Beam_Width>
+                <Beam_Texture_Name>tractor_beam00.tga</Beam_Texture_Name>
+                <Beam_Effect_Name>Leech_Shields</Beam_Effect_Name>
+                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Leech_Effect>Leech_Effect</Leech_Effect>
+            </Leech_Shields_Ability>
+        </Abilities>
+    </SpaceUnit>
 
 </SpaceUnits>
