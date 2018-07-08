@@ -2940,14 +2940,14 @@
         <SFXEvent_Assist_Attack> Unit_Assist_Attack_Storm_Trooper </SFXEvent_Assist_Attack>
 
         <Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>SPRINT</Type>
-                <Expiration_Seconds> 7.0 </Expiration_Seconds>
-                <Recharge_Seconds> 45.0 </Recharge_Seconds>
-                <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
-                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Scout_Trooper </SFXEvent_GUI_Unit_Ability_Activated>
-            </Unit_Ability>
+			<Unit_Ability>
+		<Type>SPRINT</Type>
+			<Expiration_Seconds> 7.0 </Expiration_Seconds>
+			<Recharge_Seconds> 45.0 </Recharge_Seconds>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Scout_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
@@ -4473,6 +4473,13 @@
         <Tactical_Bribe_Cost>25</Tactical_Bribe_Cost>
 
         <Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>SPRINT</Type>
+				<Recharge_Seconds> 0.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
             <Unit_Ability>
                 <Type>STICKY_BOMB</Type>
                 <Recharge_Seconds>26.0f </Recharge_Seconds>
@@ -4520,6 +4527,13 @@
         <MaxJiggleDistance>2</MaxJiggleDistance>
 
         <Unit_Abilities_Data SubObjectList="Yes">
+	    <Unit_Ability>
+		 <Type>SPRINT</Type>
+		 <Recharge_Seconds> 0.0 </Recharge_Seconds>
+		 <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+		 <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+		 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+	    </Unit_Ability>
             <Unit_Ability>
                 <Type>PLACE_REMOTE_BOMB</Type>
                 <Recharge_Seconds>18.0</Recharge_Seconds>

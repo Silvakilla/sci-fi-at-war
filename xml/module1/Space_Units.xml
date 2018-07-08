@@ -2052,7 +2052,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="Defiant">
@@ -2206,7 +2205,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>2000</Tactical_Bribe_Cost>
-        <Lua_Script>Slave_I</Lua_Script>
 
         <!--<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -2392,7 +2390,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -2571,7 +2568,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -2745,7 +2741,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
         <!--<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -2916,7 +2911,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -3084,7 +3078,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -3494,7 +3487,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -3716,7 +3708,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
         <!--<Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -3895,7 +3886,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -4080,7 +4070,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -4778,7 +4767,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MillenniumFalcon</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -5126,7 +5114,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>650</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -5181,7 +5168,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MillenniumFalcon</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -5364,7 +5350,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -5557,7 +5542,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_Krayt</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -5740,7 +5724,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>800</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -5925,7 +5908,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -6123,7 +6105,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -6313,7 +6294,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -6493,7 +6473,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -6663,7 +6642,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -7636,8 +7614,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
 
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
-
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>BUZZ_DROIDS</Type>
@@ -7817,8 +7793,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
 
-        <Lua_Script>ObjectScript_MillenniumFalcon</Lua_Script>
-
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>SELF_DESTRUCT</Type>
@@ -7990,8 +7964,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -8362,8 +8334,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
 
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
-
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>LASER_DEFENSE</Type>
@@ -8545,8 +8515,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-
-        <Lua_Script>Slave_I</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -9201,8 +9169,6 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
 
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
-
         <Unit_Abilities_Data SubObjectList="Yes">
 
             <Unit_Ability>
@@ -9649,8 +9615,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="Tonga">
@@ -9815,8 +9779,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>

@@ -3,22 +3,490 @@
   <component name="ChangeListManager">
     <list default="true" id="6ac92040-7224-47af-babc-729e71a481fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_focusdemo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_accumulate_credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_build_generic_structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_build_units.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_conquer_pirate_planet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_credit_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_hunt_capital_ships.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_imperial_traitor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_pirate_ambush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_pirate_defection.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_planet_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_rebel_revolt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_rebel_sabotage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_rebel_smuggler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_scout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_tech_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_unit_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_upgrade_space_station.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_intervention_vader_favor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_sandbox_event_contrived_attack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_sandbox_event_fleet_rampage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_sandbox_event_hero_gathering.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_sandbox_event_planet_ownership_flip.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_sandbox_event_trap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_e_sandbox_intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_acti_m02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_acti_m03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_acti_m04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_actii_m04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_actii_m05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_actii_m06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_actiii_m07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_actiii_m08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_actiii_m09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_activ_m10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_activ_m11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_activ_m12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_empire_story_campaign.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_expansion_gc_solo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_accumulate_credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_build_generic_structure.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_build_units.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_confront_boba.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_conquer_pirate_planet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_credit_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_empire_oppression.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_fleet_rescue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_hunt_capital_ships.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_indigenous_revolt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_pirate_enlightenment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_pirate_enlightenment_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_pirate_rescue.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_planet_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_refugee_escort.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_scout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_show_of_strength.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_tech_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_unit_windfall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_intervention_upgrade_space_station.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_demo_intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_event_contrived_attack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_event_fleet_rampage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_event_hero_gathering.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_event_planet_ownership_flip.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_event_trap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_r_sandbox_intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_act_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_act_i.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actii_m00.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actii_m04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actii_m05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actii_m06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actiii_m07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actiii_m07a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actiii_m08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actiii_m09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_actiii_m10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_activ.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_rebel_story_campaign.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_tutorial_i.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_u_black_market_tutorial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_u_campaign_mission_briefings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_u_corruption_tutorial.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_u_focusdemo_intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_u_sandbox_intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Dialog_u_tutorial_mission_briefings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_empire_act_i.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_empire_act_iii.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_empire_act_iv.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_rebel_act_i.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_rebel_act_iii.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_demo.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_exec_demo.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_exec_demo_1.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_focus_demo.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_test_campaign.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_test_campaign_mission_12.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_campaign_underworld_tutorial.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_acti_m01_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_acti_m02_fondor_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_acti_m02_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_acti_m03_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_acti_m04_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_acti_m04_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_actii_m04_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_actii_m05_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_actii_m06_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_actiii_m08_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_actiii_m09_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_activ_m10_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_activ_m11_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_empire_activ_m12_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_exec_demo_endor_land_tactical.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_exec_demo_naboo_land_tactical.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_focus_demo_felucia_land_tactical.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_focus_demo_felucia_space_tactical.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_acti_m01_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_acti_m02_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_acti_m03_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actii_m04_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actii_m06_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m07_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m07a_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m08_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m09_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m09_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m10_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_actiii_m10_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_activ_m11_galactic.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_activ_m12_galactic.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_prologue_m00_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_prologue_m01_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_prologue_m02_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_prologue_m03_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_prologue_m07_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_rebel_prologue_m08_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_tutorial_m01_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_tutorial_m03_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_tutorial_m04_galactic.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_tutorial_m05_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_tutorial_m06_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_tutorial_m07_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_um00_cin_test.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_acti_m01_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_acti_m02_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_acti_m03_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_acti_m04_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_actii_m06_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_actii_m07_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_actii_m09_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_actiii_m11_land.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_actiii_m12_space.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_aetenii_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_alzociii_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_anaxes_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_bespin_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_bespin_piracy_story.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_bestine_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_bothawui_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_byss_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_carida_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_corellia_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_corulag_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_dantooine_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_fondor_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_honoghr_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_honoghr_intimidation_story.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_kessel_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_kuat_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_mandalore_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_mandalore_piracy_prologue.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_mandalore_piracy_story.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_moncalamari_piracy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_muunilinst_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_naboo_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_nalhutta_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_saleucami_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_taris_intimidation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_thyferra_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Story/Story_underworld_utapau_kidnapping.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_ExpansionGeneric_GenerateMagicCashDrop.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_ExpansionGeneric_RemoveCorruption.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_BlackMarket.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_BuildUnderworldBarracks.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_BuildUnderworldDroidWorks.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_BuildUnderworldPalace.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_BuildUnderworldVehicleFactory.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_DeploySaboteur.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/AI_Plan_Underworld_HackSuperWeapon.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentAdvancedVehicleFactory.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentBarracks.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentCommArray.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentHeavyVehicleFactory.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentLightVehicleFactory.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentOfficerAcademy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseComponentResearchFacility.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildBaseShieldPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildCantinaPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildEconomicStructurePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildGroundDefensiveStructurePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildGroundForcesPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildHuttPalacePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildInfiltratorFacility.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildJammingStationPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildScannerPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildSpaceDefensiveStructurePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildSpaceForcesPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildTurbolasers.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/BuildWeaponStructurePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/ConquerOpponentPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/ConquerPiratePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/ContrastToReconnect.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/CrushPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/DeathStarUsePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/DeployUnitOnTarget.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/EmpireAdvanceTechPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/FlushMajorItemBudget.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundDefense.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundDefenseEasy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundDefenseHard.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicGroundStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicSpaceDefense.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicSpaceDefenseEasy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/GenerateMagicSpaceDefenseHard.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/LiftBlockadePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/PathBonusForDistantTargets.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/PlantSpyPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/RaidPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/RebelAdvanceTechPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/SabotagePoliticalControlPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/SiphonCreditsPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/UnrestrictedGrabLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/UnrestrictedGrabSpace.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/UpgradeGroundbasePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/UpgradeStarbasePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_ExpansionGeneric_BuildBunker.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_ExpansionGeneric_BuildMDUItem.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_ExpansionGeneric_DeployTroopTransports.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_ExpansionGeneric_GarrisonTarget.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_ExpansionGeneric_OrbitalBombardment.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_Underworld_MineStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_Underworld_RemoteBombFriendlyUnit.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/AI_Plan_Underworld_TyberManagerLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/Airstrike.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BobaFettFlameInfantry.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildAntiAirTurret.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildAntiInfantryTurret.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildAntiVehicleTurret.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildBactaTank.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildBarracksLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildCommandCenterLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildEconStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildInfantryEmergency.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildRepairFacility.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BuildStructureLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/BurnUnitsLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/CleanUpDumb.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/ClearInfantry.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/ClearVehicles.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/DefendStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/DefensiveRush.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/DestroyLandUnit.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/DestroyStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/DestroyTurbolaser.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/Droids.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/EwokHuntPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/FireMagnepulse.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/FundTacticalStructures.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/HanSoloAssists.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/HoldPosition.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/LandBombing.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/LandEscortPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/LandHeroes.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/LandScout.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/ObiWanAssists.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/PalpatineManager.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/Patrol.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/PreDefendStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/PurchaseEarlyLandUpgrades.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/PurchaseLandUpgradesGeneric.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/SecureBuildPad.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/SecureBuildPadEscorted.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/SecureVictoryControlPoint.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/SellTacticalStructure.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/StealVehicle.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/TacticalMultiplayerBuildLandUnitsGeneric.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/TechUpgradeEmergency.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/landmode/VaderAssistsLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_DefendSpaceStation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/AI_Plan_ExpansionGeneric_SkirmishUpgradeSpaceStation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/AreaSweep.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/BombingRun.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/BuildRefinerySpace.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/BuildStructureSpace.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/BurnUnits.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/DestroyUnit.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/DestroyUnitMinimal.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/EscortPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/FireDeathStar.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/FlankPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/GroundToSpaceDamage.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/GroundToSpaceDisable.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/HideSurpriseUnits.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/HideTransports.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/MoveToLocation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/MoveToLocationRush.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/PurchaseSpaceUpgradesGeneric.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/RetreatPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/SpaceArtillery.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/SpaceScout.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/SystematicDisable.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/TacticalMultiplayerBuildSpaceUnitsGeneric.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/TurboAttack.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ai/spacemode/TurboAttackLocation.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluators/AnyBaseStructuresThreatened.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluators/AnyFreeLandSlots.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluators/EvaluateInGalacticContext.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluators/GetDistanceToNearestSpaceField.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluators/GetDistanceToNearestWithProperty.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/evaluators/TargetHasProperty.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/freestore/BusyTacticalFreeStore.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/freestore/GalacticFreeStore.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/freestore/GalacticHeroFreeStore.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/freestore/GenericFreeStore.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/BobaFettPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/CreditPowerUp.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/DarthVader.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/DeathStarPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Demo_Attract_Controller.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Demo_DeathStar_Controller.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Demo_Felucia_Controller.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Demo_Land_Controller.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Demo_Land_Controller_E.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Demo_Land_Controller_R.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/E3_Felucia_Zone.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/FieldCommander.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/FleetCommander.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/GenericBountyHunter.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/HanSolo.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/HanSoloPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/HeroPlanAttach.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/IonCannon.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/JGS_FunctionLib.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/LukePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/MarkerTrigger.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObiWanPlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_Gargantuan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_IG2000.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_IG88.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_Krayt.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_MC30.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_MaraJade.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_MillenniumFalcon.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_MissileShield.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_NightSister.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_PointDefense.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_PowerToShields.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_RemoteBomb.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_SelfDestructLand.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_Silri.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_Urai.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_VaderTIESquadron.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ObjectScript_Yoda.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Palpatine.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ProximitySpawnTrigger.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/ProximitySpawnTrigger_R.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/SandCrawler.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/SecondaryHeavyFactory.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/SecondaryMiningFacility.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Slave_I.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/SpeederBike.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Sundered_Heart.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Tarkin.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/TechPowerUp.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Training_Facility.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM01_BlackBoxPowerUp.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM02_Destroyer_Spawn.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM02_DroidCrate.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM02_Droids_Spawn.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM02_MagnetDoors.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM02_Mission_Script.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM06_Mission_Script.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM11_ForceAdeptFour.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM11_ForceAdeptOne.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM11_ForceAdeptThree.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UM11_ForceAdeptTwo.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UMP_Enslaved_Prisoners.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UMP_Enslaved_Wookies.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UMP_Mission_Script.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/UMP_SpicePowerUp.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/Veers.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/WedgePlan.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/interdictor.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/gameobject/underworld_hunt.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGAICommands.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGBase.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGBaseDefinitions.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGCommands.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGDebug.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGEvents.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGInterventions.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGMoveUnits.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGSpawnUnits.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGStateMachine.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGStoryMode.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/library/PGTaskForce.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/miscellaneous/Dummy.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/miscellaneous/FleetEvents.lua" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/miscellaneous/GameScoring.lua" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/xml/Campaigns_singleplayer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/Campaigns_singleplayer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ground/Groundcompaniesempire.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesempire.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/ground/Groundvehicles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/ground/Groundvehicles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Land_Companies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Land_Companies.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Land_Container.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Land_Container.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Land_Death.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Land_Death.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Galacticmarkup/Alderaansdemisehints.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Galacticmarkup/Defaultgalactichints.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Galacticmarkup/Shipyardsofkuathints.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_empire_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_expansiongeneric_galactic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_expansiongeneric_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_rebel_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_galactic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Ai_goalset_underworld_space.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicdefensivegalacticset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinformationgalacticset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicinfrastructuregalacticset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basiclandgoalset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivegalacticset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Basicoffensivespaceset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goalfunctions/Systemfunctions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_empire_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_galactic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_expansiongeneric_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_rebel_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_galactic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Ai_goals_underworld_space.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Defensivegalacticgoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Informationgalacticgoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Infrastructuregalacticgoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Landgoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Offensivegalacticgoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Offensivespacegoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Goals/Systemgoals.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Hintsets/Testhintsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_empire_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_expansiongeneric_galactic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_expansiongeneric_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_expansiongeneric_landskirmish.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_rebel_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_budgeting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_galactic.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_land.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Ai_equations_underworld_space.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Basicgalacticequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Basiclandequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Budgetingequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Defensivegalacticequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Heroequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Informationgalacticequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Infrastructuregalacticequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Offensivegalaticequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Offensivespaceequations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Perceptualequations/Story_empire_equations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Ai_player_underworld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Ai_player_underworldstoryopponent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Basicempirenogalacticai.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Basicempireplayer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Basicrebelnogalacticai.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Basicrebelplayer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Players/Player_none.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Templates/Ai_templates_underworld.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Templates/Basicempiretemplates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Templates/Basicgenerictemplates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Templates/Basicrebeltemplates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/ai/Templates/Nativelifetemplates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xml/default/Default_Space_Units.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/default/Default_Space_Units.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xml/module0/Land_Units.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Land_Units.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Space_Container.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Space_Container.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Space_Death.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Space_Death.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Space_Squadrons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Space_Squadrons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xml/module0/Space_Units.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Space_Units.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module0/Structures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module0/Structures.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Space_Death.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module1/Space_Death.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xml/module1/Space_Units.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module1/Space_Units.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml/module1/Structures.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xml/module1/Structures.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,40 +500,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Groundcompaniesrebel.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
-              <folding>
-                <element signature="n#GroundCompany#0;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#1;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#2;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#3;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#5;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#6;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="e#22116#22440#0" />
-                <element signature="n#GroundCompany#7;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#8;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#9;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#10;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#11;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#12;n#RebelGroundCompanies#0;n#!!top" />
-                <element signature="n#GroundCompany#13;n#RebelGroundCompanies#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Mandal</find>
-      <find>Utapau</find>
-      <find>HP_Brel_01</find>
-      <find>HP_Miranda_00</find>
       <find>HP_Bugship_Polaron_00</find>
       <find>HP_Chimera_Torpedo_00</find>
       <find>HP_MC30C_Torpedo_01</find>
@@ -92,6 +530,10 @@
       <find>Proj_Ground_Proton_Torpedo</find>
       <find>EI_ShockTrooper</find>
       <find>imperial</find>
+      <find>Small_Explosion_Space</find>
+      <find>HP_Rv_Nebulon_Weapon_FL_01</find>
+      <find>lua</find>
+      <find>Lua_Script</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,7 +542,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/ai/BuildGroundDefensiveStructurePlan.lua" />
         <option value="$PROJECT_DIR$/scripts/ai/BuildJammingStationPlan.lua" />
         <option value="$PROJECT_DIR$/scripts/ai/BuildScannerPlan.lua" />
         <option value="$PROJECT_DIR$/scripts/ai/BuildSpaceDefensiveStructurePlan.lua" />
@@ -136,21 +577,22 @@
         <option value="$PROJECT_DIR$/xml/Specialstructures.xml" />
         <option value="$PROJECT_DIR$/xml/module0/SFXEvents.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Land_Companies.xml" />
-        <option value="$PROJECT_DIR$/xml/Campaigns_singleplayer.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Space_Death.xml" />
-        <option value="$PROJECT_DIR$/xml/module0/Space_Units.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Space_Squadrons.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Space_Container.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Land_Death.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Land_Container.xml" />
-        <option value="$PROJECT_DIR$/xml/module0/Land_Units.xml" />
-        <option value="$PROJECT_DIR$/xml/module1/Space_Units.xml" />
         <option value="$PROJECT_DIR$/xml/module1/Space_Death.xml" />
         <option value="$PROJECT_DIR$/xml/module1/Structures.xml" />
         <option value="$PROJECT_DIR$/xml/module0/Structures.xml" />
         <option value="$PROJECT_DIR$/xml/ground/Groundvehicles.xml" />
         <option value="$PROJECT_DIR$/xml/ground/Groundcompaniesempire.xml" />
         <option value="$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml" />
+        <option value="$PROJECT_DIR$/xml/module0/Land_Units.xml" />
+        <option value="$PROJECT_DIR$/xml/Particles.xml" />
+        <option value="$PROJECT_DIR$/xml/module0/Space_Units.xml" />
+        <option value="$PROJECT_DIR$/xml/Campaigns_singleplayer.xml" />
+        <option value="$PROJECT_DIR$/xml/module1/Space_Units.xml" />
       </list>
     </option>
   </component>
@@ -191,13 +633,13 @@
               <item name="sci-fi-at-war" type="b2602c69:ProjectViewProjectNode" />
               <item name="sci-fi-at-war" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="module0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sci-fi-at-war" type="b2602c69:ProjectViewProjectNode" />
               <item name="sci-fi-at-war" type="462c0819:PsiDirectoryNode" />
               <item name="xml" type="462c0819:PsiDirectoryNode" />
-              <item name="ground" type="462c0819:PsiDirectoryNode" />
+              <item name="module1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,7 +698,7 @@
       <workItem from="1524990512157" duration="30089000" />
       <workItem from="1525881545360" duration="58000" />
       <workItem from="1530884615560" duration="3041000" />
-      <workItem from="1530948413364" duration="8194000" />
+      <workItem from="1530948413364" duration="20217000" />
     </task>
     <task id="LOCAL-00001" summary="New Folder structure">
       <created>1524865148648</created>
@@ -290,17 +732,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130072000" />
+    <option name="totallyTimeSpent" value="142095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="LuaJ" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -313,7 +755,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -374,11 +815,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Dominion Update&#10;Test Updates" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/xml/Radarmap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2518" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/Turrettargetingpriorities.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -412,13 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/default/Default_Space_Units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -762,21 +1191,6 @@
     <entry file="file://$PROJECT_DIR$/xml/Campaigns_multiplayer.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/Campaigns_singleplayer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="4545" column="67" selection-start-line="4545" selection-start-column="67" selection-end-line="4545" selection-end-column="67" />
-          <folding>
-            <element signature="n#Campaign#0;n#Campaigns#0;n#!!top" />
-            <element signature="n#Campaign#1;n#Campaigns#0;n#!!top" />
-            <element signature="e#8457#18161#0" />
-            <element signature="n#Campaign#2;n#Campaigns#0;n#!!top" />
-            <element signature="n#Campaign#3;n#Campaigns#0;n#!!top" />
-            <element signature="n#Campaign#5;n#Campaigns#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/module0/Space_Death.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -970,867 +1384,6 @@
             <element signature="n#Container#9;n#LandContainer#0;n#!!top" />
             <element signature="n#Container#10;n#LandContainer#0;n#!!top" />
             <element signature="n#Container#11;n#LandContainer#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/module0/Land_Units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1271">
-          <caret line="4731" lean-forward="true" selection-start-line="4731" selection-end-line="4731" />
-          <folding>
-            <element signature="e#97#8962#0" />
-            <element signature="e#8968#17661#0" />
-            <element signature="e#17667#24897#0" />
-            <element signature="e#24903#34541#0" />
-            <element signature="e#34547#43217#0" />
-            <element signature="e#43223#43931#0" />
-            <element signature="e#43937#52615#0" />
-            <element signature="e#52621#53347#0" />
-            <element signature="e#53353#62077#0" />
-            <element signature="e#62083#62827#0" />
-            <element signature="e#62833#71047#0" />
-            <element signature="e#71053#71779#0" />
-            <element signature="e#71785#84994#0" />
-            <element signature="e#85000#92425#0" />
-            <element signature="e#92492#101149#0" />
-            <element signature="e#101155#107993#0" />
-            <element signature="e#107999#115863#0" />
-            <element signature="e#115869#124241#0" />
-            <element signature="e#124247#124970#0" />
-            <element signature="e#124976#132675#0" />
-            <element signature="e#132681#134214#0" />
-            <element signature="e#134220#142116#0" />
-            <element signature="e#142122#142815#0" />
-            <element signature="e#142821#151401#0" />
-            <element signature="e#151407#152115#0" />
-            <element signature="e#152121#156177#0" />
-            <element signature="e#156183#156900#0" />
-            <element signature="e#156906#164360#0" />
-            <element signature="e#164366#165118#0" />
-            <element signature="e#165121#171931#0" />
-            <element signature="e#171937#183638#0" />
-            <element signature="e#183644#184808#0" />
-            <element signature="e#184814#194169#0" />
-            <element signature="e#194175#205452#0" />
-            <element signature="e#205458#206628#0" />
-            <element signature="e#206634#218492#0" />
-            <element signature="e#218498#219654#0" />
-            <element signature="e#219660#228238#0" />
-            <element signature="e#228244#237003#0" />
-            <element signature="e#237009#237241#0" />
-            <element signature="e#237247#239200#0" />
-            <element signature="e#239206#249012#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/module0/HardPoints.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="13118" column="17" selection-start-line="13118" selection-start-column="17" selection-end-line="13118" selection-end-column="17" />
-          <folding>
-            <element signature="e#125#1631#0" />
-            <element signature="e#1637#2777#0" />
-            <element signature="e#2803#4175#0" />
-            <element signature="e#4181#5553#0" />
-            <element signature="e#5559#6907#0" />
-            <element signature="e#6913#8261#0" />
-            <element signature="e#8267#9355#0" />
-            <element signature="e#9381#10438#0" />
-            <element signature="e#10444#11913#0" />
-            <element signature="e#11939#13359#0" />
-            <element signature="e#13386#14532#0" />
-            <element signature="e#14538#15684#0" />
-            <element signature="e#15722#17314#0" />
-            <element signature="e#17320#18913#0" />
-            <element signature="e#18919#20515#0" />
-            <element signature="e#20521#22116#0" />
-            <element signature="e#22122#23717#0" />
-            <element signature="e#23723#25319#0" />
-            <element signature="e#25356#26874#0" />
-            <element signature="e#26880#28398#0" />
-            <element signature="e#28404#29922#0" />
-            <element signature="e#29928#31446#0" />
-            <element signature="e#31452#32280#0" />
-            <element signature="e#32286#33114#0" />
-            <element signature="e#33120#34638#0" />
-            <element signature="e#34644#36162#0" />
-            <element signature="e#36199#38194#0" />
-            <element signature="e#38200#40195#0" />
-            <element signature="e#40201#42151#0" />
-            <element signature="e#42157#44107#0" />
-            <element signature="e#44113#46107#0" />
-            <element signature="e#46113#48108#0" />
-            <element signature="e#48114#50063#0" />
-            <element signature="e#50069#52019#0" />
-            <element signature="e#52025#52867#0" />
-            <element signature="e#52873#53512#0" />
-            <element signature="e#53518#54159#0" />
-            <element signature="e#54194#56452#0" />
-            <element signature="e#56458#58716#0" />
-            <element signature="e#58722#60980#0" />
-            <element signature="e#60986#63244#0" />
-            <element signature="e#63250#65508#0" />
-            <element signature="e#65514#67772#0" />
-            <element signature="e#67778#70036#0" />
-            <element signature="e#70042#72300#0" />
-            <element signature="e#72306#74135#0" />
-            <element signature="e#74141#75970#0" />
-            <element signature="e#75976#77805#0" />
-            <element signature="e#77811#79640#0" />
-            <element signature="e#79646#81748#0" />
-            <element signature="e#81754#83856#0" />
-            <element signature="e#83862#85964#0" />
-            <element signature="e#85970#88072#0" />
-            <element signature="e#88078#90181#0" />
-            <element signature="e#90187#90881#0" />
-            <element signature="e#90887#91580#0" />
-            <element signature="e#91612#93471#0" />
-            <element signature="e#93477#95352#0" />
-            <element signature="e#95358#96649#0" />
-            <element signature="e#96655#98061#0" />
-            <element signature="e#98067#99358#0" />
-            <element signature="e#99364#100770#0" />
-            <element signature="e#100776#101452#0" />
-            <element signature="e#101484#103284#0" />
-            <element signature="e#103290#105090#0" />
-            <element signature="e#105096#106898#0" />
-            <element signature="e#106904#108704#0" />
-            <element signature="e#108710#110510#0" />
-            <element signature="e#110516#112316#0" />
-            <element signature="e#112322#114122#0" />
-            <element signature="e#114128#115928#0" />
-            <element signature="e#115934#117057#0" />
-            <element signature="e#117063#118186#0" />
-            <element signature="e#118192#119990#0" />
-            <element signature="e#119996#121794#0" />
-            <element signature="e#121800#123598#0" />
-            <element signature="e#123604#125402#0" />
-            <element signature="e#125408#126070#0" />
-            <element signature="e#126076#126708#0" />
-            <element signature="e#126747#128556#0" />
-            <element signature="e#128562#130371#0" />
-            <element signature="e#130377#132186#0" />
-            <element signature="e#132192#134001#0" />
-            <element signature="e#134007#135816#0" />
-            <element signature="e#135822#137631#0" />
-            <element signature="e#137637#139446#0" />
-            <element signature="e#139452#141261#0" />
-            <element signature="e#141267#143096#0" />
-            <element signature="e#143102#144931#0" />
-            <element signature="e#144937#146766#0" />
-            <element signature="e#146772#147899#0" />
-            <element signature="e#147905#149032#0" />
-            <element signature="e#149038#149591#0" />
-            <element signature="e#149625#151648#0" />
-            <element signature="e#151654#153677#0" />
-            <element signature="e#153683#155706#0" />
-            <element signature="e#155712#157735#0" />
-            <element signature="e#157741#159764#0" />
-            <element signature="e#159770#161793#0" />
-            <element signature="e#161799#163822#0" />
-            <element signature="e#163828#165851#0" />
-            <element signature="e#165883#167282#0" />
-            <element signature="e#167288#168687#0" />
-            <element signature="e#168693#170484#0" />
-            <element signature="e#170490#172281#0" />
-            <element signature="e#172287#174078#0" />
-            <element signature="e#174084#175987#0" />
-            <element signature="e#175993#177797#0" />
-            <element signature="e#177803#179814#0" />
-            <element signature="e#179820#181719#0" />
-            <element signature="e#181725#183624#0" />
-            <element signature="e#183656#185461#0" />
-            <element signature="e#185467#187272#0" />
-            <element signature="e#187278#189083#0" />
-            <element signature="e#189089#190894#0" />
-            <element signature="e#190900#192705#0" />
-            <element signature="e#192711#194516#0" />
-            <element signature="e#194522#196412#0" />
-            <element signature="e#196418#198308#0" />
-            <element signature="e#198314#200204#0" />
-            <element signature="e#200210#202100#0" />
-            <element signature="e#202106#203992#0" />
-            <element signature="e#203998#205884#0" />
-            <element signature="e#205890#206741#0" />
-            <element signature="e#206747#207466#0" />
-            <element signature="e#207472#208194#0" />
-            <element signature="e#208200#208922#0" />
-            <element signature="e#208928#209650#0" />
-            <element signature="e#209678#211382#0" />
-            <element signature="e#211388#213092#0" />
-            <element signature="e#213098#214802#0" />
-            <element signature="e#214808#216514#0" />
-            <element signature="e#216520#218226#0" />
-            <element signature="e#218232#219938#0" />
-            <element signature="e#219944#221650#0" />
-            <element signature="e#221656#223360#0" />
-            <element signature="e#223366#225070#0" />
-            <element signature="e#225076#226780#0" />
-            <element signature="e#226786#228490#0" />
-            <element signature="e#228496#230200#0" />
-            <element signature="e#230206#231910#0" />
-            <element signature="e#231916#233622#0" />
-            <element signature="e#233628#235334#0" />
-            <element signature="e#235340#237044#0" />
-            <element signature="e#237050#238754#0" />
-            <element signature="e#238760#239317#0" />
-            <element signature="e#239323#239880#0" />
-            <element signature="e#239886#240464#0" />
-            <element signature="e#240470#241048#0" />
-            <element signature="e#241054#241622#0" />
-            <element signature="e#241628#242188#0" />
-            <element signature="e#242194#242754#0" />
-            <element signature="e#242792#245212#0" />
-            <element signature="e#245218#247830#0" />
-            <element signature="e#247836#250380#0" />
-            <element signature="e#250386#252930#0" />
-            <element signature="e#252936#255480#0" />
-            <element signature="e#255486#258098#0" />
-            <element signature="e#258104#260648#0" />
-            <element signature="e#260654#263198#0" />
-            <element signature="e#263204#265748#0" />
-            <element signature="e#265754#268366#0" />
-            <element signature="e#268372#270916#0" />
-            <element signature="e#270922#273465#0" />
-            <element signature="e#273471#276014#0" />
-            <element signature="e#276020#278563#0" />
-            <element signature="e#278569#281180#0" />
-            <element signature="e#281186#283077#0" />
-            <element signature="e#283083#284910#0" />
-            <element signature="e#284916#286743#0" />
-            <element signature="e#286749#288640#0" />
-            <element signature="e#288646#290537#0" />
-            <element signature="e#290543#292434#0" />
-            <element signature="e#292440#294267#0" />
-            <element signature="e#294273#296164#0" />
-            <element signature="e#296170#297997#0" />
-            <element signature="e#298003#299830#0" />
-            <element signature="e#299836#301647#0" />
-            <element signature="e#301653#303464#0" />
-            <element signature="e#303470#305281#0" />
-            <element signature="e#305287#307098#0" />
-            <element signature="e#307104#308979#0" />
-            <element signature="e#308985#310796#0" />
-            <element signature="e#310802#312617#0" />
-            <element signature="e#312623#314503#0" />
-            <element signature="e#314509#316394#0" />
-            <element signature="e#316400#318219#0" />
-            <element signature="e#318225#318871#0" />
-            <element signature="e#318877#319523#0" />
-            <element signature="e#319529#320146#0" />
-            <element signature="e#320152#320769#0" />
-            <element signature="e#320775#321417#0" />
-            <element signature="e#321423#322065#0" />
-            <element signature="e#322071#322761#0" />
-            <element signature="e#322804#324613#0" />
-            <element signature="e#324619#326428#0" />
-            <element signature="e#326434#328243#0" />
-            <element signature="e#328249#330058#0" />
-            <element signature="e#330064#331873#0" />
-            <element signature="e#331879#333688#0" />
-            <element signature="e#333694#335503#0" />
-            <element signature="e#335509#337318#0" />
-            <element signature="e#337324#339133#0" />
-            <element signature="e#339139#340948#0" />
-            <element signature="e#340954#342754#0" />
-            <element signature="e#342760#344560#0" />
-            <element signature="e#344566#346366#0" />
-            <element signature="e#346372#348172#0" />
-            <element signature="e#348178#349990#0" />
-            <element signature="e#349996#351808#0" />
-            <element signature="e#351814#353626#0" />
-            <element signature="e#353632#355444#0" />
-            <element signature="e#355450#357262#0" />
-            <element signature="e#357268#359080#0" />
-            <element signature="e#359086#360886#0" />
-            <element signature="e#360892#362692#0" />
-            <element signature="e#362698#364522#0" />
-            <element signature="e#364528#366352#0" />
-            <element signature="e#366358#368158#0" />
-            <element signature="e#368164#369964#0" />
-            <element signature="e#369970#371785#0" />
-            <element signature="e#371791#373606#0" />
-            <element signature="e#373612#375412#0" />
-            <element signature="e#375418#377218#0" />
-            <element signature="e#377224#379033#0" />
-            <element signature="e#379039#380848#0" />
-            <element signature="e#380854#382663#0" />
-            <element signature="e#382669#384478#0" />
-            <element signature="e#384484#385164#0" />
-            <element signature="e#385170#385850#0" />
-            <element signature="e#385856#386587#0" />
-            <element signature="e#386621#388531#0" />
-            <element signature="e#388537#390447#0" />
-            <element signature="e#390453#392363#0" />
-            <element signature="e#392369#394279#0" />
-            <element signature="e#394285#396083#0" />
-            <element signature="e#396089#397887#0" />
-            <element signature="e#397893#399793#0" />
-            <element signature="e#399799#401699#0" />
-            <element signature="e#401705#403605#0" />
-            <element signature="e#403611#405511#0" />
-            <element signature="e#405517#407305#0" />
-            <element signature="e#407311#409099#0" />
-            <element signature="e#409105#409740#0" />
-            <element signature="e#409746#410381#0" />
-            <element signature="e#410387#411050#0" />
-            <element signature="e#411082#412888#0" />
-            <element signature="e#412894#414700#0" />
-            <element signature="e#414706#416512#0" />
-            <element signature="e#416518#418324#0" />
-            <element signature="e#418330#420136#0" />
-            <element signature="e#420142#421948#0" />
-            <element signature="e#421954#423760#0" />
-            <element signature="e#423766#425572#0" />
-            <element signature="e#425578#427384#0" />
-            <element signature="e#427390#429189#0" />
-            <element signature="e#429195#431001#0" />
-            <element signature="e#431007#432814#0" />
-            <element signature="e#432820#434611#0" />
-            <element signature="e#434617#436408#0" />
-            <element signature="e#436414#438205#0" />
-            <element signature="e#438211#440002#0" />
-            <element signature="e#440008#441286#0" />
-            <element signature="e#441292#442569#0" />
-            <element signature="e#442575#443144#0" />
-            <element signature="e#443150#443785#0" />
-            <element signature="e#443791#444340#0" />
-            <element signature="e#444376#446193#0" />
-            <element signature="e#446199#448016#0" />
-            <element signature="e#448022#449904#0" />
-            <element signature="e#449910#451727#0" />
-            <element signature="e#451733#453615#0" />
-            <element signature="e#453621#455438#0" />
-            <element signature="e#455444#457261#0" />
-            <element signature="e#457267#459084#0" />
-            <element signature="e#459090#460889#0" />
-            <element signature="e#460895#462694#0" />
-            <element signature="e#462700#464435#0" />
-            <element signature="e#464441#466176#0" />
-            <element signature="e#466182#467978#0" />
-            <element signature="e#467984#469780#0" />
-            <element signature="e#469786#471582#0" />
-            <element signature="e#471588#473448#0" />
-            <element signature="e#473454#475314#0" />
-            <element signature="e#475320#477116#0" />
-            <element signature="e#477122#478320#0" />
-            <element signature="e#478326#479524#0" />
-            <element signature="e#479530#480121#0" />
-            <element signature="e#480127#480781#0" />
-            <element signature="e#480787#481412#0" />
-            <element signature="e#481418#482043#0" />
-            <element signature="e#482049#482696#0" />
-            <element signature="e#482702#483349#0" />
-            <element signature="e#483355#483927#0" />
-            <element signature="e#483960#485877#0" />
-            <element signature="e#485883#487800#0" />
-            <element signature="e#487806#489723#0" />
-            <element signature="e#489729#491646#0" />
-            <element signature="e#491652#493569#0" />
-            <element signature="e#493575#495492#0" />
-            <element signature="e#495498#497424#0" />
-            <element signature="e#497430#499355#0" />
-            <element signature="e#499361#501286#0" />
-            <element signature="e#501292#503217#0" />
-            <element signature="e#503223#505148#0" />
-            <element signature="e#505154#507079#0" />
-            <element signature="e#507085#507749#0" />
-            <element signature="e#507755#508392#0" />
-            <element signature="e#508398#509035#0" />
-            <element signature="e#509068#510586#0" />
-            <element signature="e#510684#512209#0" />
-            <element signature="e#512215#513355#0" />
-            <element signature="e#513387#514477#0" />
-            <element signature="e#514483#515571#0" />
-            <element signature="e#515577#516572#0" />
-            <element signature="e#516578#517573#0" />
-            <element signature="e#517607#519172#0" />
-            <element signature="e#519178#520760#0" />
-            <element signature="e#520766#522030#0" />
-            <element signature="e#522062#523329#0" />
-            <element signature="e#523335#524875#0" />
-            <element signature="e#524881#526011#0" />
-            <element signature="e#526041#527402#0" />
-            <element signature="e#527408#528769#0" />
-            <element signature="e#528775#529847#0" />
-            <element signature="e#529853#530925#0" />
-            <element signature="e#530931#532277#0" />
-            <element signature="e#532283#533629#0" />
-            <element signature="e#533663#535147#0" />
-            <element signature="e#535153#536637#0" />
-            <element signature="e#536643#538127#0" />
-            <element signature="e#538133#539617#0" />
-            <element signature="e#539623#541107#0" />
-            <element signature="e#541113#542597#0" />
-            <element signature="e#542603#544087#0" />
-            <element signature="e#544093#545577#0" />
-            <element signature="e#545583#547067#0" />
-            <element signature="e#547073#548557#0" />
-            <element signature="e#548563#550048#0" />
-            <element signature="e#550054#551538#0" />
-            <element signature="e#551544#553028#0" />
-            <element signature="e#553034#554518#0" />
-            <element signature="e#554524#556008#0" />
-            <element signature="e#556014#557498#0" />
-            <element signature="e#557535#559529#0" />
-            <element signature="e#559535#561529#0" />
-            <element signature="e#561535#563529#0" />
-            <element signature="e#563535#565529#0" />
-            <element signature="e#565535#567529#0" />
-            <element signature="e#567535#569529#0" />
-            <element signature="e#569535#571384#0" />
-            <element signature="e#571390#573239#0" />
-            <element signature="e#573245#575094#0" />
-            <element signature="e#575100#576949#0" />
-            <element signature="e#576955#578804#0" />
-            <element signature="e#578810#579501#0" />
-            <element signature="e#579507#580200#0" />
-            <element signature="e#580245#581468#0" />
-            <element signature="e#581474#582762#0" />
-            <element signature="e#582768#584019#0" />
-            <element signature="e#584025#585276#0" />
-            <element signature="e#585282#586570#0" />
-            <element signature="e#586576#587827#0" />
-            <element signature="e#587833#589121#0" />
-            <element signature="e#589127#590378#0" />
-            <element signature="e#590384#591602#0" />
-            <element signature="e#591608#593268#0" />
-            <element signature="e#593274#594845#0" />
-            <element signature="e#594851#596487#0" />
-            <element signature="e#596493#598064#0" />
-            <element signature="e#598070#599640#0" />
-            <element signature="e#599646#601268#0" />
-            <element signature="e#601274#602844#0" />
-            <element signature="e#602850#604486#0" />
-            <element signature="e#604492#606291#0" />
-            <element signature="e#606297#608096#0" />
-            <element signature="e#608102#609837#0" />
-            <element signature="e#609843#611578#0" />
-            <element signature="e#611584#613383#0" />
-            <element signature="e#613389#615124#0" />
-            <element signature="e#615130#616916#0" />
-            <element signature="e#616922#618721#0" />
-            <element signature="e#618727#619395#0" />
-            <element signature="e#619401#620053#0" />
-            <element signature="e#620059#620686#0" />
-            <element signature="e#620713#623272#0" />
-            <element signature="e#623278#625837#0" />
-            <element signature="e#625843#628402#0" />
-            <element signature="e#628408#630967#0" />
-            <element signature="e#630973#633532#0" />
-            <element signature="e#633538#636097#0" />
-            <element signature="e#636103#638662#0" />
-            <element signature="e#638668#641227#0" />
-            <element signature="e#641233#643004#0" />
-            <element signature="e#643010#644350#0" />
-            <element signature="e#644356#646189#0" />
-            <element signature="e#646195#648028#0" />
-            <element signature="e#648034#649867#0" />
-            <element signature="e#649873#651706#0" />
-            <element signature="e#651712#653691#0" />
-            <element signature="e#653697#655676#0" />
-            <element signature="e#655682#656301#0" />
-            <element signature="e#656307#656939#0" />
-            <element signature="e#656945#657561#0" />
-            <element signature="e#657595#659521#0" />
-            <element signature="e#659527#661452#0" />
-            <element signature="e#661458#663383#0" />
-            <element signature="e#663389#665314#0" />
-            <element signature="e#665320#667245#0" />
-            <element signature="e#667251#669176#0" />
-            <element signature="e#669182#671107#0" />
-            <element signature="e#671113#673038#0" />
-            <element signature="e#673044#674969#0" />
-            <element signature="e#674975#676900#0" />
-            <element signature="e#676906#677462#0" />
-            <element signature="e#677505#680092#0" />
-            <element signature="e#680098#682685#0" />
-            <element signature="e#682691#685110#0" />
-            <element signature="e#685116#687535#0" />
-            <element signature="e#687541#689960#0" />
-            <element signature="e#689966#692385#0" />
-            <element signature="e#692391#694779#0" />
-            <element signature="e#694785#697173#0" />
-            <element signature="e#697179#697898#0" />
-            <element signature="e#697904#698530#0" />
-            <element signature="e#698569#700667#0" />
-            <element signature="e#700673#702771#0" />
-            <element signature="e#702777#704875#0" />
-            <element signature="e#704881#706979#0" />
-            <element signature="e#706985#707754#0" />
-            <element signature="e#707760#708339#0" />
-            <element signature="e#708345#709116#0" />
-            <element signature="e#709122#709902#0" />
-            <element signature="e#709932#712499#0" />
-            <element signature="e#712505#715072#0" />
-            <element signature="e#715078#717645#0" />
-            <element signature="e#717651#720218#0" />
-            <element signature="e#720224#722791#0" />
-            <element signature="e#722797#725364#0" />
-            <element signature="e#725370#727922#0" />
-            <element signature="e#727928#730480#0" />
-            <element signature="e#730486#733038#0" />
-            <element signature="e#733044#735596#0" />
-            <element signature="e#735602#738154#0" />
-            <element signature="e#738160#740712#0" />
-            <element signature="e#740718#743270#0" />
-            <element signature="e#743276#745828#0" />
-            <element signature="e#745834#748386#0" />
-            <element signature="e#748392#750944#0" />
-            <element signature="e#750950#753502#0" />
-            <element signature="e#753508#756060#0" />
-            <element signature="e#756066#757295#0" />
-            <element signature="e#757301#758467#0" />
-            <element signature="e#758473#759639#0" />
-            <element signature="e#759645#760280#0" />
-            <element signature="e#760286#760902#0" />
-            <element signature="e#760938#762856#0" />
-            <element signature="e#762862#764780#0" />
-            <element signature="e#764786#766704#0" />
-            <element signature="e#766710#768628#0" />
-            <element signature="e#768634#770537#0" />
-            <element signature="e#770543#772446#0" />
-            <element signature="e#772452#774355#0" />
-            <element signature="e#774361#776264#0" />
-            <element signature="e#776270#778173#0" />
-            <element signature="e#778179#780082#0" />
-            <element signature="e#780088#780778#0" />
-            <element signature="e#780784#781489#0" />
-            <element signature="e#781495#782056#0" />
-            <element signature="e#782114#784035#0" />
-            <element signature="e#784041#785935#0" />
-            <element signature="e#785941#787856#0" />
-            <element signature="e#787862#789777#0" />
-            <element signature="e#789783#791677#0" />
-            <element signature="e#791683#793604#0" />
-            <element signature="e#793610#795531#0" />
-            <element signature="e#795537#797431#0" />
-            <element signature="e#797437#799352#0" />
-            <element signature="e#799358#801273#0" />
-            <element signature="e#801279#803173#0" />
-            <element signature="e#803179#805100#0" />
-            <element signature="e#805106#805773#0" />
-            <element signature="e#805808#807710#0" />
-            <element signature="e#807716#809618#0" />
-            <element signature="e#809624#811532#0" />
-            <element signature="e#811538#813446#0" />
-            <element signature="e#813452#815344#0" />
-            <element signature="e#815350#817242#0" />
-            <element signature="e#817248#819150#0" />
-            <element signature="e#819156#821057#0" />
-            <element signature="e#821063#822971#0" />
-            <element signature="e#822977#824885#0" />
-            <element signature="e#824891#826784#0" />
-            <element signature="e#826790#828692#0" />
-            <element signature="e#828698#829363#0" />
-            <element signature="e#829398#831414#0" />
-            <element signature="e#831420#833434#0" />
-            <element signature="e#833440#835454#0" />
-            <element signature="e#835460#837474#0" />
-            <element signature="e#837480#839494#0" />
-            <element signature="e#839500#841514#0" />
-            <element signature="e#841520#843534#0" />
-            <element signature="e#843540#845554#0" />
-            <element signature="e#845588#847486#0" />
-            <element signature="e#847492#849399#0" />
-            <element signature="e#849405#851312#0" />
-            <element signature="e#851318#853225#0" />
-            <element signature="e#853231#855129#0" />
-            <element signature="e#855135#857033#0" />
-            <element signature="e#857039#858946#0" />
-            <element signature="e#858952#860859#0" />
-            <element signature="e#860865#862772#0" />
-            <element signature="e#862778#864676#0" />
-            <element signature="e#864718#867351#0" />
-            <element signature="e#867357#869990#0" />
-            <element signature="e#869996#872629#0" />
-            <element signature="e#872635#875268#0" />
-            <element signature="e#875274#877907#0" />
-            <element signature="e#877913#880546#0" />
-            <element signature="e#880552#883185#0" />
-            <element signature="e#883191#885824#0" />
-            <element signature="e#885830#887790#0" />
-            <element signature="e#887796#889756#0" />
-            <element signature="e#889762#891730#0" />
-            <element signature="e#891736#893704#0" />
-            <element signature="e#893710#895632#0" />
-            <element signature="e#895638#897560#0" />
-            <element signature="e#897566#899534#0" />
-            <element signature="e#899540#901508#0" />
-            <element signature="e#901514#903437#0" />
-            <element signature="e#903443#905366#0" />
-            <element signature="e#905372#907188#0" />
-            <element signature="e#907194#909010#0" />
-            <element signature="e#909016#910891#0" />
-            <element signature="e#910897#912772#0" />
-            <element signature="e#912778#914764#0" />
-            <element signature="e#914770#916744#0" />
-            <element signature="e#916750#918724#0" />
-            <element signature="e#918730#919385#0" />
-            <element signature="e#919391#920086#0" />
-            <element signature="e#920092#920727#0" />
-            <element signature="e#920733#921568#0" />
-            <element signature="e#921574#922350#0" />
-            <element signature="e#922356#923011#0" />
-            <element signature="e#923017#923712#0" />
-            <element signature="e#923718#924353#0" />
-            <element signature="e#924359#925194#0" />
-            <element signature="e#925200#925976#0" />
-            <element signature="e#926019#928652#0" />
-            <element signature="e#928658#931291#0" />
-            <element signature="e#931297#933930#0" />
-            <element signature="e#933936#936569#0" />
-            <element signature="e#936575#939208#0" />
-            <element signature="e#939214#941847#0" />
-            <element signature="e#941853#944486#0" />
-            <element signature="e#944492#947125#0" />
-            <element signature="e#947131#948960#0" />
-            <element signature="e#948966#950808#0" />
-            <element signature="e#950814#952661#0" />
-            <element signature="e#952667#954501#0" />
-            <element signature="e#954507#956411#0" />
-            <element signature="e#956417#958376#0" />
-            <element signature="e#958382#960341#0" />
-            <element signature="e#960347#962306#0" />
-            <element signature="e#962312#964271#0" />
-            <element signature="e#964277#966224#0" />
-            <element signature="e#966230#968177#0" />
-            <element signature="e#968183#970130#0" />
-            <element signature="e#970136#972085#0" />
-            <element signature="e#972091#974040#0" />
-            <element signature="e#974046#974702#0" />
-            <element signature="e#974708#975405#0" />
-            <element signature="e#975411#976108#0" />
-            <element signature="e#976114#976813#0" />
-            <element signature="e#976819#977655#0" />
-            <element signature="e#977661#978306#0" />
-            <element signature="e#978312#978957#0" />
-            <element signature="e#978963#979740#0" />
-            <element signature="e#979789#981542#0" />
-            <element signature="e#981548#983301#0" />
-            <element signature="e#983307#985060#0" />
-            <element signature="e#985066#986819#0" />
-            <element signature="e#986825#988578#0" />
-            <element signature="e#988584#990341#0" />
-            <element signature="e#990347#992104#0" />
-            <element signature="e#992110#993867#0" />
-            <element signature="e#993873#995630#0" />
-            <element signature="e#995636#997393#0" />
-            <element signature="e#997399#999174#0" />
-            <element signature="e#999180#1000955#0" />
-            <element signature="e#1000961#1002736#0" />
-            <element signature="e#1002742#1004517#0" />
-            <element signature="e#1004523#1006298#0" />
-            <element signature="e#1006304#1008083#0" />
-            <element signature="e#1008089#1009868#0" />
-            <element signature="e#1009874#1011653#0" />
-            <element signature="e#1011659#1013438#0" />
-            <element signature="e#1013444#1015223#0" />
-            <element signature="e#1015229#1017004#0" />
-            <element signature="e#1017010#1018785#0" />
-            <element signature="e#1018791#1020566#0" />
-            <element signature="e#1020572#1022347#0" />
-            <element signature="e#1022353#1024128#0" />
-            <element signature="e#1024134#1025913#0" />
-            <element signature="e#1025919#1027698#0" />
-            <element signature="e#1027704#1029483#0" />
-            <element signature="e#1029489#1031268#0" />
-            <element signature="e#1031274#1033053#0" />
-            <element signature="e#1033059#1034870#0" />
-            <element signature="e#1034876#1036687#0" />
-            <element signature="e#1036693#1038504#0" />
-            <element signature="e#1038510#1040321#0" />
-            <element signature="e#1040327#1042138#0" />
-            <element signature="e#1042144#1043959#0" />
-            <element signature="e#1043965#1045780#0" />
-            <element signature="e#1045786#1047601#0" />
-            <element signature="e#1047607#1049422#0" />
-            <element signature="e#1049428#1051243#0" />
-            <element signature="e#1051249#1051825#0" />
-            <element signature="e#1051831#1052407#0" />
-            <element signature="e#1052413#1052977#0" />
-            <element signature="e#1052983#1053547#0" />
-            <element signature="e#1053553#1054117#0" />
-            <element signature="e#1054123#1054699#0" />
-            <element signature="e#1054705#1055281#0" />
-            <element signature="e#1055287#1055863#0" />
-            <element signature="e#1055869#1056443#0" />
-            <element signature="e#1056449#1057023#0" />
-            <element signature="e#1057029#1057603#0" />
-            <element signature="e#1057609#1058181#0" />
-            <element signature="e#1058187#1058759#0" />
-            <element signature="e#1058765#1059339#0" />
-            <element signature="e#1059345#1059919#0" />
-            <element signature="e#1059925#1060508#0" />
-            <element signature="e#1060514#1061097#0" />
-            <element signature="e#1061145#1062978#0" />
-            <element signature="e#1062984#1064817#0" />
-            <element signature="e#1064823#1066656#0" />
-            <element signature="e#1066662#1068495#0" />
-            <element signature="e#1068501#1070334#0" />
-            <element signature="e#1070340#1072173#0" />
-            <element signature="e#1072179#1074012#0" />
-            <element signature="e#1074018#1075851#0" />
-            <element signature="e#1075857#1077687#0" />
-            <element signature="e#1077693#1079523#0" />
-            <element signature="e#1079529#1081359#0" />
-            <element signature="e#1081365#1083195#0" />
-            <element signature="e#1083201#1085031#0" />
-            <element signature="e#1085037#1086867#0" />
-            <element signature="e#1086873#1088703#0" />
-            <element signature="e#1088709#1090539#0" />
-            <element signature="e#1090545#1092375#0" />
-            <element signature="e#1092381#1094211#0" />
-            <element signature="e#1094217#1096047#0" />
-            <element signature="e#1096053#1097883#0" />
-            <element signature="e#1097889#1099723#0" />
-            <element signature="e#1099729#1101563#0" />
-            <element signature="e#1101569#1103403#0" />
-            <element signature="e#1103409#1105243#0" />
-            <element signature="e#1105249#1107053#0" />
-            <element signature="e#1107059#1108863#0" />
-            <element signature="e#1108869#1110673#0" />
-            <element signature="e#1110679#1112483#0" />
-            <element signature="e#1112489#1114293#0" />
-            <element signature="e#1114299#1116103#0" />
-            <element signature="e#1116109#1116680#0" />
-            <element signature="e#1116686#1117243#0" />
-            <element signature="e#1117249#1117810#0" />
-            <element signature="e#1117816#1118377#0" />
-            <element signature="e#1118383#1118944#0" />
-            <element signature="e#1118950#1119511#0" />
-            <element signature="e#1119517#1120103#0" />
-            <element signature="e#1120109#1120699#0" />
-            <element signature="e#1120705#1121295#0" />
-            <element signature="e#1121301#1121891#0" />
-            <element signature="e#1121916#1123042#0" />
-            <element signature="e#1123048#1124156#0" />
-            <element signature="e#1124162#1125288#0" />
-            <element signature="e#1125294#1126416#0" />
-            <element signature="e#1126422#1127544#0" />
-            <element signature="e#1127567#1128923#0" />
-            <element signature="e#1128929#1130614#0" />
-            <element signature="e#1130645#1132032#0" />
-            <element signature="e#1132038#1133425#0" />
-            <element signature="e#1133431#1134818#0" />
-            <element signature="e#1134842#1136205#0" />
-            <element signature="e#1136211#1137574#0" />
-            <element signature="e#1137580#1139835#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/module0/Space_Units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="673" column="28" selection-start-line="673" selection-start-column="28" selection-end-line="673" selection-end-column="28" />
-          <folding>
-            <element signature="e#98#9066#0" />
-            <element signature="e#9072#16100#0" />
-            <element signature="e#16106#23403#0" />
-            <element signature="e#23409#29871#0" />
-            <element signature="e#29877#37089#0" />
-            <element signature="e#37095#45548#0" />
-            <element signature="e#45554#54272#0" />
-            <element signature="e#54278#63079#0" />
-            <element signature="e#63085#71241#0" />
-            <element signature="e#71247#80194#0" />
-            <element signature="e#80200#89290#0" />
-            <element signature="e#89296#100313#0" />
-            <element signature="e#100319#109977#0" />
-            <element signature="e#109983#120629#0" />
-            <element signature="e#120635#130327#0" />
-            <element signature="e#130333#140493#0" />
-            <element signature="e#140499#150082#0" />
-            <element signature="e#150088#159865#0" />
-            <element signature="e#159871#170972#0" />
-            <element signature="e#170978#180540#0" />
-            <element signature="e#180546#192853#0" />
-            <element signature="e#192859#204270#0" />
-            <element signature="e#204276#213891#0" />
-            <element signature="e#213897#224169#0" />
-            <element signature="e#224175#236124#0" />
-            <element signature="e#236130#246667#0" />
-            <element signature="e#246734#254555#0" />
-            <element signature="e#254561#262070#0" />
-            <element signature="e#262076#269810#0" />
-            <element signature="e#269816#278500#0" />
-            <element signature="e#278506#287117#0" />
-            <element signature="e#287123#294823#0" />
-            <element signature="e#294829#301628#0" />
-            <element signature="e#301634#308243#0" />
-            <element signature="e#308249#314857#0" />
-            <element signature="e#314863#322693#0" />
-            <element signature="e#322699#329733#0" />
-            <element signature="e#329739#336920#0" />
-            <element signature="e#336926#345427#0" />
-            <element signature="e#345433#353537#0" />
-            <element signature="e#353543#363618#0" />
-            <element signature="e#363624#373540#0" />
-            <element signature="e#373546#383067#0" />
-            <element signature="e#383073#392332#0" />
-            <element signature="e#392338#401758#0" />
-            <element signature="e#401764#412617#0" />
-            <element signature="e#412623#423432#0" />
-            <element signature="e#423438#433801#0" />
-            <element signature="e#433807#443537#0" />
-            <element signature="e#443543#453409#0" />
-            <element signature="e#453415#465164#0" />
-            <element signature="e#465170#475394#0" />
-            <element signature="e#475400#485463#0" />
-            <element signature="e#485469#498379#0" />
-            <element signature="e#498385#511370#0" />
-            <element signature="e#511376#523791#0" />
-            <element signature="e#523797#536646#0" />
-            <element signature="e#536652#543049#0" />
-            <element signature="e#543055#546387#0" />
-            <element signature="e#546463#555271#0" />
-            <element signature="e#555277#563440#0" />
-            <element signature="e#563495#571976#0" />
-            <element signature="e#571982#580066#0" />
-            <element signature="e#580072#590153#0" />
-            <element signature="e#590159#600119#0" />
-            <element signature="e#600125#609758#0" />
-            <element signature="e#609764#619165#0" />
-            <element signature="e#619171#628696#0" />
-            <element signature="e#628702#639668#0" />
-            <element signature="e#639674#650588#0" />
-            <element signature="e#650594#661242#0" />
-            <element signature="e#661248#671082#0" />
-            <element signature="e#671088#681062#0" />
-            <element signature="e#681068#692940#0" />
-            <element signature="e#692946#703311#0" />
-            <element signature="e#703317#713493#0" />
-            <element signature="e#713499#726464#0" />
-            <element signature="e#726470#739510#0" />
-            <element signature="e#739516#751976#0" />
-            <element signature="e#751982#764897#0" />
-            <element signature="e#764903#771383#0" />
-            <element signature="e#771389#774724#0" />
-            <element signature="e#774730#783541#0" />
-            <element signature="e#783547#791657#0" />
-            <element signature="e#791663#800591#0" />
-            <element signature="e#800597#809755#0" />
-            <element signature="e#809761#820756#0" />
-            <element signature="e#820762#830397#0" />
-            <element signature="e#830403#841183#0" />
-            <element signature="e#841189#851005#0" />
-            <element signature="e#851011#860707#0" />
-            <element signature="e#860713#870992#0" />
-            <element signature="e#870998#880899#0" />
-            <element signature="e#880905#892068#0" />
-            <element signature="e#892074#901725#0" />
-            <element signature="e#901731#914094#0" />
-            <element signature="e#914100#925566#0" />
-            <element signature="e#925572#935260#0" />
-            <element signature="e#935266#945611#0" />
-            <element signature="e#945617#957615#0" />
-            <element signature="e#949846#950935#0" />
-            <element signature="e#955795#956496#0" />
-            <element signature="e#956506#957274#0" />
-            <element signature="e#957621#968204#0" />
           </folding>
         </state>
       </provider>
@@ -2792,197 +2345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/module1/Space_Squadrons.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
-          <folding>
-            <element signature="e#96#363#0" />
-            <element signature="e#369#626#0" />
-            <element signature="e#632#889#0" />
-            <element signature="e#895#1152#0" />
-            <element signature="e#1158#1415#0" />
-            <element signature="e#1421#1688#0" />
-            <element signature="e#1694#1977#0" />
-            <element signature="e#1983#2242#0" />
-            <element signature="e#2248#2525#0" />
-            <element signature="e#2591#2861#0" />
-            <element signature="e#2867#3127#0" />
-            <element signature="e#3133#3393#0" />
-            <element signature="e#3399#3659#0" />
-            <element signature="e#3665#3925#0" />
-            <element signature="e#3931#4201#0" />
-            <element signature="e#4207#4493#0" />
-            <element signature="e#4499#4761#0" />
-            <element signature="e#4767#5047#0" />
-            <element signature="e#5126#8700#0" />
-            <element signature="e#8706#12280#0" />
-            <element signature="e#12286#15814#0" />
-            <element signature="e#15820#18728#0" />
-            <element signature="e#18734#21699#0" />
-            <element signature="e#21705#25275#0" />
-            <element signature="e#25281#29010#0" />
-            <element signature="e#29016#32149#0" />
-            <element signature="e#32219#35727#0" />
-            <element signature="e#35733#38689#0" />
-            <element signature="e#38695#41888#0" />
-            <element signature="e#41961#44924#0" />
-            <element signature="e#44930#48765#0" />
-            <element signature="e#48771#52073#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xml/module1/Space_Units.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="9837" selection-start-line="9837" selection-end-line="9837" />
-          <folding>
-            <element signature="e#98#337#0" />
-            <element signature="e#343#592#0" />
-            <element signature="e#598#851#0" />
-            <element signature="e#857#1100#0" />
-            <element signature="e#1106#1353#0" />
-            <element signature="e#1359#1606#0" />
-            <element signature="e#1612#1853#0" />
-            <element signature="e#1859#2104#0" />
-            <element signature="e#2110#2353#0" />
-            <element signature="e#2359#2600#0" />
-            <element signature="e#2606#2847#0" />
-            <element signature="e#2853#3102#0" />
-            <element signature="e#3108#3353#0" />
-            <element signature="e#3359#3610#0" />
-            <element signature="e#3616#3853#0" />
-            <element signature="e#3859#4092#0" />
-            <element signature="e#4098#4331#0" />
-            <element signature="e#4337#4572#0" />
-            <element signature="e#4578#4819#0" />
-            <element signature="e#4825#5068#0" />
-            <element signature="e#5074#5315#0" />
-            <element signature="e#5321#5560#0" />
-            <element signature="e#5566#5809#0" />
-            <element signature="e#5815#6056#0" />
-            <element signature="e#6062#6305#0" />
-            <element signature="e#6311#6552#0" />
-            <element signature="e#6558#6825#0" />
-            <element signature="e#6831#7086#0" />
-            <element signature="e#7092#7347#0" />
-            <element signature="e#7353#7594#0" />
-            <element signature="e#7600#7843#0" />
-            <element signature="e#7849#8092#0" />
-            <element signature="e#8098#8367#0" />
-            <element signature="e#8373#8612#0" />
-            <element signature="e#8618#8859#0" />
-            <element signature="e#8865#9104#0" />
-            <element signature="e#9110#9351#0" />
-            <element signature="e#9357#9600#0" />
-            <element signature="e#9606#9865#0" />
-            <element signature="e#9871#10128#0" />
-            <element signature="e#10134#10373#0" />
-            <element signature="e#10440#10682#0" />
-            <element signature="e#10688#10940#0" />
-            <element signature="e#10946#11202#0" />
-            <element signature="e#11208#11454#0" />
-            <element signature="e#11460#11710#0" />
-            <element signature="e#11716#11966#0" />
-            <element signature="e#11972#12216#0" />
-            <element signature="e#12222#12470#0" />
-            <element signature="e#12476#12722#0" />
-            <element signature="e#12728#12972#0" />
-            <element signature="e#12978#13222#0" />
-            <element signature="e#13228#13480#0" />
-            <element signature="e#13486#13734#0" />
-            <element signature="e#13740#13994#0" />
-            <element signature="e#14000#14240#0" />
-            <element signature="e#14246#14482#0" />
-            <element signature="e#14488#14724#0" />
-            <element signature="e#14730#14968#0" />
-            <element signature="e#14974#15218#0" />
-            <element signature="e#15224#15470#0" />
-            <element signature="e#15476#15720#0" />
-            <element signature="e#15726#15968#0" />
-            <element signature="e#15974#16220#0" />
-            <element signature="e#16226#16470#0" />
-            <element signature="e#16476#16722#0" />
-            <element signature="e#16728#16972#0" />
-            <element signature="e#16978#17248#0" />
-            <element signature="e#17254#17512#0" />
-            <element signature="e#17518#17776#0" />
-            <element signature="e#17782#18026#0" />
-            <element signature="e#18032#18278#0" />
-            <element signature="e#18284#18530#0" />
-            <element signature="e#18536#18808#0" />
-            <element signature="e#18814#19056#0" />
-            <element signature="e#19062#19306#0" />
-            <element signature="e#19312#19554#0" />
-            <element signature="e#19560#19804#0" />
-            <element signature="e#19810#20056#0" />
-            <element signature="e#20062#20324#0" />
-            <element signature="e#20330#20590#0" />
-            <element signature="e#20596#20838#0" />
-            <element signature="e#20917#27916#0" />
-            <element signature="e#27922#35218#0" />
-            <element signature="e#35224#42361#0" />
-            <element signature="e#42367#44692#0" />
-            <element signature="e#44698#51291#0" />
-            <element signature="e#51297#58526#0" />
-            <element signature="e#58532#65679#0" />
-            <element signature="e#65685#75028#0" />
-            <element signature="e#75034#84566#0" />
-            <element signature="e#84572#94524#0" />
-            <element signature="e#94530#103196#0" />
-            <element signature="e#103202#112421#0" />
-            <element signature="e#112427#122884#0" />
-            <element signature="e#122890#132512#0" />
-            <element signature="e#132518#142413#0" />
-            <element signature="e#142419#151884#0" />
-            <element signature="e#151890#161188#0" />
-            <element signature="e#161194#174726#0" />
-            <element signature="e#174732#185629#0" />
-            <element signature="e#185635#195821#0" />
-            <element signature="e#195827#205939#0" />
-            <element signature="e#205945#216456#0" />
-            <element signature="e#216462#222327#0" />
-            <element signature="e#222333#222981#0" />
-            <element signature="e#223051#230120#0" />
-            <element signature="e#230126#236667#0" />
-            <element signature="e#236673#243328#0" />
-            <element signature="e#243334#254275#0" />
-            <element signature="e#254281#262465#0" />
-            <element signature="e#262471#271410#0" />
-            <element signature="e#271416#274337#0" />
-            <element signature="e#274343#285755#0" />
-            <element signature="e#285761#295312#0" />
-            <element signature="e#295318#306187#0" />
-            <element signature="e#306193#316350#0" />
-            <element signature="e#316356#326973#0" />
-            <element signature="e#326979#336518#0" />
-            <element signature="e#336524#345838#0" />
-            <element signature="e#345844#356672#0" />
-            <element signature="e#356678#362668#0" />
-            <element signature="e#362674#363531#0" />
-            <element signature="e#363604#373515#0" />
-            <element signature="e#373521#380262#0" />
-            <element signature="e#380268#389393#0" />
-            <element signature="e#389399#398863#0" />
-            <element signature="e#398869#409354#0" />
-            <element signature="e#409360#418754#0" />
-            <element signature="e#418760#428821#0" />
-            <element signature="e#428827#438898#0" />
-            <element signature="e#438904#449945#0" />
-            <element signature="e#449951#459083#0" />
-            <element signature="e#459089#468910#0" />
-            <element signature="e#468916#478065#0" />
-            <element signature="e#478071#485462#0" />
-            <element signature="e#485468#494752#0" />
-            <element signature="e#494758#501634#0" />
-            <element signature="e#501640#510206#0" />
-            <element signature="e#510212#518705#0" />
-            <element signature="e#518711#528419#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/module1/Space_Death.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -3101,75 +2463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xml/ground/Groundinfantry.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
-          <folding>
-            <element signature="e#698#1261#0" />
-            <element signature="e#1824#2712#0" />
-            <element signature="e#2715#2960#0" />
-            <element signature="e#2963#3199#0" />
-            <element signature="e#3202#3433#0" />
-            <element signature="e#3436#3628#0" />
-            <element signature="e#4191#4892#0" />
-            <element signature="e#4895#5073#0" />
-            <element signature="e#5076#5321#0" />
-            <element signature="e#5324#5569#0" />
-            <element signature="e#5572#5808#0" />
-            <element signature="e#5811#6043#0" />
-            <element signature="e#6606#7537#0" />
-            <element signature="e#7540#7787#0" />
-            <element signature="e#7790#8037#0" />
-            <element signature="e#8040#8278#0" />
-            <element signature="e#8281#8514#0" />
-            <element signature="e#8517#8697#0" />
-            <element signature="e#9260#9961#0" />
-            <element signature="e#9964#10207#0" />
-            <element signature="e#10210#10453#0" />
-            <element signature="e#10456#10690#0" />
-            <element signature="e#11253#11966#0" />
-            <element signature="e#11969#18340#0" />
-            <element signature="e#18343#18645#0" />
-            <element signature="e#18648#18830#0" />
-            <element signature="e#18833#18999#0" />
-            <element signature="e#19002#19169#0" />
-            <element signature="e#19732#20385#0" />
-            <element signature="e#20388#26630#0" />
-            <element signature="e#27193#27788#0" />
-            <element signature="e#27791#32048#0" />
-            <element signature="e#32051#32303#0" />
-            <element signature="e#32306#32558#0" />
-            <element signature="e#32561#32694#0" />
-            <element signature="e#32697#32830#0" />
-            <element signature="e#32833#32966#0" />
-            <element signature="e#32969#33102#0" />
-            <element signature="e#33105#33238#0" />
-            <element signature="e#33241#33374#0" />
-            <element signature="e#33377#33696#0" />
-            <element signature="e#33699#39202#0" />
-            <element signature="e#39259#39659#0" />
-            <element signature="e#39662#40054#0" />
-            <element signature="e#40057#40458#0" />
-            <element signature="e#40461#40854#0" />
-            <element signature="e#40857#41487#0" />
-            <element signature="e#41490#42379#0" />
-            <element signature="e#42942#43577#0" />
-            <element signature="e#43580#44465#0" />
-            <element signature="e#45028#45661#0" />
-            <element signature="e#45743#45996#0" />
-            <element signature="e#45999#46252#0" />
-            <element signature="e#46255#46550#0" />
-            <element signature="e#46553#46848#0" />
-            <element signature="e#46851#47144#0" />
-            <element signature="e#47147#47440#0" />
-            <element signature="e#47506#47829#0" />
-            <element signature="e#47832#48197#0" />
-            <element signature="e#48200#48563#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xml/ground/Groundvehicles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -3254,13 +2547,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xml/ground/Groundcompaniesrebel.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="296" column="44" selection-start-line="296" selection-start-column="44" selection-end-line="296" selection-end-column="44" />
+        <state relative-caret-position="187">
+          <caret line="260" column="46" selection-start-line="260" selection-start-column="46" selection-end-line="260" selection-end-column="46" />
           <folding>
             <element signature="n#GroundCompany#0;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#1;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#2;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#3;n#RebelGroundCompanies#0;n#!!top" />
+            <element signature="n#GroundCompany#4;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#5;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#6;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="e#22116#22440#0" />
@@ -3271,6 +2565,1123 @@
             <element signature="n#GroundCompany#11;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#12;n#RebelGroundCompanies#0;n#!!top" />
             <element signature="n#GroundCompany#13;n#RebelGroundCompanies#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/ground/Groundinfantry.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="201" lean-forward="true" selection-start-line="201" selection-end-line="201" />
+          <folding>
+            <element signature="e#698#1261#0" />
+            <element signature="e#1824#2712#0" />
+            <element signature="e#2715#2960#0" />
+            <element signature="e#2963#3199#0" />
+            <element signature="e#3202#3433#0" />
+            <element signature="e#3436#3628#0" />
+            <element signature="e#4191#4892#0" />
+            <element signature="e#4895#5073#0" />
+            <element signature="e#5076#5321#0" />
+            <element signature="e#5324#5569#0" />
+            <element signature="e#5572#5808#0" />
+            <element signature="e#5811#6043#0" />
+            <element signature="e#6606#7537#0" />
+            <element signature="e#7540#7787#0" />
+            <element signature="e#7790#8037#0" />
+            <element signature="e#8040#8278#0" />
+            <element signature="e#8281#8514#0" />
+            <element signature="e#8517#8697#0" />
+            <element signature="e#9260#9961#0" />
+            <element signature="e#9964#10207#0" />
+            <element signature="e#10210#10453#0" />
+            <element signature="e#10456#10690#0" />
+            <element signature="e#11253#11966#0" />
+            <element signature="e#11969#18340#0" />
+            <element signature="e#18343#18645#0" />
+            <element signature="e#18648#18830#0" />
+            <element signature="e#18833#18999#0" />
+            <element signature="e#19002#19169#0" />
+            <element signature="e#19732#20385#0" />
+            <element signature="e#20388#26630#0" />
+            <element signature="e#27193#27788#0" />
+            <element signature="e#27791#32048#0" />
+            <element signature="e#32051#32303#0" />
+            <element signature="e#32306#32558#0" />
+            <element signature="e#32561#32694#0" />
+            <element signature="e#32697#32830#0" />
+            <element signature="e#32833#32966#0" />
+            <element signature="e#32969#33102#0" />
+            <element signature="e#33105#33238#0" />
+            <element signature="e#33241#33374#0" />
+            <element signature="e#33377#33696#0" />
+            <element signature="e#33699#39202#0" />
+            <element signature="e#39259#39659#0" />
+            <element signature="e#39662#40054#0" />
+            <element signature="e#40057#40458#0" />
+            <element signature="e#40461#40854#0" />
+            <element signature="e#40857#41487#0" />
+            <element signature="e#41490#42379#0" />
+            <element signature="e#42942#43577#0" />
+            <element signature="e#43580#44465#0" />
+            <element signature="e#45028#45661#0" />
+            <element signature="e#45743#45996#0" />
+            <element signature="e#45999#46252#0" />
+            <element signature="e#46255#46550#0" />
+            <element signature="e#46553#46848#0" />
+            <element signature="e#46851#47144#0" />
+            <element signature="e#47147#47440#0" />
+            <element signature="e#47506#47829#0" />
+            <element signature="e#47832#48197#0" />
+            <element signature="e#48200#48563#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/default/Default_Space_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="509" lean-forward="true" selection-start-line="509" selection-end-line="509" />
+          <folding>
+            <element signature="n#SpaceUnit#0;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#1;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#2;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#3;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#UniqueUnit#0;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#TransportUnit#0;n#SpaceUnits#0;n#!!top" />
+            <element signature="e#26172#35194#0" />
+            <element signature="n#UniqueUnit#1;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#UniqueUnit#2;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#UniqueUnit#3;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#UniqueUnit#4;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#UniqueUnit#5;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#4;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#5;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#6;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#7;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#8;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#9;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#10;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#11;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#12;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#13;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#14;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#15;n#SpaceUnits#0;n#!!top" />
+            <element signature="n#SpaceUnit#16;n#SpaceUnits#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module0/Land_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="1709" lean-forward="true" selection-start-line="1709" selection-end-line="1709" />
+          <folding>
+            <element signature="e#97#9122#0" />
+            <element signature="e#9128#17821#0" />
+            <element signature="e#17827#25057#0" />
+            <element signature="e#25063#34701#0" />
+            <element signature="e#34707#43548#0" />
+            <element signature="e#43554#44262#0" />
+            <element signature="e#44268#53153#0" />
+            <element signature="e#53159#53885#0" />
+            <element signature="e#53891#62822#0" />
+            <element signature="e#62828#63572#0" />
+            <element signature="e#63578#71999#0" />
+            <element signature="e#72005#72731#0" />
+            <element signature="e#72737#85968#0" />
+            <element signature="e#93476#102068#0" />
+            <element signature="e#102074#108962#0" />
+            <element signature="e#108968#117032#0" />
+            <element signature="e#117038#125470#0" />
+            <element signature="e#125476#126199#0" />
+            <element signature="e#126205#133936#0" />
+            <element signature="e#133942#135475#0" />
+            <element signature="e#135481#143647#0" />
+            <element signature="e#143653#144346#0" />
+            <element signature="e#144352#152953#0" />
+            <element signature="e#152959#153667#0" />
+            <element signature="e#153673#157881#0" />
+            <element signature="e#157887#158604#0" />
+            <element signature="e#158610#166096#0" />
+            <element signature="e#166102#166854#0" />
+            <element signature="e#166857#173692#0" />
+            <element signature="e#173698#185417#0" />
+            <element signature="e#185423#186587#0" />
+            <element signature="e#186593#195968#0" />
+            <element signature="e#195974#207269#0" />
+            <element signature="e#207275#208445#0" />
+            <element signature="e#208451#220327#0" />
+            <element signature="e#220333#221489#0" />
+            <element signature="e#221495#230098#0" />
+            <element signature="e#230104#238888#0" />
+            <element signature="e#238894#239126#0" />
+            <element signature="e#239132#241085#0" />
+            <element signature="e#241091#250914#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Particles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module0/HardPoints.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="711" column="47" selection-start-line="711" selection-start-column="47" selection-end-line="711" selection-end-column="47" />
+          <folding>
+            <element signature="e#125#1631#0" />
+            <element signature="e#1637#2777#0" />
+            <element signature="e#2803#4175#0" />
+            <element signature="e#4181#5553#0" />
+            <element signature="e#5559#6907#0" />
+            <element signature="e#6913#8261#0" />
+            <element signature="e#8267#9355#0" />
+            <element signature="e#9381#10438#0" />
+            <element signature="e#10444#11913#0" />
+            <element signature="e#11939#13359#0" />
+            <element signature="e#13386#14532#0" />
+            <element signature="e#14538#15684#0" />
+            <element signature="e#15722#17314#0" />
+            <element signature="e#17320#18913#0" />
+            <element signature="e#18919#20515#0" />
+            <element signature="e#20521#22116#0" />
+            <element signature="e#22122#23717#0" />
+            <element signature="e#23723#25319#0" />
+            <element signature="e#25356#26874#0" />
+            <element signature="e#26880#28398#0" />
+            <element signature="e#28404#29922#0" />
+            <element signature="e#29928#31446#0" />
+            <element signature="e#31452#32280#0" />
+            <element signature="e#32286#33114#0" />
+            <element signature="e#33120#34638#0" />
+            <element signature="e#34644#36162#0" />
+            <element signature="e#36199#38194#0" />
+            <element signature="e#38200#40195#0" />
+            <element signature="e#40201#42151#0" />
+            <element signature="e#42157#44107#0" />
+            <element signature="e#44113#46107#0" />
+            <element signature="e#46113#48108#0" />
+            <element signature="e#48114#50063#0" />
+            <element signature="e#50069#52019#0" />
+            <element signature="e#52025#52867#0" />
+            <element signature="e#52873#53512#0" />
+            <element signature="e#53518#54159#0" />
+            <element signature="e#54194#56452#0" />
+            <element signature="e#56458#58716#0" />
+            <element signature="e#58722#60980#0" />
+            <element signature="e#60986#63244#0" />
+            <element signature="e#63250#65508#0" />
+            <element signature="e#65514#67772#0" />
+            <element signature="e#67778#70036#0" />
+            <element signature="e#70042#72300#0" />
+            <element signature="e#72306#74135#0" />
+            <element signature="e#74141#75970#0" />
+            <element signature="e#75976#77805#0" />
+            <element signature="e#77811#79640#0" />
+            <element signature="e#79646#81748#0" />
+            <element signature="e#81754#83856#0" />
+            <element signature="e#83862#85964#0" />
+            <element signature="e#85970#88072#0" />
+            <element signature="e#88078#90181#0" />
+            <element signature="e#90187#90881#0" />
+            <element signature="e#90887#91580#0" />
+            <element signature="e#91612#93471#0" />
+            <element signature="e#93477#95352#0" />
+            <element signature="e#95358#96649#0" />
+            <element signature="e#96655#98061#0" />
+            <element signature="e#98067#99358#0" />
+            <element signature="e#99364#100770#0" />
+            <element signature="e#100776#101452#0" />
+            <element signature="e#101484#103284#0" />
+            <element signature="e#103290#105090#0" />
+            <element signature="e#105096#106898#0" />
+            <element signature="e#106904#108704#0" />
+            <element signature="e#108710#110510#0" />
+            <element signature="e#110516#112316#0" />
+            <element signature="e#112322#114122#0" />
+            <element signature="e#114128#115928#0" />
+            <element signature="e#115934#117057#0" />
+            <element signature="e#117063#118186#0" />
+            <element signature="e#118192#119990#0" />
+            <element signature="e#119996#121794#0" />
+            <element signature="e#121800#123598#0" />
+            <element signature="e#123604#125402#0" />
+            <element signature="e#125408#126070#0" />
+            <element signature="e#126076#126708#0" />
+            <element signature="e#126747#128556#0" />
+            <element signature="e#128562#130371#0" />
+            <element signature="e#130377#132186#0" />
+            <element signature="e#132192#134001#0" />
+            <element signature="e#134007#135816#0" />
+            <element signature="e#135822#137631#0" />
+            <element signature="e#137637#139446#0" />
+            <element signature="e#139452#141261#0" />
+            <element signature="e#141267#143096#0" />
+            <element signature="e#143102#144931#0" />
+            <element signature="e#144937#146766#0" />
+            <element signature="e#146772#147899#0" />
+            <element signature="e#147905#149032#0" />
+            <element signature="e#149038#149591#0" />
+            <element signature="e#149625#151648#0" />
+            <element signature="e#151654#153677#0" />
+            <element signature="e#153683#155706#0" />
+            <element signature="e#155712#157735#0" />
+            <element signature="e#157741#159764#0" />
+            <element signature="e#159770#161793#0" />
+            <element signature="e#161799#163822#0" />
+            <element signature="e#163828#165851#0" />
+            <element signature="e#165883#167282#0" />
+            <element signature="e#167288#168687#0" />
+            <element signature="e#168693#170484#0" />
+            <element signature="e#170490#172281#0" />
+            <element signature="e#172287#174078#0" />
+            <element signature="e#174084#175987#0" />
+            <element signature="e#175993#177797#0" />
+            <element signature="e#177803#179814#0" />
+            <element signature="e#179820#181719#0" />
+            <element signature="e#181725#183624#0" />
+            <element signature="e#183656#185461#0" />
+            <element signature="e#185467#187272#0" />
+            <element signature="e#187278#189083#0" />
+            <element signature="e#189089#190894#0" />
+            <element signature="e#190900#192705#0" />
+            <element signature="e#192711#194516#0" />
+            <element signature="e#194522#196412#0" />
+            <element signature="e#196418#198308#0" />
+            <element signature="e#198314#200204#0" />
+            <element signature="e#200210#202100#0" />
+            <element signature="e#202106#203992#0" />
+            <element signature="e#203998#205884#0" />
+            <element signature="e#205890#206741#0" />
+            <element signature="e#206747#207466#0" />
+            <element signature="e#207472#208194#0" />
+            <element signature="e#208200#208922#0" />
+            <element signature="e#208928#209650#0" />
+            <element signature="e#209678#211382#0" />
+            <element signature="e#211388#213092#0" />
+            <element signature="e#213098#214802#0" />
+            <element signature="e#214808#216514#0" />
+            <element signature="e#216520#218226#0" />
+            <element signature="e#218232#219938#0" />
+            <element signature="e#219944#221650#0" />
+            <element signature="e#221656#223360#0" />
+            <element signature="e#223366#225070#0" />
+            <element signature="e#225076#226780#0" />
+            <element signature="e#226786#228490#0" />
+            <element signature="e#228496#230200#0" />
+            <element signature="e#230206#231910#0" />
+            <element signature="e#231916#233622#0" />
+            <element signature="e#233628#235334#0" />
+            <element signature="e#235340#237044#0" />
+            <element signature="e#237050#238754#0" />
+            <element signature="e#238760#239317#0" />
+            <element signature="e#239323#239880#0" />
+            <element signature="e#239886#240464#0" />
+            <element signature="e#240470#241048#0" />
+            <element signature="e#241054#241622#0" />
+            <element signature="e#241628#242188#0" />
+            <element signature="e#242194#242754#0" />
+            <element signature="e#242792#245212#0" />
+            <element signature="e#245218#247830#0" />
+            <element signature="e#247836#250380#0" />
+            <element signature="e#250386#252930#0" />
+            <element signature="e#252936#255480#0" />
+            <element signature="e#255486#258098#0" />
+            <element signature="e#258104#260648#0" />
+            <element signature="e#260654#263198#0" />
+            <element signature="e#263204#265748#0" />
+            <element signature="e#265754#268366#0" />
+            <element signature="e#268372#270916#0" />
+            <element signature="e#270922#273465#0" />
+            <element signature="e#273471#276014#0" />
+            <element signature="e#276020#278563#0" />
+            <element signature="e#278569#281180#0" />
+            <element signature="e#281186#283077#0" />
+            <element signature="e#283083#284910#0" />
+            <element signature="e#284916#286743#0" />
+            <element signature="e#286749#288640#0" />
+            <element signature="e#288646#290537#0" />
+            <element signature="e#290543#292434#0" />
+            <element signature="e#292440#294267#0" />
+            <element signature="e#294273#296164#0" />
+            <element signature="e#296170#297997#0" />
+            <element signature="e#298003#299830#0" />
+            <element signature="e#299836#301647#0" />
+            <element signature="e#301653#303464#0" />
+            <element signature="e#303470#305281#0" />
+            <element signature="e#305287#307098#0" />
+            <element signature="e#307104#308979#0" />
+            <element signature="e#308985#310796#0" />
+            <element signature="e#310802#312617#0" />
+            <element signature="e#312623#314503#0" />
+            <element signature="e#314509#316394#0" />
+            <element signature="e#316400#318219#0" />
+            <element signature="e#318225#318871#0" />
+            <element signature="e#318877#319523#0" />
+            <element signature="e#319529#320146#0" />
+            <element signature="e#320152#320769#0" />
+            <element signature="e#320775#321417#0" />
+            <element signature="e#321423#322065#0" />
+            <element signature="e#322071#322761#0" />
+            <element signature="e#322804#324613#0" />
+            <element signature="e#324619#326428#0" />
+            <element signature="e#326434#328243#0" />
+            <element signature="e#328249#330058#0" />
+            <element signature="e#330064#331873#0" />
+            <element signature="e#331879#333688#0" />
+            <element signature="e#333694#335503#0" />
+            <element signature="e#335509#337318#0" />
+            <element signature="e#337324#339133#0" />
+            <element signature="e#339139#340948#0" />
+            <element signature="e#340954#342754#0" />
+            <element signature="e#342760#344560#0" />
+            <element signature="e#344566#346366#0" />
+            <element signature="e#346372#348172#0" />
+            <element signature="e#348178#349990#0" />
+            <element signature="e#349996#351808#0" />
+            <element signature="e#351814#353626#0" />
+            <element signature="e#353632#355444#0" />
+            <element signature="e#355450#357262#0" />
+            <element signature="e#357268#359080#0" />
+            <element signature="e#359086#360886#0" />
+            <element signature="e#360892#362692#0" />
+            <element signature="e#362698#364522#0" />
+            <element signature="e#364528#366352#0" />
+            <element signature="e#366358#368158#0" />
+            <element signature="e#368164#369964#0" />
+            <element signature="e#369970#371785#0" />
+            <element signature="e#371791#373606#0" />
+            <element signature="e#373612#375412#0" />
+            <element signature="e#375418#377218#0" />
+            <element signature="e#377224#379033#0" />
+            <element signature="e#379039#380848#0" />
+            <element signature="e#380854#382663#0" />
+            <element signature="e#382669#384478#0" />
+            <element signature="e#384484#385164#0" />
+            <element signature="e#385170#385850#0" />
+            <element signature="e#385856#386587#0" />
+            <element signature="e#386621#388531#0" />
+            <element signature="e#388537#390447#0" />
+            <element signature="e#390453#392363#0" />
+            <element signature="e#392369#394279#0" />
+            <element signature="e#394285#396083#0" />
+            <element signature="e#396089#397887#0" />
+            <element signature="e#397893#399793#0" />
+            <element signature="e#399799#401699#0" />
+            <element signature="e#401705#403605#0" />
+            <element signature="e#403611#405511#0" />
+            <element signature="e#405517#407305#0" />
+            <element signature="e#407311#409099#0" />
+            <element signature="e#409105#409740#0" />
+            <element signature="e#409746#410381#0" />
+            <element signature="e#410387#411050#0" />
+            <element signature="e#411082#412888#0" />
+            <element signature="e#412894#414700#0" />
+            <element signature="e#414706#416512#0" />
+            <element signature="e#416518#418324#0" />
+            <element signature="e#418330#420136#0" />
+            <element signature="e#420142#421948#0" />
+            <element signature="e#421954#423760#0" />
+            <element signature="e#423766#425572#0" />
+            <element signature="e#425578#427384#0" />
+            <element signature="e#427390#429189#0" />
+            <element signature="e#429195#431001#0" />
+            <element signature="e#431007#432814#0" />
+            <element signature="e#432820#434611#0" />
+            <element signature="e#434617#436408#0" />
+            <element signature="e#436414#438205#0" />
+            <element signature="e#438211#440002#0" />
+            <element signature="e#440008#441286#0" />
+            <element signature="e#441292#442569#0" />
+            <element signature="e#442575#443144#0" />
+            <element signature="e#443150#443785#0" />
+            <element signature="e#443791#444340#0" />
+            <element signature="e#444376#446193#0" />
+            <element signature="e#446199#448016#0" />
+            <element signature="e#448022#449904#0" />
+            <element signature="e#449910#451727#0" />
+            <element signature="e#451733#453615#0" />
+            <element signature="e#453621#455438#0" />
+            <element signature="e#455444#457261#0" />
+            <element signature="e#457267#459084#0" />
+            <element signature="e#459090#460889#0" />
+            <element signature="e#460895#462694#0" />
+            <element signature="e#462700#464435#0" />
+            <element signature="e#464441#466176#0" />
+            <element signature="e#466182#467978#0" />
+            <element signature="e#467984#469780#0" />
+            <element signature="e#469786#471582#0" />
+            <element signature="e#471588#473448#0" />
+            <element signature="e#473454#475314#0" />
+            <element signature="e#475320#477116#0" />
+            <element signature="e#477122#478320#0" />
+            <element signature="e#478326#479524#0" />
+            <element signature="e#479530#480121#0" />
+            <element signature="e#480127#480781#0" />
+            <element signature="e#480787#481412#0" />
+            <element signature="e#481418#482043#0" />
+            <element signature="e#482049#482696#0" />
+            <element signature="e#482702#483349#0" />
+            <element signature="e#483355#483927#0" />
+            <element signature="e#483960#485877#0" />
+            <element signature="e#485883#487800#0" />
+            <element signature="e#487806#489723#0" />
+            <element signature="e#489729#491646#0" />
+            <element signature="e#491652#493569#0" />
+            <element signature="e#493575#495492#0" />
+            <element signature="e#495498#497424#0" />
+            <element signature="e#497430#499355#0" />
+            <element signature="e#499361#501286#0" />
+            <element signature="e#501292#503217#0" />
+            <element signature="e#503223#505148#0" />
+            <element signature="e#505154#507079#0" />
+            <element signature="e#507085#507749#0" />
+            <element signature="e#507755#508392#0" />
+            <element signature="e#508398#509035#0" />
+            <element signature="e#509068#510586#0" />
+            <element signature="e#510684#512209#0" />
+            <element signature="e#512215#513355#0" />
+            <element signature="e#513387#514477#0" />
+            <element signature="e#514483#515571#0" />
+            <element signature="e#515577#516572#0" />
+            <element signature="e#516578#517573#0" />
+            <element signature="e#517607#519172#0" />
+            <element signature="e#519178#520760#0" />
+            <element signature="e#520766#522030#0" />
+            <element signature="e#522062#523329#0" />
+            <element signature="e#523335#524875#0" />
+            <element signature="e#524881#526011#0" />
+            <element signature="e#526041#527402#0" />
+            <element signature="e#527408#528769#0" />
+            <element signature="e#528775#529847#0" />
+            <element signature="e#529853#530925#0" />
+            <element signature="e#530931#532277#0" />
+            <element signature="e#532283#533629#0" />
+            <element signature="e#533663#535147#0" />
+            <element signature="e#535153#536637#0" />
+            <element signature="e#536643#538127#0" />
+            <element signature="e#538133#539617#0" />
+            <element signature="e#539623#541107#0" />
+            <element signature="e#541113#542597#0" />
+            <element signature="e#542603#544087#0" />
+            <element signature="e#544093#545577#0" />
+            <element signature="e#545583#547067#0" />
+            <element signature="e#547073#548557#0" />
+            <element signature="e#548563#550048#0" />
+            <element signature="e#550054#551538#0" />
+            <element signature="e#551544#553028#0" />
+            <element signature="e#553034#554518#0" />
+            <element signature="e#554524#556008#0" />
+            <element signature="e#556014#557498#0" />
+            <element signature="e#557535#559529#0" />
+            <element signature="e#559535#561529#0" />
+            <element signature="e#561535#563529#0" />
+            <element signature="e#563535#565529#0" />
+            <element signature="e#565535#567529#0" />
+            <element signature="e#567535#569529#0" />
+            <element signature="e#569535#571384#0" />
+            <element signature="e#571390#573239#0" />
+            <element signature="e#573245#575094#0" />
+            <element signature="e#575100#576949#0" />
+            <element signature="e#576955#578804#0" />
+            <element signature="e#578810#579501#0" />
+            <element signature="e#579507#580200#0" />
+            <element signature="e#580245#581468#0" />
+            <element signature="e#581474#582762#0" />
+            <element signature="e#582768#584019#0" />
+            <element signature="e#584025#585276#0" />
+            <element signature="e#585282#586570#0" />
+            <element signature="e#586576#587827#0" />
+            <element signature="e#587833#589121#0" />
+            <element signature="e#589127#590378#0" />
+            <element signature="e#590384#591602#0" />
+            <element signature="e#591608#593268#0" />
+            <element signature="e#593274#594845#0" />
+            <element signature="e#594851#596487#0" />
+            <element signature="e#596493#598064#0" />
+            <element signature="e#598070#599640#0" />
+            <element signature="e#599646#601268#0" />
+            <element signature="e#601274#602844#0" />
+            <element signature="e#602850#604486#0" />
+            <element signature="e#604492#606291#0" />
+            <element signature="e#606297#608096#0" />
+            <element signature="e#608102#609837#0" />
+            <element signature="e#609843#611578#0" />
+            <element signature="e#611584#613383#0" />
+            <element signature="e#613389#615124#0" />
+            <element signature="e#615130#616916#0" />
+            <element signature="e#616922#618721#0" />
+            <element signature="e#618727#619395#0" />
+            <element signature="e#619401#620053#0" />
+            <element signature="e#620059#620686#0" />
+            <element signature="e#620713#623272#0" />
+            <element signature="e#623278#625837#0" />
+            <element signature="e#625843#628402#0" />
+            <element signature="e#628408#630967#0" />
+            <element signature="e#630973#633532#0" />
+            <element signature="e#633538#636097#0" />
+            <element signature="e#636103#638662#0" />
+            <element signature="e#638668#641227#0" />
+            <element signature="e#641233#643004#0" />
+            <element signature="e#643010#644350#0" />
+            <element signature="e#644356#646189#0" />
+            <element signature="e#646195#648028#0" />
+            <element signature="e#648034#649867#0" />
+            <element signature="e#649873#651706#0" />
+            <element signature="e#651712#653691#0" />
+            <element signature="e#653697#655676#0" />
+            <element signature="e#655682#656301#0" />
+            <element signature="e#656307#656939#0" />
+            <element signature="e#656945#657561#0" />
+            <element signature="e#657595#659521#0" />
+            <element signature="e#659527#661452#0" />
+            <element signature="e#661458#663383#0" />
+            <element signature="e#663389#665314#0" />
+            <element signature="e#665320#667245#0" />
+            <element signature="e#667251#669176#0" />
+            <element signature="e#669182#671107#0" />
+            <element signature="e#671113#673038#0" />
+            <element signature="e#673044#674969#0" />
+            <element signature="e#674975#676900#0" />
+            <element signature="e#676906#677462#0" />
+            <element signature="e#677505#680092#0" />
+            <element signature="e#680098#682685#0" />
+            <element signature="e#682691#685110#0" />
+            <element signature="e#685116#687535#0" />
+            <element signature="e#687541#689960#0" />
+            <element signature="e#689966#692385#0" />
+            <element signature="e#692391#694779#0" />
+            <element signature="e#694785#697173#0" />
+            <element signature="e#697179#697898#0" />
+            <element signature="e#697904#698530#0" />
+            <element signature="e#698569#700667#0" />
+            <element signature="e#700673#702771#0" />
+            <element signature="e#702777#704875#0" />
+            <element signature="e#704881#706979#0" />
+            <element signature="e#706985#707754#0" />
+            <element signature="e#707760#708339#0" />
+            <element signature="e#708345#709116#0" />
+            <element signature="e#709122#709902#0" />
+            <element signature="e#709932#712499#0" />
+            <element signature="e#712505#715072#0" />
+            <element signature="e#715078#717645#0" />
+            <element signature="e#717651#720218#0" />
+            <element signature="e#720224#722791#0" />
+            <element signature="e#722797#725364#0" />
+            <element signature="e#725370#727922#0" />
+            <element signature="e#727928#730480#0" />
+            <element signature="e#730486#733038#0" />
+            <element signature="e#733044#735596#0" />
+            <element signature="e#735602#738154#0" />
+            <element signature="e#738160#740712#0" />
+            <element signature="e#740718#743270#0" />
+            <element signature="e#743276#745828#0" />
+            <element signature="e#745834#748386#0" />
+            <element signature="e#748392#750944#0" />
+            <element signature="e#750950#753502#0" />
+            <element signature="e#753508#756060#0" />
+            <element signature="e#756066#757295#0" />
+            <element signature="e#757301#758467#0" />
+            <element signature="e#758473#759639#0" />
+            <element signature="e#759645#760280#0" />
+            <element signature="e#760286#760902#0" />
+            <element signature="e#760938#762856#0" />
+            <element signature="e#762862#764780#0" />
+            <element signature="e#764786#766704#0" />
+            <element signature="e#766710#768628#0" />
+            <element signature="e#768634#770537#0" />
+            <element signature="e#770543#772446#0" />
+            <element signature="e#772452#774355#0" />
+            <element signature="e#774361#776264#0" />
+            <element signature="e#776270#778173#0" />
+            <element signature="e#778179#780082#0" />
+            <element signature="e#780088#780778#0" />
+            <element signature="e#780784#781489#0" />
+            <element signature="e#781495#782056#0" />
+            <element signature="e#782114#784035#0" />
+            <element signature="e#784041#785935#0" />
+            <element signature="e#785941#787856#0" />
+            <element signature="e#787862#789777#0" />
+            <element signature="e#789783#791677#0" />
+            <element signature="e#791683#793604#0" />
+            <element signature="e#793610#795531#0" />
+            <element signature="e#795537#797431#0" />
+            <element signature="e#797437#799352#0" />
+            <element signature="e#799358#801273#0" />
+            <element signature="e#801279#803173#0" />
+            <element signature="e#803179#805100#0" />
+            <element signature="e#805106#805773#0" />
+            <element signature="e#805808#807710#0" />
+            <element signature="e#807716#809618#0" />
+            <element signature="e#809624#811532#0" />
+            <element signature="e#811538#813446#0" />
+            <element signature="e#813452#815344#0" />
+            <element signature="e#815350#817242#0" />
+            <element signature="e#817248#819150#0" />
+            <element signature="e#819156#821057#0" />
+            <element signature="e#821063#822971#0" />
+            <element signature="e#822977#824885#0" />
+            <element signature="e#824891#826784#0" />
+            <element signature="e#826790#828692#0" />
+            <element signature="e#828698#829363#0" />
+            <element signature="e#829398#831414#0" />
+            <element signature="e#831420#833434#0" />
+            <element signature="e#833440#835454#0" />
+            <element signature="e#835460#837474#0" />
+            <element signature="e#837480#839494#0" />
+            <element signature="e#839500#841514#0" />
+            <element signature="e#841520#843534#0" />
+            <element signature="e#843540#845554#0" />
+            <element signature="e#845588#847486#0" />
+            <element signature="e#847492#849399#0" />
+            <element signature="e#849405#851312#0" />
+            <element signature="e#851318#853225#0" />
+            <element signature="e#853231#855129#0" />
+            <element signature="e#855135#857033#0" />
+            <element signature="e#857039#858946#0" />
+            <element signature="e#858952#860859#0" />
+            <element signature="e#860865#862772#0" />
+            <element signature="e#862778#864676#0" />
+            <element signature="e#864718#867351#0" />
+            <element signature="e#867357#869990#0" />
+            <element signature="e#869996#872629#0" />
+            <element signature="e#872635#875268#0" />
+            <element signature="e#875274#877907#0" />
+            <element signature="e#877913#880546#0" />
+            <element signature="e#880552#883185#0" />
+            <element signature="e#883191#885824#0" />
+            <element signature="e#885830#887790#0" />
+            <element signature="e#887796#889756#0" />
+            <element signature="e#889762#891730#0" />
+            <element signature="e#891736#893704#0" />
+            <element signature="e#893710#895632#0" />
+            <element signature="e#895638#897560#0" />
+            <element signature="e#897566#899534#0" />
+            <element signature="e#899540#901508#0" />
+            <element signature="e#901514#903437#0" />
+            <element signature="e#903443#905366#0" />
+            <element signature="e#905372#907188#0" />
+            <element signature="e#907194#909010#0" />
+            <element signature="e#909016#910891#0" />
+            <element signature="e#910897#912772#0" />
+            <element signature="e#912778#914764#0" />
+            <element signature="e#914770#916744#0" />
+            <element signature="e#916750#918724#0" />
+            <element signature="e#918730#919385#0" />
+            <element signature="e#919391#920086#0" />
+            <element signature="e#920092#920727#0" />
+            <element signature="e#920733#921568#0" />
+            <element signature="e#921574#922350#0" />
+            <element signature="e#922356#923011#0" />
+            <element signature="e#923017#923712#0" />
+            <element signature="e#923718#924353#0" />
+            <element signature="e#924359#925194#0" />
+            <element signature="e#925200#925976#0" />
+            <element signature="e#926019#928652#0" />
+            <element signature="e#928658#931291#0" />
+            <element signature="e#931297#933930#0" />
+            <element signature="e#933936#936569#0" />
+            <element signature="e#936575#939208#0" />
+            <element signature="e#939214#941847#0" />
+            <element signature="e#941853#944486#0" />
+            <element signature="e#944492#947125#0" />
+            <element signature="e#947131#948960#0" />
+            <element signature="e#948966#950808#0" />
+            <element signature="e#950814#952661#0" />
+            <element signature="e#952667#954501#0" />
+            <element signature="e#954507#956411#0" />
+            <element signature="e#956417#958376#0" />
+            <element signature="e#958382#960341#0" />
+            <element signature="e#960347#962306#0" />
+            <element signature="e#962312#964271#0" />
+            <element signature="e#964277#966224#0" />
+            <element signature="e#966230#968177#0" />
+            <element signature="e#968183#970130#0" />
+            <element signature="e#970136#972085#0" />
+            <element signature="e#972091#974040#0" />
+            <element signature="e#974046#974702#0" />
+            <element signature="e#974708#975405#0" />
+            <element signature="e#975411#976108#0" />
+            <element signature="e#976114#976813#0" />
+            <element signature="e#976819#977655#0" />
+            <element signature="e#977661#978306#0" />
+            <element signature="e#978312#978957#0" />
+            <element signature="e#978963#979740#0" />
+            <element signature="e#979789#981542#0" />
+            <element signature="e#981548#983301#0" />
+            <element signature="e#983307#985060#0" />
+            <element signature="e#985066#986819#0" />
+            <element signature="e#986825#988578#0" />
+            <element signature="e#988584#990341#0" />
+            <element signature="e#990347#992104#0" />
+            <element signature="e#992110#993867#0" />
+            <element signature="e#993873#995630#0" />
+            <element signature="e#995636#997393#0" />
+            <element signature="e#997399#999174#0" />
+            <element signature="e#999180#1000955#0" />
+            <element signature="e#1000961#1002736#0" />
+            <element signature="e#1002742#1004517#0" />
+            <element signature="e#1004523#1006298#0" />
+            <element signature="e#1006304#1008083#0" />
+            <element signature="e#1008089#1009868#0" />
+            <element signature="e#1009874#1011653#0" />
+            <element signature="e#1011659#1013438#0" />
+            <element signature="e#1013444#1015223#0" />
+            <element signature="e#1015229#1017004#0" />
+            <element signature="e#1017010#1018785#0" />
+            <element signature="e#1018791#1020566#0" />
+            <element signature="e#1020572#1022347#0" />
+            <element signature="e#1022353#1024128#0" />
+            <element signature="e#1024134#1025913#0" />
+            <element signature="e#1025919#1027698#0" />
+            <element signature="e#1027704#1029483#0" />
+            <element signature="e#1029489#1031268#0" />
+            <element signature="e#1031274#1033053#0" />
+            <element signature="e#1033059#1034870#0" />
+            <element signature="e#1034876#1036687#0" />
+            <element signature="e#1036693#1038504#0" />
+            <element signature="e#1038510#1040321#0" />
+            <element signature="e#1040327#1042138#0" />
+            <element signature="e#1042144#1043959#0" />
+            <element signature="e#1043965#1045780#0" />
+            <element signature="e#1045786#1047601#0" />
+            <element signature="e#1047607#1049422#0" />
+            <element signature="e#1049428#1051243#0" />
+            <element signature="e#1051249#1051825#0" />
+            <element signature="e#1051831#1052407#0" />
+            <element signature="e#1052413#1052977#0" />
+            <element signature="e#1052983#1053547#0" />
+            <element signature="e#1053553#1054117#0" />
+            <element signature="e#1054123#1054699#0" />
+            <element signature="e#1054705#1055281#0" />
+            <element signature="e#1055287#1055863#0" />
+            <element signature="e#1055869#1056443#0" />
+            <element signature="e#1056449#1057023#0" />
+            <element signature="e#1057029#1057603#0" />
+            <element signature="e#1057609#1058181#0" />
+            <element signature="e#1058187#1058759#0" />
+            <element signature="e#1058765#1059339#0" />
+            <element signature="e#1059345#1059919#0" />
+            <element signature="e#1059925#1060508#0" />
+            <element signature="e#1060514#1061097#0" />
+            <element signature="e#1061145#1062978#0" />
+            <element signature="e#1062984#1064817#0" />
+            <element signature="e#1064823#1066656#0" />
+            <element signature="e#1066662#1068495#0" />
+            <element signature="e#1068501#1070334#0" />
+            <element signature="e#1070340#1072173#0" />
+            <element signature="e#1072179#1074012#0" />
+            <element signature="e#1074018#1075851#0" />
+            <element signature="e#1075857#1077687#0" />
+            <element signature="e#1077693#1079523#0" />
+            <element signature="e#1079529#1081359#0" />
+            <element signature="e#1081365#1083195#0" />
+            <element signature="e#1083201#1085031#0" />
+            <element signature="e#1085037#1086867#0" />
+            <element signature="e#1086873#1088703#0" />
+            <element signature="e#1088709#1090539#0" />
+            <element signature="e#1090545#1092375#0" />
+            <element signature="e#1092381#1094211#0" />
+            <element signature="e#1094217#1096047#0" />
+            <element signature="e#1096053#1097883#0" />
+            <element signature="e#1097889#1099723#0" />
+            <element signature="e#1099729#1101563#0" />
+            <element signature="e#1101569#1103403#0" />
+            <element signature="e#1103409#1105243#0" />
+            <element signature="e#1105249#1107053#0" />
+            <element signature="e#1107059#1108863#0" />
+            <element signature="e#1108869#1110673#0" />
+            <element signature="e#1110679#1112483#0" />
+            <element signature="e#1112489#1114293#0" />
+            <element signature="e#1114299#1116103#0" />
+            <element signature="e#1116109#1116680#0" />
+            <element signature="e#1116686#1117243#0" />
+            <element signature="e#1117249#1117810#0" />
+            <element signature="e#1117816#1118377#0" />
+            <element signature="e#1118383#1118944#0" />
+            <element signature="e#1118950#1119511#0" />
+            <element signature="e#1119517#1120103#0" />
+            <element signature="e#1120109#1120699#0" />
+            <element signature="e#1120705#1121295#0" />
+            <element signature="e#1121301#1121891#0" />
+            <element signature="e#1121916#1123042#0" />
+            <element signature="e#1123048#1124156#0" />
+            <element signature="e#1124162#1125288#0" />
+            <element signature="e#1125294#1126416#0" />
+            <element signature="e#1126422#1127544#0" />
+            <element signature="e#1127567#1128923#0" />
+            <element signature="e#1128929#1130614#0" />
+            <element signature="e#1130645#1132032#0" />
+            <element signature="e#1132038#1133425#0" />
+            <element signature="e#1133431#1134818#0" />
+            <element signature="e#1134842#1136205#0" />
+            <element signature="e#1136211#1137574#0" />
+            <element signature="e#1137580#1139835#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/Campaigns_singleplayer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="4544" column="90" selection-start-line="4544" selection-start-column="90" selection-end-line="4544" selection-end-column="90" />
+          <folding>
+            <element signature="n#Campaign#0;n#Campaigns#0;n#!!top" />
+            <element signature="n#Campaign#1;n#Campaigns#0;n#!!top" />
+            <element signature="e#8457#18161#0" />
+            <element signature="n#Campaign#2;n#Campaigns#0;n#!!top" />
+            <element signature="n#Campaign#3;n#Campaigns#0;n#!!top" />
+            <element signature="n#Campaign#5;n#Campaigns#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module0/Space_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#98#9066#0" />
+            <element signature="e#9072#16100#0" />
+            <element signature="e#16106#23403#0" />
+            <element signature="e#23409#29871#0" />
+            <element signature="e#29877#37089#0" />
+            <element signature="e#37095#45548#0" />
+            <element signature="e#45554#54272#0" />
+            <element signature="e#54278#63079#0" />
+            <element signature="e#63085#71241#0" />
+            <element signature="e#71247#80194#0" />
+            <element signature="e#80200#89290#0" />
+            <element signature="e#89296#100313#0" />
+            <element signature="e#100319#109977#0" />
+            <element signature="e#109983#120629#0" />
+            <element signature="e#120635#130327#0" />
+            <element signature="e#130333#140493#0" />
+            <element signature="e#140499#150082#0" />
+            <element signature="e#150088#159865#0" />
+            <element signature="e#159871#170972#0" />
+            <element signature="e#170978#180540#0" />
+            <element signature="e#180546#192853#0" />
+            <element signature="e#192859#204270#0" />
+            <element signature="e#204276#213891#0" />
+            <element signature="e#213897#224169#0" />
+            <element signature="e#224175#236124#0" />
+            <element signature="e#236130#246667#0" />
+            <element signature="e#246734#254555#0" />
+            <element signature="e#254561#262070#0" />
+            <element signature="e#262076#269810#0" />
+            <element signature="e#269816#278500#0" />
+            <element signature="e#278506#287117#0" />
+            <element signature="e#287123#294823#0" />
+            <element signature="e#294829#301628#0" />
+            <element signature="e#301634#308243#0" />
+            <element signature="e#308249#314857#0" />
+            <element signature="e#314863#322693#0" />
+            <element signature="e#322699#329733#0" />
+            <element signature="e#329739#336920#0" />
+            <element signature="e#336926#345427#0" />
+            <element signature="e#345433#353537#0" />
+            <element signature="e#353543#363618#0" />
+            <element signature="e#363624#373540#0" />
+            <element signature="e#373546#383067#0" />
+            <element signature="e#383073#392332#0" />
+            <element signature="e#392338#401758#0" />
+            <element signature="e#401764#412617#0" />
+            <element signature="e#412623#423432#0" />
+            <element signature="e#423438#433801#0" />
+            <element signature="e#433807#443537#0" />
+            <element signature="e#443543#453409#0" />
+            <element signature="e#453415#465164#0" />
+            <element signature="e#465170#475394#0" />
+            <element signature="e#475400#485463#0" />
+            <element signature="e#485469#498379#0" />
+            <element signature="e#498385#511370#0" />
+            <element signature="e#511376#523791#0" />
+            <element signature="e#523797#536646#0" />
+            <element signature="e#536652#543049#0" />
+            <element signature="e#543055#546387#0" />
+            <element signature="e#546463#555271#0" />
+            <element signature="e#555277#563440#0" />
+            <element signature="e#563495#571976#0" />
+            <element signature="e#571982#580066#0" />
+            <element signature="e#580072#590153#0" />
+            <element signature="e#590159#600119#0" />
+            <element signature="e#600125#609758#0" />
+            <element signature="e#609764#619165#0" />
+            <element signature="e#619171#628696#0" />
+            <element signature="e#628702#639668#0" />
+            <element signature="e#639674#650588#0" />
+            <element signature="e#650594#661242#0" />
+            <element signature="e#661248#671082#0" />
+            <element signature="e#671088#681062#0" />
+            <element signature="e#681068#692940#0" />
+            <element signature="e#692946#703311#0" />
+            <element signature="e#703317#713493#0" />
+            <element signature="e#713499#726464#0" />
+            <element signature="e#726470#739510#0" />
+            <element signature="e#739516#751976#0" />
+            <element signature="e#751982#764897#0" />
+            <element signature="e#764903#771383#0" />
+            <element signature="e#771389#774724#0" />
+            <element signature="e#774730#783541#0" />
+            <element signature="e#783547#791657#0" />
+            <element signature="e#791663#800591#0" />
+            <element signature="e#800597#809755#0" />
+            <element signature="e#809761#820756#0" />
+            <element signature="e#820762#830397#0" />
+            <element signature="e#830403#841183#0" />
+            <element signature="e#841189#851005#0" />
+            <element signature="e#851011#860707#0" />
+            <element signature="e#860713#870992#0" />
+            <element signature="e#870998#880899#0" />
+            <element signature="e#880905#892068#0" />
+            <element signature="e#892074#901725#0" />
+            <element signature="e#901731#914094#0" />
+            <element signature="e#914100#925566#0" />
+            <element signature="e#925572#935260#0" />
+            <element signature="e#935266#945611#0" />
+            <element signature="e#945617#957615#0" />
+            <element signature="e#949846#950935#0" />
+            <element signature="e#955795#956496#0" />
+            <element signature="e#956506#957274#0" />
+            <element signature="e#957621#968204#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module1/Space_Squadrons.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
+          <folding>
+            <element signature="e#96#363#0" />
+            <element signature="e#369#626#0" />
+            <element signature="e#632#889#0" />
+            <element signature="e#895#1152#0" />
+            <element signature="e#1158#1415#0" />
+            <element signature="e#1421#1688#0" />
+            <element signature="e#1694#1977#0" />
+            <element signature="e#1983#2242#0" />
+            <element signature="e#2248#2525#0" />
+            <element signature="e#2591#2861#0" />
+            <element signature="e#2867#3127#0" />
+            <element signature="e#3133#3393#0" />
+            <element signature="e#3399#3659#0" />
+            <element signature="e#3665#3925#0" />
+            <element signature="e#3931#4201#0" />
+            <element signature="e#4207#4493#0" />
+            <element signature="e#4499#4761#0" />
+            <element signature="e#4767#5047#0" />
+            <element signature="e#5126#8700#0" />
+            <element signature="e#8706#12280#0" />
+            <element signature="e#12286#15814#0" />
+            <element signature="e#15820#18728#0" />
+            <element signature="e#18734#21699#0" />
+            <element signature="e#21705#25275#0" />
+            <element signature="e#25281#29010#0" />
+            <element signature="e#29016#32149#0" />
+            <element signature="e#32219#35727#0" />
+            <element signature="e#35733#38689#0" />
+            <element signature="e#38695#41888#0" />
+            <element signature="e#41961#44924#0" />
+            <element signature="e#44930#48765#0" />
+            <element signature="e#48771#52073#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/module1/Space_Units.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="9781" lean-forward="true" selection-start-line="9781" selection-end-line="9781" />
+          <folding>
+            <element signature="e#98#337#0" />
+            <element signature="e#343#592#0" />
+            <element signature="e#598#851#0" />
+            <element signature="e#857#1100#0" />
+            <element signature="e#1106#1353#0" />
+            <element signature="e#1359#1606#0" />
+            <element signature="e#1612#1853#0" />
+            <element signature="e#1859#2104#0" />
+            <element signature="e#2110#2353#0" />
+            <element signature="e#2359#2600#0" />
+            <element signature="e#2606#2847#0" />
+            <element signature="e#2853#3102#0" />
+            <element signature="e#3108#3353#0" />
+            <element signature="e#3359#3610#0" />
+            <element signature="e#3616#3853#0" />
+            <element signature="e#3859#4092#0" />
+            <element signature="e#4098#4331#0" />
+            <element signature="e#4337#4572#0" />
+            <element signature="e#4578#4819#0" />
+            <element signature="e#4825#5068#0" />
+            <element signature="e#5074#5315#0" />
+            <element signature="e#5321#5560#0" />
+            <element signature="e#5566#5809#0" />
+            <element signature="e#5815#6056#0" />
+            <element signature="e#6062#6305#0" />
+            <element signature="e#6311#6552#0" />
+            <element signature="e#6558#6825#0" />
+            <element signature="e#6831#7086#0" />
+            <element signature="e#7092#7347#0" />
+            <element signature="e#7353#7594#0" />
+            <element signature="e#7600#7843#0" />
+            <element signature="e#7849#8092#0" />
+            <element signature="e#8098#8367#0" />
+            <element signature="e#8373#8612#0" />
+            <element signature="e#8618#8859#0" />
+            <element signature="e#8865#9104#0" />
+            <element signature="e#9110#9351#0" />
+            <element signature="e#9357#9600#0" />
+            <element signature="e#9606#9865#0" />
+            <element signature="e#9871#10128#0" />
+            <element signature="e#10134#10373#0" />
+            <element signature="e#10440#10682#0" />
+            <element signature="e#10688#10940#0" />
+            <element signature="e#10946#11202#0" />
+            <element signature="e#11208#11454#0" />
+            <element signature="e#11460#11710#0" />
+            <element signature="e#11716#11966#0" />
+            <element signature="e#11972#12216#0" />
+            <element signature="e#12222#12470#0" />
+            <element signature="e#12476#12722#0" />
+            <element signature="e#12728#12972#0" />
+            <element signature="e#12978#13222#0" />
+            <element signature="e#13228#13480#0" />
+            <element signature="e#13486#13734#0" />
+            <element signature="e#13740#13994#0" />
+            <element signature="e#14000#14240#0" />
+            <element signature="e#14246#14482#0" />
+            <element signature="e#14488#14724#0" />
+            <element signature="e#14730#14968#0" />
+            <element signature="e#14974#15218#0" />
+            <element signature="e#15224#15470#0" />
+            <element signature="e#15476#15720#0" />
+            <element signature="e#15726#15968#0" />
+            <element signature="e#15974#16220#0" />
+            <element signature="e#16226#16470#0" />
+            <element signature="e#16476#16722#0" />
+            <element signature="e#16728#16972#0" />
+            <element signature="e#16978#17248#0" />
+            <element signature="e#17254#17512#0" />
+            <element signature="e#17518#17776#0" />
+            <element signature="e#17782#18026#0" />
+            <element signature="e#18032#18278#0" />
+            <element signature="e#18284#18530#0" />
+            <element signature="e#18536#18808#0" />
+            <element signature="e#18814#19056#0" />
+            <element signature="e#19062#19306#0" />
+            <element signature="e#19312#19554#0" />
+            <element signature="e#19560#19804#0" />
+            <element signature="e#19810#20056#0" />
+            <element signature="e#20062#20324#0" />
+            <element signature="e#20330#20590#0" />
+            <element signature="e#20596#20838#0" />
           </folding>
         </state>
       </provider>

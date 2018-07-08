@@ -1124,7 +1124,7 @@
         <Moniker>strike.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>EV_StrikeCruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>empire/space/strikecruiser/EV_StrikeCruiser.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -1300,7 +1300,7 @@
         <Encyclopedia_Vulnerable_To/>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>Empire_Acclamator_II.ALO</Space_Model_Name>
+        <Space_Model_Name>empire/space/acclamator_mk_2/Empire_Acclamator_II.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -1486,7 +1486,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>Ev_Venator.ALO</Space_Model_Name>
+        <Space_Model_Name>empire/space/venator/Ev_Venator.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_VENATOR.TGA</Icon_Name>
         <Select_Box_Scale>1600</Select_Box_Scale>
         <Select_Box_Z_Adjust>-80</Select_Box_Z_Adjust>
@@ -1673,7 +1673,7 @@
         <Moniker>nebulonb.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>RV_NEBULONB.ALO</Space_Model_Name>
+        <Space_Model_Name>rebel/space/nebulon_b_mk_1/nebulon_b.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -1867,7 +1867,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>RV_Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>empire/space/dreadnought/EV_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 

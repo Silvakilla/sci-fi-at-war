@@ -1636,7 +1636,7 @@
         <Moniker>nebulonb.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_1/nebulon_b.ALO</Space_Model_Name>
+        <Space_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b_mk_I.alo</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -1739,7 +1739,7 @@
         <Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01 </Target_Bones>
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_escort_frigate.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/nebulon_b_mk_1/nebulon_b.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b.alo</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1821,7 +1821,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>3</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="Nebulon_B2">
@@ -1832,7 +1831,7 @@
         <Moniker>nebulonb2.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_2/nebulon_b2.ALO</Space_Model_Name>
+        <Space_Model_Name>rebel/space/nebulon_b_mk_II/nebulonb.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -2012,7 +2011,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/assaultfrigate/ASSAULTFRIGATE.ALO</Space_Model_Name>
+        <Space_Model_Name>rebel/space/assaultfrigate/assaultfrigate.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -2111,7 +2110,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_alliance_assault_frigate.tga</Icon_Name>
-        <GUI_Model_Name>RV_assaultfrigate.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rebel/space/assaultfrigate/assaultfrigate.ALO</GUI_Model_Name>
         <GUI_Distance>1200</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2193,7 +2192,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>3</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="MC_30C">
@@ -2348,8 +2346,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -3122,7 +3118,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>4</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="Mediator_Cruiser">
@@ -3690,7 +3685,7 @@
         <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
         <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 
-        <GUI_Model_Name>new_republic/space/republic_star_destroyer/republic_star_destroyer.alo</GUI_Model_Name>
+        <GUI_Model_Name>republic/space/republic_star_destroyer/republic_star_destroyer.alo</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -3740,8 +3735,8 @@
         <Moniker>mc80.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_MC80.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_80a/MC_80A.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_80a/MC_80A.ALO</Space_Model_Name>
+        <GUI_Model_Name>rebel/space/mc_80a/mc_80a.ALO</GUI_Model_Name>
+        <Space_Model_Name>rebel/space/mc_80a/mc_80a.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
         <Scale_Factor>0.7</Scale_Factor>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -3909,8 +3904,8 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
         <Icon_Name>I_BUTTON_RV_MC90.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_90/MC_90.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_90/MC_90.ALO</Space_Model_Name>
+        <GUI_Model_Name>rebel/space/mc_90/mc_90.ALO</GUI_Model_Name>
+        <Space_Model_Name>rebel/space/mc_90/mc_90.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
         <Scale_Factor>0.3</Scale_Factor>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -6661,8 +6656,6 @@
 
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED, SPAWN_SQUADRON</Behavior>
         <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-
-        <Lua_Script>Interdictor</Lua_Script>
 
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
@@ -10822,8 +10815,6 @@
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED, SPAWN_SQUADRON</Behavior>
         <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-        <Lua_Script>Interdictor</Lua_Script>
-
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 0</Reserve_Spawned_Units_Tech_0>
@@ -14935,7 +14926,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>3</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="AI_Nebulon_B2">
@@ -15307,7 +15297,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>3</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="AI_MC_30C">
@@ -15462,8 +15451,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
-
-        <Lua_Script>ObjectScript_MC30</Lua_Script>
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
@@ -16236,7 +16223,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>4</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="AI_Mediator_Cruiser">

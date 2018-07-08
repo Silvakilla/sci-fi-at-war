@@ -309,14 +309,14 @@
         <CategoryMask>Infantry</CategoryMask>
 
         <Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
-                <Type>SPRINT</Type>
-                <Expiration_Seconds> 7.0 </Expiration_Seconds>
-                <Recharge_Seconds> 45.0 </Recharge_Seconds>
-                <Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
-                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Scout_Trooper </SFXEvent_GUI_Unit_Ability_Activated>
-            </Unit_Ability>
+		<Unit_Ability>
+			<Type>SPRINT</Type>
+			<Expiration_Seconds> 7.0 </Expiration_Seconds>
+			<Recharge_Seconds> 45.0 </Recharge_Seconds>
+			<Mod_Multiplier>SPEED_MULTIPLIER,	 2.0f</Mod_Multiplier>
+			<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.75f</Mod_Multiplier>
+			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Scout_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+		</Unit_Ability>
         </Unit_Abilities_Data>
     </Container>
 
@@ -650,6 +650,14 @@
         <Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 
         <Unit_Abilities_Data SubObjectList="Yes">
+	    <Unit_Ability>
+			<Type>SPRINT</Type>
+				<Recharge_Seconds> 0.0 </Recharge_Seconds>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Move_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
             <Unit_Ability>
                 <Type>PLACE_REMOTE_BOMB</Type>
                 <Recharge_Seconds>18.0</Recharge_Seconds>
