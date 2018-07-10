@@ -67,7 +67,6 @@
         <Max_Squad_Size> 9 </Max_Squad_Size>
         <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
         <GUI_Model_Name>RI_INFANTRY2.ALO</GUI_Model_Name>
-        <Land_Model_Name>RI_INFANTRY2.ALO</Land_Model_Name>
         <Scale_Factor>5.0</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -158,7 +157,6 @@
         <Max_Squad_Size> 9 </Max_Squad_Size>
         <Icon_Name>I_BUTTON_ELITE_LIGHT.tga</Icon_Name>
         <GUI_Model_Name>RI_Light_Elite.ALO</GUI_Model_Name>
-        <Land_Model_Name>RI_Light_Elite.ALO</Land_Model_Name>
         <Scale_Factor>5.0</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -250,7 +248,6 @@
         <Max_Squad_Size> 9 </Max_Squad_Size>
         <Icon_Name>I_BUTTON_ELITE_LIGHT.tga</Icon_Name>
         <GUI_Model_Name>RI_Light_Elite.ALO</GUI_Model_Name>
-        <Land_Model_Name>RI_Light_Elite.ALO</Land_Model_Name>
         <Scale_Factor>5.0</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -327,7 +324,6 @@
         <Max_Squad_Size> 2 </Max_Squad_Size>
         <Icon_Name>I_BUTTON_ELITE_HEAVY.tga</Icon_Name>
         <GUI_Model_Name>Ri_Heavy_Elite.ALO</GUI_Model_Name>
-        <Land_Model_Name>Ri_Heavy_Elite.ALO</Land_Model_Name>
         <Scale_Factor>5.0</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -536,7 +532,6 @@
 
         <Icon_Name>I_BUTTON_IMPERIAL_STORMTROOPER.tga</Icon_Name>
         <GUI_Model_Name>EI_TROOPER.ALO</GUI_Model_Name>
-        <Land_Model_Name>EI_TROOPER.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -615,7 +610,6 @@
 
         <Icon_Name>I_BUTTON_SHOCK_TROOPER.TGA</Icon_Name>
         <GUI_Model_Name>Stormtrooper_Plex.ALO</GUI_Model_Name>
-        <Land_Model_Name>Stormtrooper_Plex.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -709,8 +703,6 @@
         <Max_Squad_Size> 3 </Max_Squad_Size>
 
         <Icon_Name>FULIK.TGA</Icon_Name>
-        <GUI_Model_Name>EI_COMMANDER.ALO</GUI_Model_Name>
-        <Land_Model_Name>EI_COMMANDER.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -787,7 +779,6 @@
 
         <Icon_Name>i_button_sniper.tga</Icon_Name>
         <GUI_Model_Name>Ei_Sniper.ALO</GUI_Model_Name>
-        <Land_Model_Name>Ei_Sniper.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -875,7 +866,6 @@
 
         <Icon_Name>I_BUTTON_CLONECOMMANDO.TGA</Icon_Name>
         <GUI_Model_Name>Ei_Imperial_Commando.ALO</GUI_Model_Name>
-        <Land_Model_Name>Ei_Imperial_Commando.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -991,7 +981,6 @@
 
         <Icon_Name>I_BUTTON_IMPERIAL_ENGINEER.TGA</Icon_Name>
         <GUI_Model_Name>Ei_Gunner.ALO</GUI_Model_Name>
-        <Land_Model_Name>Ei_Gunner.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1086,7 +1075,6 @@
 
         <Icon_Name>I_BUTTON_TRITON.TGA</Icon_Name>
         <GUI_Model_Name>EI_Triton_Soldier.ALO</GUI_Model_Name>
-        <Land_Model_Name>EI_Triton_Soldier.ALO</Land_Model_Name>
         <Scale_Factor>5</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>

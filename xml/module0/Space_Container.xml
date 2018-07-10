@@ -13,7 +13,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
         <Text_ID>TEXT_B_WING_SQUADRON</Text_ID>
         <Icon_Name>I_BUTTON_RV_BWING.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/b_wing/b_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_b_wing.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>

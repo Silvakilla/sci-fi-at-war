@@ -11,7 +11,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>rebel/space/a_wing/a_Wing.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_a_Wing.ALO</Space_Model_Name>
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
         <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
@@ -174,7 +174,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>rebel/space/y_wing/y_wing.alo</Space_Model_Name>
+        <Space_Model_Name>rv_y_wing.alo</Space_Model_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -301,7 +301,7 @@
         <Text_ID>TEXT_UNIT_B_WING</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_B_WING</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-        <Space_Model_Name>rebel/space/b_wing/b_wing.alo</Space_Model_Name>
+        <Space_Model_Name>rv_b_wing.alo</Space_Model_Name>
         <Icon_Name>I_BUTTON_RV_BWING.TGA</Icon_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
@@ -433,7 +433,7 @@
         <Text_ID>TEXT_UNIT_E_WING</Text_ID>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Text>TEXT_TOOLTIP_E_WING</Encyclopedia_Text>
-        <Space_Model_Name>rebel/space/e_wing/e_wing.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_e_wing.ALO</Space_Model_Name>
 
         <Scale_Factor>0.3</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -551,7 +551,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_T_WING</Encyclopedia_Text>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>rebel/space/t_wing/t_wing.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_t_wing.ALO</Space_Model_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -677,7 +677,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>rebel/space/x_wing/x_wing.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_x_wing.ALO</Space_Model_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -819,7 +819,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>rebel/space/x_wing/x_wing.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_x_wing.ALO</Space_Model_Name>
 
         <LOD_Bias>10</LOD_Bias>
         <Scale_Factor>0.4</Scale_Factor>
@@ -972,7 +972,7 @@
         <Moniker>cr90.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/corellian_corvette/CORVETTE.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_corvette.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -1070,7 +1070,7 @@
         </HardPoints>
 
         <Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/corellian_corvette/CORVETTE.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_corvette.ALO</GUI_Model_Name>
         <GUI_Distance>600</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1145,7 +1145,7 @@
         <Moniker>dp20.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/corellian_gunship/gunship.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_gunship.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -1231,7 +1231,7 @@
         </HardPoints>
 
         <Icon_Name>i_button_corellian_gunship.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/corellian_gunship/GUNSHIP.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_gunship.ALO</GUI_Model_Name>
         <GUI_Distance>600</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1304,7 +1304,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/missileship/missileship.alo</Space_Model_Name>
+        <Space_Model_Name>rv_missile_ship.alo</Space_Model_Name>
         <Icon_Name>i_button_marauder.tga</Icon_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -1467,7 +1467,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/balrus/Balrus.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_balrus.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -1555,7 +1555,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_RV_BALRUS.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/balrus/Balrus.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_balrus.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1636,7 +1636,7 @@
         <Moniker>nebulonb.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b_mk_I.alo</Space_Model_Name>
+        <Space_Model_Name>rv_nebulon_b_mk_I.alo</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -1739,7 +1739,7 @@
         <Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01 </Target_Bones>
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_escort_frigate.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b.alo</GUI_Model_Name>
+        <GUI_Model_Name>rv_nebulon_b_mk_I.alo</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1831,7 +1831,7 @@
         <Moniker>nebulonb2.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_II/nebulonb.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_nebulon_b_mk_II.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -1923,7 +1923,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_RV_NEBULONB2.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/nebulon_b_mk_2/nebulon_b2.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_nebulon_b_mk_II.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2011,7 +2011,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/assaultfrigate/assaultfrigate.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_assaultfrigate.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -2110,7 +2110,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_alliance_assault_frigate.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/assaultfrigate/assaultfrigate.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_assaultfrigate.ALO</GUI_Model_Name>
         <GUI_Distance>1200</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2201,7 +2201,7 @@
         <Icon_Name>i_button_mc30c.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_30c/mc_30c_v2.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_mc_30c_v2.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -2376,7 +2376,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_75/MC_75.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_MC_75.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -2481,7 +2481,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_RV_MC_75.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_75/MC_75.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_mc_75.ALO</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2569,7 +2569,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/dreadnought/Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -2661,7 +2661,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_RV_DREADNOUGHT.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/dreadnought/Dreadnought.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_Dreadnought.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2746,7 +2746,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_40a/MC_40A.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_mc_40a.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -2844,7 +2844,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_RV_MC40.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_40a/.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_mc_40a.ALO</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2935,7 +2935,7 @@
         <Moniker>mc80.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_80_liberty/MC_80_Liberty.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_mc_80_liberty.ALO</Space_Model_Name>
         <Select_Box_Scale>600</Select_Box_Scale>
         <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -3034,7 +3034,7 @@
         </HardPoints>
 
         <Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_80_liberty/mc_80_liberty.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_mc_80_liberty.ALO</GUI_Model_Name>
         <GUI_Distance>1650</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -3128,7 +3128,7 @@
 
         <Icon_Name>I_BUTTON_MIIDKAS.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mediatorcruiser/mediatorcruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_mediator_cruiser.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
         <Formation_Priority>5</Formation_Priority>
         <Ranking_In_Category>3</Ranking_In_Category>
@@ -3265,7 +3265,7 @@
 
         <CategoryMask> Capital | AntiCapital </CategoryMask>
 
-        <GUI_Model_Name>rebel/space/mediatorcruiser/mediatorcruiser.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_mediator_cruiser.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -3297,7 +3297,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>new_republic/space/strident/Strident.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_Strident.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -3459,7 +3459,7 @@
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
         <Icon_Name>i_button_strident.tga</Icon_Name>
-        <GUI_Model_Name>new_republic/space/strident/Strident.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_Strident.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -3519,7 +3519,7 @@
         <Moniker>republicIsd.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_RSD.TGA</Icon_Name>
-        <Space_Model_Name>new_republic/space/republic_star_destroyer/republic_star_destroyer.alo</Space_Model_Name>
+        <Space_Model_Name>rv_republic_star_destroyer.alo</Space_Model_Name>
         <Scale_Factor>0.6</Scale_Factor>
         <Select_Box_Scale>1200</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -3685,7 +3685,7 @@
         <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
         <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 
-        <GUI_Model_Name>republic/space/republic_star_destroyer/republic_star_destroyer.alo</GUI_Model_Name>
+        <GUI_Model_Name>rv_republic_star_destroyer.alo</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -3735,8 +3735,8 @@
         <Moniker>mc80.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_MC80.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_80a/mc_80a.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_80a/mc_80a.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_mc_80a.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_mc_80a.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
         <Scale_Factor>0.7</Scale_Factor>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -3904,8 +3904,8 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
         <Icon_Name>I_BUTTON_RV_MC90.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_90/mc_90.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_90/mc_90.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_mc_90.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_mc_90.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
         <Scale_Factor>0.3</Scale_Factor>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -4090,7 +4090,7 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>new_republic/space/galaxy_destroyer/Galaxy_Destroyer.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_Galaxy_Destroyer.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -4238,7 +4238,7 @@
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
         <Icon_Name>i_button_Galaxy_Destroyer.tga</Icon_Name>
-        <GUI_Model_Name>new_republic/space/galaxy_destroyer/Galaxy_Destroyer.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_Galaxy_Destroyer.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -4297,8 +4297,8 @@
         <Moniker>mc104.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_MC104.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_104/MC_104.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_104/MC_104.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_mc_104.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_mc_104.ALO</Space_Model_Name>
 
         <Mass>0.995</Mass>
         <Scale_Factor>1.0</Scale_Factor>
@@ -4490,7 +4490,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-        <Space_Model_Name>empire/space/tie_fighter/ev_TieFighter.ALO</Space_Model_Name>
+        <Space_Model_Name>ev_TieFighter.ALO</Space_Model_Name>
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
         <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -4762,7 +4762,7 @@
         <Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-        <Space_Model_Name>empire/space/tie_interceptor/EV_TIE_INTERCEPTOR.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_TIE_INTERCEPTOR.ALO</Space_Model_Name>
         <Icon_Name>i_button_EV_TIE_Interceptor.tga</Icon_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
@@ -4895,7 +4895,7 @@
         <Text_ID>TEXT_UNIT_TIE_PHANTOM</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_TIE_PHANTOM</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-        <Space_Model_Name>empire/space/tie_phantom/EV_TIE_PHANTOM.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_TIE_PHANTOM.ALO</Space_Model_Name>
         <Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
@@ -5050,7 +5050,7 @@
         <Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
-        <Space_Model_Name>empire/space/tie_defender/EV_TIE_DEFENDER.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_TIE_DEFENDER.ALO</Space_Model_Name>
         <Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
@@ -5209,7 +5209,7 @@
         <Text_ID>TEXT_UNIT_TIE_PREDATOR</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_TIE_PREDATOR</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-        <Space_Model_Name>empire/space/tie_predator/TIE_PREDATOR.ALO</Space_Model_Name>
+        <Space_Model_Name>TIE_PREDATOR.ALO</Space_Model_Name>
         <Icon_Name>i_button_TIE_Predator.tga</Icon_Name>
 
         <Scale_Factor>0.4</Scale_Factor>
@@ -5333,7 +5333,7 @@
         <Text_ID>TEXT_UNIT_TIE_REAPER2</Text_ID>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Text>TEXT_TOOLTIP_TIE_REAPER</Encyclopedia_Text>
-        <Space_Model_Name>empire/space/tie_reaper/TIE_Reaper.ALO</Space_Model_Name>
+        <Space_Model_Name>TIE_Reaper.ALO</Space_Model_Name>
         <Icon_Name>i_button_TIE_Reaper.tga</Icon_Name>
 
         <Scale_Factor>0.45</Scale_Factor>
@@ -5455,7 +5455,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-        <Space_Model_Name>empire/space/tie_bomber/EV_TIEBOMBER.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_TIEBOMBER.ALO</Space_Model_Name>
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
         <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -5576,7 +5576,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>empire/space/tie_neutralizer/TIE_Neutralizer.ALO</Space_Model_Name>
+        <Space_Model_Name>TIE_Neutralizer.ALO</Space_Model_Name>
 
         <Scale_Factor>0.45</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -5690,7 +5690,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Space_Model_Name>empire/space/tie_hunter/Ev_Tie_Hunter.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Tie_Hunter.ALO</Space_Model_Name>
 
         <Scale_Factor>0.07</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -5830,7 +5830,7 @@
         <Text_ID>TEXT_UNIT_ALPHA_XG1_WING</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_ALPHA_XG1_WING</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-        <Space_Model_Name>empire/space/gunboat/EV_Gunboat.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Gunboat.ALO</Space_Model_Name>
 
         <Scale_Factor>0.2</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -5962,7 +5962,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
-        <Space_Model_Name>empire/space/missileboat/EV_Missileboat.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Missileboat.ALO</Space_Model_Name>
         <Scale_Factor>0.2</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
         <Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -6094,7 +6094,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/missileship/ev_missile_ship.alo</Space_Model_Name>
+        <Space_Model_Name>ev_missile_ship.alo</Space_Model_Name>
         <Icon_Name>i_button_broadside.tga</Icon_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -6408,7 +6408,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/victor_mk_2/Ev_VictorII.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_VictorII.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -6494,7 +6494,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_VictorIICruiser.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/victor_mk_2/Ev_VictorII.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_VictorII.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -6772,7 +6772,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/carrack/EV_Carrack.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Carrack.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -6865,7 +6865,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_EV_CARRACK.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/carrack/EV_Carrack.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Carrack.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -6949,7 +6949,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/eidolon/EV_Eidolon.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Eidolon.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -7036,7 +7036,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_EV_EIDOLON.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/eidolon/EV_Eidolon.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Eidolon.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -7120,7 +7120,7 @@
         <Moniker>strike.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/strikecruiser/EV_StrikeCruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_StrikeCruiser.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -7211,7 +7211,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_STRIKER.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/strikecruiser/EV_StrikeCruiser.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_StrikeCruiser.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -7295,7 +7295,7 @@
         <Moniker>lancer.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/lancer/EV_Lancer.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Lancer.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -7390,7 +7390,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_EV_LANCER.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/lancer/EV_Lancer.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Lancer.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -7503,7 +7503,7 @@
         <Moniker>tonfalk.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/escort_carrier/EV_EscortCarrier.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_EscortCarrier.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -7609,7 +7609,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_ESCORT_CARRIER.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/escort_carrier/EV_carrier.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_carrier.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -7698,7 +7698,7 @@
         <Moniker>iec.txt</Moniker>
 
         <GUI_Row>0</GUI_Row>
-        <Space_Model_Name>empire/space/imperial_escort_carrier/Empire_Imperial_Escort_Carrier.ALO</Space_Model_Name>
+        <Space_Model_Name>Empire_Imperial_Escort_Carrier.ALO</Space_Model_Name>
         <Select_Box_Scale>0</Select_Box_Scale>
         <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -7873,7 +7873,7 @@
         <Encyclopedia_Vulnerable_To/>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/acclamator_mk_2/Empire_Acclamator_II.ALO</Space_Model_Name>
+        <Space_Model_Name>Empire_Acclamator_II.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -7975,7 +7975,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_ACCLAMATOR_1.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/acclamator_mk_2/Empire_Acclamator_II.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Empire_Acclamator_II.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -8057,7 +8057,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/dreadnought/EV_Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -8152,7 +8152,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_EV_DREADNOUGHT.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/dreadnought/EV_Dreadnought.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Dreadnought.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -8241,7 +8241,7 @@
         <Moniker>vsd1.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/victory_destroyer_mk_1/Ev_Victory_MkI.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Victory_MkI.ALO</Space_Model_Name>
         <Select_Box_Scale>2200</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -8353,7 +8353,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_VICTORY_CLASS.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/victory_destroyer_mk_1/Ev_Victory_MkI.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_Victory_MkI.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -8440,6 +8440,229 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
     </SpaceUnit>
 
+    <SpaceUnit Name="Victory_Destroyer_Class_II">
+        <Text_ID>TEXT_UNIT_VICTORY_DESTROYER_CLASS_II</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_VICTORY_DESTROYER_CLASS_II</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
+        <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
+        <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
+        <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+
+        <GUI_Row>1</GUI_Row>
+        <Space_Model_Name>EV_VICTORY2.ALO</Space_Model_Name>
+        <Select_Box_Scale>350</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Mass>0.9995</Mass>
+        <Scale_Factor>1.34</Scale_Factor>
+        <Ranking_In_Category>6</Ranking_In_Category>
+        <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+        <Max_Speed>1.6</Max_Speed>
+        <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+        <MovementClass>Space</MovementClass>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+        <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>80</Bank_Turn_Angle>
+        <OverrideAcceleration>.03</OverrideAcceleration>
+        <OverrideDeceleration>.03</OverrideDeceleration>
+        <Max_Thrust>0.6</Max_Thrust>
+        <Hyperspace>Yes</Hyperspace>
+        <Hyperspace_Speed>0.8</Hyperspace_Speed>
+        <Maintenance_Cost>0.1</Maintenance_Cost>
+        <Armor_Type>Armor_Space_Capital</Armor_Type>
+        <Shield_Armor_Type>Shield_Space_Heavy</Shield_Armor_Type>
+        <AI_Combat_Power>8100</AI_Combat_Power>
+        <Damage>8100</Damage>
+        <Autoresolve_Health>10800</Autoresolve_Health>
+        <Shield_Points>5000</Shield_Points>
+        <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
+        <Tactical_Health>5800</Tactical_Health>
+        <Energy_Capacity>5000</Energy_Capacity>
+        <Energy_Refresh_Rate>100</Energy_Refresh_Rate>
+        <Build_Cost_Credits>9150</Build_Cost_Credits>
+        <Piracy_Value_Credits>915</Piracy_Value_Credits>
+        <Build_Time_Seconds>190</Build_Time_Seconds>
+        <Tactical_Bribe_Cost>915</Tactical_Bribe_Cost>
+        <Score_Cost_Credits>915</Score_Cost_Credits>
+        <Affiliation>Empire</Affiliation>
+        <Tech_Level>3</Tech_Level>
+        <Build_Initially_Locked>No</Build_Initially_Locked>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures>Empire_Medium_Ship_Yard</Required_Special_Structures>
+        <Required_Planets/>
+        <Ship_Class>Capital</Ship_Class>
+        <Formation_Priority>3</Formation_Priority>
+        <Is_Escort>yes</Is_Escort>
+        <Is_Bomber>no</Is_Bomber>
+        <Political_Control>0</Political_Control>
+        <Squadron_Capacity>15</Squadron_Capacity>
+        <Transport_Capacity>12</Transport_Capacity>
+        <Number_per_Squadron>1</Number_per_Squadron>
+        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        <Size_Value>8</Size_Value>
+
+        <Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
+        <SpaceBehavior>SPAWN_SQUADRON,ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR,TARGETING,REVEAL,HIDE_WHEN_FOGGED,UNIT_AI,ASTEROID_FIELD_DAMAGE,DAMAGE_TRACKING,ION_STUN_EFFECT,NEBULA, POWERED, SHIELDED</SpaceBehavior>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <Space_FOW_Reveal_Range>6000.0</Space_FOW_Reveal_Range>
+        <Targeting_Max_Attack_Distance>1600.0</Targeting_Max_Attack_Distance>
+        <Death_Explosions>Medium_Explosion_Space_Empire</Death_Explosions>
+        <Death_Clone>Damage_Normal, Victory_Destroyer_Class_II_Death_Clone</Death_Clone>
+
+        <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 4</Starting_Spawned_Units_Tech_2>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+
+        <HardPoints>
+            HP_VictoryII_Ion_01,
+            HP_VictoryII_Ion_02,
+            HP_VictoryII_Ion_03,
+            HP_VictoryII_Ion_04,
+            HP_VictoryII_Ion_05,
+            HP_VictoryII_Ion_06,
+
+            HP_Victory_Weapon_01,
+            HP_Victory_Weapon_02,
+            HP_Victory_Weapon_03,
+            HP_Victory_Weapon_04,
+            HP_Victory_Weapon_05,
+            HP_Victory_Weapon_06,
+
+            HP_Victory_Shields_01,
+            HP_Victory_Shields_02,
+            HP_Victory_Engines_01,
+            HP_Victory_Engines_02,
+            HP_Victory_Engines_03,
+            HP_Victory_Fighter_Bay,
+            HP_Victory_Tractor_Beam
+        </HardPoints>
+
+        <CategoryMask>Capital | AntiFrigate</CategoryMask>
+        <Icon_Name>I_BUTTON_VICTORY_CLASS.TGA</Icon_Name>
+        <GUI_Model_Name>EV_VICTORY2.ALO</GUI_Model_Name>
+        <GUI_Distance>1100</GUI_Distance>
+        <GUI_Offset>0 0 0</GUI_Offset>
+        <GUI_Velocity>45</GUI_Velocity>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+        <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
+        <SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
+        <SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
+        <SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
+        <SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field>Unit_Asteroids_Victory_Destroyer</SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula>Unit_Nebula_Victory_Destroyer</SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
+        <SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
+        <SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer</SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE,</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO,</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Engine_Idle_Loop>Unit_Victory_Destroyer_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Victory_Destroyer_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Dying_SFX</Death_SFXEvent_Start_Die>
+
+        <Space_Full_Stop_Command>Yes</Space_Full_Stop_Command>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+        <Radar_Icon_Size>0.027  0.05</Radar_Icon_Size>
+        <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+        <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+        <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+        <Idle_Chase_Range>0.0</Idle_Chase_Range>
+        <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+        <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+        <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>TRACTOR_BEAM</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+                <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name>
+                <Recharge_Seconds>20</Recharge_Seconds>
+                <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+                <SFXEvent_Special_Ability_Loop>Unit_Star_Destroyer_Tractor_Beam</SFXEvent_Special_Ability_Loop>
+                <Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-7.5f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.25f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+                <Activation_Style>User_Input</Activation_Style>
+                <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                <Applicable_Unit_Types>Millennium_Falcon | IG-2000 | Slave_I | Houndstooth | Ravens_Claw</Applicable_Unit_Types>
+                <Activation_Min_Range>0</Activation_Min_Range>
+                <Activation_Max_Range>1200</Activation_Max_Range>
+                <Target_Speed_Decrease_Percent>1.0</Target_Speed_Decrease_Percent>
+                <Stacking_Category>2</Stacking_Category>
+            </Tractor_Beam_Attack_Ability>
+
+            <Force_Healing_Ability Name="E_Mineral_Extractor_Self_Repair">
+                <Activation_Style>Space_Automatic</Activation_Style>
+                <Heal_Range>0.0</Heal_Range>
+                <Heal_Percent>0.01</Heal_Percent>
+                <Heal_Amount>0.0</Heal_Amount>
+                <Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+                <Single_Target_Heal>No</Single_Target_Heal>
+                <Applicable_Unit_Categories/>
+                <Applicable_Unit_Types/>
+                <SFXEvent_Target_Affected/>
+                <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+                <Owner_Light_Effect_Type/>
+                <Owner_Light_Effect_Color/>
+                <Owner_Light_Effect_Color2/>
+                <Owner_Light_Effect_Duration/>
+                <Owner_Light_Effect_Pulse_Count/>
+            </Force_Healing_Ability>
+        </Abilities>
+
+        <Tactical_Build_Cost_Multiplayer>8150</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Time_Seconds>86</Tactical_Build_Time_Seconds>
+        <Tactical_Build_Prerequisites/>
+        <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+        <Population_Value>6</Population_Value>
+    </SpaceUnit>
+
     <SpaceUnit Name="Venator">
         <Text_ID>TEXT_UNIT_VENATOR</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_VENATOR</Encyclopedia_Text>
@@ -8448,7 +8671,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/venator/Ev_Venator.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Venator.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_VENATOR.TGA</Icon_Name>
         <Select_Box_Scale>1600</Select_Box_Scale>
         <Select_Box_Z_Adjust>-80</Select_Box_Z_Adjust>
@@ -8553,7 +8776,7 @@
         </HardPoints>
 
         <CategoryMask> Frigate | AntiFrigate</CategoryMask>
-        <GUI_Model_Name>empire/space/venator/Ev_Venator.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_Venator.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -8632,7 +8855,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/harrow/EV_Harrow.alo</Space_Model_Name>
+        <Space_Model_Name>EV_Harrow.alo</Space_Model_Name>
         <Select_Box_Scale>500</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -8728,7 +8951,7 @@
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_EV_HARROW.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/harrow/EV_Harrow.alo</GUI_Model_Name>
+        <GUI_Model_Name>EV_Harrow.alo</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -8817,7 +9040,7 @@
         <Moniker>isd1.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/star_destroyer_mk_1/Ev_Imperator_MK1.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Imperator_MK1.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -8978,7 +9201,7 @@
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
 
         <Icon_Name>i_button_imperator.tga</Icon_Name>
-        <GUI_Model_Name>>empire/space/star_destroyer_mk_1/Ev_Imperator_MK1.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_Imperator_MK1.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -9039,7 +9262,7 @@
         <Moniker>isd2.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/star_destroyer_mk_2/Ev_Imperator_Mk2.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Imperator_Mk2.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -9205,7 +9428,7 @@
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
         <Icon_Name>I_BUTTON_IMPERATOR_I.TGA</Icon_Name>
-        <GUI_Model_Name>>empire/space/star_destroyer_mk_2/Ev_Imperator_MK2.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_Imperator_MK2.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -9265,7 +9488,7 @@
         <Moniker>executor.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/executor/EV_Executor.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Executor.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -9449,7 +9672,7 @@
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
         <Icon_Name>I_BUTTON_EV_EXECUTORSTARDESTROYER.TGA</Icon_Name>
-        <GUI_Model_Name>empire/space/executor/EV_Executor.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Executor.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -9492,7 +9715,7 @@
         <Moniker>praetor2.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/praetor/EV_Praetor.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Praetor.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -9677,7 +9900,7 @@
 
         <CategoryMask> Capital | AntiCapital | AntiSuper</CategoryMask>
         <Icon_Name>I_BUTTON_EV_PRAETOR.TGA</Icon_Name>
-        <GUI_Model_Name>ire/space/praetor/EV_Praetor.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Praetor.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -9917,7 +10140,7 @@
         <Moniker>cr90.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/corellian_corvette/CORVETTE.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_corvette.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -10015,7 +10238,7 @@
         </HardPoints>
 
         <Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/corellian_corvette/CORVETTE.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_CORVETTE.ALO</GUI_Model_Name>
         <GUI_Distance>600</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -10090,7 +10313,7 @@
         <Moniker>dp20.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/corellian_gunship/gunship.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_gunship.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -10176,7 +10399,7 @@
         </HardPoints>
 
         <Icon_Name>i_button_corellian_gunship.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/corellian_gunship/GUNSHIP.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_GUNSHIP.ALO</GUI_Model_Name>
         <GUI_Distance>600</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -10253,7 +10476,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/missileship/ev_missile_ship.alo</Space_Model_Name>
+        <Space_Model_Name>ev_missile_ship.alo</Space_Model_Name>
         <Icon_Name>i_button_broadside.tga</Icon_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -10567,7 +10790,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/victor_mk_2/Ev_VictorII.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_VictorII.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -10930,7 +11153,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/carrack/EV_Carrack.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Carrack.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -11107,7 +11330,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/eidolon/EV_Eidolon.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Eidolon.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -11279,7 +11502,7 @@
         <Moniker>strike.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/strikcruiser/EV_StrikeCruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_StrikeCruiser.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -11454,7 +11677,7 @@
         <Moniker>lancer.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/lancer/EV_Lancer.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Lancer.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -11662,7 +11885,7 @@
         <Moniker>tonfalk.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/escort_carrier/EV_EscortCarrier.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_EscortCarrier.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -11857,7 +12080,7 @@
         <Moniker>iec.txt</Moniker>
 
         <GUI_Row>0</GUI_Row>
-        <Space_Model_Name>empire/space/imperial_escort_carrier/Empire_Imperial_Escort_Carrier.ALO</Space_Model_Name>
+        <Space_Model_Name>Empire_Imperial_Escort_Carrier.ALO</Space_Model_Name>
         <Select_Box_Scale>0</Select_Box_Scale>
         <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -12034,7 +12257,7 @@
         <Encyclopedia_Vulnerable_To/>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/acclamator_mk_2/Empire_Acclamator_II.ALO</Space_Model_Name>
+        <Space_Model_Name>Empire_Acclamator_II.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -12218,7 +12441,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/dreadnought/EV_Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -12402,7 +12625,7 @@
         <Moniker>vsd1.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/victory_destroyer_mk_1/Ev_Victory_MkI.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Victory_MkI.ALO</Space_Model_Name>
         <Select_Box_Scale>2200</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -12610,7 +12833,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/venator/Ev_Venator.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Venator.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_VENATOR.TGA</Icon_Name>
         <Select_Box_Scale>1600</Select_Box_Scale>
         <Select_Box_Z_Adjust>-80</Select_Box_Z_Adjust>
@@ -12795,7 +13018,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/harrow/EV_Harrow.alo</Space_Model_Name>
+        <Space_Model_Name>EV_Harrow.alo</Space_Model_Name>
         <Select_Box_Scale>500</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -12980,7 +13203,7 @@
         <Moniker>isd1.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/star_destroyer_mk_1/Ev_Imperator_MK1.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Imperator_MK1.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -13202,7 +13425,7 @@
         <Moniker>isd2.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/star_destroyer_mk_2/Ev_Imperator_Mk2.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Imperator_Mk2.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -13428,7 +13651,7 @@
         <Moniker>executor.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/executor/EV_Executor.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Executor.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -13655,7 +13878,7 @@
         <Moniker>praetor2.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/praetor/EV_Praetor.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Praetor.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -14076,8 +14299,8 @@
         <Moniker>cr90.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/corellian_corvette/CORVETTE.ALO</Space_Model_Name>
-        <GUI_Model_Name>RV_CORVETTE.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_corvette.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_corvette.ALO</GUI_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -14250,7 +14473,7 @@
         <Moniker>dp20.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/corellian_gunship/gunship.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_gunship.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -14336,7 +14559,7 @@
         </HardPoints>
 
         <Icon_Name>i_button_corellian_gunship.tga</Icon_Name>
-        <GUI_Model_Name>RV_GUNSHIP.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_gunship.alo</GUI_Model_Name>
         <GUI_Distance>600</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -14409,7 +14632,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/missileship/missileship.alo</Space_Model_Name>
+        <Space_Model_Name>rv_missile_ship.alo</Space_Model_Name>
         <Icon_Name>i_button_marauder.tga</Icon_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -14572,7 +14795,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/balrus/Balrus.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_balrus.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -14741,7 +14964,7 @@
         <Moniker>nebulonb.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_1/NEBULON_B.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_nebulon_b_mk_I.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -14936,7 +15159,7 @@
         <Moniker>nebulonb2.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_2/Nebulon_B2.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_nebulon_b_mk_II.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -15116,7 +15339,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/assaultfrigate/ASSAULTFRIGATE.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_ASSAULTFRIGATE.ALO</Space_Model_Name>
         <Select_Box_Scale>330</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -15306,7 +15529,7 @@
         <Icon_Name>i_button_mc30c.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_30c/MC_30C.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_MC_30C.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -15480,7 +15703,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>rebel/space/dreadnought/Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -15658,7 +15881,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_75/MC_75.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_MC_75.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -15851,7 +16074,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_40a/MC_40A.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_MC_40A.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -16040,7 +16263,7 @@
         <Moniker>mc80.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mc_80_liberty/MC_80_Liberty.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_MC_80_Liberty.ALO</Space_Model_Name>
         <Select_Box_Scale>600</Select_Box_Scale>
         <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -16233,7 +16456,7 @@
 
         <Icon_Name>I_BUTTON_MIIDKAS.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/mediatorcruiser/mediatorcruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_mediator_cruiser.ALO</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
         <Formation_Priority>5</Formation_Priority>
         <Ranking_In_Category>3</Ranking_In_Category>
@@ -16403,7 +16626,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>new_republic/space/strident/Strident.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_Strident.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -16625,7 +16848,7 @@
         <Moniker>republicIsd.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_RSD.TGA</Icon_Name>
-        <Space_Model_Name>new_republic/space/republic_star_destoryer/republic_star_destroyer.alo</Space_Model_Name>
+        <Space_Model_Name>rv_republic_star_destroyer.alo</Space_Model_Name>
         <Scale_Factor>0.6</Scale_Factor>
         <Select_Box_Scale>1200</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -16842,8 +17065,8 @@
         <Moniker>mc80.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_MC80.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_80a/MC_80A.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_80a/MC_80A.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_MC_80A.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_MC_80A.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
         <Scale_Factor>0.7</Scale_Factor>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -17011,8 +17234,8 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
         <Icon_Name>I_BUTTON_RV_MC90.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_90/MC_90.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_90/MC_90.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_MC_90.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_MC_90.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
         <Scale_Factor>0.3</Scale_Factor>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -17197,7 +17420,7 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>new_republic/space/galaxy_destroyer/Galaxy_Destroyer.ALO</Space_Model_Name>
+        <Space_Model_Name>rv_Galaxy_Destroyer.ALO</Space_Model_Name>
         <Ranking_In_Category>5</Ranking_In_Category>
         <GUI_Bracket_Height>500</GUI_Bracket_Height>
         <GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -17404,8 +17627,8 @@
         <Moniker>mc104.txt</Moniker>
 
         <Icon_Name>I_BUTTON_RV_MC104.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/mc_104/MC_104.ALO</GUI_Model_Name>
-        <Space_Model_Name>rebel/space/mc_104/MC_104.ALO</Space_Model_Name>
+        <GUI_Model_Name>rv_MC_104.ALO</GUI_Model_Name>
+        <Space_Model_Name>rv_MC_104.ALO</Space_Model_Name>
 
         <Mass>0.995</Mass>
         <Scale_Factor>1.0</Scale_Factor>

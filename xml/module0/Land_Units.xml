@@ -11,17 +11,16 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Stealth_Capable>No</Stealth_Capable>
-        <Land_Model_Name>rebel/land/saboteur/RI_Saboteur.ALO</Land_Model_Name>
+        <Land_Model_Name>RI_Saboteur.ALO</Land_Model_Name>
         <Land_Terrain_Model_Mapping>
-            Temperate, 			rebel/land/saboteur/RI_Saboteur.ALO,
-            Urban, 				rebel/land/saboteur/RI_Saboteur.ALO,
-            Arctic, 			rebel/land/saboteur/RI_Saboteur.ALO,
-            Volcanic, 			rebel/land/saboteur/RI_Saboteur.ALO,
-            Desert, 			rebel/land/saboteur/RI_Saboteur.ALO,
-            Forest, 			rebel/land/saboteur/RI_Saboteur.ALO,
-            Swamp, 				rebel/land/saboteur/RI_Saboteur.ALO
+            Temperate, 			RI_Saboteur.ALO,
+            Urban, 				RI_Saboteur.ALO,
+            Arctic, 			RI_Saboteur.ALO,
+            Volcanic, 			RI_Saboteur.ALO,
+            Desert, 			RI_Saboteur.ALO,
+            Forest, 			RI_Saboteur.ALO,
+            Swamp, 				RI_Saboteur.ALO
         </Land_Terrain_Model_Mapping>
-        <Land_Model_Anim_Override_Name>RI_Saboteur.ALO</Land_Model_Anim_Override_Name>
         <Behavior>SELECTABLE</Behavior>
         <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
         <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -191,7 +190,6 @@
             Forest, 			RI_PLEXS_Forest.ALO,
             Swamp, 				RI_PLEXS_Forest.ALO
         </Land_Terrain_Model_Mapping>
-        <Land_Model_Anim_Override_Name>RI_PLEXSOLDIER.ALO</Land_Model_Anim_Override_Name>
         <Icon_Name>i_button_plex_soldier.tga</Icon_Name>
         <Behavior>SELECTABLE</Behavior>
         <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
@@ -658,17 +656,16 @@
         <Stealth_Capable>No</Stealth_Capable>
 
         <Land_Terrain_Model_Mapping>
-            Temperate, 			rebel/land/trooper/RI_INFANTRY2.ALO,
-            Urban, 				rebel/land/trooper/RI_INFANTRY2.ALO,
-            Arctic, 			rebel/land/trooper/RI_INFANTRY_Snow2.ALO,
-            Volcanic, 			rebel/land/trooper/RI_INFANTRY_Desert2.ALO,
-            Desert, 			rebel/land/trooper/RI_INFANTRY_Desert2.ALO,
-            Forest, 			rebel/land/trooper/RI_INFANTRY_Forest2.ALO,
-            Swamp, 				rebel/land/trooper/RI_INFANTRY_Forest2.ALO
+            Temperate, 			RI_INFANTRY2.ALO,
+            Urban, 				RI_INFANTRY2.ALO,
+            Arctic, 			RI_INFANTRY_Snow2.ALO,
+            Volcanic, 			RI_INFANTRY_Desert2.ALO,
+            Desert, 			RI_INFANTRY_Desert2.ALO,
+            Forest, 			RI_INFANTRY_Forest2.ALO,
+            Swamp, 				RI_INFANTRY_Forest2.ALO
         </Land_Terrain_Model_Mapping>
 
-        <Land_Model_Name>rebel/land/trooper/RI_INFANTRY2.ALO</Land_Model_Name>
-        <Land_Model_Anim_Override_Name>rebel/land/trooper/RI_INFANTRY2.ALO</Land_Model_Anim_Override_Name>
+        <Land_Model_Name>RI_INFANTRY2.ALO</Land_Model_Name>
         <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -836,17 +833,16 @@
         <Stealth_Capable>No</Stealth_Capable>
 
         <Land_Terrain_Model_Mapping>
-            Temperate, 			rebel/land/light_elite/RI_Light_Elite.ALO,
-            Urban, 				rebel/land/light_elite/RI_Light_Elite.ALO,
-            Arctic, 			rebel/land/light_elite/RI_Light_Elite.ALO,
-            Volcanic, 			rebel/land/light_elite/RI_Light_Elite.ALO,
-            Desert, 			rebel/land/light_elite/RI_Light_Elite.ALO,
-            Forest, 			rebel/land/light_elite/RI_Light_Elite.ALO,
-            Swamp, 				rebel/land/light_elite/RI_Light_Elite.ALO
+            Temperate, 			RI_Light_Elite.ALO,
+            Urban, 				RI_Light_Elite.ALO,
+            Arctic, 			RI_Light_Elite.ALO,
+            Volcanic, 			RI_Light_Elite.ALO,
+            Desert, 			RI_Light_Elite.ALO,
+            Forest, 			RI_Light_Elite.ALO,
+            Swamp, 				RI_Light_Elite.ALO
         </Land_Terrain_Model_Mapping>
 
-        <Land_Model_Name>rebel/land/light_elite/RI_Light_Elite.ALO</Land_Model_Name>
-        <Land_Model_Anim_Override_Name>rebel/land/light_elite/RI_Light_Elite.ALO</Land_Model_Anim_Override_Name>
+        <Land_Model_Name>RI_Light_Elite.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_ELITE_LIGHT.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -1013,17 +1009,16 @@
         <Stealth_Capable>No</Stealth_Capable>
 
         <Land_Terrain_Model_Mapping>
-            Temperate, 			rebel/land/light_elite/Ri_Light_Elite_V2.ALO,
-            Urban, 				rebel/land/light_elite/Ri_Light_Elite_V2.ALO,
-            Arctic, 			rebel/land/light_elite/Ri_Light_Elite_V2.ALO,
-            Volcanic, 			rebel/land/light_elite/Ri_Light_Elite_V2.ALO,
-            Desert, 			rebel/land/light_elite/Ri_Light_Elite_V2.ALO,
-            Forest, 			rebel/land/light_elite/Ri_Light_Elite_V2.ALO,
-            Swamp, 				rebel/land/light_elite/Ri_Light_Elite_V2.ALO
+            Temperate, 			Ri_Light_Elite_V2.ALO,
+            Urban, 				Ri_Light_Elite_V2.ALO,
+            Arctic, 			Ri_Light_Elite_V2.ALO,
+            Volcanic, 			Ri_Light_Elite_V2.ALO,
+            Desert, 			Ri_Light_Elite_V2.ALO,
+            Forest, 			Ri_Light_Elite_V2.ALO,
+            Swamp, 				Ri_Light_Elite_V2.ALO
         </Land_Terrain_Model_Mapping>
 
-        <Land_Model_Name>rebel/land/light_elite/Ri_Light_Elite_V2.ALO</Land_Model_Name>
-        <Land_Model_Anim_Override_Name>rebel/land/light_elite/Ri_Light_Elite_V2.ALO</Land_Model_Anim_Override_Name>
+        <Land_Model_Name>Ri_Light_Elite_V2.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_ELITE_LIGHT.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -1190,17 +1185,16 @@
         <Stealth_Capable>No</Stealth_Capable>
 
         <Land_Terrain_Model_Mapping>
-            Temperate, 			rebel/land/heavy_elite/Ri_Heavy_Elite.ALO,
-            Urban, 				rebel/land/heavy_elite/Ri_Heavy_Elite.ALO,
-            Arctic, 			rebel/land/heavy_elite/Ri_Heavy_Elite.ALO,
-            Volcanic, 			rebel/land/heavy_elite/Ri_Heavy_Elite.ALO,
-            Desert, 			rebel/land/heavy_elite/Ri_Heavy_Elite.ALO,
-            Forest, 			rebel/land/heavy_elite/Ri_Heavy_Elite.ALO,
-            Swamp, 				rebel/land/heavy_elite/Ri_Heavy_Elite.ALO
+            Temperate, 			Ri_Heavy_Elite.ALO,
+            Urban, 				Ri_Heavy_Elite.ALO,
+            Arctic, 			Ri_Heavy_Elite.ALO,
+            Volcanic, 			Ri_Heavy_Elite.ALO,
+            Desert, 			Ri_Heavy_Elite.ALO,
+            Forest, 			Ri_Heavy_Elite.ALO,
+            Swamp, 				Ri_Heavy_Elite.ALO
         </Land_Terrain_Model_Mapping>
 
-        <Land_Model_Name>rebel/land/heavy_elite/Ri_Heavy_Elite.ALO</Land_Model_Name>
-        <Land_Model_Anim_Override_Name>rebel/land/heavy_elite/Ri_Heavy_Elite.ALO</Land_Model_Anim_Override_Name>
+        <Land_Model_Name>Ri_Heavy_Elite.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_ELITE_HEAVY.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -1356,7 +1350,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_AAC</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_MEDIUM_TANK</Encyclopedia_Unit_Class>
-        <Land_Model_Name>rebel/land/aac_hovertank/AAC_HOVERTANK.ALO</Land_Model_Name>
+        <Land_Model_Name>rv_AAC_HOVERTANK.ALO</Land_Model_Name>
         <Mass>1.0</Mass>
         <Scale_Factor>0.9</Scale_Factor>
         <Deploys>No</Deploys>
@@ -1607,7 +1601,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>rebel/space/x_wing/X_Wing.ALO</Land_Model_Name>
+        <Land_Model_Name>rv_x_wing.ALO</Land_Model_Name>
         <Mass>0.985</Mass>
         <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
         <Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
@@ -1747,7 +1741,7 @@
         <Text_ID>TEXT_UNIT_SCOUT_TROOPER</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Land_Model_Name>empire/land/speederbiker/EV_Bike.ALO</Land_Model_Name>
+        <Land_Model_Name>EV_Bike.ALO</Land_Model_Name>
         <Icon_Name>i_button_scout_trooper.tga</Icon_Name>
 
         <Lua_Script>SpeederBike</Lua_Script>
@@ -1909,8 +1903,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         
 		<LOD_Bias>5</LOD_Bias>
-		<Land_Model_Name>empire/land/scouttrooper/EI_BIKER.ALO</Land_Model_Name>
-        <Land_Model_Anim_Override_Name>empire/land/scouttrooper/EI_BIKER.ALo</Land_Model_Anim_Override_Name>
+		<Land_Model_Name>EI_BIKER.ALO</Land_Model_Name>
         
 		<Behavior>SELECTABLE</Behavior>
         <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
@@ -2047,15 +2040,15 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>empire/land/stormtrooper/EI_TROOPER.ALO</Land_Model_Name>
+        <Land_Model_Name>EI_TROOPER.ALO</Land_Model_Name>
         <Land_Terrain_Model_Mapping>
-            Temperate, 			empire/land/stormtrooper/EI_TROOPER.ALO,
-            Urban, 				empire/land/stormtrooper/EI_TROOPER.ALO,
-            Arctic, 			empire/land/stormtrooper/EI_TROOPER_Snow.ALO,
-            Volcanic, 			empire/land/stormtrooper/EI_TROOPER_Sand.ALO,
-            Desert, 			empire/land/stormtrooper/EI_TROOPER_Sand.ALO,
-            Forest, 			empire/land/stormtrooper/EI_TROOPER.ALO,
-            Swamp, 				empire/land/stormtrooper/EI_TROOPER.ALO
+            Temperate, 			EI_TROOPER.ALO,
+            Urban, 				EI_TROOPER.ALO,
+            Arctic, 			EI_TROOPER_Snow.ALO,
+            Volcanic, 			EI_TROOPER_Sand.ALO,
+            Desert, 			EI_TROOPER_Sand.ALO,
+            Forest, 			EI_TROOPER.ALO,
+            Swamp, 				EI_TROOPER.ALO
         </Land_Terrain_Model_Mapping>
         
 		<Icon_Name>I_BUTTON_IMPERIAL_STORMTROOPER.tga</Icon_Name>
@@ -2196,8 +2189,8 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER_COMMANDER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDER</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>empire/land/stormtrooper_commander/EI_COMMANDER.ALO</Land_Model_Name>
-        <Land_Model_Anim_Override_Name>empire/land/stormtrooper/EI_TROOPER.ALO</Land_Model_Anim_Override_Name>
+        <Land_Model_Name>Ei_Commander.ALO</Land_Model_Name>
+        <Land_Model_Anim_Override_Name>Ei_trooper.alo</Land_Model_Anim_Override_Name>
         <Icon_Name>FULIK.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -2367,7 +2360,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_SNIPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>empire/land/scouttrooper_sniper/Ei_Sniper.ALO</Land_Model_Name>
+        <Land_Model_Name>Ei_Sniper.ALO</Land_Model_Name>
         <Icon_Name>i_button_sniper.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -2552,18 +2545,17 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Stealth_Capable>No</Stealth_Capable>
-        <Land_Model_Name>empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO</Land_Model_Name>
+        <Land_Model_Name>Stormtrooper_Plex.ALO</Land_Model_Name>
 
         <Land_Terrain_Model_Mapping>
-            Temperate, 			empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO,
-            Urban, 				empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO,
-            Arctic, 			empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO,
-            Volcanic, 			empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO,
-            Desert, 			empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO,
-            Forest, 			empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO,
-            Swamp, 				empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO
+            Temperate, 			Stormtrooper_Plex.ALO,
+            Urban, 				Stormtrooper_Plex.ALO,
+            Arctic, 			Stormtrooper_Plex.ALO,
+            Volcanic, 			Stormtrooper_Plex.ALO,
+            Desert, 			Stormtrooper_Plex.ALO,
+            Forest, 			Stormtrooper_Plex.ALO,
+            Swamp, 				Stormtrooper_Plex.ALO
         </Land_Terrain_Model_Mapping>
-        <Land_Model_Anim_Override_Name>empire/land/stormtrooper_plex/Stormtrooper_Plex.ALO</Land_Model_Anim_Override_Name>
         <Icon_Name>I_BUTTON_SHOCKER.tga</Icon_Name>
         <Behavior>SELECTABLE</Behavior>
         <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
@@ -2712,7 +2704,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_IMPERIAL_COMMANDO TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDO</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>empire/land/commando/Ei_Imperial_Commando.ALO</Land_Model_Name>
+        <Land_Model_Name>Ei_Imperial_Commando.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_CLONECOMMANDO.tga</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -2897,16 +2889,16 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_IMPERIAL_ARMYTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>empire/land/gunner/Ei_Gunner.ALO</Land_Model_Name>
+        <Land_Model_Name>Ei_Gunner.ALO</Land_Model_Name>
 
         <Land_Terrain_Model_Mapping>
-            Temperate, 			empire/land/gunner/Ei_Gunner.ALO,
-            Urban, 				empire/land/gunner/Ei_Gunner.ALO,
-            Arctic, 			empire/land/gunner/Ei_Gunner.ALO,
-            Volcanic, 			empire/land/gunner/Ei_Gunner.ALO,
-            Desert, 			empire/land/gunner/Ei_Gunner.ALO,
-            Forest, 			empire/land/gunner/Ei_Gunner.ALO,
-            Swamp, 				empire/land/gunner/Ei_Gunner.ALO
+            Temperate, 			Ei_Gunner.ALO,
+            Urban, 				Ei_Gunner.ALO,
+            Arctic, 			Ei_Gunner.ALO,
+            Volcanic, 			Ei_Gunner.ALO,
+            Desert, 			Ei_Gunner.ALO,
+            Forest, 			Ei_Gunner.ALO,
+            Swamp, 				Ei_Gunner.ALO
         </Land_Terrain_Model_Mapping>
 
         <Icon_Name>I_BUTTON_IMPERIAL_ENGINEER.TGA</Icon_Name>
@@ -2987,7 +2979,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_IMPERIAL_TRITON_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
-        <Land_Model_Name>empire/land/stormtrooper_triton/EI_Triton_Soldier.ALO</Land_Model_Name>
+        <Land_Model_Name>EI_Triton_Soldier.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_TRITON.TGA</Icon_Name>
 
         <Behavior>SELECTABLE</Behavior>
@@ -3155,7 +3147,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>empire/space/tie_fighter/ev_TieFighter.ALO</Land_Model_Name>
+		<Land_Model_Name>ev_TieFighter.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
@@ -3293,7 +3285,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_AT_AR_WALKER</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
-        <Land_Model_Name>empire/land/at_ar/EV_ATAR.ALO</Land_Model_Name>
+        <Land_Model_Name>EV_ATAR.ALO</Land_Model_Name>
 
         <LOD_Bias>4</LOD_Bias>
         <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -3529,7 +3521,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
         <Encyclopedia_Text>TEXT_TOOLTIP_AT_PT</Encyclopedia_Text>
-        <Land_Model_Name>republic/land/at_pt/rev_atpt.ALO</Land_Model_Name>
+        <Land_Model_Name>rev_atpt.ALO</Land_Model_Name>
 
         <LOD_Bias>4</LOD_Bias>
         <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -3585,7 +3577,7 @@
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
 
-        <Projectile_Types>Proj_ATPT_Blaster_Cannon</Projectile_Types>
+        <Projectile_Types>Proj_ATST_Blaster_Cannon_Red</Projectile_Types>
         <Projectile_Fire_Recharge_Seconds>0.2</Projectile_Fire_Recharge_Seconds>
         <Projectile_Fire_Pulse_Count>6</Projectile_Fire_Pulse_Count>
         <Projectile_Fire_Pulse_Delay_Seconds>0.5</Projectile_Fire_Pulse_Delay_Seconds>
@@ -3705,7 +3697,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_AT_KT</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
-        <Land_Model_Name>empire/land/at_kt/EV_ATKT.ALO</Land_Model_Name>
+        <Land_Model_Name>EV_ATKT.ALO</Land_Model_Name>
 
         <LOD_Bias>4</LOD_Bias>
         <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -3940,7 +3932,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_EV_AT_MP</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_WALKER</Encyclopedia_Unit_Class>
-        <Land_Model_Name>empire/land/at_mp/EV_AT_MP.ALO</Land_Model_Name>
+        <Land_Model_Name>EV_AT_MP.ALO</Land_Model_Name>
 
         <LOD_Bias>4</LOD_Bias>
         <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
@@ -4014,13 +4006,12 @@
         <Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
         <Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
 
-
         <Turret_Targets_Ground_Vehicles> 1 </Turret_Targets_Ground_Vehicles>
         <Turret_Targets_Ground_Infantry> 2 </Turret_Targets_Ground_Infantry>
         <Turret_Targets_Air_Vehicles> 3 </Turret_Targets_Air_Vehicles>
         <Turret_Targets_Anything_Else> 4 </Turret_Targets_Anything_Else>
 
-        <Projectile_Types>Proj_Ground_Proton_Torpedo_ATXT</Projectile_Types>
+        <Projectile_Types>Proj_Ground_to_Ground_Missile</Projectile_Types>
         <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
         <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
         <Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -4031,7 +4022,7 @@
         <Targeting_Fire_Inaccuracy> Structure, 7.0 </Targeting_Fire_Inaccuracy>
 
         <HardPoints>
-            HP_EV_AT_MP_00,
+            HP_EV_AT_MP_00
         </HardPoints>
 
         <Death_Explosions>Medium_Damage_Land4</Death_Explosions>
@@ -4183,7 +4174,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_PURGETROOPER</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
-        <Land_Model_Name>empire/land/purgetrooper/Ei_Purge_Trooper.ALO</Land_Model_Name>
+        <Land_Model_Name>Ei_Purge_Trooper.ALO</Land_Model_Name>
         <Icon_Name>I_BUTTON_PURGETROOPER.tga</Icon_Name>
 
         <LOD_Bias>5</LOD_Bias>
@@ -4347,7 +4338,7 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Land_Model_Name>empire/land/shocktrooper/Ei_ShockTrooper_Heavy.ALO</Land_Model_Name>
+        <Land_Model_Name>Ei_ShockTrooper_Heavy.ALO</Land_Model_Name>
 
         <LOD_Bias>5</LOD_Bias>
         <Behavior>SELECTABLE</Behavior>
@@ -4567,7 +4558,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_TX130</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_TANK</Encyclopedia_Unit_Class>
         <Icon_Name>I_BUTTON_IFTX_IMP.TGA</Icon_Name>
-        <Land_Model_Name>empire/land/iftx/Ev_IFTX.ALO</Land_Model_Name>
+        <Land_Model_Name>Ev_IFTX.ALO</Land_Model_Name>
 
         <Target_Bones>IFTX, Turret_00</Target_Bones>
         <LOD_Bias>0.5</LOD_Bias>

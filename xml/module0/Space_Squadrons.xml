@@ -49,7 +49,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_x_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/x_wing/x_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_x_wing.ALO</GUI_Model_Name>
         <GUI_Distance>95</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -128,7 +128,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_x_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/x_wing/x_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_x_wing.ALO</GUI_Model_Name>
         <GUI_Distance>95</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -207,7 +207,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_RV_TWING.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/t_wing/T_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_t_wing.ALO</GUI_Model_Name>
         <GUI_Distance>95</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -279,7 +279,7 @@
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_y_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/y_wing/y_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_y_wing.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -356,7 +356,7 @@
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_RV_BWING.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/b_wing/b_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_b_wing.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -445,7 +445,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_a_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/a_wing/a_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_a_wing.ALO</GUI_Model_Name>
         <GUI_Distance>115</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -517,7 +517,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_RV_E_WING.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/e_wing/e_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_e_wing.ALO</GUI_Model_Name>
         <GUI_Distance>115</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -597,7 +597,7 @@
         <Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_tie_fighter.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_fighter/EV_TieFighter.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -772,7 +772,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_phantom/EV_TIE_PHANTOM.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_TIE_PHANTOM.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -854,7 +854,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_TIE_Predator.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_predator/TIE_PREDATOR.ALO</GUI_Model_Name>
+        <GUI_Model_Name>TIE_PREDATOR.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -925,7 +925,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_TIE_Reaper.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_reaper/TIE_Reaper.ALO</GUI_Model_Name>
+        <GUI_Model_Name>TIE_Reaper.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1081,7 +1081,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_GUNBOAT.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/gunboat/EV_Gunboat.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Gunboat.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1157,7 +1157,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_MISSLEBOAT.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/missileboat/EV_Missileboat.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Missileboat.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1231,7 +1231,7 @@
         <Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
         <Icon_Name>i_button_tie_bomber.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_bomber/EV_TieBomber.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_TieBomber.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1294,7 +1294,7 @@
         <Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_tie_neutralizer.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_neutralizer/TIE_Neutralizer.ALO</GUI_Model_Name>
+        <GUI_Model_Name>TIE_Neutralizer.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1439,7 +1439,7 @@
         <Squadron_Offsets>0.0,-100.0,30.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_TIE_HUNTER.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_hunter/Ev_Tie_Hunter.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_Tie_Hunter.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1531,7 +1531,7 @@
         <Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_tie_fighter.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_fighter/EV_TieFighter.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1706,7 +1706,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_phantom/EV_TIE_PHANTOM.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_TIE_PHANTOM.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1867,7 +1867,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_GUNBOAT.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/gunboat/EV_Gunboat.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Gunboat.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1943,7 +1943,7 @@
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_MISSLEBOAT.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/missileboat/EV_Missileboat.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_Missileboat.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2017,7 +2017,7 @@
         <Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
         <Icon_Name>i_button_tie_bomber.tga</Icon_Name>
-        <GUI_Model_Name>empire/space/tie_bomber/EV_TieBomber.ALO</GUI_Model_Name>
+        <GUI_Model_Name>EV_TieBomber.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2159,7 +2159,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_x_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/x_wing/x_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_x_wing.ALO</GUI_Model_Name>
         <GUI_Distance>95</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2238,7 +2238,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_RV_TWING.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/t_wing/T_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_t_wing.ALO</GUI_Model_Name>
         <GUI_Distance>95</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2310,7 +2310,7 @@
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_y_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/y_wing/y_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_y_wing.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2387,7 +2387,7 @@
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_RV_BWING.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/b_wing/b_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_b_wing.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2476,7 +2476,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>i_button_a_wing.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/a_wing/a_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_a_wing.ALO</GUI_Model_Name>
         <GUI_Distance>115</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -2548,7 +2548,7 @@
         <Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
 
         <Icon_Name>I_BUTTON_RV_E_WING.TGA</Icon_Name>
-        <GUI_Model_Name>rebel/space/e_wing/e_wing.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rv_e_wing.ALO</GUI_Model_Name>
         <GUI_Distance>115</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>

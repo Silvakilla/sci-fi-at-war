@@ -58,6 +58,30 @@
         <Required_Special_Structures>Rebel_D_Shipyard</Required_Special_Structures>
     </Squadron>
 
+    <Squadron Name="Rebel_Interceptor_Squadron">
+        <Variant_Of_Existing_Type>Interceptor_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Scorpion_Squadronn">
+        <Variant_Of_Existing_Type>Scorpion_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Romulan_Shuttle_Squadron">
+        <Variant_Of_Existing_Type>Romulan_Shuttle_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Rebel_Talon_Squadron">
+        <Variant_Of_Existing_Type>Talon_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
     <!-- ====== -->
     <!-- EMPIRE -->
     <!-- ====== -->
@@ -113,6 +137,30 @@
         <Variant_Of_Existing_Type>Dominion_Shuttle_Squadron</Variant_Of_Existing_Type>
         <Affiliation>Empire</Affiliation>
         <Required_Special_Structures>Empire_D_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Interceptor_Squadron">
+        <Variant_Of_Existing_Type>Interceptor_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Scorpion_Squadronn">
+        <Variant_Of_Existing_Type>Scorpion_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Romulan_Shuttle_Squadron">
+        <Variant_Of_Existing_Type>Romulan_Shuttle_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
+    </Squadron>
+
+    <Squadron Name="Empire_Talon_Squadron">
+        <Variant_Of_Existing_Type>Talon_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_R_Shipyard</Required_Special_Structures>
     </Squadron>
 
     <!-- ========== -->
@@ -1358,7 +1406,7 @@
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
     </Squadron>
 
-    <Squadron Name="Shuttle_Squadron">
+    <Squadron Name="Romulan_Shuttle_Squadron">
         <LOD_Bias>10</LOD_Bias>
         <Text_ID>TEXT_UNIT_SHUTTLE_SQUADRON</Text_ID>
         <Encyclopedia_Text>TEXT_UNIT_SHUTTLE_TOOLTIP</Encyclopedia_Text>

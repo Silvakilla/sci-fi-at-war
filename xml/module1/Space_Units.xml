@@ -645,7 +645,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/aeroshuttle/FV_Aeroshuttle.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Aeroshuttle.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_AEROSHUTTLE.tga</Icon_Name>
         <Scale_Factor>0.38</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -775,7 +775,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/danube/FV_Danube.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Danube.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_DANUBE.TGA</Icon_Name>
         <Scale_Factor>0.40</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -913,7 +913,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/danube/FV_Danube_Torp.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Danube_Torp.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_DANUBE.TGA</Icon_Name>
         <Scale_Factor>0.40</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -1092,7 +1092,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/danube/FV_Danube.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Danube.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_DANUBE.TGA</Icon_Name>
         <Scale_Factor>0.40</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -1216,7 +1216,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/peregrine/FV_Peregrine.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Peregrine.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_Peregrine.TGA</Icon_Name>
         <Scale_Factor>3.0</Scale_Factor>
         <Select_Box_Scale>10</Select_Box_Scale>
@@ -1353,7 +1353,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/type9/FV_Type9.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Type9.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_TYPE9.tga</Icon_Name>
         <Scale_Factor>0.1</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -1488,7 +1488,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>federation/space/type11/FV_Type11.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Type11.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_FV_Type11.tga</Icon_Name>
         <Scale_Factor>0.18</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -1687,7 +1687,7 @@
 
         <Icon_Name>I_BUTTON_FV_AKIRA.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/akira/FV_Akira.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Akira.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -1859,7 +1859,7 @@
 
         <Icon_Name>I_BUTTON_FV_Ambassador.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/ambassador/FV_Ambassador.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Ambassador.ALO</Space_Model_Name>
         <Select_Box_Scale>240</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -2041,7 +2041,7 @@
 
         <Icon_Name>I_BUTTON_FV_Constitution.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/constitution/FV_Constitution.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Constitution.ALO</Space_Model_Name>
         <Select_Box_Scale>500</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -2195,7 +2195,7 @@
 
         <Icon_Name>I_BUTTON_FV_DEFIANT_CLASS.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/defiant/FV_Defiant.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Defiant.ALO</Space_Model_Name>
         <Select_Box_Scale>150</Select_Box_Scale>
         <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
         <Mass>0.998</Mass>
@@ -2361,7 +2361,7 @@
 
         <Icon_Name>I_BUTTON_FV_EXCALIBUR.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/excalibur/FV_Excalibur.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Excalibur.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -2549,7 +2549,7 @@
 
         <Icon_Name>I_BUTTON_FV_EXCELSIOR.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/excelsior/FV_Excelsior.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Excelsior.ALO</Space_Model_Name>
         <Select_Box_Scale>380</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -2722,7 +2722,7 @@
 
         <Icon_Name>I_BUTTON_FV_GALAXY.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/galaxy/FV_Galaxy.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Galaxy.ALO</Space_Model_Name>
         <Select_Box_Scale>440</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -2898,7 +2898,7 @@
 
         <Icon_Name>I_BUTTON_FV_INTREPID.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/intrepid/FV_Intrepid.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Intrepid.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -3067,7 +3067,7 @@
 
         <Icon_Name>I_BUTTON_FV_Miranda.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/miranda/FV_Miranda.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Miranda.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -3235,7 +3235,7 @@
 
         <Icon_Name>I_BUTTON_FV_NEBULA.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/nebula/FV_Nebula.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Nebula.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -3468,7 +3468,7 @@
 
         <Icon_Name>I_BUTTON_FV_NORWAY.tga</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/norway/FV_Norway.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Norway.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -3687,7 +3687,7 @@
 
         <Icon_Name>I_BUTTON_FV_Prometheus.tga</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/prometheus/FV_Prometheus.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Prometheus.ALO</Space_Model_Name>
         <Select_Box_Scale>360</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -3866,7 +3866,7 @@
 
         <Icon_Name>I_BUTTON_FV_SOVEREIGN.tga</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/sovereign/FV_Sovereign.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Sovereign.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -4045,7 +4045,7 @@
 
         <Icon_Name>I_BUTTON_FV_Steamrunner.tga</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>federation/space/steamrunner/FV_Steamrunner.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Steamrunner.ALO</Space_Model_Name>
         <Select_Box_Scale>60</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -4224,7 +4224,7 @@
     <TransportUnit Name="Federation_Landing_Craft">
         <Text_ID>TEXT_UNIT_FEDERATION_LANDING_CRAFT</Text_ID>
         <Land_Model_Name>TOS_F_Transport_Units.ALO</Land_Model_Name>
-        <Space_Model_Name>federation/space/freighter/FV_Freighter.ALO</Space_Model_Name>
+        <Space_Model_Name>FV_Freighter.ALO</Space_Model_Name>
         <Icon_Name>i_button_fv_freighter.tga</Icon_Name>
         <Select_Box_Scale>0.001</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -4359,7 +4359,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>klingon/space/noqduj/kv_noqduj.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_noqduj.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_kv_noqduj.TGA</Icon_Name>
         <Scale_Factor>0.42</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -4499,7 +4499,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>klingon/space/nuqduj/kv_nuqduj.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_nuqduj.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_kv_nuqduj.TGA</Icon_Name>
         <Scale_Factor>0.24</Scale_Factor>
         <Select_Box_Scale>90</Select_Box_Scale>
@@ -4626,7 +4626,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>klingon/space/shuttle/kv_shuttle.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_shuttle.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_kv_shuttle.tga</Icon_Name>
         <Scale_Factor>0.32</Scale_Factor>
         <Select_Box_Scale>50</Select_Box_Scale>
@@ -4757,7 +4757,7 @@
 
         <Icon_Name>I_BUTTON_kv_brel.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/brel/KDF_Brel.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_Brel.ALO</Space_Model_Name>
         <Select_Box_Scale>90</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -4953,7 +4953,7 @@
 
         <Icon_Name>I_BUTTON_KV_D5.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/d5/KDF_D5.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_D5.ALO</Space_Model_Name>
         <Select_Box_Scale>275</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -5105,7 +5105,7 @@
 
         <Icon_Name>I_BUTTON_kv_d7.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/d7/KDF_D7.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_D7.ALO</Space_Model_Name>
         <Select_Box_Scale>130</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -5266,7 +5266,7 @@
         <Text_ID>TEXT_UNIT_D12</Text_ID>
         <Encyclopedia_Text>TEXT_UNIT_D12_TOOLTIP</Encyclopedia_Text>
         <Icon_Name>I_BUTTON_kv_d12.TGA</Icon_Name>
-        <Space_Model_Name>klingon/space/d12/KV_D12.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_D12.ALO</Space_Model_Name>
         <Moniker>KV_D12.txt</Moniker>
         <Autoresolve_Health>900</Autoresolve_Health>
         <Shield_Points>275</Shield_Points>
@@ -5326,7 +5326,7 @@
 
         <Icon_Name>I_BUTTON_kv_feklhr.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/feklhr/KDF_Feklhr.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_Feklhr.ALO</Space_Model_Name>
         <Select_Box_Scale>280</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -5531,7 +5531,7 @@
 
         <Icon_Name>I_BUTTON_kv_jacheng.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/jacheng/KDF_Jacheng.alo</Space_Model_Name>
+        <Space_Model_Name>KDF_Jacheng.alo</Space_Model_Name>
         <Select_Box_Scale>150</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -5701,7 +5701,7 @@
 
         <Icon_Name>I_BUTTON_kv_ktinga.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/ktinga/KDF_KTinga.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_KTinga.ALO</Space_Model_Name>
         <Select_Box_Scale>150</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -5900,7 +5900,7 @@
 
         <Icon_Name>I_BUTTON_kv_kvort.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/kvort/kv_kvort.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_kvort.ALO</Space_Model_Name>
         <Select_Box_Scale>315</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -6085,7 +6085,7 @@
 
         <Icon_Name>I_BUTTON_kv_neghvar.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/negvhar/kv_neghvar.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_neghvar.ALO</Space_Model_Name>
         <Select_Box_Scale>320</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -6276,7 +6276,7 @@
 
         <Icon_Name>I_BUTTON_kv_qehral.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/qehral/kv_qehral.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_qehral.ALO</Space_Model_Name>
         <Select_Box_Scale>320</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -6450,7 +6450,7 @@
 
         <Icon_Name>I_BUTTON_kv_suqjach.TGA</Icon_Name>
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/suqjach/kv_suqjach.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_suqjach.ALO</Space_Model_Name>
         <Select_Box_Scale>300</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -6622,7 +6622,7 @@
         <Icon_Name>I_BUTTON_kv_vorcha.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>klingon/space/vorcha/kv_vorcha.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_vorcha.ALO</Space_Model_Name>
         <Select_Box_Scale>310</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -6811,7 +6811,7 @@
     <TransportUnit Name="Klingon_Transport">
         <Text_ID>TEXT_UNIT_KLINGON_TRANSPORT</Text_ID>
         <Land_Model_Name>TOS_K_Transport_Units.ALO</Land_Model_Name>
-        <Space_Model_Name>klingon/space/freighter/kv_freighter.ALO</Space_Model_Name>
+        <Space_Model_Name>kv_freighter.ALO</Space_Model_Name>
         <Icon_Name>i_button_kv_freighter.tga</Icon_Name>
         <Select_Box_Scale>0.001</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -6959,7 +6959,7 @@
         <Icon_Name>I_BUTTON_DV_Battleship.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/battleship/DV_Battleship.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Battleship.ALO</Space_Model_Name>
         <Select_Box_Scale>230</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -7002,7 +7002,7 @@
         <Tech_Level>4</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-        <Required_Star_Base_Level>4</Required_Star_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
         <Required_Special_Structures />
         <Required_Planets/>
         <Build_Cost_Credits>5800</Build_Cost_Credits>
@@ -7139,7 +7139,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>dominion/space/bomber/DV_Bomber.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Bomber.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_DV_Bomber.TGA</Icon_Name>
         <Scale_Factor>0.4</Scale_Factor>
         <Select_Box_Scale>70</Select_Box_Scale>
@@ -7264,7 +7264,7 @@
         <Icon_Name>I_BUTTON_DV_Breen_Cruiser.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/breen_cruiser/DV_BreenCruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_BreenCruiser.ALO</Space_Model_Name>
         <Select_Box_Scale>130</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -7427,7 +7427,7 @@
         <Icon_Name>I_BUTTON_DV_Breen_Warship.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/breen_warship/DV_BreenWarship.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_BreenWarship.ALO</Space_Model_Name>
         <Select_Box_Scale>185</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -7470,7 +7470,7 @@
         <Tech_Level>4</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-        <Required_Star_Base_Level>4</Required_Star_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
         <Required_Special_Structures/>
         <Required_Planets/>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
@@ -7597,7 +7597,7 @@
         <Icon_Name>I_BUTTON_DV_Brinok.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/brinok/DV_Brinok.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Brinok.ALO</Space_Model_Name>
         <Select_Box_Scale>300</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -7786,7 +7786,7 @@
         <Icon_Name>I_BUTTON_DV_Bugship.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/bugship/DV_Bugship.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Bugship.ALO</Space_Model_Name>
         <Select_Box_Scale>100</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -7950,7 +7950,7 @@
         <Icon_Name>I_BUTTON_DV_Chimera.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/chimera/DV_Chimera.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Chimera.ALO</Space_Model_Name>
         <Select_Box_Scale>220</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -8133,7 +8133,7 @@
         <Icon_Name>I_BUTTON_DV_Dreadnought.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/dreadnought/DV_Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>300</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -8176,7 +8176,7 @@
         <Tech_Level>5</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
         <Required_Special_Structures />
         <Required_Planets/>
         <Build_Cost_Credits>8500</Build_Cost_Credits>
@@ -8314,7 +8314,7 @@
         <Icon_Name>I_BUTTON_DV_Galor.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/galor/DV_Galor.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Galor.ALO</Space_Model_Name>
         <Select_Box_Scale>370</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -8510,7 +8510,7 @@
         <Icon_Name>I_BUTTON_DV_Hideki.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/hideki/DV_Hideki.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Hideki.ALO</Space_Model_Name>
         <Select_Box_Scale>20</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -8671,7 +8671,7 @@
         <Icon_Name>I_BUTTON_DV_Hutet.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/hutet/DV_Hutet.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Hutet.ALO</Space_Model_Name>
         <Select_Box_Scale>180</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -8714,7 +8714,7 @@
         <Tech_Level>4</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-        <Required_Star_Base_Level>5</Required_Star_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
         <Required_Special_Structures />
         <Required_Planets></Required_Planets>
         <Build_Cost_Credits>6300</Build_Cost_Credits>
@@ -8853,7 +8853,7 @@
         <Icon_Name>I_BUTTON_DV_Keldon.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/keldon/DV_Keldon.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Keldon.ALO</Space_Model_Name>
         <Select_Box_Scale>400</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -8896,7 +8896,7 @@
         <Tech_Level>3</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-        <Required_Star_Base_Level>4</Required_Star_Base_Level>
+        <Required_Star_Base_Level>3</Required_Star_Base_Level>
         <Required_Special_Structures />
         <Required_Planets/>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
@@ -9022,7 +9022,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>dominion/space/peltast/DV_Peltast.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Peltast.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_DV_Peltast.tga</Icon_Name>
         <Scale_Factor>0.7</Scale_Factor>
         <Select_Box_Scale>40</Select_Box_Scale>
@@ -9158,7 +9158,7 @@
         <Icon_Name>I_BUTTON_DV_Rasilak.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/rasilak/DV_Rasilak.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Rasilak.ALO</Space_Model_Name>
         <Select_Box_Scale>185</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -9324,7 +9324,7 @@
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <LOD_Bias>10</LOD_Bias>
-        <Space_Model_Name>dominion/space/shuttle/DV_Shuttle.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Shuttle.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_DV_Shuttle.tga</Icon_Name>
         <Scale_Factor>0.3</Scale_Factor>
         <Select_Box_Scale>80</Select_Box_Scale>
@@ -9454,7 +9454,7 @@
         <Icon_Name>I_BUTTON_DV_Sona_Battleship.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/sona_battleship/DV_SonaBattleship.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_SonaBattleship.ALO</Space_Model_Name>
         <Select_Box_Scale>100</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -9494,7 +9494,7 @@
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
         <Slice_Cost_Credits>1400</Slice_Cost_Credits>
-        <Tech_Level>6</Tech_Level>
+        <Tech_Level>5</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -9608,7 +9608,7 @@
         <Icon_Name>I_BUTTON_DV_Sona_Destroyer.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/sona_destroyer/DV_SonaDestroyer.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_SonaDestroyer.ALO</Space_Model_Name>
         <Select_Box_Scale>90</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -9648,7 +9648,7 @@
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
         <Slice_Cost_Credits>1400</Slice_Cost_Credits>
-        <Tech_Level>6</Tech_Level>
+        <Tech_Level>5</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
@@ -9758,7 +9758,7 @@
         <Icon_Name>I_BUTTON_DV_Tonga.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>dominion/space/tonga/DV_Tonga.ALO</Space_Model_Name>
+        <Space_Model_Name>DV_Tonga.ALO</Space_Model_Name>
         <Select_Box_Scale>165</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -9938,7 +9938,7 @@
         <Icon_Name>I_BUTTON_RMV_BOP.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/bird_of_prey/RMV_BirdOfPrey.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_BirdOfPrey.ALO</Space_Model_Name>
         <Select_Box_Scale>25</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -10108,7 +10108,7 @@
         <Icon_Name>I_BUTTON_RMV_Buzzard.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/buzzard/RMV_Buzzard.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Buzzard.ALO</Space_Model_Name>
         <Select_Box_Scale>65</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -10300,7 +10300,7 @@
         <Encyclopedia_Text> TEXT_UNIT_D7_TOOLTIP</Encyclopedia_Text>
 
         <Icon_Name>I_BUTTON_RMV_D7.TGA</Icon_Name>
-        <Space_Model_Name>romulan/space/d7/RMV_D7.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_D7.ALO</Space_Model_Name>
 
         <Moniker>RMV_D7.txt</Moniker>
         <Autoresolve_Health>1000</Autoresolve_Health>
@@ -10371,7 +10371,7 @@
         <Icon_Name>I_BUTTON_RMV_Deckrk.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/deckrk/RMV_Deckrk.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Deckrk.ALO</Space_Model_Name>
         <Select_Box_Scale>250</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -10576,7 +10576,7 @@
         <Icon_Name>I_BUTTON_RMV_Griffin.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/griffin/RMV_Griffin.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Griffin.ALO</Space_Model_Name>
         <Select_Box_Scale>180</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -10780,7 +10780,7 @@
         <Icon_Name>I_BUTTON_RMV_Hawk.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/hawk/RMV_Hawk.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Hawk.ALO</Space_Model_Name>
         <Select_Box_Scale>110</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -10962,7 +10962,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>romulan/space/interceptor/RMV_Interceptor.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Interceptor.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_RMV_Interceptor.tga</Icon_Name>
         <Scale_Factor>4.0</Scale_Factor>
         <Select_Box_Scale>7</Select_Box_Scale>
@@ -11111,7 +11111,7 @@
         <Icon_Name>I_BUTTON_RMV_Raptor.tga</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/raptor/RMV_Raptor.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Raptor.ALO</Space_Model_Name>
         <Select_Box_Scale>180</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -11307,7 +11307,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>romulan/space/scorpion/RMV_Scorpion.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Scorpion.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_RMV_Scorpion.tga</Icon_Name>
         <Scale_Factor>1.0</Scale_Factor>
         <Select_Box_Scale>24</Select_Box_Scale>
@@ -11455,7 +11455,7 @@
         <Icon_Name>I_BUTTON_RMV_Shadow.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/shadow/RMV_Shadow.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Shadow.ALO</Space_Model_Name>
         <Select_Box_Scale>180</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -11658,7 +11658,7 @@
         <Icon_Name>I_BUTTON_RMV_Shrike.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/shrike/RMV_Shrike.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Shrike.ALO</Space_Model_Name>
         <Select_Box_Scale>90</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -11856,7 +11856,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>romulan/space/shuttle/RMV_Shuttle.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Shuttle.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_RMV_Shuttle.TGA</Icon_Name>
         <Scale_Factor>0.45</Scale_Factor>
         <Select_Box_Scale>60</Select_Box_Scale>
@@ -12002,7 +12002,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Space_Model_Name>romulan/space/talon/RMV_Talon.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Talon.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_RMV_Talon.TGA</Icon_Name>
         <Scale_Factor>0.22</Scale_Factor>
         <Select_Box_Scale>90</Select_Box_Scale>
@@ -12150,7 +12150,7 @@
         <Icon_Name>I_BUTTON_RMV_Valdore.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/valdore/RMV_Valdore.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Valdore.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -12349,7 +12349,7 @@
         <Icon_Name>I_BUTTON_RMV_Venator.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/venator/RMV_Venator.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Venator.ALO</Space_Model_Name>
         <Select_Box_Scale>300</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>
@@ -12536,7 +12536,7 @@
         <Icon_Name>I_BUTTON_RMV_Warbird.TGA</Icon_Name>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>romulan/space/warbird/RMV_Warbird.ALO</Space_Model_Name>
+        <Space_Model_Name>RMV_Warbird.ALO</Space_Model_Name>
         <Select_Box_Scale>440</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.995</Mass>

@@ -867,7 +867,7 @@
     </UniqueUnit>
 
     <UniqueUnit Name="Admonitor_Star_Destroyer">
-        <Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+        <Variant_Of_Existing_Type>Star_Destroyer_Class_I</Variant_Of_Existing_Type>
 
         <Text_ID>TEXT_UNIT_SD_ADMONITOR</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_SD_ADMONITOR </Encyclopedia_Text>
@@ -876,7 +876,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Icon_Name>i_button_thrawn.tga</Icon_Name>
 
-        <Space_Model_Name>Ev_Imperator_MK1.alo</Space_Model_Name>
+        <Space_Model_Name>empire/space/star_destroyer_mk_1/Ev_Imperator_MK1.ALO</Space_Model_Name>
 
         <Is_Named_Hero>Yes</Is_Named_Hero>
 
@@ -1552,15 +1552,11 @@
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
         <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TURRET, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-        <Starting_Spawned_Units_Tech_0>Pirate_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 5</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_3>Pirate_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_3>
-        <Starting_Spawned_Units_Tech_3>VWing_Squadron_P, 5</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_0>Pirate_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>Pirate_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 5</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_3>Pirate_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_3>
-        <Reserve_Spawned_Units_Tech_3>VWing_Squadron_P, 5</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_0>Pirate_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -1591,7 +1587,7 @@
         </HardPoints>
 
         <CategoryMask> Frigate | AntiFrigate</CategoryMask>
-        <GUI_Model_Name>Ev_Venator.ALO</GUI_Model_Name>
+        <GUI_Model_Name>empire/space/venator/Ev_Venator.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1673,11 +1669,11 @@
         <Moniker>nebulonb.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_1/nebulon_b.ALO</Space_Model_Name>
+        <Space_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b_mk_I.alo</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
-        <Scale_Factor>0.35</Scale_Factor>
+        <Scale_Factor>0.7</Scale_Factor>
         <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
         <Damage>30</Damage>
@@ -1742,7 +1738,6 @@
 
         <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
         <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
         <SpaceBehavior>SPAWN_SQUADRON,ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
@@ -1757,7 +1752,6 @@
 
         <Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
         <HardPoints>
             HP_Rv_Nebulon_Weapon_FL_01,
@@ -1776,7 +1770,7 @@
         <Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01 </Target_Bones>
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_escort_frigate.tga</Icon_Name>
-        <GUI_Model_Name>RV_NebulonB.ALO</GUI_Model_Name>
+        <GUI_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b.alo</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1858,7 +1852,6 @@
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>3</Population_Value>
-        <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
     </SpaceUnit>
 
     <SpaceUnit Name="Pirate_Dreadnought">

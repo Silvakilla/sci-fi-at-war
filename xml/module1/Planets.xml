@@ -20,7 +20,7 @@
         <Camera_Aligned>yes</Camera_Aligned>
         <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
         <Terrain>Temperate</Terrain>
-        <Planet_Credit_Value>500</Planet_Credit_Value>
+        <Planet_Credit_Value>200</Planet_Credit_Value>
         <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
         <Galactic_Position>130.0, 350.0, 10.0</Galactic_Position>
         <Special_Structures_Land>8</Special_Structures_Land>
@@ -91,7 +91,7 @@
         <Political_Control>0</Political_Control>
         <Camera_Aligned>yes</Camera_Aligned>
         <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-        <Planet_Credit_Value>35</Planet_Credit_Value>
+        <Planet_Credit_Value>200</Planet_Credit_Value>
         <Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
         <Galactic_Position>270.0, -255.0, 10.0</Galactic_Position>
         <Special_Structures_Land>4</Special_Structures_Land>
@@ -169,7 +169,7 @@
         <Camera_Aligned>yes</Camera_Aligned>
         <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
         <Terrain>Volcanic</Terrain>
-        <Planet_Credit_Value>90</Planet_Credit_Value>
+        <Planet_Credit_Value>200</Planet_Credit_Value>
         <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
         <Galactic_Position>0.0, -380.0, 10.0</Galactic_Position>
         <Special_Structures_Land>3</Special_Structures_Land>
@@ -256,7 +256,7 @@
         <Camera_Aligned>yes</Camera_Aligned>
         <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
         <Terrain>Temperate</Terrain>
-        <Planet_Credit_Value>500</Planet_Credit_Value>
+        <Planet_Credit_Value>200</Planet_Credit_Value>
         <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
         <Galactic_Position>-300.0, -20.0, 10.0</Galactic_Position>
         <Special_Structures_Land>8</Special_Structures_Land>
