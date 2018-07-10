@@ -293,8 +293,8 @@
         <Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,Squad_Rebel_Trooper,Squad_Rebel_Trooper,Squad_Rebel_Trooper</Company_Units>
         <Max_Squad_Size> 5 </Max_Squad_Size>
         <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
-        <GUI_Model_Name>rebel/land/trooper/RI_INFANTRY.ALO</GUI_Model_Name>
-        <Land_Model_Name>rebel/land/trooper/RI_INFANTRY.ALO</Land_Model_Name>
+        <GUI_Model_Name>RI_INFANTRY.ALO</GUI_Model_Name>
+        <Land_Model_Name>RI_INFANTRY.ALO</Land_Model_Name>
         <Scale_Factor>5.0</Scale_Factor>
         <GUI_Offset>0 0 5</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>

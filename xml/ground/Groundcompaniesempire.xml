@@ -157,7 +157,7 @@
 		<Company_Transport_Unit>Imperial_ATAT_Barge</Company_Transport_Unit>
 		<Company_Units>AT_AT_Walker</Company_Units>
 		<Icon_Name>i_button_atat.tga</Icon_Name>
-		<GUI_Model_Name>empire/land/at_at/EV_AT-AT.ALO</GUI_Model_Name>
+		<GUI_Model_Name>EV_AT-AT.ALO</GUI_Model_Name>
 		<GUI_Distance>300</GUI_Distance>
 		<GUI_Offset>0 0 30</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -224,7 +224,7 @@
 		<Company_Units>AT_ST_Walker, AT_ST_Walker, AT_ST_Walker, AT_ST_Walker</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_atst.tga</Icon_Name>
-		<GUI_Model_Name>empire/land/at_st/EV_AT-ST.ALO</GUI_Model_Name>
+		<GUI_Model_Name>EV_AT-ST.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 15</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -440,7 +440,7 @@
 		<Company_Units>Scout_Trooper, Scout_Trooper</Company_Units>
 		<Max_Squad_Size> 1 </Max_Squad_Size>
 		<Icon_Name>i_button_scout_trooper.tga</Icon_Name>
-		<GUI_Model_Name>empire/land/speederbike/EV_Bike.ALO</GUI_Model_Name>
+		<GUI_Model_Name>EV_Bike.ALO</GUI_Model_Name>
 		<GUI_Distance>65</GUI_Distance>
 		<GUI_Offset>0 0 5</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
