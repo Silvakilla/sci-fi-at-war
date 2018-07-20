@@ -2480,7 +2480,7 @@
         </HardPoints>
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-        <Icon_Name>I_BUTTON_RV_MC_75.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_MC_75.tga</Icon_Name>
         <GUI_Model_Name>rv_mc_75.ALO</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -2843,7 +2843,7 @@
         </HardPoints>
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-        <Icon_Name>I_BUTTON_RV_MC40.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_MC_40A.TGA</Icon_Name>
         <GUI_Model_Name>rv_mc_40a.ALO</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -3033,7 +3033,7 @@
             HP_Rv_Calamari_Cruiser_FighterBay_04
         </HardPoints>
 
-        <Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_MC_80Liberty.tga</Icon_Name>
         <GUI_Model_Name>rv_mc_80_liberty.ALO</GUI_Model_Name>
         <GUI_Distance>1650</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -3518,7 +3518,7 @@
         <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
         <Moniker>republicIsd.txt</Moniker>
 
-        <Icon_Name>I_BUTTON_RV_RSD.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_REPUBLIC_STAR_DESTROYER.TGA</Icon_Name>
         <Space_Model_Name>rv_republic_star_destroyer.alo</Space_Model_Name>
         <Scale_Factor>0.6</Scale_Factor>
         <Select_Box_Scale>1200</Select_Box_Scale>
@@ -3734,7 +3734,7 @@
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CAPITAL</Encyclopedia_Unit_Class>
         <Moniker>mc80.txt</Moniker>
 
-        <Icon_Name>I_BUTTON_RV_MC80.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_MC_80A.TGA</Icon_Name>
         <GUI_Model_Name>rv_mc_80a.ALO</GUI_Model_Name>
         <Space_Model_Name>rv_mc_80a.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
@@ -3903,7 +3903,7 @@
         <Encyclopedia_Text>TEXT_TOOLTIP_MC90</Encyclopedia_Text>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
-        <Icon_Name>I_BUTTON_RV_MC90.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_MC_90.TGA</Icon_Name>
         <GUI_Model_Name>rv_mc_90.ALO</GUI_Model_Name>
         <Space_Model_Name>rv_mc_90.ALO</Space_Model_Name>
         <Mass>0.995</Mass>
@@ -6493,7 +6493,7 @@
         </HardPoints>
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-        <Icon_Name>i_button_VictorIICruiser.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_VICTOR_MK_II.tga</Icon_Name>
         <GUI_Model_Name>Ev_VictorII.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -8545,7 +8545,7 @@
         </HardPoints>
 
         <CategoryMask>Capital | AntiFrigate</CategoryMask>
-        <Icon_Name>I_BUTTON_VICTORY_CLASS.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_VICTORY_DESTROYER_MK_II.TGA</Icon_Name>
         <GUI_Model_Name>EV_VICTORY2.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -9200,7 +9200,7 @@
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
 
-        <Icon_Name>i_button_imperator.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_STAR_DESTROYER_MK_I.tga</Icon_Name>
         <GUI_Model_Name>Ev_Imperator_MK1.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -9230,6 +9230,17 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                 <Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-0.5f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.25f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
         </Unit_Abilities_Data>
 
@@ -9456,6 +9467,17 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                 <Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-0.5f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.25f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
             </Unit_Ability>
         </Unit_Abilities_Data>
 

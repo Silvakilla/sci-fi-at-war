@@ -7934,7 +7934,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 	</Planet>
 	
-	<Planet Name="Umbriel">
+ 	<Planet Name="Umbriel">
  		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_UMBRIEL</Text_ID>
 		<Galactic_Model_Name>W_planet_Kessel_low.alo</Galactic_Model_Name>

@@ -876,7 +876,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
         <Icon_Name>i_button_thrawn.tga</Icon_Name>
 
-        <Space_Model_Name>empire/space/star_destroyer_mk_1/Ev_Imperator_MK1.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Imperator_MK1.ALO</Space_Model_Name>
 
         <Is_Named_Hero>Yes</Is_Named_Hero>
 
@@ -1124,7 +1124,7 @@
         <Moniker>strike.txt</Moniker>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/strikecruiser/EV_StrikeCruiser.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_StrikeCruiser.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
@@ -1300,7 +1300,7 @@
         <Encyclopedia_Vulnerable_To/>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/acclamator_mk_2/Empire_Acclamator_II.ALO</Space_Model_Name>
+        <Space_Model_Name>Empire_Acclamator_II.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
@@ -1486,7 +1486,7 @@
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>empire/space/venator/Ev_Venator.ALO</Space_Model_Name>
+        <Space_Model_Name>Ev_Venator.ALO</Space_Model_Name>
         <Icon_Name>I_BUTTON_VENATOR.TGA</Icon_Name>
         <Select_Box_Scale>1600</Select_Box_Scale>
         <Select_Box_Z_Adjust>-80</Select_Box_Z_Adjust>
@@ -1587,7 +1587,7 @@
         </HardPoints>
 
         <CategoryMask> Frigate | AntiFrigate</CategoryMask>
-        <GUI_Model_Name>empire/space/venator/Ev_Venator.ALO</GUI_Model_Name>
+        <GUI_Model_Name>Ev_Venator.ALO</GUI_Model_Name>
         <GUI_Distance>1100</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1669,7 +1669,7 @@
         <Moniker>nebulonb.txt</Moniker>
 
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b_mk_I.alo</Space_Model_Name>
+        <Space_Model_Name>rv_nebulon_b_mk_I.alo</Space_Model_Name>
         <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Mass>0.999</Mass>
@@ -1770,7 +1770,7 @@
         <Target_Bones> MISSILE_TARGET00, MISSILE_TARGET01 </Target_Bones>
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>i_button_escort_frigate.tga</Icon_Name>
-        <GUI_Model_Name>rebel/space/nebulon_b_mk_I/nebulon_b.alo</GUI_Model_Name>
+        <GUI_Model_Name>rv_nebulon_b.alo</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
         <GUI_Velocity>45</GUI_Velocity>
@@ -1860,7 +1860,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 
         <GUI_Row> 0 </GUI_Row>
-        <Space_Model_Name>empire/space/dreadnought/EV_Dreadnought.ALO</Space_Model_Name>
+        <Space_Model_Name>EV_Dreadnought.ALO</Space_Model_Name>
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 
