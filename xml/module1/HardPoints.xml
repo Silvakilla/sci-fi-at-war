@@ -20133,7 +20133,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Engine">
+    <HardPoint Name="HP_Romulan_Venator_Engine">
         <Type> HARD_POINT_ENGINE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -20147,7 +20147,7 @@
         <Damage_Particles>HP30_DAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Shield">
+    <HardPoint Name="HP_Romulan_Venator_Shield">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -20422,6 +20422,5 @@
         <Damage_Decal>HP_M-R_Blast</Damage_Decal>
         <Damage_Particles>HP24_DAMAGE</Damage_Particles>
     </HardPoint>
-
 
 </Hardpoints>

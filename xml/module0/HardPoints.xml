@@ -13552,21 +13552,6 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Hangar">
-        <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>1000.0</Health>
-
-        <Attachment_Bone>HANGER</Attachment_Bone>
-        <Collision_Mesh>HANGER</Collision_Mesh>
-        <Damage_Particles>HANGER_EMITDAMAGE</Damage_Particles>
-
-        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
-        <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
-    </HardPoint>
-
     <HardPoint Name="HP_Venator_Shield">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
         <Is_Targetable>Yes</Is_Targetable>
@@ -13592,9 +13577,24 @@
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
-        <Attachment_Bone>ENGINES </Attachment_Bone>
+        <Attachment_Bone>ENGINES</Attachment_Bone>
         <Collision_Mesh>ENGINES</Collision_Mesh>
         <Damage_Particles>ENGINES_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Venator_Hangar">
+        <Type> HARD_POINT_FIGHTER_BAY </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Health>1000.0</Health>
+
+        <Attachment_Bone>HANGER</Attachment_Bone>
+        <Collision_Mesh>HANGER</Collision_Mesh>
+        <Damage_Particles>HANGER_EMITDAMAGE</Damage_Particles>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
     </HardPoint>
 
     <!-- Escort Carrier -->
@@ -15574,7 +15574,7 @@
     </HardPoint>
 
     <!-- Harrow Destroyer -->
-    <HardPoint Name="HP_Harrow_LLaser_00">
+    <HardPoint Name="HP_Harrow_Turbolaser_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15583,14 +15583,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleB_00</Attachment_Bone>
-        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
+        <Attachment_Bone>HP_W_01</Attachment_Bone>
+        <Collision_Mesh>HP_W_01</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleB_00_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Acclamator_TL </Damage_Type>
 
-        <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_01</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -15610,7 +15610,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_LLaser_01">
+    <HardPoint Name="HP_Harrow_Turbolaser_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15619,14 +15619,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleB_01</Attachment_Bone>
-        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
+        <Attachment_Bone>HP_W_02</Attachment_Bone>
+        <Collision_Mesh>HP_W_02</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleB_01_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Acclamator_TL </Damage_Type>
 
-        <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_02</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -15646,7 +15646,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_LLaser_02">
+    <HardPoint Name="HP_Harrow_Turbolaser_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15655,14 +15655,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleB_02</Attachment_Bone>
-        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
+        <Attachment_Bone>HP_W_03</Attachment_Bone>
+        <Collision_Mesh>HP_W_03</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleB_02_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Acclamator_TL </Damage_Type>
 
-        <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_03</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_03</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -15682,7 +15682,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_LLaser_03">
+    <HardPoint Name="HP_Harrow_Turbolaser_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15691,14 +15691,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleB_03</Attachment_Bone>
-        <Collision_Mesh>MuzzleB_03</Collision_Mesh>
+        <Attachment_Bone>HP_W_04</Attachment_Bone>
+        <Collision_Mesh>HP_W_04</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleB_03_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Acclamator_TL </Damage_Type>
 
-        <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_04</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_04</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -15718,7 +15718,79 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Ion_00">
+    <HardPoint Name="HP_Harrow_Turbolaser_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>350.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_11</Attachment_Bone>
+        <Collision_Mesh>HP_W_11</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Acclamator_TL </Damage_Type>
+
+        <Fire_Bone_A>HP_W_11</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_11</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Turbolaser_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
+        <Health>350.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_12</Attachment_Bone>
+        <Collision_Mesh>HP_W_12</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Acclamator_TL </Damage_Type>
+
+        <Fire_Bone_A>HP_W_12</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_12</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 55.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 55.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Ion_Cannon_01">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15727,14 +15799,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleA_00</Attachment_Bone>
-        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
+        <Attachment_Bone>HP_W_05</Attachment_Bone>
+        <Collision_Mesh>HP_W_05</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleA_00_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
 
-        <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_05</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_05</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -15754,7 +15826,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Ion_01">
+    <HardPoint Name="HP_Harrow_Ion_Cannon_02">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15763,14 +15835,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleA_01</Attachment_Bone>
-        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
+        <Attachment_Bone>HP_W_06</Attachment_Bone>
+        <Collision_Mesh>HP_W_06</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleA_01_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
 
-        <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_06</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_06</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -15790,7 +15862,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Ion_02">
+    <HardPoint Name="HP_Harrow_Ion_Cannon_03">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15799,14 +15871,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleA_02</Attachment_Bone>
-        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
+        <Attachment_Bone>HP_W_07</Attachment_Bone>
+        <Collision_Mesh>HP_W_07</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleA_02_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
 
-        <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_07</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_07</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -15826,7 +15898,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Ion_03">
+    <HardPoint Name="HP_Harrow_Ion_Cannon_04">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15835,14 +15907,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleA_03</Attachment_Bone>
-        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
+        <Attachment_Bone>HP_W_08</Attachment_Bone>
+        <Collision_Mesh>HP_W_08</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleA_03_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
 
-        <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_08</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_08</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -15862,7 +15934,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Ion_04">
+    <HardPoint Name="HP_Harrow_Ion_Cannon_05">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15871,14 +15943,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleA_04</Attachment_Bone>
-        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
+        <Attachment_Bone>HP_W_09</Attachment_Bone>
+        <Collision_Mesh>HP_W_09</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleA_04_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
 
-        <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_09</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_09</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -15898,7 +15970,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Ion_05">
+    <HardPoint Name="HP_Harrow_Ion_Cannon_06">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -15907,14 +15979,14 @@
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>MuzzleA_05</Attachment_Bone>
-        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
+        <Attachment_Bone>HP_W_10</Attachment_Bone>
+        <Collision_Mesh>HP_W_10</Collision_Mesh>
         <Damage_Decal>HP_B-R_Blast</Damage_Decal>
-        <Damage_Particles>MuzzleA_05_DAMAGE</Damage_Particles>
+        <Damage_Particles/>
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
 
-        <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
+        <Fire_Bone_A>HP_W_10</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_10</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -15929,6 +16001,222 @@
         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Ion_Cannon_07">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Health>1800.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_13</Attachment_Bone>
+        <Collision_Mesh>HP_W_13</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+        <Fire_Bone_A>HP_W_13</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_13</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1800.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Ion_Cannon_08">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Health>1800.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_14</Attachment_Bone>
+        <Collision_Mesh>HP_W_14</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Star_Destroyer </Damage_Type>
+
+        <Fire_Bone_A>HP_W_14</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_14</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1800.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Laser_Cannon_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+        <Health>350.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_15</Attachment_Bone>
+        <Collision_Mesh>HP_W_15</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Acclamator_TL </Damage_Type>
+
+        <Fire_Bone_A>HP_W_15</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_15</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Laser_Cannon_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+        <Health>350.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_16</Attachment_Bone>
+        <Collision_Mesh>HP_W_16</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Acclamator_TL </Damage_Type>
+
+        <Fire_Bone_A>HP_W_16</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_16</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Laser_Cannon_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+        <Health>350.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_17</Attachment_Bone>
+        <Collision_Mesh>HP_W_17</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Acclamator_TL </Damage_Type>
+
+        <Fire_Bone_A>HP_W_17</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_17</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Laser_Cannon_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
+        <Health>350.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP_W_18</Attachment_Bone>
+        <Collision_Mesh>HP_W_18</Collision_Mesh>
+        <Damage_Decal>HP_B-R_Blast</Damage_Decal>
+        <Damage_Particles/>
+        <Damage_Type> Damage_Acclamator_TL </Damage_Type>
+
+        <Fire_Bone_A>HP_W_18</Fire_Bone_A>
+        <Fire_Bone_B>HP_W_18</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
@@ -15944,8 +16232,24 @@
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-        <Attachment_Bone>HP_S_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_S_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_S_BONE_01</Attachment_Bone>
+        <Collision_Mesh>HP_S_BONE_01</Collision_Mesh>
+        <Damage_Decal>HP_C-B_BLAST</Damage_Decal>
+        <Damage_Particles>HP_C-B_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Shields_02">
+        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>650.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>HP_S_BONE_02</Attachment_Bone>
+        <Collision_Mesh>HP_S_BONE_02</Collision_Mesh>
         <Damage_Decal>HP_C-B_BLAST</Damage_Decal>
         <Damage_Particles>HP_C-B_EMITDAMAGE</Damage_Particles>
     </HardPoint>
@@ -15960,14 +16264,31 @@
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_E_BONE_01</Attachment_Bone>
+        <Collision_Mesh>HP_E_BONE_01</Collision_Mesh>
         <Damage_Decal />
         <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
         <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_Harrow_Fighter_Bay2">
+    <HardPoint Name="HP_Harrow_Engines_02">
+        <Type> HARD_POINT_ENGINE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+        <Health>550.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>HP_E_BONE_02</Attachment_Bone>
+        <Collision_Mesh>HP_E_BONE_02</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+        <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Harrow_Fighter_Bay_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18701,7 +19022,7 @@
     </HardPoint>
 
     <!-- Star Destroyer Class II -->
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_01">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18749,7 +19070,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_02">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18797,7 +19118,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_03">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18845,7 +19166,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_04">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18893,7 +19214,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_05">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18941,7 +19262,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_06">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18989,7 +19310,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_07">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19037,7 +19358,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <Hardpoint Name="HP_ISD_MKII_Main_Turret_08">
+    <Hardpoint Name="HP_Star_Destroyer_Class_II_Main_Turret_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19085,7 +19406,7 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </Hardpoint>
 
-    <HardPoint Name="HP_ISD_MKII_01">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_01">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19096,12 +19417,12 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
-        <Attachment_Bone>HP_BACKLEFT_ION01</Attachment_Bone>
-        <Collision_Mesh>HP_BACKLEFT_ION01</Collision_Mesh>
+        <Attachment_Bone>HP_BACKLEFT_ION_01</Attachment_Bone>
+        <Collision_Mesh>HP_BACKLEFT_ION_01</Collision_Mesh>
         <Damage_Decal>HP_BACKLEFT_ION_BLAST</Damage_Decal>
 
-        <Fire_Bone_A>HP_BACKLEFT_ION01</Fire_Bone_A>
-        <Fire_Bone_B>HP_BACKLEFT_ION01</Fire_Bone_B>
+        <Fire_Bone_A>HP_BACKLEFT_ION_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_BACKLEFT_ION_01</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>130.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Heavy_Ion_Cannon_Blue</Fire_Projectile_Type>
@@ -19121,7 +19442,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_02">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_02">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19132,12 +19453,12 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
-        <Attachment_Bone>HP_BACKLEFT_ION02</Attachment_Bone>
-        <Collision_Mesh>HP_BACKLEFT_ION02</Collision_Mesh>
+        <Attachment_Bone>HP_BACKLEFT_ION_02</Attachment_Bone>
+        <Collision_Mesh>HP_BACKLEFT_ION_02</Collision_Mesh>
         <Damage_Particles>HP_BACKLEFT_ION_EMITDAMAGE</Damage_Particles>
 
-        <Fire_Bone_A>HP_BACKLEFT_ION02</Fire_Bone_A>
-        <Fire_Bone_B>HP_BACKLEFT_ION02</Fire_Bone_B>
+        <Fire_Bone_A>HP_BACKLEFT_ION_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_BACKLEFT_ION_02</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>130.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Heavy_Ion_Cannon_Blue</Fire_Projectile_Type>
@@ -19157,7 +19478,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_03">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_03">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19168,12 +19489,12 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
-        <Attachment_Bone>HP_BACKRIGHT_ION01</Attachment_Bone>
-        <Collision_Mesh>HP_BACKRIGHT_ION01</Collision_Mesh>
+        <Attachment_Bone>HP_BACKRIGHT_ION_01</Attachment_Bone>
+        <Collision_Mesh>HP_BACKRIGHT_ION_01</Collision_Mesh>
         <Damage_Particles>HP_BACKRIGHT_ION_EMITDAMAGE</Damage_Particles>
 
-        <Fire_Bone_A>HP_BACKRIGHT_ION01</Fire_Bone_A>
-        <Fire_Bone_B>HP_BACKRIGHT_ION01</Fire_Bone_B>
+        <Fire_Bone_A>HP_BACKRIGHT_ION_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_BACKRIGHT_ION_01</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>130.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Heavy_Ion_Cannon_Blue</Fire_Projectile_Type>
@@ -19193,7 +19514,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_04">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_04">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19204,12 +19525,12 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
         <Damage_Type> Damage_Star_Destroyer </Damage_Type>
-        <Attachment_Bone>HP_BACKRIGHT_ION02</Attachment_Bone>
-        <Collision_Mesh>HP_BACKRIGHT_ION02</Collision_Mesh>
+        <Attachment_Bone>HP_BACKRIGHT_ION_02</Attachment_Bone>
+        <Collision_Mesh>HP_BACKRIGHT_ION_02</Collision_Mesh>
         <Damage_Decal>HP_BACKRIGHT_ION_BLAST</Damage_Decal>
 
-        <Fire_Bone_A>HP_BACKRIGHT_ION02</Fire_Bone_A>
-        <Fire_Bone_B>HP_BACKRIGHT_ION02</Fire_Bone_B>
+        <Fire_Bone_A>HP_BACKRIGHT_ION_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_BACKRIGHT_ION_02</Fire_Bone_B>
         <Fire_Cone_Width>160</Fire_Cone_Width>
         <Fire_Cone_Height>130.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Heavy_Ion_Cannon_Blue</Fire_Projectile_Type>
@@ -19229,7 +19550,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_05">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19265,7 +19586,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_06">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19302,7 +19623,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_07">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19339,7 +19660,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_08">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19376,7 +19697,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_09">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19413,7 +19734,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_10">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Turbolaser_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19450,7 +19771,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_11">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Turbolaser_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19487,7 +19808,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_12">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Turbolaser_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19524,7 +19845,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_13">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19561,7 +19882,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_14">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Heavy_Turbolaser_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19598,7 +19919,7 @@
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Tractor_Beam">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Tractor_Beam">
         <Type> HARD_POINT_TRACTOR_BEAM </Type>
         <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -19613,7 +19934,7 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Hangar_01">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Hangar_01">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Health>200.0</Health>
@@ -19627,7 +19948,7 @@
         <Damage_Particles>SPAWN_00_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Hangar_02">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Hangar_02">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Health>200.0</Health>
@@ -19641,7 +19962,7 @@
         <Damage_Particles>SPAWN_01_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Hangar_03">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Hangar_03">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Health>200.0</Health>
@@ -19655,7 +19976,7 @@
         <Damage_Particles>SPAWN_02_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Shields">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Shields">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19674,7 +19995,7 @@
         <Damage_Particles>HP_Shield_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Engines_01">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Engines_01">
         <Type> HARD_POINT_ENGINE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19689,7 +20010,7 @@
         <Damage_Particles>HP_ENGINES01_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Engines_02">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Engines_02">
         <Type> HARD_POINT_ENGINE </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19704,7 +20025,7 @@
         <Damage_Particles>HP_ENGINES02_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ISD_MKII_Reactor">
+    <HardPoint Name="HP_Star_Destroyer_Class_II_Reactor">
         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -22749,6 +23070,5 @@
         <Fire_Inaccuracy_Distance>Structure, 0.01</Fire_Inaccuracy_Distance>
 
     </HardPoint>
-
 
 </Hardpoints>

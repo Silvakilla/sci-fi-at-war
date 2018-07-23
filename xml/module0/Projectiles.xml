@@ -885,6 +885,12 @@
     </Projectile>
 
     <!-- new Turbolaser shots -->
+    <Projectile Name="Proj_Ship_Turbolaser_Green_Single">
+        <Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
+        <Projectile_Damage>5.0</Projectile_Damage>
+        <Space_Model_Name>Proj_Turbolaser_Green.ALO</Space_Model_Name>
+    </Projectile>
+
     <Projectile Name="Proj_Ship_Medium_Turbolaser_Green">
         <Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
         <Projectile_Damage>7.5</Projectile_Damage>

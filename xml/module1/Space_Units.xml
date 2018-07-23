@@ -12431,9 +12431,9 @@
             HP_Venator_Pulse_02,
             HP_Venator_Pulse_03,
             HP_Venator_Torpedo_00,
-            HP_Venator_Engine,
+            HP_Romulan_Venator_Engine,
             HP_Venator_Fighter_Bay,
-            HP_Venator_Shield
+            HP_Romulan_Venator_Shield
         </HardPoints>
 
         <SFXEvent_Build_Started>RMHD_Build_Vehicle</SFXEvent_Build_Started>

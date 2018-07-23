@@ -8921,9 +8921,11 @@
         <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -8934,19 +8936,29 @@
         <Death_Clone>Damage_Normal, Harrow_Destroyer_Death_Clone</Death_Clone>
 
         <HardPoints>
-            HP_Harrow_LLaser_00,
-            HP_Harrow_LLaser_01,
-            HP_Harrow_LLaser_02,
-            HP_Harrow_LLaser_03,
-            HP_Harrow_Ion_00,
-            HP_Harrow_Ion_01,
-            HP_Harrow_Ion_02,
-            HP_Harrow_Ion_03,
-            HP_Harrow_Ion_04,
-            HP_Harrow_Ion_05,
+            HP_Harrow_Turbolaser_01,
+            HP_Harrow_Turbolaser_02,
+            HP_Harrow_Turbolaser_03,
+            HP_Harrow_Turbolaser_04,
+            HP_Harrow_Turbolaser_05,
+            HP_Harrow_Turbolaser_06,
+            HP_Harrow_Ion_Cannon_01,
+            HP_Harrow_Ion_Cannon_02,
+            HP_Harrow_Ion_Cannon_03,
+            HP_Harrow_Ion_Cannon_04,
+            HP_Harrow_Ion_Cannon_05,
+            HP_Harrow_Ion_Cannon_06,
+            HP_Harrow_Ion_Cannon_07,
+            HP_Harrow_Ion_Cannon_08,
+            HP_Harrow_Laser_Cannon_01,
+            HP_Harrow_Laser_Cannon_02,
+            HP_Harrow_Laser_Cannon_03,
+            HP_Harrow_Laser_Cannon_04,
             HP_Harrow_Shields_01,
+            HP_Harrow_Shields_02,
             HP_Harrow_Engines_01,
-            HP_Harrow_Fighter_Bay2
+            HP_Harrow_Engines_02,
+            HP_Harrow_Fighter_Bay_01
         </HardPoints>
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -9367,36 +9379,36 @@
         <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_ISD_MKII_Main_Turret_01,
-            HP_ISD_MKII_Main_Turret_02,
-            HP_ISD_MKII_Main_Turret_03,
-            HP_ISD_MKII_Main_Turret_04,
-            HP_ISD_MKII_Main_Turret_05,
-            HP_ISD_MKII_Main_Turret_06,
-            HP_ISD_MKII_Main_Turret_07,
-            HP_ISD_MKII_Main_Turret_08,
-            HP_ISD_MKII_01,
-            HP_ISD_MKII_02,
-            HP_ISD_MKII_03,
-            HP_ISD_MKII_04,
-            HP_ISD_MKII_05,
-            HP_ISD_MKII_06,
-            HP_ISD_MKII_07,
-            HP_ISD_MKII_08,
-            HP_ISD_MKII_09,
-            HP_ISD_MKII_10,
-            HP_ISD_MKII_11,
-            HP_ISD_MKII_12,
-            HP_ISD_MKII_13,
-            HP_ISD_MKII_14,
-            HP_ISD_MKII_Tractor_Beam,
-            HP_ISD_MKII_Hangar_01,
-            HP_ISD_MKII_Hangar_02,
-            HP_ISD_MKII_Hangar_03,
-            HP_ISD_MKII_Shields,
-            HP_ISD_MKII_Engines_01,
-            HP_ISD_MKII_Engines_02,
-            HP_ISD_MKII_Reactor
+            HP_Star_Destroyer_Class_II_Main_Turret_01,
+            HP_Star_Destroyer_Class_II_Main_Turret_02,
+            HP_Star_Destroyer_Class_II_Main_Turret_03,
+            HP_Star_Destroyer_Class_II_Main_Turret_04,
+            HP_Star_Destroyer_Class_II_Main_Turret_05,
+            HP_Star_Destroyer_Class_II_Main_Turret_06,
+            HP_Star_Destroyer_Class_II_Main_Turret_07,
+            HP_Star_Destroyer_Class_II_Main_Turret_08,
+            HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_01,
+            HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_02,
+            HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_03,
+            HP_Star_Destroyer_Class_II_Heavy_Ion_Cannon_04,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_01,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_02,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_03,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_04,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_05,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_06,
+            HP_Star_Destroyer_Class_II_Heavy_Turbolaser_07,
+            HP_Star_Destroyer_Class_II_Turbolaser_01,
+            HP_Star_Destroyer_Class_II_Turbolaser_02,
+            HP_Star_Destroyer_Class_II_Turbolaser_03,
+            HP_Star_Destroyer_Class_II_Tractor_Beam,
+            HP_Star_Destroyer_Class_II_Hangar_01,
+            HP_Star_Destroyer_Class_II_Hangar_02,
+            HP_Star_Destroyer_Class_II_Hangar_03,
+            HP_Star_Destroyer_Class_II_Shields,
+            HP_Star_Destroyer_Class_II_Engines_01,
+            HP_Star_Destroyer_Class_II_Engines_02,
+            HP_Star_Destroyer_Class_II_Reactor
         </HardPoints>
 
         <SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
