@@ -12022,6 +12022,7 @@
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PHOTON_TORPEDO</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -12053,6 +12054,8 @@
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
         <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
     </HardPoint>
 
     <HardPoint Name="HP_Feklhr_Engine">
@@ -12079,7 +12082,7 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP11</Attachment_Bone>
         <Collision_Mesh>HP11</Collision_Mesh>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
+        <Damage_Decal>DAMAGE</Damage_Decal>
         <Damage_Particles>SHIELD_DAMAGE</Damage_Particles>
     </HardPoint>
 
@@ -17915,115 +17918,8 @@
         <Damage_Particles>HP16</Damage_Particles>
     </HardPoint>
 
-    <!-- D7 -->
-    <HardPoint Name="HP_ROM_D7_00">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-
-        <Damage_Type>Damage_Tartan_Cruiser</Damage_Type>
-        <Fire_Bone_A>HP08</Fire_Bone_A>
-        <Fire_Bone_B>HP08</Fire_Bone_B>
-        <Fire_Cone_Width>100.0</Fire_Cone_Width>
-        <Fire_Cone_Height>100.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>5</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
-
-        <Fire_Inaccuracy_Distance> Interceptor, 3.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_ROM_D7_01">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-
-        <Damage_Type>Damage_Tartan_Cruiser</Damage_Type>
-        <Fire_Bone_A>HP32</Fire_Bone_A>
-        <Fire_Bone_B>HP32</Fire_Bone_B>
-        <Fire_Cone_Width>100.0</Fire_Cone_Width>
-        <Fire_Cone_Height>100.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>5</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
-
-        <Fire_Inaccuracy_Distance> Interceptor, 3.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_ROM_D7_Torpedo">
-        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-
-        <Damage_Type>Damage_Photon_Torp</Damage_Type>
-        <Fire_Bone_A>HP01</Fire_Bone_A>
-        <Fire_Bone_B>HP01</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
-        <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
-
-        <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-        <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
-    </HardPoint>
-
-    <HardPoint Name="HP_ROM_D7_Engine_01">
-        <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP12</Attachment_Bone>
-        <Collision_Mesh>HP12</Collision_Mesh>
-        <Health>240.0</Health>
-        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
-        <Damage_Particles>HP12</Damage_Particles>
-    </HardPoint>
-
-    <HardPoint Name="HP_ROM_D7_Engine_01">
-        <Type> HARD_POINT_ENGINE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP19</Attachment_Bone>
-        <Collision_Mesh>HP19</Collision_Mesh>
-        <Health>240.0</Health>
-        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
-        <Damage_Particles>HP19</Damage_Particles>
-    </HardPoint>
-
     <!-- Deckrk -->
-    <HardPoint Name="HP_Deckrk_Disruptor_00">
+    <HardPoint Name="HP_Deckrk_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18057,7 +17953,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Deckrk_Disruptor_01">
+    <HardPoint Name="HP_Deckrk_Disruptor_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18091,7 +17987,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Deckrk_Disruptor_02">
+    <HardPoint Name="HP_Deckrk_Disruptor_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18125,7 +18021,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Deckrk_Disruptor_03">
+    <HardPoint Name="HP_Deckrk_Disruptor_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18159,7 +18055,75 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Deckrk_Torpedo_00">
+    <HardPoint Name="HP_Deckrk_Disruptor_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>220.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP06</Attachment_Bone>
+        <Collision_Mesh>HP06</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP06</Fire_Bone_A>
+        <Fire_Bone_B>HP06</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Deckrk_Disruptor_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>220.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP07</Attachment_Bone>
+        <Collision_Mesh>HP07</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP07</Fire_Bone_A>
+        <Fire_Bone_B>HP07</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Deckrk_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18192,7 +18156,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Deckrk_Torpedo_01">
+    <HardPoint Name="HP_Deckrk_Torpedo_02">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18223,6 +18187,111 @@
         <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Deckrk_Torpedo_03">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Health>220.0</Health>
+        <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+        <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+        <Attachment_Bone>HP22</Attachment_Bone>
+        <Collision_Mesh>HP22</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP22</Fire_Bone_A>
+        <Fire_Bone_B>HP22</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Deckrk_Pulse_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>250.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP23</Attachment_Bone>
+        <Collision_Mesh>HP23</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP23</Fire_Bone_A>
+        <Fire_Bone_B>HP23</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Deckrk_Pulse_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>250.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP32</Attachment_Bone>
+        <Collision_Mesh>HP32</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP32</Fire_Bone_A>
+        <Fire_Bone_B>HP32</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
     <HardPoint Name="HP_Deckrk_Engine">
@@ -18262,7 +18331,7 @@
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
     </HardPoint>
 
-    <HardPoint Name="HP_Griffin_Pulse_00">
+    <HardPoint Name="HP_Griffin_Pulse_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18298,7 +18367,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Griffin_Pulse_01">
+    <HardPoint Name="HP_Griffin_Pulse_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18334,7 +18403,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Griffin_Pulse_02">
+    <HardPoint Name="HP_Griffin_Pulse_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18370,7 +18439,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Griffin_Pulse_03">
+    <HardPoint Name="HP_Griffin_Pulse_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18406,7 +18475,79 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Griffin_Disruptor_00">
+    <HardPoint Name="HP_Griffin_Pulse_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>250.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP14</Attachment_Bone>
+        <Collision_Mesh>HP14</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP14</Fire_Bone_A>
+        <Fire_Bone_B>HP14</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Griffin_Pulse_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>250.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP15</Attachment_Bone>
+        <Collision_Mesh>HP15</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP15</Fire_Bone_A>
+        <Fire_Bone_B>HP15</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Griffin_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18424,7 +18565,7 @@
         <Fire_Bone_B>HP10</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Green_Medium_Disruptor_Beam</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -18440,7 +18581,75 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Griffin_Torpedo_00">
+    <HardPoint Name="HP_Griffin_Disruptor_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>250.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP05</Attachment_Bone>
+        <Collision_Mesh>HP05</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP05</Fire_Bone_A>
+        <Fire_Bone_B>HP05</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Medium_Disruptor_Beam</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Griffin_Disruptor_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>250.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP26</Attachment_Bone>
+        <Collision_Mesh>HP26</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP26</Fire_Bone_A>
+        <Fire_Bone_B>HP26</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Medium_Disruptor_Beam</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Griffin_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18460,6 +18669,39 @@
 
         <Fire_Bone_A>HP29</Fire_Bone_A>
         <Fire_Bone_B>HP29</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Griffin_Torpedo_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Health>250.0</Health>
+        <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+        <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+        <Attachment_Bone>HP34</Attachment_Bone>
+        <Collision_Mesh>HP34</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP34</Fire_Bone_A>
+        <Fire_Bone_B>HP34</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
@@ -18514,11 +18756,11 @@
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
     </HardPoint>
 
-    <HardPoint Name="HP_Hawk_Disruptor">
+    <HardPoint Name="HP_Hawk_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
         <Health>175.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -18532,7 +18774,7 @@
         <Fire_Bone_B>HP02</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>20</Fire_Pulse_Count>
@@ -18548,11 +18790,79 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Hawk_00">
+    <HardPoint Name="HP_Hawk_Disruptor_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP04</Attachment_Bone>
+        <Collision_Mesh>HP04</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP04</Fire_Bone_A>
+        <Fire_Bone_B>HP04</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Hawk_Disruptor_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP05</Attachment_Bone>
+        <Collision_Mesh>HP05</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP05</Fire_Bone_A>
+        <Fire_Bone_B>HP05</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Hawk_Pulse_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>175.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -18584,11 +18894,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Hawk_01">
+    <HardPoint Name="HP_Hawk_Pulse_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>175.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -18620,11 +18930,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Hawk_02">
+    <HardPoint Name="HP_Hawk_Pulse_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>175.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -18656,22 +18966,58 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Hawk_03">
+    <HardPoint Name="HP_Hawk_Pulse_04">
+    <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Is_Targetable>Yes</Is_Targetable>
+    <Is_Destroyable>Yes</Is_Destroyable>
+    <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+    <Health>175.0</Health>
+
+    <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+    <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+    <Attachment_Bone>HP13</Attachment_Bone>
+    <Collision_Mesh>HP13</Collision_Mesh>
+    <Damage_Decal>HP_M-R_Blast</Damage_Decal>
+    <Damage_Particles>HP13_DAMAGE</Damage_Particles>
+
+    <Fire_Bone_A>HP13</Fire_Bone_A>
+    <Fire_Bone_B>HP13</Fire_Bone_B>
+    <Fire_Cone_Width>90</Fire_Cone_Width>
+    <Fire_Cone_Height>90.0</Fire_Cone_Height>
+    <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
+    <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+    <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+    <Fire_Pulse_Count>6</Fire_Pulse_Count>
+    <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+    <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+    <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+    <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+    <HardPoint Name="HP_Hawk_Pulse_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>175.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>HP13</Attachment_Bone>
-        <Collision_Mesh>HP13</Collision_Mesh>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
-        <Damage_Particles>HP13_DAMAGE</Damage_Particles>
+        <Attachment_Bone>HP10</Attachment_Bone>
+        <Collision_Mesh>HP10</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
 
-        <Fire_Bone_A>HP13</Fire_Bone_A>
-        <Fire_Bone_B>HP13</Fire_Bone_B>
+        <Fire_Bone_A>HP10</Fire_Bone_A>
+        <Fire_Bone_B>HP10</Fire_Bone_B>
         <Fire_Cone_Width>90</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
@@ -18692,11 +19038,47 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Hawk_Torpedo_00">
+    <HardPoint Name="HP_Hawk_Pulse_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP11</Attachment_Bone>
+        <Collision_Mesh>HP11</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP11</Fire_Bone_A>
+        <Fire_Bone_B>HP11</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Hawk_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_DOMINION_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
         <Health>175.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
@@ -18712,6 +19094,39 @@
 
         <Fire_Bone_A>HP01</Fire_Bone_A>
         <Fire_Bone_B>HP01</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Torpedo_Light</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Hawk_Torpedo_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Health>175.0</Health>
+        <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+        <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+        <Attachment_Bone>HP14</Attachment_Bone>
+        <Collision_Mesh>HP14</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP14</Fire_Bone_A>
+        <Fire_Bone_B>HP14</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Torpedo_Light</Fire_Projectile_Type>
@@ -18825,7 +19240,7 @@
     </HardPoint>
 
     <!-- Raptor -->
-    <HardPoint Name="HP_Raptor_Torpedo_00">
+    <HardPoint Name="HP_Raptor_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18854,7 +19269,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Raptor_Disruptor_00">
+    <HardPoint Name="HP_Raptor_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18888,7 +19303,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Raptor_Disruptor_01">
+    <HardPoint Name="HP_Raptor_Disruptor_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -18922,7 +19337,7 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Raptor_TriCobalt_00">
+    <HardPoint Name="HP_Raptor_TriCobalt_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -18944,7 +19359,7 @@
         <Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
     </HardPoint>
 
-    <HardPoint Name="HP_Raptor_TriCobalt_01">
+    <HardPoint Name="HP_Raptor_TriCobalt_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -18964,6 +19379,150 @@
         <Fire_Range_Distance>3000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Tri_Cobalt_Loop</Fire_SFXEvent>
         <Projectile_Appearance_Delay_Frames> 20 </Projectile_Appearance_Delay_Frames>
+    </HardPoint>
+
+    <HardPoint Name="HP_Raptor_Pulse_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP27</Attachment_Bone>
+        <Collision_Mesh>HP27</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP27</Fire_Bone_A>
+        <Fire_Bone_B>HP27</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Raptor_Pulse_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP28</Attachment_Bone>
+        <Collision_Mesh>HP28</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP28</Fire_Bone_A>
+        <Fire_Bone_B>HP28</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Raptor_Pulse_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP32</Attachment_Bone>
+        <Collision_Mesh>HP32</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP32</Fire_Bone_A>
+        <Fire_Bone_B>HP32</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Raptor_Pulse_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>175.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP34</Attachment_Bone>
+        <Collision_Mesh>HP34</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP34</Fire_Bone_A>
+        <Fire_Bone_B>HP34</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Light</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
     <HardPoint Name="HP_Raptor_Engine_01">
@@ -19073,7 +19632,41 @@
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
     </HardPoint>
 
-    <HardPoint Name="HP_Shadow_Torpedo_00">
+    <HardPoint Name="HP_Shadow_Torpedo_01">
+    <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+    <Is_Targetable>Yes</Is_Targetable>
+    <Is_Destroyable>Yes</Is_Destroyable>
+    <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+    <Health>285.0</Health>
+    <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+    <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+    <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+    <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+    <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+    <Attachment_Bone>HP03</Attachment_Bone>
+    <Collision_Mesh>HP03</Collision_Mesh>
+    <Damage_Decal>HP_M-R_Blast</Damage_Decal>
+    <Damage_Particles>HP03_DAMAGE</Damage_Particles>
+
+    <Fire_Bone_A>HP03</Fire_Bone_A>
+    <Fire_Bone_B>HP03</Fire_Bone_B>
+    <Fire_Cone_Width>90.0</Fire_Cone_Width>
+    <Fire_Cone_Height>90.0</Fire_Cone_Height>
+    <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
+    <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+    <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+    <Fire_Pulse_Count>4</Fire_Pulse_Count>
+    <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+    <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+    <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+
+    <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+</HardPoint>
+
+    <HardPoint Name="HP_Shadow_Torpedo_02">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19086,13 +19679,13 @@
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
         <Damage_Type> Damage_Photon_Torp </Damage_Type>
 
-        <Attachment_Bone>HP03</Attachment_Bone>
-        <Collision_Mesh>HP03</Collision_Mesh>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
-        <Damage_Particles>HP03_DAMAGE</Damage_Particles>
+        <Attachment_Bone>HP24</Attachment_Bone>
+        <Collision_Mesh>HP24</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
 
-        <Fire_Bone_A>HP03</Fire_Bone_A>
-        <Fire_Bone_B>HP03</Fire_Bone_B>
+        <Fire_Bone_A>HP24</Fire_Bone_A>
+        <Fire_Bone_B>HP24</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
@@ -19107,7 +19700,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Shadow_Disruptor_00">
+    <HardPoint Name="HP_Shadow_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19141,7 +19734,75 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Shadow_Pulse_00">
+    <HardPoint Name="HP_Shadow_Disruptor_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>285.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP06</Attachment_Bone>
+        <Collision_Mesh>HP06</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP06</Fire_Bone_A>
+        <Fire_Bone_B>HP06</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Medium_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Shadow_Disruptor_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>285.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP07</Attachment_Bone>
+        <Collision_Mesh>HP07</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP07</Fire_Bone_A>
+        <Fire_Bone_B>HP07</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Medium_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Shadow_Pulse_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19177,7 +19838,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Shadow_Pulse_01">
+    <HardPoint Name="HP_Shadow_Pulse_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19213,7 +19874,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Shadow_Pulse_02">
+    <HardPoint Name="HP_Shadow_Pulse_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19249,7 +19910,7 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Shadow_Pulse_03">
+    <HardPoint Name="HP_Shadow_Pulse_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
@@ -19408,7 +20069,7 @@
     </HardPoint>
 
     <!-- Shuttle -->
-    <HardPoint Name="HP_Rom_Shuttle_TORP">
+    <HardPoint Name="HP_Rom_Shuttle_Torpedo">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -19430,6 +20091,78 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
         <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+    </HardPoint>
+
+    <HardPoint Name="HP_Rom_Shuttle_Disruptor_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>285.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP06</Attachment_Bone>
+        <Collision_Mesh>HP06</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP06</Fire_Bone_A>
+        <Fire_Bone_B>HP06</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam_Fighter</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Rom_Shuttle_Disruptor_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>285.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP07</Attachment_Bone>
+        <Collision_Mesh>HP07</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP07</Fire_Bone_A>
+        <Fire_Bone_B>HP07</Fire_Bone_B>
+        <Fire_Cone_Width>90</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Beam_Fighter</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
     <!-- Talon -->
@@ -19502,11 +20235,11 @@
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Disruptor_00">
+    <HardPoint Name="HP_Valdore_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
         <Health>300.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19536,11 +20269,11 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Disruptor_01">
+    <HardPoint Name="HP_Valdore_Disruptor_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19570,11 +20303,79 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Pulse_00">
+    <HardPoint Name="HP_Valdore_Disruptor_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>400.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP45</Attachment_Bone>
+        <Collision_Mesh>HP45</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP45</Fire_Bone_A>
+        <Fire_Bone_B>HP45</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Valdore_Disruptor_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>400.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP46</Attachment_Bone>
+        <Collision_Mesh>HP46</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP46</Fire_Bone_A>
+        <Fire_Bone_B>HP46</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Valdore_Pulse_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19606,11 +20407,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Pulse_01">
+    <HardPoint Name="HP_Valdore_Pulse_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19642,11 +20443,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Pulse_02">
+    <HardPoint Name="HP_Valdore_Pulse_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19678,11 +20479,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Pulse_03">
+    <HardPoint Name="HP_Valdore_Pulse_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19714,47 +20515,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Pulse_03">
+    <HardPoint Name="HP_Valdore_Pulse_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
-        <Health>400.0</Health>
-
-        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>HP23</Attachment_Bone>
-        <Collision_Mesh>HP23</Collision_Mesh>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
-        <Damage_Particles>HP23</Damage_Particles>
-
-        <Fire_Bone_A>HP23</Fire_Bone_A>
-        <Fire_Bone_B>HP23</Fire_Bone_B>
-        <Fire_Cone_Width>90</Fire_Cone_Width>
-        <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
-
-        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_Valdore_Pulse_04">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19786,11 +20551,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Pulse_05">
+    <HardPoint Name="HP_Valdore_Pulse_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>400.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19822,11 +20587,83 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Valdore_Torpedo_00">
+    <HardPoint Name="HP_Valdore_Pulse_07">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>400.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP47</Attachment_Bone>
+        <Collision_Mesh>HP47</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP47</Fire_Bone_A>
+        <Fire_Bone_B>HP47</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Valdore_Pulse_08">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>400.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP48</Attachment_Bone>
+        <Collision_Mesh>HP48</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Fire_Bone_A>HP48</Fire_Bone_A>
+        <Fire_Bone_B>HP48</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Valdore_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_DOMINION_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
         <Health>400.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
@@ -19912,7 +20749,7 @@
     </HardPoint>
 
     <!-- Romulan Venator -->
-    <HardPoint Name="HP_Venator_Fighter_Bay">
+    <HardPoint Name="HP_Romulan_Venator_Fighter_Bay">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Is_Targetable>No</Is_Targetable>
         <Is_Destroyable>No</Is_Destroyable>
@@ -19924,11 +20761,11 @@
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Disruptor_00">
+    <HardPoint Name="HP_Romulan_Venator_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
         <Health>260.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19958,11 +20795,79 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Pulse_00">
+    <HardPoint Name="HP_Romulan_Venator_Disruptor_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>260.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP06</Attachment_Bone>
+        <Collision_Mesh>HP06</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP06</Fire_Bone_A>
+        <Fire_Bone_B>HP06</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Romulan_Venator_Disruptor_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>260.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP07</Attachment_Bone>
+        <Collision_Mesh>HP07</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP07</Fire_Bone_A>
+        <Fire_Bone_B>HP07</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Romulan_Venator_Pulse_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>260.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -19994,11 +20899,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Pulse_01">
+    <HardPoint Name="HP_Romulan_Venator_Pulse_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>260.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -20030,11 +20935,11 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Pulse_02">
+    <HardPoint Name="HP_Romulan_Venator_Pulse_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>260.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -20066,24 +20971,60 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Pulse_03">
+    <HardPoint Name="HP_Romulan_Venator_Pulse_04">
+    <Type> HARD_POINT_WEAPON_LASER </Type>
+    <Is_Targetable>Yes</Is_Targetable>
+    <Is_Destroyable>Yes</Is_Destroyable>
+    <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+    <Health>260.0</Health>
+
+    <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+    <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+    <Attachment_Bone>HP15</Attachment_Bone>
+    <Collision_Mesh>HP15</Collision_Mesh>
+    <Damage_Decal>HP_M-R_Blast</Damage_Decal>
+    <Damage_Particles>HP15_DAMAGE</Damage_Particles>
+
+    <Fire_Bone_A>HP15</Fire_Bone_A>
+    <Fire_Bone_B>HP15</Fire_Bone_B>
+    <Fire_Cone_Width>90</Fire_Cone_Width>
+    <Fire_Cone_Height>90.0</Fire_Cone_Height>
+    <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
+    <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+    <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+    <Fire_Pulse_Count>6</Fire_Pulse_Count>
+    <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+    <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+    <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+    <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+    <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+</HardPoint>
+
+    <HardPoint Name="HP_Romulan_Venator_Pulse_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_KLINGON_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
         <Health>260.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-        <Attachment_Bone>HP15</Attachment_Bone>
-        <Collision_Mesh>HP15</Collision_Mesh>
-        <Damage_Decal>HP_M-R_Blast</Damage_Decal>
-        <Damage_Particles>HP15_DAMAGE</Damage_Particles>
+        <Attachment_Bone>HP08</Attachment_Bone>
+        <Collision_Mesh>HP08</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
 
-        <Fire_Bone_A>HP15</Fire_Bone_A>
-        <Fire_Bone_B>HP15</Fire_Bone_B>
-        <Fire_Cone_Width>90</Fire_Cone_Width>
-        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Bone_A>HP08</Fire_Bone_A>
+        <Fire_Bone_B>HP08</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -20102,11 +21043,47 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Venator_Torpedo_00">
+    <HardPoint Name="HP_Romulan_Venator_Pulse_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>260.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP09</Attachment_Bone>
+        <Collision_Mesh>HP09</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP09</Fire_Bone_A>
+        <Fire_Bone_B>HP09</Fire_Bone_B>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Romulan_Venator_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_TOOLTIP_DOMINION_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
         <Health>260.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
@@ -20121,6 +21098,68 @@
         <Damage_Particles>HP29_DAMAGE</Damage_Particles>
         <Fire_Bone_A>HP29</Fire_Bone_A>
         <Fire_Bone_B>HP29</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Romulan_Venator_Torpedo_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Health>260.0</Health>
+        <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+        <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+        <Attachment_Bone>HP10</Attachment_Bone>
+        <Collision_Mesh>HP10</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+        <Fire_Bone_A>HP10</Fire_Bone_A>
+        <Fire_Bone_B>HP10</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Romulan_Venator_Torpedo_03">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Health>260.0</Health>
+        <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+        <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+        <Attachment_Bone>HP11</Attachment_Bone>
+        <Collision_Mesh>HP11</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+        <Fire_Bone_A>HP11</Fire_Bone_A>
+        <Fire_Bone_B>HP11</Fire_Bone_B>
         <Fire_Cone_Width>90.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
@@ -20184,12 +21223,12 @@
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
     </HardPoint>
 
-    <HardPoint Name="HP_Warbird_Disruptor_00">
+    <HardPoint Name="HP_Warbird_Disruptor_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -20200,8 +21239,8 @@
 
         <Fire_Bone_A>HP01</Fire_Bone_A>
         <Fire_Bone_B>HP01</Fire_Bone_B>
-        <Fire_Cone_Width>75</Fire_Cone_Width>
-        <Fire_Cone_Height>75.0</Fire_Cone_Height>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -20218,12 +21257,284 @@
         <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_Warbird_Pulse_00">
+    <HardPoint Name="HP_Warbird_Disruptor_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP35</Attachment_Bone>
+        <Collision_Mesh>HP35</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP35</Fire_Bone_A>
+        <Fire_Bone_B>HP35</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP36</Attachment_Bone>
+        <Collision_Mesh>HP36</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP36</Fire_Bone_A>
+        <Fire_Bone_B>HP36</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP11</Attachment_Bone>
+        <Collision_Mesh>HP11</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP11</Fire_Bone_A>
+        <Fire_Bone_B>HP11</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP12</Attachment_Bone>
+        <Collision_Mesh>HP12</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP12</Fire_Bone_A>
+        <Fire_Bone_B>HP12</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP13</Attachment_Bone>
+        <Collision_Mesh>HP13</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP13</Fire_Bone_A>
+        <Fire_Bone_B>HP13</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_07">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP14</Attachment_Bone>
+        <Collision_Mesh>HP14</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP14</Fire_Bone_A>
+        <Fire_Bone_B>HP14</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_08">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP03</Attachment_Bone>
+        <Collision_Mesh>HP03</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP03</Fire_Bone_A>
+        <Fire_Bone_B>HP03</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Disruptor_09">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_BEAM</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP04</Attachment_Bone>
+        <Collision_Mesh>HP04</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP04</Fire_Bone_A>
+        <Fire_Bone_B>HP04</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>180.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Heavy_Disruptor</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Corvette, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 0.01 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 0.01 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Pulse_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -20254,12 +21565,12 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Warbird_Pulse_01">
+    <HardPoint Name="HP_Warbird_Pulse_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -20290,12 +21601,12 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Warbird_Pulse_02">
+    <HardPoint Name="HP_Warbird_Pulse_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -20326,12 +21637,12 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Warbird_Pulse_03">
+    <HardPoint Name="HP_Warbird_Pulse_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>575.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -20362,12 +21673,156 @@
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Warbird_Torpedo_00">
+    <HardPoint Name="HP_Warbird_Pulse_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP27</Attachment_Bone>
+        <Collision_Mesh>HP27</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP27</Fire_Bone_A>
+        <Fire_Bone_B>HP27</Fire_Bone_B>
+        <Fire_Cone_Width>120.0</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Pulse_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP28</Attachment_Bone>
+        <Collision_Mesh>HP28</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP28</Fire_Bone_A>
+        <Fire_Bone_B>HP28</Fire_Bone_B>
+        <Fire_Cone_Width>120</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Pulse_07">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP31</Attachment_Bone>
+        <Collision_Mesh>HP31</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP31</Fire_Bone_A>
+        <Fire_Bone_B>HP31</Fire_Bone_B>
+        <Fire_Cone_Width>120</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Pulse_08">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_DISRUPTOR_CANNON</Tooltip_Text>
+        <Health>575.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>HP32</Attachment_Bone>
+        <Collision_Mesh>HP32</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP32</Fire_Bone_A>
+        <Fire_Bone_B>HP32</Fire_Bone_B>
+        <Fire_Cone_Width>120</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Pulse_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Puls_Phaser_1</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Interceptor, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 45.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Torpedo_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
-        <Health>300.0</Health>
+        <Health>800.0</Health>
         <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
         <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
 
@@ -20382,8 +21837,41 @@
 
         <Fire_Bone_A>HP41</Fire_Bone_A>
         <Fire_Bone_B>HP41</Fire_Bone_B>
-        <Fire_Cone_Width>90.0</Fire_Cone_Width>
-        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Cone_Width>120.0</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Green_Torpedo_Heavy</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
+
+        <Fire_Category_Restrictions> Interceptor, Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_Warbird_Torpedo_02">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_TOOLTIP_WEAPON_PLASMA_TORPEDO</Tooltip_Text>
+        <Health>800.0</Health>
+        <Repair_Cost_Per_Frame>1.4</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>.53</Repair_Amount_Per_Frame>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+        <Damage_Type> Damage_Photon_Torp </Damage_Type>
+
+        <Attachment_Bone>HP39</Attachment_Bone>
+        <Collision_Mesh>HP39</Collision_Mesh>
+        <Damage_Decal/>
+        <Damage_Particles/>
+
+        <Fire_Bone_A>HP39</Fire_Bone_A>
+        <Fire_Bone_B>HP39</Fire_Bone_B>
+        <Fire_Cone_Width>120.0</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Green_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>

@@ -2227,7 +2227,7 @@
 
         <Damage>40</Damage>
         <Autoresolve_Health>3500</Autoresolve_Health>
-        <Shield_Points>3000</Shield_Points>
+        <Shield_Points>1500</Shield_Points>
         <Tactical_Health>900</Tactical_Health>
         <Shield_Refresh_Rate>60</Shield_Refresh_Rate>
         <Energy_Capacity>3000</Energy_Capacity>
@@ -3934,7 +3934,7 @@
         <Damage>80</Damage>
         <Autoresolve_Health>500</Autoresolve_Health>
         <Shield_Points>7500</Shield_Points>
-        <Tactical_Health>7285</Tactical_Health>
+        <Tactical_Health>10000</Tactical_Health>
         <Shield_Refresh_Rate>200</Shield_Refresh_Rate>
         <Energy_Capacity>5000</Energy_Capacity>
         <Energy_Refresh_Rate>600</Energy_Refresh_Rate>
@@ -9095,8 +9095,8 @@
 
         <Damage>70</Damage>
         <Autoresolve_Health>5000</Autoresolve_Health>
-        <Shield_Points>2000</Shield_Points>
-        <Tactical_Health>5000</Tactical_Health>
+        <Shield_Points>3500</Shield_Points>
+        <Tactical_Health>10000</Tactical_Health>
         <Shield_Refresh_Rate>50</Shield_Refresh_Rate>
         <Energy_Capacity>6000</Energy_Capacity>
         <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -9329,7 +9329,7 @@
         <Damage>100</Damage>
         <Autoresolve_Health>8000</Autoresolve_Health>
         <Shield_Points>5000</Shield_Points>
-        <Tactical_Health>8000</Tactical_Health>
+        <Tactical_Health>12000</Tactical_Health>
         <Shield_Refresh_Rate>80</Shield_Refresh_Rate>
         <Energy_Capacity>9000</Energy_Capacity>
         <Energy_Refresh_Rate>1400</Energy_Refresh_Rate>

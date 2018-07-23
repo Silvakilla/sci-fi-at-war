@@ -6773,4 +6773,777 @@
         <Overlap_Test> Unit_Nebulon </Overlap_Test>
     </SFXEvent>
 
+    <!-- Deckrk -->
+    <SFXEvent Name="Romulan_Deckrk_Repair">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Deckrk_repair.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Deckrk_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Deckrk_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Deckrk_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Deckrk_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Deckrk_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Deckrk_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Deckrk_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_5.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_6.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Deckrk_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_5.wav Data/Audio/Speech/Star_Trek/Romulan/Deckrk_move_6.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Scimitar -->
+    <SFXEvent Name="Romulan_Scimitar_Shinzon_Theta">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_attack_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scimitar_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_cloak.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scimitar_Decloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_decloak.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scimitar_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_unitsel_3.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_unitsel_4.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_unitsel_5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scimitar_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scimitar_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scimitar_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Scimitar_move_5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Valdore -->
+    <SFXEvent Name="Romulan_Valdore_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Valdore_attack_3.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Valdore_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Valdore_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Valdore_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Valdore_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Valdore_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Valdore_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Valdore_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Valdore_attack_3.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Valdore_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Freighter -->
+    <SFXEvent Name="Romulan_Freighter_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_select1.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_select2.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_select3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Freighter_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_attack1.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_attack2.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_attack3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Freighter_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_move1.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_move2.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Freighter_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_move1.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_move2.wav Data/Audio/Speech/Star_Trek/Romulan/romulan_freighter_move3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Warbird -->
+    <SFXEvent Name="Romulan_Warbird_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Warbird_attack_3.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Warbird_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Warbird_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Warbird_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Warbird_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Warbird_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Warbird_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Warbird_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Warbird_attack_3.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Warbird_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Venator -->
+    <SFXEvent Name="Romulan_Venator_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Venator_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Venator_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Venator_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Venator_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Venator_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Venator_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Venator_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Venator_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Venator_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Venator_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Shadow -->
+    <SFXEvent Name="Romulan_Shadow_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_5.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shadow_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shadow_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shadow_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shadow_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shadow_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_5.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shadow_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_move_5.wav Data/Audio/Speech/Star_Trek/Romulan/Shadow_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Buzzard -->
+    <SFXEvent Name="Romulan_Buzzard_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Buzzard_cloak.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_6.wav.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Buzzard_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Buzzard_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Buzzard_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Buzzard_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_attack_3.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_attack_4.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Buzzard_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_5.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_6.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_7.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Buzzard_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_4.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_5.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_6.wav Data/Audio/Speech/Star_Trek/Romulan/Buzzard_move_7.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Griffin -->
+    <SFXEvent Name="Romulan_Griffin_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Griffin_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Griffin_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Griffin_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Griffin_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Griffin_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Griffin_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Griffin_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Griffin_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Raptor -->
+    <SFXEvent Name="Romulan_Raptor_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Raptor_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Raptor_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Raptor_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Raptor_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Raptor_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Raptor_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Raptor_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Raptor_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Raptor_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Raptor_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Hawk -->
+    <SFXEvent Name="Romulan_Hawk_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Hawk_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Hawk_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Hawk_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Hawk_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Hawk_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Hawk_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Hawk_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Hawk_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Hawk_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Hawk_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Shrike -->
+    <SFXEvent Name="Romulan_Shrike_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shrike_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shrike_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shrike_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shrike_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shrike_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shrike_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shrike_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Shrike_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- TMP_BOP -->
+    <SFXEvent Name="Romulan_TMP_BOP_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_unitsel_2.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_TMP_BOP_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_TMP_BOP_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_TMP_BOP_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_TMP_BOP_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/TMP_BOP_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Scorpion -->
+    <SFXEvent Name="Romulan_Scorpion_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Scorpion_Attack.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Scorpion_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Scorpion_Select.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Interceptor -->
+    <SFXEvent Name="Romulan_Interceptor_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_select1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_select2.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Interceptor_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_select1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_select2.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Interceptor_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Interceptor_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Interceptor_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Interceptor_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Shuttle -->
+    <SFXEvent Name="Romulan_Shuttle_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_unitsel_1.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shuttle_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shuttle_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shuttle_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Shuttle_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Rom_Shuttle_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <!-- Talon -->
+    <SFXEvent Name="Romulan_Talon_Cloak">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Talon_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_move_3.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_unitsel_1.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Talon_Unit_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Talon_unitsel_1.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_unitsel_2.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_unitsel_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Talon_Attackrun">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Talon_attack_1.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_attack_2.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_attack_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Talon_Movement">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Talon_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Romulan_Talon_Fleet">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data/Audio/Speech/Star_Trek/Romulan/Talon_move_1.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_move_2.wav Data/Audio/Speech/Star_Trek/Romulan/Talon_move_3.wav </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Nebulon </Overlap_Test>
+    </SFXEvent>
+
 </SFXEvents>

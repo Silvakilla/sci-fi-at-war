@@ -17857,7 +17857,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -17905,7 +17905,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -17953,7 +17953,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -18001,7 +18001,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -18049,7 +18049,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -18097,7 +18097,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -18145,7 +18145,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -18193,7 +18193,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_HEAVY_DUAL_TURRET_TURBOLASER</Tooltip_Text>
-        <Health>575.0</Health>
+        <Health>800.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>

@@ -2537,6 +2537,17 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Federation_Excalibur_Select</SFXEvent_GUI_Unit_Ability_Activated>
                 <Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-0.5f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.25f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
         </Unit_Abilities_Data>
     </SpaceUnit>
 
@@ -4033,6 +4044,17 @@
                 <SFXEvent_GUI_Unit_Ability_Activated>Federation_Sorveign_Select</SFXEvent_GUI_Unit_Ability_Activated>
                 <Supports_Autofire>True</Supports_Autofire>
             </Unit_Ability>
+
+            <Unit_Ability>
+                <Type>POWER_TO_WEAPONS</Type>
+                <Expiration_Seconds>10</Expiration_Seconds>
+                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-0.5f</Mod_Multiplier>
+                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+                <Mod_Multiplier>SPEED_MULTIPLIER,		0.25f</Mod_Multiplier>
+                <Recharge_Seconds>60</Recharge_Seconds>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+            </Unit_Ability>
         </Unit_Abilities_Data>
     </SpaceUnit>
 
@@ -5271,7 +5293,7 @@
         <Autoresolve_Health>900</Autoresolve_Health>
         <Shield_Points>275</Shield_Points>
         <Tactical_Health>400</Tactical_Health>
-        <Tech_Level>6</Tech_Level>
+        <Tech_Level>5</Tech_Level>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
         <Build_Cost_Credits>800</Build_Cost_Credits>
         <Build_Time_Seconds>17</Build_Time_Seconds>
@@ -10300,28 +10322,20 @@
         <Encyclopedia_Text> TEXT_UNIT_D7_TOOLTIP</Encyclopedia_Text>
 
         <Icon_Name>I_BUTTON_RMV_D7.TGA</Icon_Name>
-        <Space_Model_Name>RMV_D7.ALO</Space_Model_Name>
+        <Space_Model_Name>KDF_D7.ALO</Space_Model_Name>
 
         <Moniker>RMV_D7.txt</Moniker>
         <Autoresolve_Health>1000</Autoresolve_Health>
         <Shield_Points>650</Shield_Points>
         <Tactical_Health>550</Tactical_Health>
         <Affiliation>Romulan</Affiliation>
-        <Tech_Level>6</Tech_Level>
+        <Tech_Level>5</Tech_Level>
         <Required_Timeline>0</Required_Timeline>
         <Required_Star_Base_Level>0</Required_Star_Base_Level>
         <Build_Cost_Credits>1200</Build_Cost_Credits>
         <Build_Time_Seconds>18</Build_Time_Seconds>
         <Ship_Class>corvette</Ship_Class>
         <Death_Clone>Damage_Normal, RMV_D7_Death_Clone </Death_Clone>
-
-        <HardPoints>
-            HP_ROM_D7_00,
-            HP_ROM_D7_01,
-            HP_ROM_D7_Torpedo,
-            HP_ROM_D7_Engine_01,
-            HP_ROM_D7_Engine_02
-        </HardPoints>
 
         <SFXEvent_Build_Started>RMHD_Request_Assistance</SFXEvent_Build_Started>
         <SFXEvent_Build_Cancelled>RMHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -10443,12 +10457,17 @@
         <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Deckrk_Disruptor_00,
             HP_Deckrk_Disruptor_01,
             HP_Deckrk_Disruptor_02,
             HP_Deckrk_Disruptor_03,
-            HP_Deckrk_Torpedo_00,
+            HP_Deckrk_Disruptor_04,
+            HP_Deckrk_Disruptor_05,
+            HP_Deckrk_Disruptor_06,
             HP_Deckrk_Torpedo_01,
+            HP_Deckrk_Torpedo_02,
+            HP_Deckrk_Torpedo_03,
+            HP_Deckrk_Pulse_01,
+            HP_Deckrk_Pulse_02,
             HP_Deckrk_Engine,
             HP_Deckrk_Shield
         </HardPoints>
@@ -10653,12 +10672,17 @@
 
         <HardPoints>
             HP_Griffin_Fighter_Bay,
-            HP_Griffin_Pulse_00,
             HP_Griffin_Pulse_01,
             HP_Griffin_Pulse_02,
             HP_Griffin_Pulse_03,
-            HP_Griffin_Disruptor_00,
-            HP_Griffin_Torpedo_00,
+            HP_Griffin_Pulse_04,
+            HP_Griffin_Pulse_05,
+            HP_Griffin_Pulse_06,
+            HP_Griffin_Disruptor_01,
+            HP_Griffin_Disruptor_02,
+            HP_Griffin_Disruptor_03,
+            HP_Griffin_Torpedo_01,
+            HP_Griffin_Torpedo_02,
             HP_Griffin_Engine,
             HP_Griffin_Shield
         </HardPoints>
@@ -10856,12 +10880,17 @@
         <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Hawk_Disruptor,
-            HP_Hawk_00,
-            HP_Hawk_01,
-            HP_Hawk_02,
-            HP_Hawk_03,
-            HP_Hawk_Torpedo_00,
+            HP_Hawk_Disruptor_01,
+            HP_Hawk_Disruptor_02,
+            HP_Hawk_Disruptor_03,
+            HP_Hawk_Pulse_01,
+            HP_Hawk_Pulse_02,
+            HP_Hawk_Pulse_03,
+            HP_Hawk_Pulse_04,
+            HP_Hawk_Pulse_05,
+            HP_Hawk_Pulse_06,
+            HP_Hawk_Torpedo_01,
+            HP_Hawk_Torpedo_02,
             HP_Hawk_Shield,
             HP_Hawk_Engine_01,
             HP_Hawk_Engine_02,
@@ -11190,11 +11219,15 @@
         <Has_Space_Evaluator>True</Has_Space_Evaluator>
 
         <HardPoints>
-            HP_Raptor_Torpedo_00,
-            HP_Raptor_Disruptor_00,
+            HP_Raptor_Torpedo_01,
             HP_Raptor_Disruptor_01,
-            HP_Raptor_TriCobalt_00,
+            HP_Raptor_Disruptor_02,
             HP_Raptor_TriCobalt_01,
+            HP_Raptor_TriCobalt_02,
+            HP_Raptor_Pulse_01,
+            HP_Raptor_Pulse_02,
+            HP_Raptor_Pulse_03,
+            HP_Raptor_Pulse_04,
             HP_Raptor_Engine,
             HP_Raptor_Shield
         </HardPoints>
@@ -11532,12 +11565,15 @@
 
         <HardPoints>
             HP_Shadow_Fighter_Bay,
-            HP_Shadow_Disruptor_00,
-            HP_Shadow_Torpedo_00,
-            HP_Shadow_Pulse_00,
+            HP_Shadow_Disruptor_01,
+            HP_Shadow_Disruptor_02,
+            HP_Shadow_Disruptor_03,
+            HP_Shadow_Torpedo_01,
+            HP_Shadow_Torpedo_02,
             HP_Shadow_Pulse_01,
             HP_Shadow_Pulse_02,
             HP_Shadow_Pulse_03,
+            HP_Shadow_Pulse_04,
             HP_Shadow_Engine_01,
             HP_Shadow_Engine_02,
             HP_Shadow_Shield
@@ -11913,7 +11949,9 @@
         <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Rom_Shuttle_TORP
+            HP_Rom_Shuttle_Torpedo,
+            HP_Rom_Shuttle_Disruptor_01,
+            HP_Rom_Shuttle_Disruptor_02
         </HardPoints>
 
         <SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
@@ -12212,9 +12250,9 @@
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
         <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-        <Starting_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -12226,15 +12264,19 @@
         <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Valdore_Disruptor_00,
             HP_Valdore_Disruptor_01,
-            HP_Valdore_Pulse_00,
+            HP_Valdore_Disruptor_02,
+            HP_Valdore_Disruptor_03,
+            HP_Valdore_Disruptor_04,
             HP_Valdore_Pulse_01,
             HP_Valdore_Pulse_02,
             HP_Valdore_Pulse_03,
             HP_Valdore_Pulse_04,
             HP_Valdore_Pulse_05,
-            HP_Valdore_Torpedo_00,
+            HP_Valdore_Pulse_06,
+            HP_Valdore_Pulse_07,
+            HP_Valdore_Pulse_08,
+            HP_Valdore_Torpedo_01,
             HP_Valdore_Engine_01,
             HP_Valdore_Engine_02,
             HP_Valdore_Engine_03,
@@ -12411,9 +12453,9 @@
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
         <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, HUNT </SpaceBehavior>
 
-        <Starting_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>RMV_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -12425,14 +12467,20 @@
         <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Venator_Disruptor_00,
-            HP_Venator_Pulse_00,
-            HP_Venator_Pulse_01,
-            HP_Venator_Pulse_02,
-            HP_Venator_Pulse_03,
-            HP_Venator_Torpedo_00,
+            HP_Romulan_Venator_Disruptor_01,
+            HP_Romulan_Venator_Disruptor_02,
+            HP_Romulan_Venator_Disruptor_03,
+            HP_Romulan_Venator_Pulse_01,
+            HP_Romulan_Venator_Pulse_02,
+            HP_Romulan_Venator_Pulse_03,
+            HP_Romulan_Venator_Pulse_04,
+            HP_Romulan_Venator_Pulse_05,
+            HP_Romulan_Venator_Pulse_06,
+            HP_Romulan_Venator_Torpedo_01,
+            HP_Romulan_Venator_Torpedo_02,
+            HP_Romulan_Venator_Torpedo_03,
             HP_Romulan_Venator_Engine,
-            HP_Venator_Fighter_Bay,
+            HP_Romulan_Venator_Fighter_Bay,
             HP_Romulan_Venator_Shield
         </HardPoints>
 
@@ -12598,13 +12646,13 @@
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
         <SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-        <Starting_Spawned_Units_Tech_0>RMV_Talon_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Talon_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>RMV_Talon_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Talon_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 
-        <Starting_Spawned_Units_Tech_0>RMV_Shuttle_Squadron, 1</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>Romulan_Shuttle_Squadron, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>RMV_Shuttle_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>Romulan_Shuttle_Squadron, 5</Reserve_Spawned_Units_Tech_0>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -12617,12 +12665,25 @@
 
         <HardPoints>
             HP_Warbird_Shield_Inversion,
-            HP_Warbird_Disruptor_00,
-            HP_Warbird_Pulse_00,
+            HP_Warbird_Disruptor_01,
+            HP_Warbird_Disruptor_02,
+            HP_Warbird_Disruptor_03,
+            HP_Warbird_Disruptor_04,
+            HP_Warbird_Disruptor_05,
+            HP_Warbird_Disruptor_06,
+            HP_Warbird_Disruptor_07,
+            HP_Warbird_Disruptor_08,
+            HP_Warbird_Disruptor_09,
             HP_Warbird_Pulse_01,
             HP_Warbird_Pulse_02,
             HP_Warbird_Pulse_03,
-            HP_Warbird_Torpedo_00,
+            HP_Warbird_Pulse_04,
+            HP_Warbird_Pulse_05,
+            HP_Warbird_Pulse_06,
+            HP_Warbird_Pulse_07,
+            HP_Warbird_Pulse_08,
+            HP_Warbird_Torpedo_01,
+            HP_Warbird_Torpedo_02,
             HP_Warbird_Engine,
             HP_Warbird_Fighter_Bay,
             HP_Warbird_Shield
@@ -12707,7 +12768,7 @@
             <Unit_Ability>
                 <Type>LEECH_SHIELDS</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> Warbird_Shield_Inversion_Beam </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                <GUI_Activated_Ability_Name> Warbird_Shield_Inversion_Beam </GUI_Activated_Ability_Name>
                 <Effective_Radius> 500.0 </Effective_Radius>
                 <SFXEvent_GUI_Unit_Ability_Activated>Romulan_Warbird_Attackrun</SFXEvent_GUI_Unit_Ability_Activated>
                 <SFXEvent_Target_Ability> Romulan_Warbird_Attackrun </SFXEvent_Target_Ability>
