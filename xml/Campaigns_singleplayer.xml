@@ -4477,7 +4477,7 @@
         <Starting_Forces> Pirates, Amalthea, Pirate_Swamp_Speeder_Team </Starting_Forces>
 	</Campaign>
 
-	<!-- Development -->
+	<!-- Development
     <Campaign Name="Sandbox_Development_Empire">
 
         <Campaign_Set> Development </Campaign_Set>
@@ -4557,9 +4557,6 @@
 		<Starting_Forces> Pirates, Byss, MC_80_Liberty</Starting_Forces>
         <Starting_Forces> Pirates, Byss, Nebulon_B</Starting_Forces>
 		<Starting_Forces> Pirates, Byss, MC_80_Liberty</Starting_Forces>
-        <!--<Starting_Forces> Pirates, Byss, Broadside_Class_Cruiser</Starting_Forces>
-        <Starting_Forces> Pirates, Byss, Broadside_Class_Cruiser</Starting_Forces>
-        <Starting_Forces> Pirates, Byss, Broadside_Class_Cruiser</Starting_Forces>-->
     </Campaign>
 
     <Campaign Name="Sandbox_Development_Rebel">
@@ -4632,6 +4629,6 @@
         <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-    </Campaign>
+    </Campaign>-->
 
 </Campaigns>
