@@ -9212,7 +9212,7 @@
 
         <CategoryMask> Capital | AntiFrigate </CategoryMask>
 
-        <Icon_Name>I_BUTTON_STAR_DESTROYER_MK_I.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_IMPERATOR_I.TGA</Icon_Name>
         <GUI_Model_Name>Ev_Imperator_MK1.ALO</GUI_Model_Name>
         <GUI_Distance>2300</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
