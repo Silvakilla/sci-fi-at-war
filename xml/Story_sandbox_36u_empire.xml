@@ -73,6 +73,14 @@
 		<Prereq>Empire_Enters_Tech_02</Prereq>
 	</Event>
 
+	<Event Name="Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
 	<!-- Spawn Time Era 3 Heroes -->
 	<Event Name="Empire_Enters_Tech_03">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>

@@ -214,7 +214,7 @@
 
     <SpaceUnit Name="MC90_Calamari_Cruiser_Death_Clone">
         <Text_ID> TEXT_UNIT_HOME_ONE </Text_ID>
-        <Space_Model_Name> RV_MC_90_D.ALO </Space_Model_Name>
+        <Space_Model_Name>RV_MC90_D.ALO</Space_Model_Name>
         <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
         <Scale_Factor> 0.65 </Scale_Factor>
         <Layer_Z_Adjust> -190.0 </Layer_Z_Adjust>
@@ -286,7 +286,7 @@
 
     <SpaceUnit Name="MC75_Death_Clone">
         <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
-        <Space_Model_Name>RV_MC_75.ALO</Space_Model_Name>
+        <Space_Model_Name>RV_MC75_D.ALO</Space_Model_Name>
         <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
         <Death_Explosions>Large_Explosion_Space</Death_Explosions>
         <Scale_Factor>0.65</Scale_Factor>
@@ -358,7 +358,7 @@
 
     <SpaceUnit Name="MC40_Death_Clone">
         <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
-        <Space_Model_Name>RV_MC40.ALO</Space_Model_Name>
+        <Space_Model_Name>RV_MC40_D.ALO</Space_Model_Name>
         <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
         <Death_Explosions>Large_Explosion_Space</Death_Explosions>
         <Scale_Factor>0.35</Scale_Factor>

@@ -4477,7 +4477,7 @@
         <Starting_Forces> Pirates, Amalthea, Pirate_Swamp_Speeder_Team </Starting_Forces>
 	</Campaign>
 
-	<!-- Development
+	<!-- Development -->
     <Campaign Name="Sandbox_Development_Empire">
 
         <Campaign_Set> Development </Campaign_Set>
@@ -4494,7 +4494,7 @@
             Galaxy_Core_Art_Model,
             Coruscant,
             Corellia,
-            Byss
+			Alderaan
         </Locations>
 
         <Trade_Routes>
@@ -4545,18 +4545,13 @@
         <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Deckrk </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Griffin </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Hawk </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Raptor </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Shadow </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Valdore </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Romulan_Venator </Starting_Forces>
-        <Starting_Forces> Empire, Coruscant, Warbird </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, MC_90 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, MC_90 </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, MC_80_Liberty </Starting_Forces>
 
-		<Starting_Forces> Pirates, Byss, MC_80_Liberty</Starting_Forces>
-        <Starting_Forces> Pirates, Byss, Nebulon_B</Starting_Forces>
-		<Starting_Forces> Pirates, Byss, MC_80_Liberty</Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, MC_80_Liberty</Starting_Forces>
+        <Starting_Forces> Pirates, Alderaan, Nebulon_B</Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, MC_80_Liberty</Starting_Forces>
     </Campaign>
 
     <Campaign Name="Sandbox_Development_Rebel">
@@ -4629,6 +4624,6 @@
         <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-    </Campaign>-->
+    </Campaign>
 
 </Campaigns>

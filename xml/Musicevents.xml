@@ -2,7 +2,7 @@
 <MusicEvents>
 
     <MusicEvent Name="Main_Menu_Music_Event">
-        <Files>ST_MainTheme.MP3, Duel_of_Fates.MP3</Files>
+        <Files>Halo_Reach_Main.mp3, ST_MainTheme.MP3, Duel_of_Fates.MP3</Files>
         <Volume_Percent>80</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>

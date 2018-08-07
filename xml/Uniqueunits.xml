@@ -785,7 +785,7 @@
 
 	<UniqueUnit Name="Escort_TIE_Fighter">
 		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>0.4</Scale_Factor>
 		<Tactical_Health>300</Tactical_Health>
         <Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
@@ -809,7 +809,7 @@
 		<Space_Model_Name> EV_TIEADVANCED.ALO </Space_Model_Name>
 		<Icon_Name>i_button_darth_vader.tga</Icon_Name>
 		
-		<Scale_Factor>0.9</Scale_Factor>
+		<Scale_Factor>0.5</Scale_Factor>
 		
 		<Select_Box_Scale>40</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
