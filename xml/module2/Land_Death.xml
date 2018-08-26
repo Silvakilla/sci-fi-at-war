@@ -1,4 +1,20 @@
 <?xml version="1.0"?>
 <LandDeath>
 
+    <GroundVehicle Name="Cov_Wraith_Death_Clone">
+        <Variant_Of_Existing_Type>AT_AA_Walker</Variant_Of_Existing_Type>
+        <Death_Clone_Is_Obstacle>yes</Death_Clone_Is_Obstacle>
+        <LandBehavior>HIDE_WHEN_FOGGED,IMPOSING_PRESENCE</LandBehavior>
+        <Custom_Hard_XExtent_Offset> 15.0 </Custom_Hard_XExtent_Offset>
+        <Custom_Hard_XExtent> 47.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 10.0 </Custom_Hard_YExtent>
+        <Death_Explosions>Large_Explosion_Land_Empire</Death_Explosions>
+        <Death_Persistence_Duration> 25 </Death_Persistence_Duration>
+        <Death_Explosions_End>Large_Explosion_Land_Empire</Death_Explosions_End>
+        <Death_SFXEvent_End_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_End_Die>
+        <IsDeathCloneObstacle> true </IsDeathCloneObstacle>
+        <Presence_Range>100.0</Presence_Range>
+        <Land_Model_Name>Cv_Wraith_Die.alo</Land_Model_Name>
+    </GroundVehicle>
+
 </LandDeath>

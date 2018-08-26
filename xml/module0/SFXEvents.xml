@@ -1,18 +1,10 @@
 <?xml version="1.0"?>
 <SFXEvents>
 
-    <!-- ===== -->
-    <!-- REBEL -->
-    <!-- ===== -->
-
     <SFXEvent Name="Unit_Z6_Fire">
         <Use_Preset>Preset_GUN</Use_Preset>
         <Samples>Data\Audio\Weapons\Star_Wars\Blaster\Z6_Blaster.wav</Samples>
     </SFXEvent>
-
-    <!-- ====== -->
-    <!-- EMPIRE -->
-    <!-- ====== -->
 
     <SFXEvent Name="Unit_Commando_Fire">
         <Use_Preset>Preset_GUN</Use_Preset>
@@ -65,6 +57,70 @@
         <Localize> Yes </Localize>
         <Play_Sequentially> Yes </Play_Sequentially>
         <Overlap_Test> Unit_Dark_Trooper_1 </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Select">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Select.wav
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Select_2.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Moving">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Moving.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Fire">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Fireing.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Shields_Lost">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Shields_Lost.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Turbolaser_Lost">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Turbolaser_Lost.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Engines_Lost">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Engines_Lost.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Imperial_Escort_Carrier_Launcher_Lost">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Star_Wars\Imperial_Escort_Carrier\IEC_Rockets_Lost.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
     </SFXEvent>
 
 </SFXEvents>

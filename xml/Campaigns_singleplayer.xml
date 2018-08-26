@@ -4494,6 +4494,7 @@
             Galaxy_Core_Art_Model,
             Coruscant,
             Corellia,
+            Byss,
 			Alderaan
         </Locations>
 
@@ -4545,9 +4546,15 @@
         <Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
         <Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, MC_90 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, MC_90 </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, MC_80_Liberty </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Covenant_Assault_Carrier </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Covenant_Assault_Carrier </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Covenant_Assault_Carrier </Starting_Forces>
+
+        <Starting_Forces> Pirates, Byss, MC_80_Liberty </Starting_Forces>
+        <Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
+        <Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
+        <Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
+        <Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
 
 		<Starting_Forces> Pirates, Alderaan, MC_80_Liberty</Starting_Forces>
         <Starting_Forces> Pirates, Alderaan, Nebulon_B</Starting_Forces>

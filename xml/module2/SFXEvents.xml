@@ -1,4 +1,602 @@
 <?xml version="1.0"?>
 <SFXEvents>
 
+    <SFXEvent Name="Unit_Covenant_Ship_Plasma_Cannon_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Spirit\plasma_cannon.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Covenant_Plasma_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Plasma_Rifle\plasma_rifle.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Covenant_Plasma_Fire_Old">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>
+            Data\Audio\Weapons\Halo\Plasma_Rifle\pr_old_00.wav
+            Data\Audio\Weapons\Halo\Plasma_Rifle\pr_old_01.wav
+            Data\Audio\Weapons\Halo\Plasma_Rifle\pr_old_02.wav
+            Data\Audio\Weapons\Halo\Plasma_Rifle\pr_old_03.wav
+            Data\Audio\Weapons\Halo\Plasma_Rifle\pr_old_04.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Plasma_Pistol_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Plasma_Pistol\plasma_pistol.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Plasma_Pistol_Overcharge">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Plasma_Pistol\plasma_pistol_charge.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Plasma_Pistol_Overcharge_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Plasma_Pistol\plasma_pistol_charge_fire.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Ghost_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Ghost\ghost_shot.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Assault_Rifle_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Assault_Rifle\assault_rifle_short.wav</Samples>
+        <Min_Volume>90</Min_Volume>
+        <Max_Volume>90</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_SMG_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\SMG\SMG.wav</Samples>
+        <Min_Volume>90</Min_Volume>
+        <Max_Volume>90</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Battle_Rifle_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Battle_Rifle\battle_rifle.wav</Samples>
+        <Min_Volume>95</Min_Volume>
+        <Max_Volume>95</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Scorpion_Tank_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Scorpion\scorpion_cannon.wav</Samples>
+        <Min_Volume>100</Min_Volume>
+        <Max_Volume>100</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Wraith_Tank_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Wraith\wraith_shoot.wav</Samples>
+        <Min_Volume>92</Min_Volume>
+        <Max_Volume>92</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Chain_Turret_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Turrets\chain_gun.wav</Samples>
+        <Min_Volume>100</Min_Volume>
+        <Max_Volume>100</Max_Volume>
+
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Chain_Turret_Fire_2">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Turrets\chain_gun_02.wav</Samples>
+        <Min_Volume>100</Min_Volume>
+        <Max_Volume>100</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Magnum_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Magnum\magnum.wav</Samples>
+        <Min_Volume>80</Min_Volume>
+        <Max_Volume>80</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Beam_Sniper_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Beam_Rifle\beam_rifle.wav</Samples>
+        <Min_Volume>100</Min_Volume>
+        <Max_Volume>100</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Sniper_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Sniper_Rifle\sniper.wav</Samples>
+        <Min_Volume>100</Min_Volume>
+        <Max_Volume>100</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Covenant_Plasma_Fire_heavy">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Ghost\ghost_shot.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Covenant_Plasma_Fire_Turret">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Turrets\plasma.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Covenant_Carbine_Fire">
+        <Min_Volume>80</Min_Volume>
+        <Max_Volume>80</Max_Volume>
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Carbine\carbine.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Covenant_Banshee_Bomb_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Banshee_Bomb\banshe_bomb.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Rocket_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Rocket_Launcher\rocket_launcher.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Gauss_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>
+            Data\Audio\Weapons\Halo\Warthog\warthog_gauss_01.wav
+            Data\Audio\Weapons\Halo\Warthog\warthog_gauss_02.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hunter_Melee">
+        <Use_Preset>Preset_GUN</Use_Preset>
+        <Min_Volume>95</Min_Volume>
+        <Max_Volume>95</Max_Volume>
+        <Samples>
+            Data\Audio\Weapons\Halo\Hunter\hunter_melee_00.wav
+            Data\Audio\Weapons\Halo\Hunter\hunter_melee_01.wav
+            Data\Audio\Weapons\Halo\Hunter\hunter_melee_02.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hunter_Cannon">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Hunter\hunter_cannon.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hunter_Beam_Cannon">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Hunter\hunter_beam.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Energy_Sword">
+        <Use_Preset>Preset_GUN</Use_Preset>
+        <Samples>
+            Data\Audio\Weapons\Halo\Plasma_Sword\sword_swing_01.wav
+            Data\Audio\Weapons\Halo\Plasma_Sword\sword_swing_02.wav
+            Data\Audio\Weapons\Halo\Plasma_Sword\sword_swing_03.wav
+        </Samples>
+        <Min_Volume>90</Min_Volume>
+        <Max_Volume>90</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Fuel_Rod_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Fuel_Rod\fuel_rod.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hornet_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Hornet\hornet_turret.wav</Samples>
+        <Min_Volume>70</Min_Volume>
+        <Max_Volume>70</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hornet_Fire_Rocket">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Hornet\hornet_missle.wav</Samples>
+        <Min_Volume>90</Min_Volume>
+        <Max_Volume>90</Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Needle_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Needler\needler.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Missile_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\archermissile6.wav </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Pulse_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\pulselaser.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Energy_Projector_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>Data\Audio\Weapons\Halo\Energyprojectorlong.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Railgun_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>
+            Data\Audio\Weapons\Halo\Railgun\Railgun_Fire1.wav
+            Data\Audio\Weapons\Halo\Railgun\Railgun_Fire2.wav
+            Data\Audio\Weapons\Halo\Railgun\Railgun_Fire3.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Select_Grunt">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Grunt\grunt_select_00.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_select_01.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_select_02.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_select_03.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_select_04.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_select_05.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_select_06.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Orders_Grunt">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_00.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_01.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_02.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_03.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_04.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_05.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_06.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_07.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_orders_08.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Victory_Grunt">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Grunt\grunt_victory_00.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_victory_01.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_victory_02.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_victory_03.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_victory_04.wav
+            Data\Audio\Speech\Halo\Grunt\grunt_victory_05.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Select_Elite">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Elite\elite_select_00.wav
+            Data\Audio\Speech\Halo\Elite\elite_select_02.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_00.wav
+            Data\Audio\Speech\Halo\Elite\elite_select_01.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Orders_Elite">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Elite\elite_orders_11.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_00.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_03.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_02.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_10.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_04.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_05.wav
+            Data\Audio\Speech\Halo\Elite\elite_attack_01.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_06.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_07.wav
+            Data\Audio\Speech\Halo\Elite\elite_attack_00.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_08.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_09.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Attack_Elite">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Elite\elite_attack_01.wav
+            Data\Audio\Speech\Halo\Elite\elite_attack_00.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_03.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_02.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_10.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_04.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_05.wav
+            Data\Audio\Speech\Halo\Elite\elite_attack_01.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_06.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_07.wav
+            Data\Audio\Speech\Halo\Elite\elite_attack_00.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_08.wav
+            Data\Audio\Speech\Halo\Elite\elite_orders_09.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Orders_Hunter">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Hunter\hunter_00.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_01.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_02.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_03.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_04.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_05.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_06.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_07.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_08.wav
+            Data\Audio\Speech\Halo\Hunter\hunter_09.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Camo_Elite">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>Data\Audio\Speech\Halo\Elite\elite_camo.wav</Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Ambient_Marine_Effect_00">
+        <Use_Preset>Preset_AMB_3D</Use_Preset>
+        <Samples>Data\Audio\Speech\Halo\Marines\marine_idleanim_00.wav</Samples>
+        <Min_Volume> 90 </Min_Volume>
+        <Max_Volume> 90 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Ambient_Marine_Effect_01">
+        <Use_Preset>Preset_AMB_3D</Use_Preset>
+        <Samples>Data\Audio\Speech\Halo\Marines\marine_idleanim_01.wav</Samples>
+        <Min_Volume> 90 </Min_Volume>
+        <Max_Volume> 90 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Ambient_Marine_Effect_02">
+        <Use_Preset>Preset_AMB_3D</Use_Preset>
+        <Samples>Data\Audio\Speech\Halo\Marines\odst_idleanim_00.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Ambient_Marine_Effect_03">
+        <Use_Preset>Preset_AMB_3D</Use_Preset>
+        <Samples>Data\Audio\Speech\Halo\Marines\shotgun_idleanim_00.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Select_Jackal">
+        <Use_Preset>Preset_UR</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Jackal\jackal1.wav
+            Data\Audio\Speech\Halo\Jackal\jackal2.wav
+            Data\Audio\Speech\Halo\Jackal\jackal10.wav
+            Data\Audio\Speech\Halo\Jackal\jackal12.wav
+            Data\Audio\Speech\Halo\Jackal\jackal14.wav
+            Data\Audio\Speech\Halo\Jackal\jackal17.wav
+            Data\Audio\Speech\Halo\Jackal\jackal19.wav
+            Data\Audio\Speech\Halo\Jackal\jackal25.wav
+            Data\Audio\Speech\Halo\Jackal\jackal28.wav
+        </Samples>
+        <Localize> Yes </Localize>
+        <Play_Sequentially> Yes </Play_Sequentially>
+        <Text_ID/>
+        <Overlap_Test> Unit_Storm_Trooper </Overlap_Test>
+    </SFXEvent>
+
+    <SFXEvent Name="Hunter_Foot_Plant">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>
+            Data\Audio\Speech\Halo\Hunter\step1.wav
+            Data\Audio\Speech\Halo\Hunter\step2.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Scorpion_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Scorpion\scorpion_idle.wav</Samples>
+        <Min_Volume> 90 </Min_Volume>
+        <Max_Volume> 90 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Scorpion_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Scorpion\scorpion_engine.wav</Samples>
+        <Min_Volume> 90 </Min_Volume>
+        <Max_Volume> 90 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Wraith_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Wraith\wraith_idle.wav</Samples>
+        <Min_Volume> 85 </Min_Volume>
+        <Max_Volume> 85 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Wraith_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Wraith\wraith_moving.wav</Samples>
+        <Min_Volume> 85 </Min_Volume>
+        <Max_Volume> 85 </Max_Volume>
+
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Ghost_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Ghost\ghost_idle.wav</Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Ghost_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Ghost\ghost_engine.wav</Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Warthog_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Warthog\warthog_moving.wav</Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Mongoose_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\SFX\Vehicles\Mongoose\mongoose_engine.wav</Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Mongoose_Idle_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\SFX\Vehicles\Mongoose\mongoose_idle.wav</Samples>
+        <Min_Volume> 85 </Min_Volume>
+        <Max_Volume> 85 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Banshee_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Banshee\banshee_move.wav</Samples>
+        <Min_Volume> 88 </Min_Volume>
+        <Max_Volume> 88 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Banshee_Idle_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Banshee\banshee_engine.wav</Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hornet_Idle_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Hornet\hornet_engine.wav</Samples>
+        <Min_Volume> 90 </Min_Volume>
+        <Max_Volume> 90 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hornet_Moving_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Hornet\hornet_drive.wav</Samples>
+        <Min_Volume> 90 </Min_Volume>
+        <Max_Volume> 90 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Spirit_Idle_Engine_Loop">
+        <Use_Preset>Preset_EGL_Land</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\Spirit\engine.wav</Samples>
+        <Min_Volume> 70 </Min_Volume>
+        <Max_Volume> 70 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_HEV_Landing">
+        <Use_Preset>Preset_EXP</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\HEV\landing.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Longsword_Fly_By_Land">
+        <Use_Preset>Preset_EGBL</Use_Preset>
+        <Samples>Data\Audio\SFX\Vehicles\Longsword\longsword_flyby.wav</Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Longsword_Fly_By">
+        <Use_Preset>Preset_EGB</Use_Preset>
+        <Samples>Data\Audio\SFX\Vehicles\Longsword\longsword_flyby.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Elite_Death">
+        <Use_Preset>Preset_DTH</Use_Preset>
+        <Samples>
+            Data\Audio\Deaths\Halo\elite\elite_die_01.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_02.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_03.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_04.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_05.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_06.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_07.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_08.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_09.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_10.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_11.wav
+            Data\Audio\Deaths\Halo\elite\elite_die_12.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Hunter_Death">
+        <Use_Preset>Preset_DTH</Use_Preset>
+        <Samples>
+            Data\Audio\Deaths\Halo\Hunter\death_00.wav
+            Data\Audio\Deaths\Halo\Hunter\hunter\death_01.wav
+            Data\Audio\Deaths\Halo\Hunter\hunter\death_02.wav
+            Data\Audio\Deaths\Halo\Hunter\hunter\death_03.wav
+            Data\Audio\Deaths\Halo\Hunter\hunter\death_04.wav
+            Data\Audio\Deaths\Halo\Hunter\hunter\death_05.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Grunt_Death">
+        <Use_Preset>Preset_DTH</Use_Preset>
+        <Samples>
+            Data\Audio\Deaths\Halo\grunt\grunt_die_00.wav
+            Data\Audio\Deaths\Halo\grunt\grunt_die_01.wav
+            Data\Audio\Deaths\Halo\grunt\grunt_die_02.wav
+            Data\Audio\Deaths\Halo\grunt\grunt_die_03.wav
+            Data\Audio\Deaths\Halo\grunt\grunt_die_04.wav
+            Data\Audio\Deaths\Halo\grunt\grunt_die_05.wav
+            Data\Audio\Deaths\Halo\grunt\grunt_die_06.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Jackal_Death">
+        <Use_Preset>Preset_DTH</Use_Preset>
+        <Samples>
+            Data\Audio\Deaths\Halo\Jackal\jackal_death_01.wav
+            Data\Audio\Deaths\Halo\Jackal\jackal_death_02.wav
+            Data\Audio\Deaths\Halo\Jackal\jackal_death_03.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Fuel_Rod_Explosion">
+        <Use_Preset>Preset_EXPC</Use_Preset>
+        <Samples>Data\Audio\SFX\explosions\fuel_rod_exp.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Plasma_Mortar_Explosion">
+        <Use_Preset>Preset_EXPC</Use_Preset>
+        <Samples>Data\Audio\SFX\explosions\wraith_shot_exp.wav</Samples>
+    </SFXEvent>
+
 </SFXEvents>

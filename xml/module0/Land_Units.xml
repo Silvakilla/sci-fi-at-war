@@ -2961,7 +2961,7 @@
     <GroundInfantry Name="Squad_Imperial_Armytrooper">
         <Variant_Of_Existing_Type>Imperial_Armytrooper</Variant_Of_Existing_Type>
         <Text_ID>TEXT_UNIT_IMPERIAL_ARMYTROOPER</Text_ID>
-        <LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+        <LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
         <Is_Squashable> Yes </Is_Squashable>
         <Max_Speed> 1 </Max_Speed>
         <Space_Layer> None </Space_Layer>

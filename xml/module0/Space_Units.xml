@@ -7869,11 +7869,13 @@
         <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
         <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
         <SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+
         <SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-        <SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
-        <SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+
+        <SFXEvent_Select>Unit_Imperial_Escort_Carrier_Select</SFXEvent_Select>
+        <SFXEvent_Move>Unit_Imperial_Escort_Carrier_Moving</SFXEvent_Move>
         <SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
-        <SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+        <SFXEvent_Attack>Unit_Imperial_Escort_Carrier_Fire</SFXEvent_Attack>
         <SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
         <SFXEvent_Stop>Unit_Stop_Acclamator</SFXEvent_Stop>
         <SFXEvent_Barrage>Unit_Barrage_Acclamator</SFXEvent_Barrage>
@@ -7882,6 +7884,7 @@
         <SFXEvent_Damaged_By_Asteroid>SFX_Asteroid_Detonation</SFXEvent_Damaged_By_Asteroid>
         <SFXEvent_Bombard_Select_Target>EHD_Bombard_Select_Target</SFXEvent_Bombard_Select_Target>
         <SFXEvent_Bombard_Incoming>EHD_Bombard_Incoming</SFXEvent_Bombard_Incoming>
+
         <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Acclamator</SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Acclamator</SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint>HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Acclamator</SFXEvent_Attack_Hardpoint>
@@ -7889,19 +7892,18 @@
         <SFXEvent_Attack_Hardpoint>HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Acclamator</SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint>HARD_POINT_ENGINE, Unit_HP_ENGINES_Acclamator</SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint>HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Acclamator</SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Lost_Missile_Acclamator</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Torpedo_Acclamator</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_ION_CANNON,</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_GRAVITY_WELL,</SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_LASER, Unit_Imperial_Escort_Carrier_Turbolaser_Lost</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_MISSILE, Unit_Imperial_Escort_Carrier_Launcher_Lost</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_WEAPON_TORPEDO, Unit_Imperial_Escort_Carrier_Launcher_Lost</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_SHIELD_GENERATOR, Unit_Imperial_Escort_Carrier_Shields_Lost</SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENGINE, Unit_Imperial_Escort_Carrier_Engines_Lost</SFXEvent_Hardpoint_Destroyed>
         <SFXEvent_Hardpoint_Destroyed>HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_TRACTOR_BEAM,</SFXEvent_Hardpoint_Destroyed>
-        <SFXEvent_Hardpoint_Destroyed>HARD_POINT_ENABLE_SPECIAL_ABILITY,</SFXEvent_Hardpoint_Destroyed>
+
         <SFXEvent_Engine_Idle_Loop>Unit_Acclamator_Idle_Engine_Loop</SFXEvent_Engine_Idle_Loop>
         <SFXEvent_Engine_Moving_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Engine_Moving_Loop>
         <SFXEvent_Engine_Cinematic_Focus_Loop>Unit_Acclamator_Cinematic_Engine_Loop</SFXEvent_Engine_Cinematic_Focus_Loop>
+
         <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
         <CategoryMask>Frigate | AntiCorvette</CategoryMask>

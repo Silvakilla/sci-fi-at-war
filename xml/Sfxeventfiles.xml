@@ -40,5 +40,6 @@
 	<!-- Mod Files -->
     <File>module0/SFXEvents.xml</File>
     <File>module1/SFXEvents.xml</File>
+	<File>module2/SFXEvents.xml</File>
 
 </SFXEvent_Files>
