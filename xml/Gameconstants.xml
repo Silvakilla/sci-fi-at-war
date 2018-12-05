@@ -970,6 +970,7 @@
         Damage_Infection
 		Damage_Remote_Bomb,
 		Damage_Drain_Life,
+		Damage_Space_Mine,
 
 		<!-- DO NOT ADD new damage types after this point -->
 	</Damage_Types>
@@ -2694,6 +2695,49 @@
 	<Damage_To_Armor_Mod> Damage_110mm_Rotary_Gun, Armor_Titan_120cm, 0.6 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_110mm_Rotary_Gun, Armor_Titan_160cm, 0.4 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_110mm_Rotary_Gun, Armor_Titan_191cm, 0.3 </Damage_To_Armor_Mod>
+
+	<!-- Space Mine -->
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Transport, 3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Bomber, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Fighter, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Hero_Transport, 2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Corellian_Corvette, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Missile_Cruiser, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Tartan, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Interdictor, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Corellian_Gunboat, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Nebulon_B, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Acclamator, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Pirate_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Satellite, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Frigate, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Victory_Class, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Assault_Frigate, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Calamari_Cruiser, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Star_Destroyer, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Station, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Capital, 0.25</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Frigate, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Corvette, 1</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Fighter, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_SSD, 0.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Vengeance, 0.5</Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_MC30_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_SSD, 0.25</Damage_To_Armor_Mod>
+
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Covenant, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Shield_Covenant_Fighter, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Covenant, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Covenant_Light, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Covenant_Fighter, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Titan_20cm, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Titan_60cm, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Titan_80cm, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Titan_120cm, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Titan_160cm, 0.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Space_Mine, Armor_Titan_191cm, 0.2 </Damage_To_Armor_Mod>
 
 	<!-- Hand-Held Blaster Damage Type - Ground Only -->
 	<Damage_To_Armor_Mod> Damage_Blaster_Hand, Armor_Default, 1 </Damage_To_Armor_Mod>

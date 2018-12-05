@@ -101,6 +101,7 @@
 
 	<!-- Halo
 		<File>module2/Space_Container.xml</File>
+		<File>module2/Space_Squadrons.xml</File>
 	-->
 
 	<File>module2/Land_Companies.xml</File>
@@ -110,7 +111,6 @@
 	<File>module2/Planets.xml</File>
 	<File>module2/Projectiles.xml</File>
 	<File>module2/Space_Death.xml</File>
-	<File>module2/Space_Squadrons.xml</File>
 	<File>module2/Space_Units.xml</File>
 	<File>module2/Structures.xml</File>
 	<File>module2/TransportUnits.xml</File>

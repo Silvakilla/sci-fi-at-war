@@ -8006,7 +8006,7 @@
         <Tactical_Health>3500</Tactical_Health>
         <Shield_Refresh_Rate>40</Shield_Refresh_Rate>
         <Energy_Capacity>3000</Energy_Capacity>
-        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>>
+        <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
         <Affiliation>Dominion</Affiliation>
         <Build_Initially_Locked>No</Build_Initially_Locked>
