@@ -85,11 +85,12 @@
     <File>module0/Space_Units.xml</File>
     <File>module0/Structures.xml</File>
 	
-	<!-- Star Trek -->
-	<!--<File>Module1_Land_Companies.xml</File>
-    <File>module1/Land_Container.xml</File>
-    <File>module1/Land_Death.xml</File>
-    <File>module1/Land_Units.xml</File>-->
+	<!-- Star Trek
+	    <File>Module1_Land_Companies.xml</File>
+        <File>module1/Land_Container.xml</File>
+        <File>module1/Land_Death.xml</File>
+        <File>module1/Land_Units.xml</File>
+    -->
     <File>module1/Projectiles.xml</File>
     <File>module1/Space_Container.xml</File>
     <File>module1/Space_Death.xml</File>
@@ -102,8 +103,8 @@
 	<!-- Halo
 		<File>module2/Space_Container.xml</File>
 		<File>module2/Space_Squadrons.xml</File>
+		<File>module2/Space_Units.xml</File>
 	-->
-
 	<File>module2/Land_Companies.xml</File>
 	<File>module2/Land_Container.xml</File>
 	<File>module2/Land_Death.xml</File>
@@ -111,7 +112,6 @@
 	<File>module2/Planets.xml</File>
 	<File>module2/Projectiles.xml</File>
 	<File>module2/Space_Death.xml</File>
-	<File>module2/Space_Units.xml</File>
 	<File>module2/Structures.xml</File>
 	<File>module2/TransportUnits.xml</File>
 

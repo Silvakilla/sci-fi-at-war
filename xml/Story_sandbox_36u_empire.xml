@@ -57,14 +57,6 @@
 		<Event_Param1>2</Event_Param1>
 	</Event>
 
-    <Event Name="Replace_Tie_Fighter">
-        <Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-        <Reward_Param1>TIE_Interceptor_Squadron</Reward_Param1>
-        <Reward_Param2>TIE_Fighter_Squadron</Reward_Param2>
-        <Prereq>Empire_Enters_Tech_02</Prereq>
-    </Event>
-
 	<Event Name="Spawn_Veers">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>

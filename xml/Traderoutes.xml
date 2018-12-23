@@ -3271,7 +3271,37 @@
         
     </TradeRoute>
 
+    <TradeRoute Name="Earth_Reach">
+        <Point_A>Earth</Point_A>
+        <Point_B>Reach</Point_B>
+        <HS_Speed_Factor>5.0</HS_Speed_Factor>
+        <Political_Control_Gain>0</Political_Control_Gain>
+        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    </TradeRoute>
 
+    <TradeRoute Name="Reach_Dantooine">
+        <Point_A>Reach</Point_A>
+        <Point_B>Dantooine</Point_B>
+        <HS_Speed_Factor>5.0</HS_Speed_Factor>
+        <Political_Control_Gain>0</Political_Control_Gain>
+        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    </TradeRoute>
+
+    <TradeRoute Name="Reach_Dathomir">
+        <Point_A>Reach</Point_A>
+        <Point_B>Dathomir</Point_B>
+        <HS_Speed_Factor>5.0</HS_Speed_Factor>
+        <Political_Control_Gain>0</Political_Control_Gain>
+        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    </TradeRoute>
+
+    <TradeRoute Name="Reach_YagaMinor">
+        <Point_A>Reach</Point_A>
+        <Point_B>YagaMinor</Point_B>
+        <HS_Speed_Factor>5.0</HS_Speed_Factor>
+        <Political_Control_Gain>0</Political_Control_Gain>
+        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    </TradeRoute>
 
 
 </TradeRoutes>

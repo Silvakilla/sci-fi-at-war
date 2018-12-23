@@ -52,7 +52,7 @@
 	<MaximumSpecialStructures> 5 </MaximumSpecialStructures>
 	<MaximumFleetMovementDistance> 150.0 </MaximumFleetMovementDistance>
 	<TradeRouteMovementFactor> 1.0 </TradeRouteMovementFactor>
-	<AIUsesFogOfWar> false </AIUsesFogOfWar>
+	<AIUsesFogOfWar> true </AIUsesFogOfWar>
 	<AutomaticAutoResolve>true</AutomaticAutoResolve>
     <Projectile_Grenade_Gravity>0.05</Projectile_Grenade_Gravity>
     <Projectile_Grenade_Gravity_Lob_Mod>1.35</Projectile_Grenade_Gravity_Lob_Mod>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<Story>
+
+    <Event Name="Universal_Story_Start">
+        <Event_Type>STORY_ELAPSED</Event_Type>
+        <Event_Param1>0</Event_Param1>
+    </Event>
+
+    <Event Name="Rebels_Enter_Tech_01">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>1</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_T_Wing">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Z95_Headhunter_Rebel_Squadron</Reward_Param1>
+        <Reward_Param2>T_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_30_C">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>MC_40A</Reward_Param1>
+        <Reward_Param2>MC_30C</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Rebels_Enter_Tech_02">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>2</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_Z_95">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>X_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_01</Prereq>
+    </Event>
+
+    <Event Name="Replace_Light_Tanks">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Heavy_Tank_Brigade</Reward_Param1>
+        <Reward_Param2>Rebel_Light_Tank_Brigade</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Rebel_Infantry">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Rifle_Infantry_Squad</Reward_Param1>
+        <Reward_Param2>Rebel_Infantry_Squad</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_40_A">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>MC_75</Reward_Param1>
+        <Reward_Param2>MC_40A</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Rebels_Enter_Tech_03">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>3</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_Y_Wing">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>B_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>Y_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Snowspeeder">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Ground_Fighter</Reward_Param1>
+        <Reward_Param2>Rebel_Speeder_Wing</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Rebels_Enter_Tech_04">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>4</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_X_Wing">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>E_Wing_Squadron</Reward_Param1>
+        <Reward_Param2>X_Wing_Squadron</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Nebulon_B">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Nebulon_B2</Reward_Param1>
+        <Reward_Param2>Nebulon_B</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_MC_80_A">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>MC_80_Liberty</Reward_Param1>
+        <Reward_Param2>MC_80A</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Heavy_Tanks">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AAC_Tank_Company</Reward_Param1>
+        <Reward_Param2>Rebel_Heavy_Tank_Brigade</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Rifle_Infantry">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Rebel_Light_Elite_Rifle_Infantry_Squad</Reward_Param1>
+        <Reward_Param2>Rebel_Rifle_Infantry_Squad</Reward_Param2>
+        <Prereq>Rebels_Enter_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Rebels_Enter_Tech_05">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+    </Event>
+
+</Story>

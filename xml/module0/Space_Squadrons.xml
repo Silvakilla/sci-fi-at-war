@@ -26,11 +26,11 @@
         <Build_Cost_Credits>450</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Build_Time_Seconds>20</Build_Time_Seconds>
-        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-        <Tech_Level>99</Tech_Level>
+        <Tech_Level>2</Tech_Level>
 
         <Required_Timeline />
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -109,7 +109,7 @@
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-        <Tech_Level>4</Tech_Level>
+        <Tech_Level>5</Tech_Level>
 
         <Required_Timeline />
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -184,13 +184,12 @@
         <Build_Cost_Credits>150</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Build_Time_Seconds>15</Build_Time_Seconds>
-        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-        <Tech_Level>99</Tech_Level>
+        <Tech_Level>0</Tech_Level>
 
-        <Required_Timeline />
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
         <Required_Special_Structures>Rebel_Light_Ship_Yard</Required_Special_Structures>
 
@@ -260,12 +259,12 @@
         <Build_Cost_Credits>600</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Build_Time_Seconds>25</Build_Time_Seconds>
-        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
         <Slice_Cost_Credits>8000</Slice_Cost_Credits>
 
-        <Tech_Level>99</Tech_Level>
+        <Tech_Level>1</Tech_Level>
 
         <Required_Timeline />
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -423,12 +422,12 @@
         <Build_Cost_Credits>450</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Build_Time_Seconds>35</Build_Time_Seconds>
-        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
         <Slice_Cost_Credits>2000</Slice_Cost_Credits>
 
-        <Tech_Level>99</Tech_Level>
+        <Tech_Level>3</Tech_Level>
 
         <Required_Timeline>3</Required_Timeline>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -651,7 +650,7 @@
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
-        <Tech_Level>5</Tech_Level>
+        <Tech_Level>4</Tech_Level>
 
         <Required_Special_Structures>Empire_Light_Ship_Yard</Required_Special_Structures>
         <Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -792,7 +791,12 @@
 
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
-                <Type>HUNT</Type>
+                <Type>FOW_REVEAL_PING</Type>
+                <Recharge_Seconds> 30.0 </Recharge_Seconds>
+                <Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+                <Effective_Radius> 0.0 </Effective_Radius>
+                <Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance>
+                <GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name>
             </Unit_Ability>
 
             <Unit_Ability>
@@ -907,7 +911,7 @@
         <Build_Time_Seconds>15</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
-        <Tech_Level>5</Tech_Level>
+        <Tech_Level>99</Tech_Level>
 
         <Required_Timeline />
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -917,6 +921,7 @@
 
         <Squadron_Units>TIE_Reaper, TIE_Reaper, TIE_Reaper</Squadron_Units>
         <Squadron_Units>TIE_Reaper, TIE_Reaper, TIE_Reaper</Squadron_Units>
+
         <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -1217,19 +1222,22 @@
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-        <Tech_Level>99</Tech_Level>
+        <Tech_Level>0</Tech_Level>
 
         <Required_Timeline />
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
         <Required_Special_Structures>Empire_Light_Ship_Yard</Required_Special_Structures>
 
         <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+
         <Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
         <Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
+
         <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
+
         <Icon_Name>i_button_tie_bomber.tga</Icon_Name>
         <GUI_Model_Name>EV_TieBomber.ALO</GUI_Model_Name>
         <GUI_Distance>120</GUI_Distance>
@@ -1343,7 +1351,7 @@
         <Build_Time_Seconds>25</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
-        <Tech_Level>3</Tech_Level>
+        <Tech_Level>2</Tech_Level>
 
         <Required_Timeline />
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -1417,7 +1425,7 @@
         <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
 
-        <Tech_Level>3</Tech_Level>
+        <Tech_Level>99</Tech_Level>
 
         <Required_Planets/>
         <Required_Timeline />

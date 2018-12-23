@@ -1799,8 +1799,8 @@
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-        <Attachment_Bone>HP_PT_B_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_PT_B_BONE</Collision_Mesh>
+        <Attachment_Bone>FP_PT_B_00</Attachment_Bone>
+        <Collision_Mesh>FP_PT_B_00</Collision_Mesh>
         <Damage_Decal>HP_PT_B_BLAST</Damage_Decal>
         <Damage_Particles>HP_PT_B_EMITDAMAGE</Damage_Particles>
 
@@ -2763,13 +2763,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_01</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_01</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_01</Damage_Decal>
-        <Damage_Particles>HP_Engine_01</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Engine_02">
@@ -2777,13 +2775,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_02</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_02</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_02</Damage_Decal>
-        <Damage_Particles>HP_Engine_02</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Engine_03">
@@ -2791,13 +2787,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_03</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_03</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_03</Damage_Decal>
-        <Damage_Particles>HP_Engine_03</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Engine_04">
@@ -2805,13 +2799,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_04</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_04</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_04</Damage_Decal>
-        <Damage_Particles>HP_Engine_04</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Engine_05">
@@ -2819,13 +2811,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_05</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_05</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_05</Damage_Decal>
-        <Damage_Particles>HP_Engine_05</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Engine_06">
@@ -2833,13 +2823,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_06</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_06</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_06</Damage_Decal>
-        <Damage_Particles>HP_Engine_06</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Engine_07">
@@ -2847,13 +2835,11 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Attachment_Bone>HP_E_BONE</Attachment_Bone>
-        <Collision_Mesh>HP_E_BONE</Collision_Mesh>
+        <Attachment_Bone>HP_Engine_07</Attachment_Bone>
+        <Collision_Mesh>HP_Engine_07</Collision_Mesh>
         <Health>600.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-        <Damage_Decal>HP_Engine_07</Damage_Decal>
-        <Damage_Particles>HP_Engine_07</Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_MC75_Fighter_Bay">
@@ -22290,8 +22276,8 @@
 
         <Damage_Type>Damage_Star_Destroyer</Damage_Type>
         <Model_To_Attach>EV_Turbolaser_Turret_Dual_21.ALO</Model_To_Attach>
-        <Attachment_Bone>HP_TURRET_36</Attachment_Bone>
-        <Collision_Mesh>HP_TURRET_36</Collision_Mesh>
+        <Attachment_Bone>HP_TURRET_37</Attachment_Bone>
+        <Collision_Mesh>HP_TURRET_37</Collision_Mesh>
 
         <Is_Turret> Yes </Is_Turret>
         <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
@@ -28829,7 +28815,7 @@
         <Fire_Projectile_Type>Proj_Ground_to_Ground_Missile</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Rocket_Launch</Fire_SFXEvent>
@@ -28853,7 +28839,7 @@
         <Fire_Projectile_Type>Proj_Ground_to_Ground_Missile</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Rocket_Launch</Fire_SFXEvent>
@@ -28900,7 +28886,7 @@
         <Fire_Projectile_Type>Proj_Ground_Sabertank_Beam</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Beam_Cannon</Fire_SFXEvent>

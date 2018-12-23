@@ -184,12 +184,13 @@
         <Land_Terrain_Model_Mapping>
             Temperate, 			RI_PLEXSOLDIER.ALO,
             Urban, 				RI_PLEXSOLDIER.ALO,
-            Arctic, 			RI_PLEXS_Snow.ALO,
-            Volcanic, 			RI_PLEXS_Desert.ALO,
-            Desert, 			RI_PLEXS_Desert.ALO,
-            Forest, 			RI_PLEXS_Forest.ALO,
-            Swamp, 				RI_PLEXS_Forest.ALO
+            Arctic, 			RI_PLEXSOLDIER.ALO,
+            Volcanic, 			RI_PLEXSOLDIER.ALO,
+            Desert, 			RI_PLEXSOLDIER.ALO,
+            Forest, 			RI_PLEXSOLDIER.ALO,
+            Swamp, 				RI_PLEXSOLDIER.ALO
         </Land_Terrain_Model_Mapping>
+
         <Icon_Name>i_button_plex_soldier.tga</Icon_Name>
         <Behavior>SELECTABLE</Behavior>
         <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
@@ -1607,7 +1608,7 @@
         <Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
         <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 
-        <Scale_Factor>1.2</Scale_Factor>
+        <Scale_Factor>2.2</Scale_Factor>
         <Size_Value>15</Size_Value>
         <Select_Box_Scale>40</Select_Box_Scale>
 
@@ -1676,31 +1677,32 @@
         <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
         <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
         <Spin_Away_On_Death_Explosion>Medium_Explosion_Land</Spin_Away_On_Death_Explosion>
-        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Spin_Away_On_Death_SFXEvent_Start_Die>
+        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Spin_Away_On_Death_SFXEvent_Start_Die>
         <Remove_Upon_Death>true</Remove_Upon_Death>
 
         <Wind_Disturbance_Radius>100</Wind_Disturbance_Radius>
         <Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
         <Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
 
-        <SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
-        <SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
-        <SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
-        <SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
-        <SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
-        <SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
-        <SFXEvent_Assist_Move> Unit_Assist_Move_Assault_Speeder </SFXEvent_Assist_Move>
-        <SFXEvent_Assist_Attack> Unit_Assist_Attack_Assault_Speeder </SFXEvent_Assist_Attack>
-        <Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
-        <SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
-        <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-        <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 7 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+        <SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+        <SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+        <SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+        <SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+        <SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>
+        <SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+        <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
 
-        <SFXEvent_Unit_Lost> EHD_Unit_Destroyed </SFXEvent_Unit_Lost>
-        <SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>
-        <SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
-        <SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+        <SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+        <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+        <SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+        <SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+        <SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+        <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+        <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
         <Icon_Name>i_button_x_wing.tga</Icon_Name>
         <CategoryMask> Air | AntiStructure</CategoryMask>
@@ -1730,6 +1732,52 @@
 
         <Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
         <Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>ION_CANNON_SHOT</Type>
+                <GUI_Activated_Ability_Name>X_Wing_Ground_Cannon_Shot</GUI_Activated_Ability_Name>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+                <Projectile_Types_Override>Proj_Ship_Small_Laser_Cannon_Charged_Red</Projectile_Types_Override>
+                <Recharge_Seconds>25.0</Recharge_Seconds>
+                <Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Ion_Cannon_Shot_Attack_Ability Name="X_Wing_Ground_Cannon_Shot">
+                <Activation_Style> User_Input </Activation_Style>
+                <Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+            </Ion_Cannon_Shot_Attack_Ability>
+        </Abilities>
+
+        <Force_Healing_Ability Name="X_Wing_Ground">
+            <Activation_Style>Ground_Automatic</Activation_Style>
+            <Heal_Range>5.0</Heal_Range>
+            <Heal_Amount> 0.0 </Heal_Amount>
+            <Heal_Percent> 0.05 </Heal_Percent>
+            <Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+            <Single_Target_Heal>Yes</Single_Target_Heal>
+            <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+
+            <Applicable_Unit_Categories />
+            <Applicable_Unit_Types>X_Wing_Ground</Applicable_Unit_Types>
+            <Excluded_Unit_Types />
+
+            <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+            <Target_Particle_Effect />
+            <Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+            <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+            <Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+            <Target_Light_Effect_Color2 />
+            <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+            <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+            <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+            <Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+            <Owner_Light_Effect_Color2 />
+            <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+            <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+        </Force_Healing_Ability>
     </GroundVehicle>
 
     <!-- ====== -->
@@ -2085,10 +2133,10 @@
         <Affiliation>Empire</Affiliation>
         <Political_Control>0</Political_Control>
         <Size_Value>10</Size_Value>
-        <Damage>1</Damage>
-        <Sensor_Range>20</Sensor_Range>
+        <Damage>5</Damage>
+        <Sensor_Range>40</Sensor_Range>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>40</Tactical_Health>
+        <Tactical_Health>60</Tactical_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>0</Energy_Capacity>
         <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2101,7 +2149,7 @@
         <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
         <Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
         <Victory_Relevant>yes</Victory_Relevant>
-        <Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+        <Projectile_Types>Proj_Hand_Blaster_Red_Stormtrooper</Projectile_Types>
         <Land_FOW_Reveal_Range>225.0</Land_FOW_Reveal_Range>
 
         <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
@@ -2592,7 +2640,7 @@
         <Damage>1</Damage>
         <Sensor_Range>20</Sensor_Range>
         <Shield_Points>0</Shield_Points>
-        <Tactical_Health>30</Tactical_Health>
+        <Tactical_Health>50</Tactical_Health>
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>0</Energy_Capacity>
         <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -3276,6 +3324,51 @@
 		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
 		<Converted_To_Enemy_Die_Time_Seconds>60</Converted_To_Enemy_Die_Time_Seconds>
 
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>ION_CANNON_SHOT</Type>
+                <GUI_Activated_Ability_Name>TIE_Ground_Fighter_Cannon_Shot</GUI_Activated_Ability_Name>
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ion_Cannon_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+                <Projectile_Types_Override>Proj_Ship_Small_Laser_Cannon_Charged_Green</Projectile_Types_Override>
+                <Recharge_Seconds>25.0</Recharge_Seconds>
+                <Supports_Autofire>True</Supports_Autofire>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+            <Ion_Cannon_Shot_Attack_Ability Name="TIE_Ground_Fighter_Cannon_Shot">
+                <Activation_Style> User_Input </Activation_Style>
+                <Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+            </Ion_Cannon_Shot_Attack_Ability>
+        </Abilities>
+
+        <Force_Healing_Ability Name="TIE_Fighter_Ground">
+            <Activation_Style>Ground_Automatic</Activation_Style>
+            <Heal_Range>5.0</Heal_Range>
+            <Heal_Amount> 0.0 </Heal_Amount>
+            <Heal_Percent> 0.05 </Heal_Percent>
+            <Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+            <Single_Target_Heal>Yes</Single_Target_Heal>
+            <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+
+            <Applicable_Unit_Categories />
+            <Applicable_Unit_Types>TIE_Fighter_Ground</Applicable_Unit_Types>
+            <Excluded_Unit_Types />
+
+            <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+            <Target_Particle_Effect />
+            <Target_Particle_Bone_Name>B_HEAD</Target_Particle_Bone_Name>
+            <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+            <Target_Light_Effect_Color>1.2, 2.0, 1.2</Target_Light_Effect_Color>
+            <Target_Light_Effect_Color2 />
+            <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+            <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+            <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+            <Owner_Light_Effect_Color>1.2, 2.0, 1.2</Owner_Light_Effect_Color>
+            <Owner_Light_Effect_Color2 />
+            <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+            <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+        </Force_Healing_Ability>
 	</GroundVehicle>
 
     <GroundVehicle Name="AT_AR_Walker">
@@ -4602,7 +4695,7 @@
         <Size_Value>60</Size_Value>
         <Damage>6</Damage>
         <Sensor_Range>80</Sensor_Range>
-        <Shield_Points>50</Shield_Points>
+        <Shield_Points>100</Shield_Points>
         <Tactical_Health>500</Tactical_Health>
         <Shield_Refresh_Rate>8</Shield_Refresh_Rate>
         <Energy_Capacity>999</Energy_Capacity>
@@ -4615,14 +4708,14 @@
         <Is_Affected_By_Gravity_Control_Field>Yes</Is_Affected_By_Gravity_Control_Field>
 
         <Projectile_Types>Proj_Blaster_Cannon_Medium_Blue</Projectile_Types>
-        <Projectile_Fire_Recharge_Seconds>1.4</Projectile_Fire_Recharge_Seconds>
-        <Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+        <Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+        <Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
         <Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
         <Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
 
-        <Targeting_Fire_Inaccuracy>Infantry, 10.0</Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy>Infantry, 5.0</Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
-        <Targeting_Fire_Inaccuracy>Air, 70.0</Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy>Air, 50.0</Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy>Structure, 2.0</Targeting_Fire_Inaccuracy>
         <Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
 

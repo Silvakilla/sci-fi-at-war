@@ -168,9 +168,9 @@
 	<Japanese_Line_Percent>0.52</Japanese_Line_Percent>
 	<Japanese_ST_Line_Percent>0.9</Japanese_ST_Line_Percent>
 
-	<AIUsesFogOfWarGalactic> False </AIUsesFogOfWarGalactic>
-	<AIUsesFogOfWarSpace> False </AIUsesFogOfWarSpace>
-	<AIUsesFogOfWarLand> False </AIUsesFogOfWarLand>
+	<AIUsesFogOfWarGalactic> True </AIUsesFogOfWarGalactic>
+	<AIUsesFogOfWarSpace> True </AIUsesFogOfWarSpace>
+	<AIUsesFogOfWarLand> True </AIUsesFogOfWarLand>
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
 	<ShowUnitAIPlanAttachment> False </ShowUnitAIPlanAttachment>
 	<AITechLevelProductionTimeWeight> 1.0 </AITechLevelProductionTimeWeight>
@@ -263,9 +263,9 @@
 	
 	<!-- Hard Point Friendly and Ememy Reticle Textures by Hard Point Type -->
 	
-	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.02 </HardPoint_Target_Reticle_Enemy_Screen_Size>
+	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.01 </HardPoint_Target_Reticle_Enemy_Screen_Size>
 
-	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.02 </HardPoint_Target_Reticle_Friendly_Screen_Size>
+	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.01 </HardPoint_Target_Reticle_Friendly_Screen_Size>
 
 	<!-- -->
 
@@ -829,7 +829,7 @@
 	<Land_Collidable_Grid_Cull_Size>64.0f</Land_Collidable_Grid_Cull_Size>
 	
 	<!-- Settings to define a "Raid Force" (ie. a land combat force that can bypass space combat) -->
-	<Raid_Force_Required_Faction> Rebel </Raid_Force_Required_Faction>
+	<Raid_Force_Required_Faction> Rebel, Empire </Raid_Force_Required_Faction>
 	<Raid_Force_Limited_Object_Category_Mask> Infantry | Vehicle | Air </Raid_Force_Limited_Object_Category_Mask>
 	<Raid_Force_Max_Limited_Objects> 2 </Raid_Force_Max_Limited_Objects>
     <Raid_Force_Max_Heros> 1 </Raid_Force_Max_Heros>

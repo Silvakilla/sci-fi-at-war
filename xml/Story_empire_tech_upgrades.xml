@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Story>
+	
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+    <Event Name="Empire_Enters_Tech_02">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>2</Event_Param1>
+    </Event>
+
+	<Event Name="Replace_Tie_Fighter">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Interceptor_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Fighter_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Tartan">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Lancer_Frigate</Reward_Param1>
+        <Reward_Param2>Tartan_Patrol_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Venator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Victory_Destroyer_Class_I</Reward_Param1>
+        <Reward_Param2>Venator</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_AT_PT">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_AT_AR_Squad</Reward_Param1>
+        <Reward_Param2>AT_PT_Company</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Replace_Scout_Bike">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Scouttrooper_Sniper_Squad</Reward_Param1>
+        <Reward_Param2>Imperial_Light_Scout_Squad</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_02</Prereq>
+    </Event>
+
+    <Event Name="Empire_Enters_Tech_03">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>3</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_Tie_Scout">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Phantom_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Scout_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Escort_Carrier">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Escort_Carrier</Reward_Param1>
+        <Reward_Param2>Escort_Carrier</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Victory_Class_I">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Victory_Destroyer_Class_II</Reward_Param1>
+        <Reward_Param2>Victory_Destroyer_Class_I</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Acclamator">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Harrow_Destroyer</Reward_Param1>
+        <Reward_Param2>Acclamator</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_AT_AR">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Heavy_Scout_Squad</Reward_Param1>
+        <Reward_Param2>Imperial_AT_AR_Squad</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_TIE_Crawler">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Ground_Fighter</Reward_Param1>
+        <Reward_Param2>Imperial_Anti_Infantry_Brigade</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Replace_Army_Trooper">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Stormtrooper_Squad</Reward_Param1>
+        <Reward_Param2>Imperial_Armytrooper_Squad</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
+    <Event Name="Empire_Enters_Tech_04">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>4</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_Tie_Interceptor">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Defender_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Interceptor_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Victor_II">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Interdictor_Cruiser</Reward_Param1>
+        <Reward_Param2>Victor_II_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Broadside">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Strike_Cruiser</Reward_Param1>
+        <Reward_Param2>Broadside_Class_Cruiser</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Star_Destroyer_Class_I">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Star_Destroyer_Class_II</Reward_Param1>
+        <Reward_Param2>Star_Destroyer_Class_I</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Replace_Shock_Trooper">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Purgetrooper_Company</Reward_Param1>
+        <Reward_Param2>Imperial_Shocktrooper_Squad</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
+    <Event Name="Empire_Enters_Tech_05">
+        <Event_Type>STORY_TECH_LEVEL</Event_Type>
+        <Event_Param1>5</Event_Param1>
+    </Event>
+
+    <Event Name="Replace_Tie_Defender">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Predator_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Defender_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_Tie_Bomber">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Neutralizer_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Bomber_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_Storm_Trooper">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>Imperial_Triton_Stormtrooper_Squad</Reward_Param1>
+        <Reward_Param2>Imperial_Stormtrooper_Squad</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+
+    <Event Name="Replace_AT_ST">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>AT_KT_Walker_Company</Reward_Param1>
+        <Reward_Param2>Imperial_Heavy_Scout_Squad</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_05</Prereq>
+    </Event>
+	
+</Story>

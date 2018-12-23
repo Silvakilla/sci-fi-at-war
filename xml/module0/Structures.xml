@@ -221,7 +221,7 @@
         <Text_ID>TEXT_REBEL_TECH_TWO</Text_ID>
         <Icon_Name>I_BUTTON_E_TECH_UPGRADE_2.TGA</Icon_Name>
         <Encyclopedia_Text>TEXT_ENCYCLOPEDIA_REBEL_TECH_TWO</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TECH</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
         <Tech_Level>0</Tech_Level>
         <Build_Initially_Locked>Yes</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -233,7 +233,7 @@
         <Text_ID>TEXT_REBEL_TECH_THREE</Text_ID>
         <Icon_Name>I_BUTTON_E_TECH_UPGRADE_3.TGA</Icon_Name>
         <Encyclopedia_Text>TEXT_ENCYCLOPEDIA_REBEL_TECH_THREE</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TECH</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
         <Tech_Level>1</Tech_Level>
         <Build_Initially_Locked>Yes</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -245,7 +245,7 @@
         <Text_ID>TEXT_REBEL_TECH_FOUR</Text_ID>
         <Icon_Name>I_BUTTON_E_TECH_UPGRADE_4.TGA</Icon_Name>
         <Encyclopedia_Text>TEXT_ENCYCLOPEDIA_REBEL_TECH_FOUR</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TECH</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
         <Tech_Level>2</Tech_Level>
         <Build_Initially_Locked>Yes</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -257,7 +257,7 @@
         <Text_ID>TEXT_REBEL_TECH_FIVE</Text_ID>
         <Icon_Name>I_BUTTON_E_TECH_UPGRADE_5.TGA</Icon_Name>
         <Encyclopedia_Text>TEXT_ENCYCLOPEDIA_REBEL_TECH_FIVE</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TECH</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_ADVANCE</Encyclopedia_Unit_Class>
         <Tech_Level>3</Tech_Level>
         <Build_Initially_Locked>Yes</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
@@ -287,7 +287,7 @@
         <Size_Value>30</Size_Value>
         <Base_Position>Orbital</Base_Position>
 
-        <Tech_Level>1</Tech_Level>
+        <Tech_Level>0</Tech_Level>
 
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>

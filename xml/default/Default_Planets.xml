@@ -1126,7 +1126,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>30</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-10.0, -30.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>8</Special_Structures_Land>
+		<Special_Structures_Land>9</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -1324,7 +1324,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>105</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>30.0, -110.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Land>8</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -1518,7 +1518,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>160</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-5.0, 35.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>8</Special_Structures_Land>
+		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -1690,7 +1690,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>30</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-120.0, -220.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>2</Special_Structures_Land>
+		<Special_Structures_Land>4</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>2</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -2572,7 +2572,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>60</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-220.0, -210.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -3779,7 +3779,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>75</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>300.0, -75.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -4992,7 +4992,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>60</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-90.0, -80.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>4</Special_Structures_Land>
+		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -6491,7 +6491,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<!--Keine Erklärung-->
+		<!--Keine Erkl�rung-->
 		<Pre_Lit>no</Pre_Lit>
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
@@ -6504,19 +6504,19 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>8</Additional_Population_Capacity>
 		<!--Position des Planeten Koordinatensystem 0 entspricht der mitte der Galaxis-->
 		<Galactic_Position>-320.0, -20.0, 10.0</Galactic_Position>
-		<!--Galaxis Bauslots für Bodengebäude & Raumbasen-->
+		<!--Galaxis Bauslots f�r Bodengeb�ude & Raumbasen-->
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<!--Planetenbestimmung Force-Hell/Dunkel-Kampfbonus Rebellen/Imperium -->
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<!--Bodeninvasion möglich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
+		<!--Bodeninvasion m�glich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-		<!--Die Maps auf denen gekämpft wird-->
+		<!--Die Maps auf denen gek�mpft wird-->
 		<Space_Tactical_Map>_SPACE_PLANET_GAROS_01.ted</Space_Tactical_Map>
 		<Land_Tactical_Map> _Land_Planet_Yavin_02.ted </Land_Tactical_Map>
-		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschränkung der Technologien?-->
+		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschr�nkung der Technologien?-->
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -6563,7 +6563,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<!--Keine Erklärung-->
+		<!--Keine Erkl�rung-->
 		<Pre_Lit>no</Pre_Lit>
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
@@ -6576,19 +6576,19 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>8</Additional_Population_Capacity>
 		<!--Position des Planeten Koordinatensystem 0 entspricht der mitte der Galaxis-->
 		<Galactic_Position>-245.0, 185.0, 10.0</Galactic_Position>
-		<!--Galaxis Bauslots für Bodengebäude & Raumbasen-->
+		<!--Galaxis Bauslots f�r Bodengeb�ude & Raumbasen-->
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<!--Planetenbestimmung Force-Hell/Dunkel-Kampfbonus Rebellen/Imperium -->
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<!--Bodeninvasion möglich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
+		<!--Bodeninvasion m�glich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-		<!--Die Maps auf denen gekämpft wird-->
+		<!--Die Maps auf denen gek�mpft wird-->
 		<Space_Tactical_Map>_SPACE_PLANET_TRIGALIS_01.ted</Space_Tactical_Map>
 		<Land_Tactical_Map> _Land_Planet_Yavin_02.ted </Land_Tactical_Map>
-		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschränkung der Technologien?-->
+		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschr�nkung der Technologien?-->
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -6635,7 +6635,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<!--Keine Erklärung-->
+		<!--Keine Erkl�rung-->
 		<Pre_Lit>no</Pre_Lit>
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
@@ -6648,19 +6648,19 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>8</Additional_Population_Capacity>
 		<!--Position des Planeten Koordinatensystem 0 entspricht der mitte der Galaxis-->
 		<Galactic_Position>-100.0, 350.0, 10.0</Galactic_Position>
-		<!--Galaxis Bauslots für Bodengebäude & Raumbasen-->
+		<!--Galaxis Bauslots f�r Bodengeb�ude & Raumbasen-->
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<!--Planetenbestimmung Force-Hell/Dunkel-Kampfbonus Rebellen/Imperium -->
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<!--Bodeninvasion möglich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
+		<!--Bodeninvasion m�glich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-		<!--Die Maps auf denen gekämpft wird-->
+		<!--Die Maps auf denen gek�mpft wird-->
 		<Space_Tactical_Map>_SPACE_PLANET_BILBRINGI_01.ted</Space_Tactical_Map>
 		<Land_Tactical_Map> _Land_Planet_Kuat_02.ted </Land_Tactical_Map>
-		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschränkung der Technologien?-->
+		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschr�nkung der Technologien?-->
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -6707,7 +6707,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<!--Keine Erklärung-->
+		<!--Keine Erkl�rung-->
 		<Pre_Lit>no</Pre_Lit>
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
@@ -6720,19 +6720,19 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>8</Additional_Population_Capacity>
 		<!--Position des Planeten Koordinatensystem 0 entspricht der mitte der Galaxis-->
 		<Galactic_Position>-25.0, 350.0, 10.0</Galactic_Position>
-		<!--Galaxis Bauslots für Bodengebäude & Raumbasen-->
+		<!--Galaxis Bauslots f�r Bodengeb�ude & Raumbasen-->
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<!--Planetenbestimmung Force-Hell/Dunkel-Kampfbonus Rebellen/Imperium -->
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<!--Bodeninvasion möglich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
+		<!--Bodeninvasion m�glich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-		<!--Die Maps auf denen gekämpft wird-->
+		<!--Die Maps auf denen gek�mpft wird-->
 		<Space_Tactical_Map>_SPACE_PLANET_BAKURA_01.ted</Space_Tactical_Map>
 		<Land_Tactical_Map> _Land_Planet_Yavin_02.ted </Land_Tactical_Map>
-		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschränkung der Technologien?-->
+		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschr�nkung der Technologien?-->
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -6837,7 +6837,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>12, 12, 0.1</Name_Adjust>
 		<Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-		<!--Keine Erklärung-->
+		<!--Keine Erkl�rung-->
 		<Pre_Lit>no</Pre_Lit>
 		<Political_Control>0</Political_Control>
 		<Camera_Aligned>yes</Camera_Aligned>
@@ -6850,19 +6850,19 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Additional_Population_Capacity>8</Additional_Population_Capacity>
 		<!--Position des Planeten Koordinatensystem 0 entspricht der mitte der Galaxis-->
 		<Galactic_Position>60.0, -300.0, 10.0</Galactic_Position>
-		<!--Galaxis Bauslots für Bodengebäude & Raumbasen-->
+		<!--Galaxis Bauslots f�r Bodengeb�ude & Raumbasen-->
 		<Special_Structures_Land>6</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>1</Max_Space_Base>
 		<!--Planetenbestimmung Force-Hell/Dunkel-Kampfbonus Rebellen/Imperium -->
 		<The_Force>Neutral</The_Force>
 		<Force_Strength>0.0</Force_Strength>
-		<!--Bodeninvasion möglich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
+		<!--Bodeninvasion m�glich ja/nein, bei Nein wechselt Planet automatisch die Seite nach einer Raumschlacht-->
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-		<!--Die Maps auf denen gekämpft wird-->
+		<!--Die Maps auf denen gek�mpft wird-->
 		<Space_Tactical_Map>_SPACE_PLANET_ONDERON_01.ted</Space_Tactical_Map>
 		<Land_Tactical_Map> _Land_Planet_Yavin_02.ted </Land_Tactical_Map>
-		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschränkung der Technologien?-->
+		<!--Eroberungsbonus und Schierigkeitsgrad bei Technologieklau und Beschr�nkung der Technologien?-->
 		<Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -6914,7 +6914,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>30</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-105.0, -150.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>3</Special_Structures_Land>
+		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -6922,7 +6922,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 		
 		<Space_Tactical_Map>_SPACE_PLANET_BILBRINGI_01.ted</Space_Tactical_Map>
-		<Land_Tactical_Map> Bilbringi.ted </Land_Tactical_Map>
+		<Land_Tactical_Map> _Land_Planet_Kuat_02.ted </Land_Tactical_Map>
 		
 		<Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -7407,7 +7407,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>90</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>8</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>-190.0, -335.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>8</Special_Structures_Land>
+		<Special_Structures_Land>10</Special_Structures_Land>
 		<Special_Structures_Space>3</Special_Structures_Space>
 		<Max_Space_Base>3</Max_Space_Base>
 		<The_Force>Neutral</The_Force>

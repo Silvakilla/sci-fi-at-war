@@ -27,28 +27,48 @@
 			HP_ISD_MKI_Main_Turret_06,
 			HP_ISD_MKI_Main_Turret_07,
 			HP_ISD_MKI_Main_Turret_08,
-			HP_ISD_MKI_01,
-			HP_ISD_MKI_02,
-			HP_ISD_MKI_03,
-			HP_ISD_MKI_04,
-			HP_ISD_MKI_05,
-			HP_ISD_MKI_06,
-			HP_ISD_MKI_07,
-			HP_ISD_MKI_08,
-			HP_ISD_MKI_09,
-			HP_ISD_MKI_10,
-			HP_ISD_MKI_11,
-			HP_ISD_MKI_12,
-			HP_ISD_MKI_13,
-			HP_ISD_MKI_14,
-			HP_ISD_MKI_15,
-			HP_ISD_MKI_16,
-			HP_ISD_MKI_17,
-			HP_ISD_MKI_Hangar,
-			HP_ISD_MKI_Tractor_Beam,
-			HP_ISD_MKI_Engines,
-			HP_ISD_MKI_Shields,
-			HP_ISD_MKI_Reactor
+			HP_Star_Destroyer_Class_I_Turret_01,
+			HP_Star_Destroyer_Class_I_Turret_02,
+			HP_Star_Destroyer_Class_I_Turret_03,
+			HP_Star_Destroyer_Class_I_Turret_04,
+			HP_Star_Destroyer_Class_I_Turret_05,
+			HP_Star_Destroyer_Class_I_Turret_06,
+			HP_Star_Destroyer_Class_I_Turret_07,
+			HP_Star_Destroyer_Class_I_Turret_08,
+			HP_Star_Destroyer_Class_I_Turret_09,
+			HP_Star_Destroyer_Class_I_Turret_10,
+			HP_Star_Destroyer_Class_I_Turret_11,
+			HP_Star_Destroyer_Class_I_Turret_12,
+			HP_Star_Destroyer_Class_I_Turret_13,
+			HP_Star_Destroyer_Class_I_Turret_14,
+			HP_Star_Destroyer_Class_I_Turret_15,
+			HP_Star_Destroyer_Class_I_Turret_16,
+			HP_Star_Destroyer_Class_I_Turret_17,
+			HP_Star_Destroyer_Class_I_Turret_18,
+			HP_Star_Destroyer_Class_I_Turret_19,
+			HP_Star_Destroyer_Class_I_Turret_20,
+			HP_Star_Destroyer_Class_I_Turret_21,
+			HP_Star_Destroyer_Class_I_Triple_Turret_01,
+			HP_Star_Destroyer_Class_I_Triple_Turret_02,
+			HP_Star_Destroyer_Class_I_Ion_Turret_01,
+			HP_Star_Destroyer_Class_I_Ion_Turret_02,
+			HP_Star_Destroyer_Class_I_Ion_Turret_03,
+			HP_Star_Destroyer_Class_I_Ion_Turret_04,
+			HP_Star_Destroyer_Class_I_Ion_Turret_05,
+			HP_Star_Destroyer_Class_I_Ion_Turret_06,
+			HP_Star_Destroyer_Class_I_Ion_Turret_07,
+			HP_Star_Destroyer_Class_I_Ion_Turret_08,
+			HP_Star_Destroyer_Class_I_Anti_Fighter_Turret_01,
+			HP_Star_Destroyer_Class_I_Anti_Fighter_Turret_02,
+			HP_Star_Destroyer_Class_I_Anti_Fighter_Turret_03,
+			HP_Star_Destroyer_Class_I_Anti_Fighter_Turret_04,
+			HP_Star_Destroyer_Class_I_Anti_Fighter_Turret_05,
+			HP_Star_Destroyer_Class_I_Anti_Fighter_Turret_06,
+			HP_Star_Destroyer_Class_I_Hangar,
+			HP_Star_Destroyer_Class_I_Tractor_Beam,
+			HP_Star_Destroyer_Class_I_Engines,
+			HP_Star_Destroyer_Class_I_Shields,
+			HP_Star_Destroyer_Class_I_Reactor
 		</HardPoints>
 
 		<Tech_Level>99</Tech_Level>
@@ -432,7 +452,7 @@
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
 		<Space_Model_Name>RV_HOMEONE.ALO</Space_Model_Name>
 		<Mass>0.995</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>2.2</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>3</Ranking_In_Category>
@@ -545,7 +565,6 @@
 				<Effective_Radius>6000</Effective_Radius>
 				<Recharge_Seconds>20</Recharge_Seconds>
 				<Expiration_Seconds>15</Expiration_Seconds>
-				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
 				<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
 				<SFXEvent_Target_Ability> Unit_Barrage_Ackbar </SFXEvent_Target_Ability>
 			</Unit_Ability>
@@ -1564,7 +1583,7 @@
 
 	<UniqueUnit Name="Sundered_Heart_Death_Clone">
 		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
-		<Space_Model_Name>rv_corvette.alo</Space_Model_Name>
+		<Space_Model_Name>Rv_antilliesvette.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>

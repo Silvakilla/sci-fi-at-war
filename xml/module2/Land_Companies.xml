@@ -1,6 +1,254 @@
 <?xml version="1.0"?>
 <LandCompanies>
 
+    <!-- ====== -->
+    <!-- EMPIRE -->
+    <!-- ====== -->
+
+    <GroundCompany Name="Empire_Marine_Squad">
+        <Variant_Of_Existing_Type>Marine_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Marine_Sniper_Squad">
+        <Variant_Of_Existing_Type>Marine_Sniper_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_ODST_Squad">
+        <Variant_Of_Existing_Type>ODST_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Anti_Vehicle_Spartan_Squad">
+        <Variant_Of_Existing_Type>Anti_Vehicle_Spartan_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_UNSC_Scorpion_Company">
+        <Variant_Of_Existing_Type>UNSC_Scorpion_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Warthog_Company">
+        <Variant_Of_Existing_Type>Warthog_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Warthog_Gauss_Company">
+        <Variant_Of_Existing_Type>Warthog_Gauss_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Warthog_Sam_Company">
+        <Variant_Of_Existing_Type>Warthog_Sam_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Hornet_Company">
+        <Variant_Of_Existing_Type>Hornet_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Assault_Spartan_Squad">
+        <Variant_Of_Existing_Type>Assault_Spartan_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Grunt_Squad">
+        <Variant_Of_Existing_Type>Grunt_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Elite_Squad">
+        <Variant_Of_Existing_Type>Elite_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Elite_Ranger_Squad">
+        <Variant_Of_Existing_Type>Elite_Ranger_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Zealot_Squad">
+        <Variant_Of_Existing_Type>Zealot_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Jackal_Squad">
+        <Variant_Of_Existing_Type>Jackal_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Hunter_Squad">
+        <Variant_Of_Existing_Type>Hunter_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Ghost_Company">
+        <Variant_Of_Existing_Type>Ghost_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Wraith_Company">
+        <Variant_Of_Existing_Type>Wraith_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Wraith_AA_Company">
+        <Variant_Of_Existing_Type>Wraith_AA_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Empire_Banshee_Company">
+        <Variant_Of_Existing_Type>Banshee_Company</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <!-- ===== -->
+    <!-- REBEL -->
+    <!-- ===== -->
+
+    <GroundCompany Name="Rebel_Marine_Squad">
+        <Variant_Of_Existing_Type>Marine_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Marine_Sniper_Squad">
+        <Variant_Of_Existing_Type>Marine_Sniper_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_ODST_Squad">
+        <Variant_Of_Existing_Type>ODST_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Anti_Vehicle_Spartan_Squad">
+        <Variant_Of_Existing_Type>Anti_Vehicle_Spartan_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_UNSC_Scorpion_Company">
+        <Variant_Of_Existing_Type>UNSC_Scorpion_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Warthog_Company">
+        <Variant_Of_Existing_Type>Warthog_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Warthog_Gauss_Company">
+        <Variant_Of_Existing_Type>Warthog_Gauss_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Warthog_Sam_Company">
+        <Variant_Of_Existing_Type>Warthog_Sam_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Hornet_Company">
+        <Variant_Of_Existing_Type>Hornet_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Assault_Spartan_Squad">
+        <Variant_Of_Existing_Type>Assault_Spartan_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Grunt_Squad">
+        <Variant_Of_Existing_Type>Grunt_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Elite_Squad">
+        <Variant_Of_Existing_Type>Elite_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Elite_Ranger_Squad">
+        <Variant_Of_Existing_Type>Elite_Ranger_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Zealot_Squad">
+        <Variant_Of_Existing_Type>Zealot_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Jackal_Squad">
+        <Variant_Of_Existing_Type>Jackal_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Hunter_Squad">
+        <Variant_Of_Existing_Type>Hunter_Squad</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Barracks</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Ghost_Company">
+        <Variant_Of_Existing_Type>Ghost_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Wraith_Company">
+        <Variant_Of_Existing_Type>Wraith_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Wraith_AA_Company">
+        <Variant_Of_Existing_Type>Wraith_AA_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
+    <GroundCompany Name="Rebel_Banshee_Company">
+        <Variant_Of_Existing_Type>Banshee_Company</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Ground_Vehicle_Factory</Required_Special_Structures>
+    </GroundCompany>
+
     <!-- ==== -->
     <!-- UNSC -->
     <!-- ==== -->
@@ -9,7 +257,7 @@
         <Text_ID>TEXT_UNIT_MARINE_SQUAD</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_MARINE_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_MARINE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -26,7 +274,7 @@
         <Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 
-        <Tech_Level>3</Tech_Level>
+        <Tech_Level>1</Tech_Level>
 
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -99,7 +347,7 @@
         <Text_ID>TEXT_UNIT_MARINE_SNIPER_TEAM</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_MARINE_SNIPER_TEAM TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_MARINE TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -117,7 +365,7 @@
         <Build_Initially_Locked>No</Build_Initially_Locked>
         <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
-        <Tech_Level>1</Tech_Level>
+        <Tech_Level>2</Tech_Level>
 
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>1</Required_Ground_Base_Level>
@@ -152,7 +400,7 @@
         <Text_ID>TEXT_UNIT_ODST_SQUAD</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_ODST_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_ODST TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -372,7 +620,7 @@
         <Text_ID>TEXT_UNIT_SCORPION_COMPANY</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_SCORPION_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_SCORPION</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TANK</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -425,7 +673,7 @@
         <Text_ID>TEXT_UNIT_WARTHOG_COMPANY</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_WARTHOG_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_WARTHOG</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -484,7 +732,7 @@
         <Text_ID>TEXT_UNIT_HOG_GAUSS_COMPANY</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_HOG_GAUSS_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_WARTHOG</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -543,7 +791,7 @@
         <Text_ID>TEXT_UNIT_HOG_SAM_COMPANY</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Encyclopedia_Text>TEXT_TOOLTIP_HOG_SAM_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_WARTHOG</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -602,7 +850,7 @@
         <Text_ID>TEXT_UNIT_HORNET_COMPANY</Text_ID>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Encyclopedia_Text>TEXT_TOOLTIP_HORNET_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_HORNET</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HORNET</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -663,7 +911,7 @@
 
     <GroundCompany Name="Grunt_Squad">
         <Text_ID>TEXT_UNIT_GRUNT_SQUAD</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_GRUNT_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_GRUNT TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
@@ -747,7 +995,7 @@
 
     <GroundCompany Name="Elite_Squad">
         <Text_ID>TEXT_UNIT_ELITE_SQUAD</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_ELITE_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_ELITE_MINOR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
@@ -827,7 +1075,7 @@
 
     <GroundCompany Name="Elite_Ranger_Squad">
         <Text_ID>TEXT_UNIT_ELITE_RANGER_TEAM</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_ELITE_RANGER_TEAM TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_ELITE_MINOR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
@@ -896,7 +1144,7 @@
         <Text_ID>TEXT_UNIT_ZEALOT_TEAM</Text_ID>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Encyclopedia_Text>TEXT_TOOLTIP_ZEALOT_TEAM</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_ZEALOT</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HEAVY_INFANTRY</Encyclopedia_Unit_Class>
         <Icon_Name>i_button_zealot.tga</Icon_Name>
 
@@ -957,7 +1205,7 @@
 
     <GroundCompany Name="Jackal_Squad">
         <Text_ID>TEXT_UNIT_JACKAL_SQUAD</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_JACKAL_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_JACKAL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
@@ -1029,7 +1277,7 @@
 
     <GroundCompany Name="Hunter_Squad">
         <Text_ID>TEXT_UNIT_HUNTER_SQUAD</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_HUNTER_SQUAD TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_HUNTER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
@@ -1099,8 +1347,8 @@
         <Text_ID>TEXT_UNIT_GHOST_COMPANY</Text_ID>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Encyclopedia_Text>TEXT_TOOLTIP_GHOST_COMPANY</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_GHOST</Encyclopedia_Unit_Class>
+        <Encyclopedia_Text>TEXT_TOOLTIP_GHOST</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
         <Is_Dummy>Yes</Is_Dummy>
@@ -1167,7 +1415,7 @@
         <Text_ID>TEXT_UNIT_WRAITH_TANK_COMPANY</Text_ID>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Encyclopedia_Text>TEXT_TOOLTIP_WRAITH_TANK_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_WRAITH_TANK</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TANK</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -1231,7 +1479,7 @@
         <Text_ID>TEXT_UNIT_WRAITH_AA_TANK_COMPANY</Text_ID>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Encyclopedia_Text>TEXT_TOOLTIP_WRAITH_AA_TANK_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_WRAITH_AA_TANK</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TANK</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
@@ -1295,7 +1543,7 @@
         <Text_ID>TEXT_UNIT_BANSHEE_COMPANY</Text_ID>
         <Encyclopedia_Good_Against/>
         <Encyclopedia_Vulnerable_To/>
-        <Encyclopedia_Text>TEXT_TOOLTIP_BANSHEE_COMPANY</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_BANSHEE</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
 
         <GUI_Row> 1 </GUI_Row>
