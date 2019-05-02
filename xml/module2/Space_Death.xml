@@ -17,4 +17,55 @@
         <Remove_Upon_Death>true</Remove_Upon_Death>
     </SpaceUnit>
 
+    <SpaceUnit Name="Halcyon_Cruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_HALCYON_CRUISER</Text_ID>
+        <Space_Model_Name>unsc/halcyon/halcyon_cruiser_remodel.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>unsc</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Phoenix_Death_Clone">
+        <Text_ID>TEXT_UNIT_PHOENIX</Text_ID>
+        <Space_Model_Name>unsc/phoenix/phoenix.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>unsc</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Iliad_Carrier_Death_Clone">
+        <Text_ID>TEXT_UNIT_ILIAD_CARRIER</Text_ID>
+        <Space_Model_Name>unsc/iliad/iliad.ALO</Space_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.7</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>unsc</Affiliation>
+        <Ship_Class>Capital</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpaceUnit>
+
 </SpaceDeath>

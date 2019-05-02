@@ -3185,7 +3185,7 @@
 
 	</Campaign>
 
-	<!-- Development
+	<!-- Development -->
 	<Campaign Name="Sandbox_Development_Empire">
 
 		<Campaign_Set> Development </Campaign_Set>
@@ -3254,9 +3254,9 @@
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Home_One</Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Ghost_Company </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Ghost_Company </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Orion_Battlecruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Orion_Battlecruiser </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Orion_Battlecruiser </Starting_Forces>
 
 		<Starting_Forces> Pirates, Byss, MC_80_Liberty</Starting_Forces>
 		<Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
@@ -3340,5 +3340,5 @@
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 	</Campaign>
-	-->
+
 </Campaigns>

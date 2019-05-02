@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-
 <Mega_Files>
 
 	<File> Data\RussianSpeech.meg </File>
@@ -17,7 +16,7 @@
 	<File> Data\Textures.meg </File>
 	<File> Data\Music.meg </File>
 	<File> Data\GermanSpeech.meg </File>
-	<File> Data\BetterAI.meg </File>
+	<File> Data\swsfawse_ai.meg </File>
 
 </Mega_Files>
 

@@ -148,6 +148,15 @@
         </Samples>
     </SFXEvent>
 
+    <SFXEvent Name="Unit_Covenant_Space_Plasma_Launcher_Fire">
+        <Use_Preset>Preset_GUNS</Use_Preset>
+        <Samples>
+            Data\Audio\Weapons\Halo\Plasma_Launcher\plas_launcher_fire1.wav
+            Data\Audio\Weapons\Halo\Plasma_Launcher\plas_launcher_fire2.wav
+            Data\Audio\Weapons\Halo\Plasma_Launcher\plas_launcher_fire3.wav
+        </Samples>
+    </SFXEvent>
+
     <SFXEvent Name="Unit_Hunter_Melee">
         <Use_Preset>Preset_GUN</Use_Preset>
         <Min_Volume>95</Min_Volume>
@@ -202,11 +211,6 @@
     <SFXEvent Name="Unit_Needle_Fire">
         <Use_Preset>Preset_GUNS</Use_Preset>
         <Samples>Data\Audio\Weapons\Halo\Needler\needler.wav</Samples>
-    </SFXEvent>
-
-    <SFXEvent Name="Unit_Missile_Fire">
-        <Use_Preset>Preset_GUNS</Use_Preset>
-        <Samples>Data\Audio\Weapons\Halo\archermissile6.wav </Samples>
     </SFXEvent>
 
     <SFXEvent Name="Unit_Pulse_Fire">
@@ -520,23 +524,6 @@
         <Max_Volume> 70 </Max_Volume>
     </SFXEvent>
 
-    <SFXEvent Name="Unit_HEV_Landing">
-        <Use_Preset>Preset_EXP</Use_Preset>
-        <Samples>Data\Audio\Engines\Halo\HEV\landing.wav</Samples>
-    </SFXEvent>
-
-    <SFXEvent Name="Unit_Longsword_Fly_By_Land">
-        <Use_Preset>Preset_EGBL</Use_Preset>
-        <Samples>Data\Audio\SFX\Vehicles\Longsword\longsword_flyby.wav</Samples>
-        <Min_Volume> 100 </Min_Volume>
-        <Max_Volume> 100 </Max_Volume>
-    </SFXEvent>
-
-    <SFXEvent Name="Unit_Longsword_Fly_By">
-        <Use_Preset>Preset_EGB</Use_Preset>
-        <Samples>Data\Audio\SFX\Vehicles\Longsword\longsword_flyby.wav</Samples>
-    </SFXEvent>
-
     <SFXEvent Name="Unit_Elite_Death">
         <Use_Preset>Preset_DTH</Use_Preset>
         <Samples>
@@ -598,5 +585,267 @@
         <Use_Preset>Preset_EXPC</Use_Preset>
         <Samples>Data\Audio\SFX\explosions\wraith_shot_exp.wav</Samples>
     </SFXEvent>
+
+    <SFXEvent Name="Unit_HEV_Landing">
+        <Use_Preset>Preset_EXP</Use_Preset>
+        <Samples>Data\Audio\Engines\Halo\HEV\landing.wav</Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Longsword_Fly_By_Land">
+        <Use_Preset>Preset_EGBL</Use_Preset>
+        <Samples>
+            Data\Audio\Engines\Halo\Longsword\sabre_lod_hi_lp1.wav
+            Data\Audio\Engines\Halo\Longsword\sabre_lod_hi_lp2.wav
+            Data\Audio\Engines\Halo\Longsword\sabre_lod_hi_lp3.wav
+        </Samples>
+        <Min_Volume> 100 </Min_Volume>
+        <Max_Volume> 100 </Max_Volume>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Longsword_Fly_By">
+        <Use_Preset>Preset_EGBL</Use_Preset>
+        <Samples>
+            Data\Audio\Engines\Halo\Longsword\sabre_lod_hi_lp1.wav
+            Data\Audio\Engines\Halo\Longsword\sabre_lod_hi_lp2.wav
+            Data\Audio\Engines\Halo\Longsword\sabre_lod_hi_lp3.wav
+        </Samples>
+    </SFXEvent>
+
+    <SFXEvent Name="Unit_Longsword_Engine_Loop">
+		<Use_Preset>Preset_EGLC</Use_Preset>
+		<Samples>Data\Audio\Engines\Halo\Longsword\sabre_loop.wav</Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_UNSC_Missile_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+            Data\Audio\Weapons\Halo\Archermissile\missile_fire1.wav
+            Data\Audio\Weapons\Halo\Archermissile\missile_fire2.wav
+            Data\Audio\Weapons\Halo\Archermissile\missile_fire3.wav
+            Data\Audio\Weapons\Halo\Archermissile\missile_fire4.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_UNSC_Space_Gun_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+            Data\Audio\Weapons\Halo\Frigate_Space\frigate_space_mult1.wav
+            Data\Audio\Weapons\Halo\Frigate_Space\frigate_space_mult2.wav
+            Data\Audio\Weapons\Halo\Frigate_Space\frigate_space_mult3.wav
+            Data\Audio\Weapons\Halo\Frigate_Space\frigate_space_mult4.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_UNSC_Fighter_Gun_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+            Data\Audio\Weapons\Halo\Chain_Gun\hornet_chain_gun1.wav
+            Data\Audio\Weapons\Halo\Chain_Gun\hornet_chain_gun2.wav
+            Data\Audio\Weapons\Halo\Chain_Gun\hornet_chain_gun3.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_MAC_Gun_Fire">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+            Data\Audio\Weapons\Halo\MAC\bfg_fire1.wav
+            Data\Audio\Weapons\Halo\MAC\bfg_fire2.wav
+            Data\Audio\Weapons\Halo\MAC\bfg_fire3.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Move_UNSC_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\move_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\move_02.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\move_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Move_Into_UNSC_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\move_into_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\move_into_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Select_UNSC_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\select_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\select_02.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\select_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Guard_UNSC_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\guard_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\guard_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Attack_UNSC_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\attack_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\attack_02.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\attack_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Assist_UNSC_Fighter">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\assist_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\assist_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Death_UNSC_Fighter">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Fighter\death_01.wav
+            Data\Audio\Speech\Halo\UNSC_Fighter\death_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Move_UNSC_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\move_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\move_02.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\move_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Move_Into_UNSC_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\move_into_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\move_into_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Select_UNSC_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\select_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\select_02.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\select_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Guard_UNSC_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\guard_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\guard_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Attack_UNSC_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\attack_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\attack_02.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\attack_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Assist_UNSC_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\assist_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\assist_02.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\assist_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Death_UNSC_Ship">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\death_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\death_02.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\death_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Deploy_Space_Mine">
+		<Use_Preset>Preset_GUNS</Use_Preset>
+		<Samples>
+            Data\Audio\Abilities\Halo\Space_Mine\deploy.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Explode_Space_Mine">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>
+            Data\Audio\Abilities\Halo\Space_Mine\explode.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Move_UNSC_Big_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\move_01.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\move_02.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\move_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Move_Into_UNSC_Big_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\move_into_01.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\move_into_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Select_UNSC_Big_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\select_01.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\select_02.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\select_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Guard_UNSC_Big_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\guard_01.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\guard_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Attack_UNSC_Big_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\attack_01.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\attack_02.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\attack_03.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Assist_UNSC_Big_Ship">
+		<Use_Preset>Preset_UR_LOUDER</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\assist_01.wav
+            Data\Audio\Speech\Halo\UNSC_Big_Ship\assist_02.wav
+        </Samples>
+	</SFXEvent>
+
+    <SFXEvent Name="Unit_Death_UNSC_Big_Ship">
+		<Use_Preset>Preset_EXP</Use_Preset>
+		<Samples>
+            Data\Audio\Speech\Halo\UNSC_Ship\death_01.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\death_02.wav
+            Data\Audio\Speech\Halo\UNSC_Ship\death_03.wav
+        </Samples>
+	</SFXEvent>
 
 </SFXEvents>

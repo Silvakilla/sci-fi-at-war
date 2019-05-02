@@ -100,11 +100,7 @@
 	<File>module1/Landbombingrununits.xml</File>
 	<File>module1/Planets.xml</File>
 
-	<!-- Halo
-		<File>module2/Space_Container.xml</File>
-		<File>module2/Space_Squadrons.xml</File>
-		<File>module2/Space_Units.xml</File>
-	-->
+	<!-- Halo -->
 	<File>module2/Land_Companies.xml</File>
 	<File>module2/Land_Container.xml</File>
 	<File>module2/Land_Death.xml</File>
@@ -114,5 +110,8 @@
 	<File>module2/Space_Death.xml</File>
 	<File>module2/Structures.xml</File>
 	<File>module2/TransportUnits.xml</File>
+	<File>module2/Space_Container.xml</File>
+	<File>module2/Space_Squadrons.xml</File>
+	<File>module2/Space_Units.xml</File>
 
 </Game_Object_Files>

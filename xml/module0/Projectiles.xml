@@ -1431,6 +1431,31 @@
         <Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
     </Projectile>
 
+    <Projectile Name="Proj_Ship_Ion_Cannon_Blue_Single">
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Space_Model_Name>Proj_Turbolaser_Blue.ALO</Space_Model_Name>
+        <Scale_Factor>1.0</Scale_Factor>
+        <Damage_Type> Damage_Turbolaser </Damage_Type>
+        <Max_Speed>45.0</Max_Speed>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+        <Projectile_Category>Laser</Projectile_Category>
+        <Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+        <Projectile_Damage>10.0</Projectile_Damage>
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+        <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
+        <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+        <Projectile_Ground_Detonation_Particle />
+        <Projectile_Lifetime_Detonation_Particle />
+        <Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+        <AI_Combat_Power>500</AI_Combat_Power>
+        <Projectile_SFXEvent_Detonate> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate>
+        <Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+    </Projectile>
+
     <Projectile Name="Proj_Ship_Ion_Cannon_Blue_Dual">
         <Text_ID>TEXT_NONE</Text_ID>
         <Space_Model_Name>Proj_Turbolaser_Blue_Dual.ALO</Space_Model_Name>
@@ -1444,7 +1469,7 @@
         <Projectile_Damage>10.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
         <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1469,7 +1494,7 @@
         <Projectile_Damage>40.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
         <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1494,7 +1519,7 @@
         <Projectile_Damage>10.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
         <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1519,7 +1544,7 @@
         <Projectile_Damage>20.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
         <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1544,7 +1569,7 @@
         <Projectile_Damage>20.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
         <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
@@ -1569,7 +1594,7 @@
         <Projectile_Damage>20.0</Projectile_Damage>
         <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
         <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
         <Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
         <Projectile_Object_Detonation_Particle> Large_Damage_Space </Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>

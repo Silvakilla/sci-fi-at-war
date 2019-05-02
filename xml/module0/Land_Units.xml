@@ -7,11 +7,14 @@
 
     <GroundInfantry Name="Rebel_Trooper">
         <LOD_Bias>5</LOD_Bias>
-        <Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
+        
+		<Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
-        <Stealth_Capable>No</Stealth_Capable>
-        <Land_Model_Name>RI_Saboteur.ALO</Land_Model_Name>
+        
+		<Stealth_Capable>No</Stealth_Capable>
+        
+		<Land_Model_Name>RI_Saboteur.ALO</Land_Model_Name>
         <Land_Terrain_Model_Mapping>
             Temperate, 			RI_Saboteur.ALO,
             Urban, 				RI_Saboteur.ALO,
@@ -21,9 +24,11 @@
             Forest, 			RI_Saboteur.ALO,
             Swamp, 				RI_Saboteur.ALO
         </Land_Terrain_Model_Mapping>
-        <Behavior>SELECTABLE</Behavior>
+        
+		<Behavior>SELECTABLE</Behavior>
         <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
-        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <CanCellStack>yes</CanCellStack>
@@ -34,13 +39,16 @@
         <Walk_Animation_Speed> .366 </Walk_Animation_Speed>
         <Crouch_Animation_Speed> .537 </Crouch_Animation_Speed>
         <Max_Speed> 1 </Max_Speed> <!-- inc from 0.8 -->
-        <Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
-        <Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Max_Rate_Of_Turn> 20.0 </Max_Rate_Of_Turn>
+        
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
         <Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
         <Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
-        <Space_Layer> Land </Space_Layer>
+        
+		<Space_Layer> Land </Space_Layer>
         <UnitCollisionClass> Infantry </UnitCollisionClass>
-        <FormationSpacing> .5 </FormationSpacing>
+        
+		<FormationSpacing> .5 </FormationSpacing>
         <MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
         <OverrideAcceleration> .07 </OverrideAcceleration>
         <OverrideDeceleration> .07 </OverrideDeceleration>
@@ -63,10 +71,12 @@
         <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
         <Energy_Capacity>0</Energy_Capacity>
         <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
-        <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+        
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
         <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
         <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-        <Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+        
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
         <Victory_Relevant>yes</Victory_Relevant>
         <Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
 
@@ -111,11 +121,13 @@
         <OccupationStyle>1x1</OccupationStyle>
         <FormationRaggedness> 0.0 </FormationRaggedness>
         <WaitsForFormationFormup>false</WaitsForFormationFormup>
-        <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+        
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
         <Blob_Shadow_Scale>5.0, 5.0</Blob_Shadow_Scale>
         <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
         <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
-        <No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+        
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
         <No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
         <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
         <Is_Squashable> Yes </Is_Squashable>

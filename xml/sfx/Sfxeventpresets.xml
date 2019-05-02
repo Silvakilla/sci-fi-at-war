@@ -30,6 +30,18 @@
 		<Max_Volume>90</Max_Volume>
 	</SFXEvent>
 
+	<SFXEvent Name="Preset_UR_LOUDER">
+		<Is_Preset> Yes </Is_Preset>
+		<Is_2D> Yes </Is_2D>
+		<Is_3D> No </Is_3D>
+		<Is_Unit_Response_VO> Yes </Is_Unit_Response_VO>
+		<Is_Ambient_VO> No </Is_Ambient_VO>
+		<Priority> 1 </Priority>
+		<Max_Instances>1</Max_Instances>
+		<Min_Volume>120</Min_Volume>
+		<Max_Volume>120</Max_Volume>
+	</SFXEvent>
+
 	<!-- Unit Response VO -->
 	<SFXEvent Name="Preset_URC">
 		<Is_Preset> Yes </Is_Preset>
