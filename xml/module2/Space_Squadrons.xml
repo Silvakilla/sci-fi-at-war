@@ -1,6 +1,62 @@
 <?xml version="1.0"?>
 <Squadrons>
 
+    <!-- ====== -->
+    <!-- EMPIRE -->
+    <!-- ====== -->
+
+    <SpaceUnit Name="Empire_Shortsword_Squadron">
+        <Variant_Of_Existing_Type>Shortsword_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Longsword_Squadron">
+        <Variant_Of_Existing_Type>Longsword_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Seraph_Squadron">
+        <Variant_Of_Existing_Type>Seraph_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Cerastes_Squadron">
+        <Variant_Of_Existing_Type>Cerastes_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <!-- ====== -->
+    <!-- REBELS -->
+    <!-- ====== -->
+
+    <SpaceUnit Name="Rebel_Shortsword_Squadron">
+        <Variant_Of_Existing_Type>Shortsword_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Longsword_Squadron">
+        <Variant_Of_Existing_Type>Longsword_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Seraph_Squadron">
+        <Variant_Of_Existing_Type>Seraph_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Cerastes_Squadron">
+        <Variant_Of_Existing_Type>Cerastes_Squadron</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
     <!-- ==== -->
     <!-- UNSC -->
     <!-- ==== -->

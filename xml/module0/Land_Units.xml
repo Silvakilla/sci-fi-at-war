@@ -2544,14 +2544,17 @@
         </Presence_Induced_Animations>
 
         <Unit_Abilities_Data SubObjectList="Yes">
-			<!--<Unit_Ability>
+			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
-				<Recharge_Seconds>35.0</Recharge_Seconds>
-				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
-				<Effective_Radius>1050.0</Effective_Radius>
-				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name/>
-			</Unit_Ability>-->
+				<Recharge_Seconds> 90.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+				<!-- GUI Command Bar support -->
+			</Unit_Ability>
 			
 			<Unit_Ability>
 				<Type>SPRINT</Type>
@@ -2578,14 +2581,17 @@
         <MaxJiggleDistance> 2 </MaxJiggleDistance>
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!--<Unit_Ability>
+			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
-				<Recharge_Seconds>35.0</Recharge_Seconds>
-				<Spawned_Object_Type>Proj_Special_Land_FOW_Reveal_Ping_Blast</Spawned_Object_Type>
-				<Effective_Radius>1050.0</Effective_Radius>
-				<Area_Effect_Decal_Distance>250.0</Area_Effect_Decal_Distance>
-				<GUI_Activated_Ability_Name/>
-			</Unit_Ability>-->
+				<Recharge_Seconds> 90.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+				<!-- 0.0 means no distance factor, unlimited to entire map -->
+				<Area_Effect_Decal_Distance> 250.0 </Area_Effect_Decal_Distance>
+				<GUI_Activated_Ability_Name>
+				</GUI_Activated_Ability_Name>
+				<!-- GUI Command Bar support -->
+			</Unit_Ability>
 			
 			<Unit_Ability>
 				<Type>SPRINT</Type>

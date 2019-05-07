@@ -1,6 +1,194 @@
 <?xml version="1.0"?>
 <SpaceUnits>
 
+    <!-- ====== -->
+    <!-- EMPIRE -->
+    <!-- ====== -->
+
+    <SpaceUnit Name="Empire_Charon_Light_Frigate">
+        <Variant_Of_Existing_Type>Charon_Light_Frigate</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Halcyon_Cruiser">
+        <Variant_Of_Existing_Type>Halcyon_Cruiser</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Iliad_Carrier">
+        <Variant_Of_Existing_Type>Iliad_Carrier</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Light_Destroyer">
+        <Variant_Of_Existing_Type>Light_Destroyer</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Marathon_Cruiser">
+        <Variant_Of_Existing_Type>Marathon_Cruiser</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Midlothian_Destroyer">
+        <Variant_Of_Existing_Type>Midlothian_Destroyer</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Orion_Battlecruiser">
+        <Variant_Of_Existing_Type>Orion_Battlecruiser</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Paris_Heavy_Frigate">
+        <Variant_Of_Existing_Type>Paris_Heavy_Frigate</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Phoenix">
+        <Variant_Of_Existing_Type>Phoenix</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Prowler">
+        <Variant_Of_Existing_Type>Prowler</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Covenant_Corvette">
+        <Variant_Of_Existing_Type>Covenant_Corvette</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Covenant_Light_Cruiser">
+        <Variant_Of_Existing_Type>Covenant_Light_Cruiser</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Covenant_Destroyer">
+        <Variant_Of_Existing_Type>Covenant_Destroyer</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_CCS_Battlecruiser">
+        <Variant_Of_Existing_Type>CCS_Battlecruiser</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Empire_Covenant_Assault_Carrier">
+        <Variant_Of_Existing_Type>Covenant_Assault_Carrier</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Special_Structures>Empire_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <!-- ====== -->
+    <!-- REBELS -->
+    <!-- ====== -->
+
+    <SpaceUnit Name="Rebel_Charon_Light_Frigate">
+        <Variant_Of_Existing_Type>Charon_Light_Frigate</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Halcyon_Cruiser">
+        <Variant_Of_Existing_Type>Halcyon_Cruiser</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Iliad_Carrier">
+        <Variant_Of_Existing_Type>Iliad_Carrier</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Light_Destroyer">
+        <Variant_Of_Existing_Type>Light_Destroyer</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Marathon_Cruiser">
+        <Variant_Of_Existing_Type>Marathon_Cruiser</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Midlothian_Destroyer">
+        <Variant_Of_Existing_Type>Midlothian_Destroyer</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Orion_Battlecruiser">
+        <Variant_Of_Existing_Type>Orion_Battlecruiser</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Paris_Heavy_Frigate">
+        <Variant_Of_Existing_Type>Paris_Heavy_Frigate</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Phoenix">
+        <Variant_Of_Existing_Type>Phoenix</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Prowler">
+        <Variant_Of_Existing_Type>Prowler</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_UNSC_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Covenant_Corvette">
+        <Variant_Of_Existing_Type>Covenant_Corvette</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Covenant_Light_Cruiser">
+        <Variant_Of_Existing_Type>Covenant_Light_Cruiser</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Covenant_Destroyer">
+        <Variant_Of_Existing_Type>Covenant_Destroyer</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_CCS_Battlecruiser">
+        <Variant_Of_Existing_Type>CCS_Battlecruiser</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
+    <SpaceUnit Name="Rebel_Covenant_Assault_Carrier">
+        <Variant_Of_Existing_Type>Covenant_Assault_Carrier</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Special_Structures>Rebel_COV_Shipyard</Required_Special_Structures>
+    </SpaceUnit>
+
     <!-- ==== -->
     <!-- UNSC -->
     <!-- ==== -->

@@ -25,6 +25,18 @@
         <Affiliation>Empire</Affiliation>
     </SpecialStructure>
 
+    <SpecialStructure Name="Empire_UNSC_Shipyard">
+        <Variant_Of_Existing_Type>UNSC_Medium_Ship_Yard</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Planets>Earth</Required_Planets>
+    </SpecialStructure>
+
+    <SpecialStructure Name="Empire_COV_Shipyard">
+        <Variant_Of_Existing_Type>COV_Medium_Ship_Yard</Variant_Of_Existing_Type>
+        <Affiliation>Empire</Affiliation>
+        <Required_Planets>Sangheili</Required_Planets>
+    </SpecialStructure>
+
     <!-- ===== -->
     <!-- REBEL -->
     <!-- ===== -->
@@ -47,6 +59,18 @@
     <SpecialStructure Name="Rebel_COV_Ground_Barracks">
         <Variant_Of_Existing_Type>COV_Ground_Barracks</Variant_Of_Existing_Type>
         <Affiliation>Rebel</Affiliation>
+    </SpecialStructure>
+
+    <SpecialStructure Name="Rebel_UNSC_Shipyard">
+        <Variant_Of_Existing_Type>UNSC_Medium_Ship_Yard</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Planets>Earth</Required_Planets>
+    </SpecialStructure>
+
+    <SpecialStructure Name="Rebel_COV_Shipyard">
+        <Variant_Of_Existing_Type>COV_Medium_Ship_Yard</Variant_Of_Existing_Type>
+        <Affiliation>Rebel</Affiliation>
+        <Required_Planets>Sangheili</Required_Planets>
     </SpecialStructure>
 
     <!-- ==== -->
@@ -275,6 +299,75 @@
         </Abilities>
     </SpecialStructure>
 
+    <SpecialStructure Name="UNSC_Medium_Ship_Yard">
+        <Text_ID>TEXT_STRUCTURE_UNSC_SHIP_YARD</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_MEDIUM_SHIP_YARD</Encyclopedia_Text>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+        <GUI_Row> 0 </GUI_Row>
+        <Scale_Factor>1.5</Scale_Factor>
+        <Is_Dummy>Yes</Is_Dummy>
+        <Space_Model_Name>medium_shipyard.ALO</Space_Model_Name>
+        <Select_Box_Scale>330</Select_Box_Scale>
+        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <Political_Control>0</Political_Control>
+        <Size_Value>30</Size_Value>
+        <Base_Position>Orbital</Base_Position>
+
+        <Affiliation>UNSC</Affiliation>
+
+        <Build_Cost_Credits>3200</Build_Cost_Credits>
+        <Build_Time_Seconds>60</Build_Time_Seconds>
+        <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+        <Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+
+        <Tech_Level>0</Tech_Level>
+
+        <Required_Timeline>0</Required_Timeline>
+        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+        <Required_Star_Base_Level>1</Required_Star_Base_Level>
+        <Required_Special_Structures />
+        <Required_Planets>Romulus</Required_Planets>
+
+        <Tactical_Health>6000</Tactical_Health>
+        <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+        <SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
+        <Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
+        <Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Victory_Relevant>yes</Victory_Relevant>
+        <Icon_Name>I_BUTTON_K_SB_MEDYARD.TGA</Icon_Name>
+        <Radar_Icon_Name>I_RADAR_SB_MYARD.tga</Radar_Icon_Name>
+        <GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
+        <GUI_Distance>1000</GUI_Distance>
+        <GUI_Offset>0 0 0</GUI_Offset>
+        <GUI_Velocity>45</GUI_Velocity>
+
+        <SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+        <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+        <SFXEvent_Unit_Under_Attack> RHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+        <SFXEvent_Unit_Lost> RHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+        <SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+        <CategoryMask> Structure </CategoryMask>
+        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+        <GUI_Bracket_Size>2</GUI_Bracket_Size>
+        <Armor_Type> Armor_Satellite </Armor_Type>
+        <Influences_Capture_Point>False</Influences_Capture_Point>
+        <Galactic_Influence_Range>0.0</Galactic_Influence_Range>
+        <Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+
+        <Score_Cost_Credits> 21000 </Score_Cost_Credits>
+        <Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+        <Space_Layer> StaticObject </Space_Layer>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+    </SpecialStructure>
+
     <!-- ======== -->
     <!-- COVENANT -->
     <!-- ======== -->
@@ -484,101 +577,6 @@
         </Abilities>
     </SpecialStructure>
 
-
-    <!--
-    <SpecialStructure Name="Rebel_UNSC_Shipyard">
-        <Variant_Of_Existing_Type>UNSC_Medium_Ship_Yard</Variant_Of_Existing_Type>
-        <Affiliation>Rebel</Affiliation>
-        <Required_Planets>Earth</Required_Planets>
-    </SpecialStructure>
-
-    <SpecialStructure Name="Rebel_COV_Shipyard">
-        <Variant_Of_Existing_Type>COV_Medium_Ship_Yard</Variant_Of_Existing_Type>
-        <Affiliation>Rebel</Affiliation>
-        <Required_Planets>Sangheili</Required_Planets>
-    </SpecialStructure>
-
-    <SpecialStructure Name="Empire_UNSC_Shipyard">
-        <Variant_Of_Existing_Type>UNSC_Medium_Ship_Yard</Variant_Of_Existing_Type>
-        <Affiliation>Empire</Affiliation>
-        <Required_Planets>Earth</Required_Planets>
-    </SpecialStructure>
-
-    <SpecialStructure Name="Empire_COV_Shipyard">
-        <Variant_Of_Existing_Type>COV_Medium_Ship_Yard</Variant_Of_Existing_Type>
-        <Affiliation>Empire</Affiliation>
-        <Required_Planets>Sangheili</Required_Planets>
-    </SpecialStructure>
-
-    <SpecialStructure Name="UNSC_Medium_Ship_Yard">
-        <Text_ID>TEXT_STRUCTURE_UNSC_SHIP_YARD</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_MEDIUM_SHIP_YARD</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
-        <GUI_Row> 0 </GUI_Row>
-        <Scale_Factor>1.5</Scale_Factor>
-        <Is_Dummy>Yes</Is_Dummy>
-        <Space_Model_Name>medium_shipyard.ALO</Space_Model_Name>
-        <Select_Box_Scale>330</Select_Box_Scale>
-        <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-        <Political_Control>0</Political_Control>
-        <Size_Value>30</Size_Value>
-        <Base_Position>Orbital</Base_Position>
-
-        <Affiliation>UNSC</Affiliation>
-
-        <Build_Cost_Credits>3200</Build_Cost_Credits>
-        <Build_Time_Seconds>60</Build_Time_Seconds>
-        <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-        <Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
-
-        <Tech_Level>0</Tech_Level>
-
-        <Required_Timeline>0</Required_Timeline>
-        <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-        <Required_Star_Base_Level>1</Required_Star_Base_Level>
-        <Required_Special_Structures />
-        <Required_Planets>Romulus</Required_Planets>
-
-        <Tactical_Health>6000</Tactical_Health>
-        <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
-        <SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI</SpaceBehavior>
-        <Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
-        <Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
-        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
-        <Victory_Relevant>yes</Victory_Relevant>
-        <Icon_Name>I_BUTTON_K_SB_MEDYARD.TGA</Icon_Name>
-        <Radar_Icon_Name>I_RADAR_SB_MYARD.tga</Radar_Icon_Name>
-        <GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
-        <GUI_Distance>1000</GUI_Distance>
-        <GUI_Offset>0 0 0</GUI_Offset>
-        <GUI_Velocity>45</GUI_Velocity>
-
-        <SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
-        <SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
-        <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-        <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
-        <SFXEvent_Unit_Under_Attack> RHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
-        <SFXEvent_Unit_Lost> RHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
-        <SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
-
-        <CategoryMask> Structure </CategoryMask>
-        <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-        <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-        <GUI_Bracket_Size>2</GUI_Bracket_Size>
-        <Armor_Type> Armor_Satellite </Armor_Type>
-        <Influences_Capture_Point>False</Influences_Capture_Point>
-        <Galactic_Influence_Range>0.0</Galactic_Influence_Range>
-        <Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
-
-        <Score_Cost_Credits> 21000 </Score_Cost_Credits>
-        <Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
-        <Space_Layer> StaticObject </Space_Layer>
-        <Remove_Upon_Death>true</Remove_Upon_Death>
-    </SpecialStructure>
-
     <SpecialStructure Name="COV_Medium_Ship_Yard">
         <Text_ID>TEXT_STRUCTURE_COVENANT_SHIP_YARD</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_MEDIUM_SHIP_YARD</Encyclopedia_Text>
@@ -647,5 +645,5 @@
         <Space_Layer> StaticObject </Space_Layer>
         <Remove_Upon_Death>true</Remove_Upon_Death>
     </SpecialStructure>
-    -->
+
 </Structures>
