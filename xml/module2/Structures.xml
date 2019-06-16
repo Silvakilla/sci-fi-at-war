@@ -28,13 +28,13 @@
     <SpecialStructure Name="Empire_UNSC_Shipyard">
         <Variant_Of_Existing_Type>UNSC_Medium_Ship_Yard</Variant_Of_Existing_Type>
         <Affiliation>Empire</Affiliation>
-        <Required_Planets>Earth</Required_Planets>
+        <Required_Planets>Reach</Required_Planets>
     </SpecialStructure>
 
     <SpecialStructure Name="Empire_COV_Shipyard">
         <Variant_Of_Existing_Type>COV_Medium_Ship_Yard</Variant_Of_Existing_Type>
         <Affiliation>Empire</Affiliation>
-        <Required_Planets>Sangheili</Required_Planets>
+        <Required_Planets>Shangheli</Required_Planets>
     </SpecialStructure>
 
     <!-- ===== -->
@@ -64,13 +64,13 @@
     <SpecialStructure Name="Rebel_UNSC_Shipyard">
         <Variant_Of_Existing_Type>UNSC_Medium_Ship_Yard</Variant_Of_Existing_Type>
         <Affiliation>Rebel</Affiliation>
-        <Required_Planets>Earth</Required_Planets>
+        <Required_Planets>Reach</Required_Planets>
     </SpecialStructure>
 
     <SpecialStructure Name="Rebel_COV_Shipyard">
         <Variant_Of_Existing_Type>COV_Medium_Ship_Yard</Variant_Of_Existing_Type>
         <Affiliation>Rebel</Affiliation>
-        <Required_Planets>Sangheili</Required_Planets>
+        <Required_Planets>Shangheli</Required_Planets>
     </SpecialStructure>
 
     <!-- ==== -->
@@ -327,7 +327,7 @@
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
         <Required_Special_Structures />
-        <Required_Planets>Romulus</Required_Planets>
+        <Required_Planets>Reach</Required_Planets>
 
         <Tactical_Health>6000</Tactical_Health>
         <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -605,7 +605,7 @@
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>1</Required_Star_Base_Level>
         <Required_Special_Structures />
-        <Required_Planets>Romulus</Required_Planets>
+        <Required_Planets>Sangheili</Required_Planets>
 
         <Tactical_Health>6000</Tactical_Health>
         <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>

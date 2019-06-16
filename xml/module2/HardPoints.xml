@@ -3019,12 +3019,12 @@
     <!-- Iliad Carrier -->
     <HardPoint Name="HP_Iliad_Hanger">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
         <Attachment_Bone>SPAWN_00</Attachment_Bone>
         <Collision_Mesh>SPAWN_00</Collision_Mesh>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>100.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
@@ -3066,8 +3066,10 @@
 
     <HardPoint Name="HP_Iliad_Point_Defense_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -3095,8 +3097,10 @@
 
     <HardPoint Name="HP_Iliad_Point_Defense_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -3124,8 +3128,10 @@
 
     <HardPoint Name="HP_Iliad_Point_Defense_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -3153,8 +3159,10 @@
 
     <HardPoint Name="HP_Iliad_Point_Defense_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -3182,9 +3190,11 @@
 
     <HardPoint Name="HP_Iliad_Point_Defense_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
+		
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -3211,8 +3221,10 @@
 
     <HardPoint Name="HP_Iliad_Point_Defense_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -3239,9 +3251,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_00">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -3266,9 +3280,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_01">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -3293,9 +3309,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_02">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -3320,9 +3338,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_03">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -3347,9 +3367,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_04">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -3374,9 +3396,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_05">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -3401,9 +3425,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_06">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -3428,9 +3454,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_07">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -3455,9 +3483,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_08">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -3482,9 +3512,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_09">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -3509,9 +3541,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_10">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -3536,9 +3570,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_11">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -3563,9 +3599,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_12">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -3590,9 +3628,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_13">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -3617,9 +3657,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_14">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -3644,9 +3686,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_15">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -3671,9 +3715,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_16">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -3698,9 +3744,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_17">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -3725,9 +3773,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_18">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -3752,9 +3802,11 @@
     </HardPoint>
 
     <HardPoint Name="Iliad_19">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -3781,8 +3833,10 @@
     <!-- Midlothian Destroyer -->
     <HardPoint Name="HP_midlothian_destroyer_Point_Defense_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -3807,8 +3861,10 @@
 
     <HardPoint Name="HP_midlothian_destroyer_Point_Defense_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -3833,8 +3889,10 @@
 
     <HardPoint Name="HP_midlothian_destroyer_Point_Defense_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -3858,9 +3916,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_01">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -3887,9 +3947,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_02">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -3916,9 +3978,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_03">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -3945,9 +4009,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_04">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -3974,9 +4040,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_05">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -4003,9 +4071,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_06">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -4032,9 +4102,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_07">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -4061,9 +4133,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_08">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -4090,9 +4164,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_09">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -4119,9 +4195,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_10">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -4148,9 +4226,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_11">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -4177,9 +4257,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_12">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -4206,9 +4288,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_13">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -4235,9 +4319,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_14">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -4264,9 +4350,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_15">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -4293,9 +4381,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_16">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -4322,9 +4412,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_17">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -4351,9 +4443,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_18">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -4380,9 +4474,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_19">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -4409,9 +4505,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_20">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -4438,9 +4536,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_21">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -4467,9 +4567,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_22">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -4496,9 +4598,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_23">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -4525,9 +4629,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_24">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -4554,9 +4660,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_25">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -4583,9 +4691,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_midlothian_destroyer_26">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>600.0</Health>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -4614,11 +4724,11 @@
     <!-- Orion Battlecruiser -->
     <HardPoint Name="HP_Orion_Hanger">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
         <Attachment_Bone>SPAWN_00</Attachment_Bone>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>100.0</Health>
+        <Health>800.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
@@ -4661,8 +4771,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -4690,8 +4802,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -4719,8 +4833,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -4748,8 +4864,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -4777,8 +4895,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -4806,8 +4926,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -4835,8 +4957,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -4864,8 +4988,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -4893,8 +5019,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -4922,8 +5050,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
@@ -4951,8 +5081,10 @@
 
     <HardPoint Name="HP_Orion_Point_Defense_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
@@ -4979,9 +5111,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_00">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -5006,9 +5140,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_01">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -5033,9 +5169,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_02">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -5060,10 +5198,12 @@
     </HardPoint>
 
     <HardPoint Name="Orion_03">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
+		
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5087,9 +5227,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_04">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -5114,9 +5256,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_05">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -5141,9 +5285,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_06">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -5168,9 +5314,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_07">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -5195,10 +5343,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_08">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5222,9 +5371,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_09">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -5249,9 +5400,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_10">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -5276,9 +5429,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_11">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -5303,10 +5458,12 @@
     </HardPoint>
 
     <HardPoint Name="Orion_12">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
+		
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5330,9 +5487,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_13">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -5357,9 +5516,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_14">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -5384,9 +5545,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_15">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -5411,9 +5574,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_16">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -5438,9 +5603,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_17">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -5465,9 +5632,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_18">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -5492,9 +5661,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_19">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -5519,9 +5690,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_20">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -5546,9 +5719,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_21">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -5573,9 +5748,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_22">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -5600,9 +5777,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_23">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -5627,9 +5806,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_24">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -5654,9 +5835,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_25">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -5681,9 +5864,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_26">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -5708,9 +5893,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_27">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_27</Fire_Bone_B>
@@ -5735,9 +5922,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_28">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_28</Fire_Bone_B>
@@ -5762,9 +5951,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_29">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_29</Fire_Bone_B>
@@ -5789,9 +5980,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_30">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_30</Fire_Bone_B>
@@ -5816,9 +6009,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_31">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
@@ -5843,9 +6038,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_32">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_32</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_32</Fire_Bone_B>
@@ -5870,9 +6067,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_33">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_33</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_33</Fire_Bone_B>
@@ -5897,9 +6096,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_34">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_34</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_34</Fire_Bone_B>
@@ -5924,9 +6125,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_35">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_35</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_35</Fire_Bone_B>
@@ -5951,9 +6154,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_36">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_36</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_36</Fire_Bone_B>
@@ -5978,9 +6183,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_37">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_37</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_37</Fire_Bone_B>
@@ -6005,9 +6212,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_38">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_38</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_38</Fire_Bone_B>
@@ -6032,9 +6241,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_39">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_39</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_39</Fire_Bone_B>
@@ -6059,9 +6270,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_40">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_40</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_40</Fire_Bone_B>
@@ -6086,9 +6299,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_41">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_41</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_41</Fire_Bone_B>
@@ -6113,9 +6328,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_42">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_42</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_42</Fire_Bone_B>
@@ -6140,9 +6357,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_43">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_43</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_43</Fire_Bone_B>
@@ -6167,9 +6386,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_44">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_44</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_44</Fire_Bone_B>
@@ -6194,9 +6415,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_45">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_45</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_45</Fire_Bone_B>
@@ -6221,9 +6444,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_46">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_46</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_46</Fire_Bone_B>
@@ -6248,9 +6473,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_47">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_47</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_47</Fire_Bone_B>
@@ -6275,9 +6502,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_48">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_48</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_48</Fire_Bone_B>
@@ -6302,9 +6531,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_49">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_49</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_49</Fire_Bone_B>
@@ -6329,9 +6560,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_50">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_50</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_50</Fire_Bone_B>
@@ -6356,9 +6589,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_51">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_51</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_51</Fire_Bone_B>
@@ -6383,9 +6618,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_52">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_52</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_52</Fire_Bone_B>
@@ -6410,9 +6647,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_52">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_52</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_52</Fire_Bone_B>
@@ -6437,9 +6676,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_53">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_53</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_53</Fire_Bone_B>
@@ -6464,9 +6705,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_54">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_54</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_54</Fire_Bone_B>
@@ -6491,9 +6734,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_55">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_55</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_55</Fire_Bone_B>
@@ -6518,9 +6763,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_56">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_56</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_56</Fire_Bone_B>
@@ -6545,9 +6792,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_57">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_57</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_57</Fire_Bone_B>
@@ -6572,9 +6821,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_58">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_58</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_58</Fire_Bone_B>
@@ -6599,9 +6850,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_59">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_59</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_59</Fire_Bone_B>
@@ -6626,9 +6879,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_60">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_60</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_60</Fire_Bone_B>
@@ -6653,9 +6908,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_61">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_61</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_61</Fire_Bone_B>
@@ -6680,9 +6937,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_61">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_61</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_61</Fire_Bone_B>
@@ -6707,9 +6966,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_62">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_62</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_62</Fire_Bone_B>
@@ -6734,9 +6995,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_63">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_63</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_63</Fire_Bone_B>
@@ -6761,9 +7024,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_64">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_64</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_64</Fire_Bone_B>
@@ -6788,9 +7053,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_65">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_65</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_65</Fire_Bone_B>
@@ -6815,9 +7082,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_66">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_66</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_66</Fire_Bone_B>
@@ -6842,9 +7111,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_67">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_67</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_67</Fire_Bone_B>
@@ -6869,9 +7140,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_68">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_68</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_68</Fire_Bone_B>
@@ -6896,9 +7169,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_69">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_69</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_69</Fire_Bone_B>
@@ -6923,9 +7198,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_70">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_70</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_70</Fire_Bone_B>
@@ -6950,9 +7227,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_71">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_71</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_71</Fire_Bone_B>
@@ -6977,9 +7256,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_72">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_72</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_72</Fire_Bone_B>
@@ -7004,9 +7285,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_73">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_73</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_73</Fire_Bone_B>
@@ -7031,9 +7314,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_74">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_74</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_74</Fire_Bone_B>
@@ -7058,9 +7343,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_75">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_75</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_75</Fire_Bone_B>
@@ -7085,9 +7372,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_76">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_76</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_76</Fire_Bone_B>
@@ -7112,9 +7401,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_77">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_77</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_77</Fire_Bone_B>
@@ -7139,9 +7430,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_78">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_78</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_78</Fire_Bone_B>
@@ -7166,9 +7459,11 @@
     </HardPoint>
 
     <HardPoint Name="Orion_79">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1400.0</Health>
 
         <Fire_Bone_A>MuzzleA_79</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_79</Fire_Bone_B>
@@ -7287,8 +7582,8 @@
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Health>500.0</Health>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
         <Fighter_Bay_Flyout_Distance>100.0</Fighter_Bay_Flyout_Distance>
@@ -7327,9 +7622,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_00">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -7354,9 +7651,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_01">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -7381,9 +7680,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_02">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -7408,9 +7709,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_03">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -7435,9 +7738,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_04">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -7462,9 +7767,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_05">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -7489,9 +7796,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_06">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -7516,9 +7825,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_07">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -7543,9 +7854,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_08">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -7570,9 +7883,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_09">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -7597,9 +7912,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_10">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -7624,9 +7941,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_11">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -7651,9 +7970,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_12">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -7678,9 +7999,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_13">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -7705,9 +8028,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_14">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -7732,9 +8057,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_15">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -7759,9 +8086,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_16">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -7786,9 +8115,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_17">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -7813,9 +8144,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_18">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -7840,9 +8173,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_19">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -7867,9 +8202,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_20">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -7894,9 +8231,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_21">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -7921,9 +8260,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_22">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -7948,9 +8289,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_23">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -7975,9 +8318,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_24">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -8002,9 +8347,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_25">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -8029,9 +8376,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_26">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -8056,9 +8405,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_27">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_27</Fire_Bone_B>
@@ -8083,9 +8434,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_28">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_28</Fire_Bone_B>
@@ -8110,9 +8463,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_29">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_29</Fire_Bone_B>
@@ -8137,9 +8492,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_30">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_30</Fire_Bone_B>
@@ -8164,9 +8521,11 @@
     </HardPoint>
 
     <HardPoint Name="Halcyon_31">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
@@ -8193,12 +8552,12 @@
     <!-- Marathon -->
     <HardPoint Name="HP_Marathon_Hanger">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
         <Attachment_Bone>SPAWN_00</Attachment_Bone>
         <Collision_Mesh>SPAWN_00</Collision_Mesh>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>100.0</Health>
+        <Health>500.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
@@ -8291,8 +8650,10 @@
 
     <HardPoint Name="HP_Marathon_Point_Defense_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -8320,8 +8681,10 @@
 
     <HardPoint Name="HP_Marathon_Point_Defense_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -8349,8 +8712,10 @@
 
     <HardPoint Name="HP_Marathon_Point_Defense_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -8378,8 +8743,10 @@
 
     <HardPoint Name="HP_Marathon_Point_Defense_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -8407,8 +8774,10 @@
 
     <HardPoint Name="HP_Marathon_Point_Defense_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -8436,8 +8805,10 @@
 
     <HardPoint Name="HP_Marathon_Point_Defense_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -8464,9 +8835,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_00">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -8491,9 +8864,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_01">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -8518,9 +8893,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_02">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -8545,9 +8922,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_03">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -8572,9 +8951,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_04">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -8599,9 +8980,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_05">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -8626,9 +9009,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_06">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -8653,9 +9038,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_07">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -8680,9 +9067,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_08">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -8707,9 +9096,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_09">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -8734,9 +9125,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_10">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
@@ -8761,9 +9154,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_11">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
@@ -8788,9 +9183,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_12">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_12</Fire_Bone_B>
@@ -8815,9 +9212,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_13">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_13</Fire_Bone_B>
@@ -8842,9 +9241,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_14">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_14</Fire_Bone_B>
@@ -8869,9 +9270,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_15">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_15</Fire_Bone_B>
@@ -8896,9 +9299,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_16">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_16</Fire_Bone_B>
@@ -8923,9 +9328,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_17">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_17</Fire_Bone_B>
@@ -8950,9 +9357,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_18">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_18</Fire_Bone_B>
@@ -8977,9 +9386,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_19">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_19</Fire_Bone_B>
@@ -9004,9 +9415,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_20">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_20</Fire_Bone_B>
@@ -9031,9 +9444,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_21">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_21</Fire_Bone_B>
@@ -9058,9 +9473,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_22">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_22</Fire_Bone_B>
@@ -9085,9 +9502,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_23">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_23</Fire_Bone_B>
@@ -9112,9 +9531,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_24">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_24</Fire_Bone_B>
@@ -9139,9 +9560,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_25">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_25</Fire_Bone_B>
@@ -9166,9 +9589,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_26">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_26</Fire_Bone_B>
@@ -9193,9 +9618,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_27">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_27</Fire_Bone_B>
@@ -9220,9 +9647,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_28">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_28</Fire_Bone_B>
@@ -9247,9 +9676,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_29">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_29</Fire_Bone_B>
@@ -9274,9 +9705,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_30">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_30</Fire_Bone_B>
@@ -9301,9 +9734,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_31">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_31</Fire_Bone_B>
@@ -9328,9 +9763,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_32">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_32</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_32</Fire_Bone_B>
@@ -9355,9 +9792,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_33">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_33</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_33</Fire_Bone_B>
@@ -9382,9 +9821,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_34">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_34</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_34</Fire_Bone_B>
@@ -9409,9 +9850,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_35">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_35</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_35</Fire_Bone_B>
@@ -9436,9 +9879,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_36">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_36</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_36</Fire_Bone_B>
@@ -9463,9 +9908,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_37">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_37</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_37</Fire_Bone_B>
@@ -9490,9 +9937,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_38">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_38</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_38</Fire_Bone_B>
@@ -9517,9 +9966,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_39">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_39</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_39</Fire_Bone_B>
@@ -9544,9 +9995,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_40">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_40</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_40</Fire_Bone_B>
@@ -9571,9 +10024,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_41">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_41</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_41</Fire_Bone_B>
@@ -9598,9 +10053,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_42">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_42</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_42</Fire_Bone_B>
@@ -9625,9 +10082,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_43">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_43</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_43</Fire_Bone_B>
@@ -9652,9 +10111,11 @@
     </HardPoint>
 
     <HardPoint Name="Marathon_44">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>800.0</Health>
 
         <Fire_Bone_A>MuzzleB_44</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_44</Fire_Bone_B>
@@ -9678,15 +10139,16 @@
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
+
     <!-- Phoenix -->
     <HardPoint Name="HP_Phoenix_Hanger">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Health>500.0</Health>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
         <Attachment_Bone>SPAWN_00</Attachment_Bone>
         <Collision_Mesh>SPAWN_00</Collision_Mesh>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>100.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
@@ -9728,8 +10190,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -9757,8 +10221,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -9786,8 +10252,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -9815,8 +10283,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -9844,8 +10314,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -9873,8 +10345,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -9902,8 +10376,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -9931,8 +10407,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -9960,8 +10438,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -9989,8 +10469,10 @@
 
     <HardPoint Name="HP_Phoenix_Point_Defense_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -10017,9 +10499,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_00">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -10044,9 +10528,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_01">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -10071,9 +10557,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_02">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -10098,9 +10586,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_03">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -10125,9 +10615,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_04">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -10152,9 +10644,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_05">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -10179,9 +10673,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_06">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -10206,9 +10702,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_07">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -10233,9 +10731,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_08">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -10260,9 +10760,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_09">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -10287,9 +10789,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_10">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -10314,9 +10818,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_11">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -10341,9 +10847,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_12">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -10368,9 +10876,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_13">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -10395,9 +10905,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_14">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -10422,9 +10934,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_15">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -10449,9 +10963,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_16">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -10476,9 +10992,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_17">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -10503,9 +11021,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_18">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -10530,9 +11050,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_19">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -10557,9 +11079,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_20">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -10584,9 +11108,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_21">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -10611,9 +11137,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_22">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -10638,9 +11166,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_23">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -10665,9 +11195,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_24">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -10692,9 +11224,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_25">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -10719,9 +11253,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_26">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -10746,9 +11282,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_27">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_27</Fire_Bone_B>
@@ -10773,9 +11311,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_28">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_28</Fire_Bone_B>
@@ -10800,9 +11340,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_29">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_29</Fire_Bone_B>
@@ -10827,9 +11369,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_30">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_30</Fire_Bone_B>
@@ -10854,9 +11398,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_31">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
@@ -10881,9 +11427,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_32">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_32</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_32</Fire_Bone_B>
@@ -10908,9 +11456,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_33">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_33</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_33</Fire_Bone_B>
@@ -10935,9 +11485,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_34">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_34</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_34</Fire_Bone_B>
@@ -10962,9 +11514,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_35">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_35</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_35</Fire_Bone_B>
@@ -10989,9 +11543,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_36">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_36</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_36</Fire_Bone_B>
@@ -11016,9 +11572,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_37">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_37</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_37</Fire_Bone_B>
@@ -11043,9 +11601,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_38">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_38</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_38</Fire_Bone_B>
@@ -11070,9 +11630,11 @@
     </HardPoint>
 
     <HardPoint Name="Phoenix_39">
-        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>1000.0</Health>
 
         <Fire_Bone_A>MuzzleA_39</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_39</Fire_Bone_B>
@@ -11256,17 +11818,15 @@
     </HardPoint>
 
     <!-- UNSC Frigates -->
-    <HardPoint Name="HP_Frigate_Hanger">
+    	<HardPoint Name="HP_Frigate_Hanger">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
         <Attachment_Bone>SPAWN_00</Attachment_Bone>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-        <Health>100.0</Health>
+        <Health>350.0</Health>
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-        <!-- STUBBED PLACEHOLDER -->
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
-        <!-- STUBBED PLACEHOLDER -->
     </HardPoint>
 
     <HardPoint Name="HP_UNSC_FRIGATE_MAC_ANH_NHAN">
@@ -11300,9 +11860,11 @@
 
     <HardPoint Name="Frigate_PDC_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
-
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
+		
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
 
@@ -11327,8 +11889,10 @@
 
     <HardPoint Name="Frigate_PDC_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -11354,8 +11918,10 @@
 
     <HardPoint Name="Frigate_PDC_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -11381,8 +11947,10 @@
 
     <HardPoint Name="Frigate_PDC_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -11408,8 +11976,10 @@
 
     <HardPoint Name="Frigate_PDC_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -11435,8 +12005,10 @@
 
     <HardPoint Name="Frigate_PDC_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -11462,8 +12034,10 @@
 
     <HardPoint Name="Frigate_PDC_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -11489,8 +12063,10 @@
 
     <HardPoint Name="Frigate_PDC_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -11516,8 +12092,10 @@
 
     <HardPoint Name="Frigate_PDC_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -11543,8 +12121,10 @@
 
     <HardPoint Name="Frigate_PDC_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -11570,8 +12150,10 @@
 
     <HardPoint Name="Frigate_PDC_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
@@ -11597,8 +12179,10 @@
 
     <HardPoint Name="Frigate_PDC_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
@@ -11623,9 +12207,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_Frigate_Missile_00">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -11652,9 +12238,12 @@
     </HardPoint>
 
     <HardPoint Name="HP_Frigate_Missile_01">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>300.0</Health>
+
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -11681,9 +12270,12 @@
     </HardPoint>
 
     <HardPoint Name="HP_Frigate_Missile_02">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>300.0</Health>
+
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -11710,9 +12302,12 @@
     </HardPoint>
 
     <HardPoint Name="HP_Frigate_Missile_03">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>300.0</Health>
+
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -11739,9 +12334,12 @@
     </HardPoint>
 
     <HardPoint Name="HP_Frigate_Missile_04">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>300.0</Health>
+
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -11767,9 +12365,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_Frigate_Missile_05">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>300.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -11797,9 +12397,11 @@
 
     <!-- UNSC Destroyer -->
     <HardPoint Name="HP_destroyer_01">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -11826,9 +12428,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_02">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -11855,9 +12459,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_03">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -11884,9 +12490,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_04">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -11913,9 +12521,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_05">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -11942,9 +12552,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_06">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -11971,9 +12583,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_07">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -12000,9 +12614,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_08">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -12029,9 +12645,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_09">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -12058,9 +12676,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_10">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -12087,9 +12707,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_11">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -12116,9 +12738,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_12">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -12145,9 +12769,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_13">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -12174,9 +12800,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_14">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -12203,9 +12831,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_15">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -12232,9 +12862,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_16">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -12261,9 +12893,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_17">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -12290,9 +12924,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_18">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -12319,9 +12955,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_19">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -12348,9 +12986,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_20">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -12377,9 +13017,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_21">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -12406,9 +13048,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_22">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -12435,9 +13079,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_23">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -12464,9 +13110,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_24">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -12493,9 +13141,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_25">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -12522,9 +13172,11 @@
     </HardPoint>
 
     <HardPoint Name="HP_destroyer_26">
-        <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -12552,8 +13204,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_16</Fire_Bone_B>
@@ -12578,8 +13232,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_02">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -12604,8 +13260,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_03">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -12630,8 +13288,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_04">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -12656,8 +13316,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_05">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -12685,8 +13347,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_06">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -12714,8 +13378,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_07">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -12743,8 +13409,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_08">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -12772,8 +13440,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_09">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -12798,8 +13468,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_10">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -12824,8 +13496,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_11">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -12850,8 +13524,10 @@
 
     <HardPoint Name="HP_destroyer_Point_Defense_12">
         <Type> HARD_POINT_WEAPON_LASER </Type>
-        <Is_Targetable>No</Is_Targetable>
-        <Is_Destroyable>No</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_RAILGUN</Tooltip_Text>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>400.0</Health>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>

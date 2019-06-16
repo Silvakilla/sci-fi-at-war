@@ -1165,13 +1165,13 @@
 
     <Projectile Name="Proj_UNSC_Shortsword">
         <Variant_Of_Existing_Type>Proj_Ship_Railgun</Variant_Of_Existing_Type>
-        <Scale_Factor>0.75</Scale_Factor>
+        <Space_Model_Name>Proj_Railgun.ALO</Space_Model_Name>
+        <Scale_Factor>0.2</Scale_Factor>
         <Max_Speed>40.0</Max_Speed>
         <Projectile_Damage>3.0</Projectile_Damage>
         <Projectile_Object_Detonation_Particle>Huge_Dud</Projectile_Object_Detonation_Particle>
         <Projectile_Object_Armor_Reduced_Detonation_Particle>Huge_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
         <Damage_Type>Damage_110mm_Rotary_Gun</Damage_Type>
-        <!--<Projectile_Ground_Detonation_Particle>Veers_Maximum_Firepower_Explosion_Land</Projectile_Ground_Detonation_Particle>-->
     </Projectile>
 
     <Projectile Name="Proj_SANDSHRINE_TOWER">
