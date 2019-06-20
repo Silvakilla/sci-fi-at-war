@@ -73,6 +73,14 @@
     <File>default/Default_Space_Units.xml</File>
     <File>default/Default_Land_Units.xml</File>
 
+	<!-- Empire -->
+	<File>module0/Inferno_Squad.xml</File>
+	<File>module0/TIE_Advanced_Bomber.xml</File>
+	<File>module0/TIE_Fighter.xml</File>
+	<File>module0/TIE_Heavy_Bomber.xml</File>
+	<File>module0/TIE_Interceptor.xml</File>
+	<File>module0/Raider_Corvette.xml</File>
+
 	<!-- Empire VS Rebel -->
 	<File>module0/Land_Companies.xml</File>
     <File>module0/Land_Container.xml</File>
