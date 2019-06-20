@@ -1872,7 +1872,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -1902,7 +1902,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -1933,7 +1933,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -1962,7 +1962,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -1992,7 +1992,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -2018,7 +2018,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -2044,7 +2044,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -2072,7 +2072,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -2101,7 +2101,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -2438,7 +2438,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -2470,7 +2470,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -2541,7 +2541,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -2578,7 +2578,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -2615,7 +2615,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -2652,7 +2652,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -2689,7 +2689,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -2725,7 +2725,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Photon_Torpedo_Fire</Fire_SFXEvent>
@@ -3071,7 +3071,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Photon_Torpedo_Fire</Fire_SFXEvent>
@@ -3102,7 +3102,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Photon_Torpedo_Fire</Fire_SFXEvent>
@@ -3166,7 +3166,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -3196,7 +3196,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -3227,7 +3227,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -3257,7 +3257,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -3288,7 +3288,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -3314,7 +3314,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>24</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -3342,7 +3342,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -3371,7 +3371,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -3399,7 +3399,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>900.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -3423,7 +3423,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -3453,7 +3453,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -3483,7 +3483,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -3513,7 +3513,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -3543,7 +3543,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>6</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -4259,7 +4259,7 @@
         <Fire_Projectile_Type>Proj_Blue_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4285,7 +4285,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4311,7 +4311,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4340,7 +4340,7 @@
         <Fire_Projectile_Type>Proj_Blue_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4593,7 +4593,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4626,7 +4626,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4658,7 +4658,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4691,7 +4691,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4759,7 +4759,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -4788,7 +4788,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.25</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -4818,7 +4818,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -4955,7 +4955,7 @@
         <Fire_Projectile_Type>Proj_Blue_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>10.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>900.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -4980,7 +4980,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -5010,7 +5010,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>0.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -5039,7 +5039,7 @@
         <Fire_Projectile_Type>Proj_Blue_Torpedo_Light_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>25.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>900.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -5067,7 +5067,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>20.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -5093,7 +5093,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -5119,7 +5119,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>1</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -5488,7 +5488,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1900.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -5525,7 +5525,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1900.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -5567,7 +5567,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2100.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -5635,7 +5635,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Light</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1600.0</Fire_Range_Distance>
         <Fire_SFXEvent>Photon_Torpedo_Fire</Fire_SFXEvent>
@@ -5661,7 +5661,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -5696,7 +5696,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -5731,7 +5731,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -5765,7 +5765,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Phaser_Fire</Fire_SFXEvent>
@@ -6346,7 +6346,7 @@
         <Fire_Projectile_Type>Proj_Red_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2100.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -6380,7 +6380,7 @@
         <Fire_Projectile_Type>Proj_Blue_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -6414,7 +6414,7 @@
         <Fire_Projectile_Type>Proj_Blue_Torpedo_Heavy</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Quantum_Torpedo_Fire</Fire_SFXEvent>
@@ -6507,7 +6507,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Count>15</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -6580,7 +6580,7 @@
         <Fire_Projectile_Type>Proj_Orange_Medium_Pulse</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Count>15</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1300.0</Fire_Range_Distance>
         <Fire_SFXEvent>Pulse_Phaser_Fire</Fire_SFXEvent>
@@ -9009,7 +9009,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Klingon_Phaser_Fire</Fire_SFXEvent>
@@ -9150,7 +9150,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Klingon_Phaser_Fire</Fire_SFXEvent>
@@ -9177,7 +9177,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Klingon_Phaser_Fire</Fire_SFXEvent>
@@ -9204,7 +9204,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Klingon_Phaser_Fire</Fire_SFXEvent>
@@ -9231,7 +9231,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Klingon_Phaser_Fire</Fire_SFXEvent>
@@ -13920,7 +13920,7 @@
         <Fire_Projectile_Type>Proj_Blue_Light_Beam_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Dominion_Phaser_Loop2</Fire_SFXEvent>
@@ -14780,7 +14780,7 @@
         <Fire_Projectile_Type>Proj_Blue_Light_Beam</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.75</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Dominion_Phaser_Loop2</Fire_SFXEvent>
@@ -14811,7 +14811,7 @@
         <Fire_Projectile_Type>Proj_Blue_Light_Beam</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>0.75</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Dominion_Phaser_Loop2</Fire_SFXEvent>
@@ -16084,7 +16084,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Cardassian_Phaser_Loop</Fire_SFXEvent>
@@ -16113,7 +16113,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Cardassian_Phaser_Loop</Fire_SFXEvent>
@@ -17116,7 +17116,7 @@
         <Fire_Projectile_Type>Proj_Orange_Light_Phaser_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Cardassian_Phaser_Loop</Fire_SFXEvent>
@@ -17352,7 +17352,7 @@
         <Fire_Projectile_Type>Proj_Blue_Light_Beam_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Dominion_Phaser_Loop2</Fire_SFXEvent>
@@ -17581,7 +17581,7 @@
         <Fire_Projectile_Type>Proj_Red_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Dominion_Phaser_Loop1</Fire_SFXEvent>
@@ -17611,7 +17611,7 @@
         <Fire_Projectile_Type>Proj_Red_Light_Phaser</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>800.0</Fire_Range_Distance>
         <Fire_SFXEvent>Dominion_Phaser_Loop1</Fire_SFXEvent>
@@ -18438,7 +18438,7 @@
         <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1700.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
@@ -18471,7 +18471,7 @@
         <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1700.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
@@ -18504,7 +18504,7 @@
         <Fire_Projectile_Type>Proj_Green_Torpedo_Medium</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1700.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Photon_Loop_1</Fire_SFXEvent>
@@ -19598,7 +19598,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
@@ -19635,7 +19635,7 @@
         <Fire_Projectile_Type>Proj_Green_Light_Disruptor</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>
@@ -19894,7 +19894,7 @@
         <Fire_Projectile_Type>Proj_Blue_Light_Beam_Fighter</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>1</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>2</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>20</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0,1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
         <Fire_SFXEvent>Romulan_Phaser_Loop</Fire_SFXEvent>

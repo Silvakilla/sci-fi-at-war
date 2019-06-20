@@ -1154,7 +1154,7 @@
         <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 
         <HardPoints>
-            HP_Danube_TORP_00
+            HP_Danube_Torpedo_01
         </HardPoints>
 
         <SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
