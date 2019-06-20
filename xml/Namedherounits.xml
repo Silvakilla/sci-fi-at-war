@@ -309,7 +309,6 @@
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Timeline>3</Required_Timeline>
@@ -330,7 +329,6 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_Ackbar</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_Ackbar</SFXEvent_Guard>
-		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Ackbar </Death_SFXEvent_Start_Die> -->
 
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>
 		<CategoryMask> SpaceHero </CategoryMask>
@@ -361,21 +359,9 @@
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<!-- Price reduced by 25% -->
 				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
-			<!--
-			<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
-				<Activation_Style>Combat_Automatic</Activation_Style>
-			</Cancel_Special_Ability>
--->
-			<Remove_Corruption_Ability Name="Akbar_Remove_Corruption">
-				<Initially_Enabled>Yes</Initially_Enabled>
-				<Activation_Style>Ground_Activated</Activation_Style>
-				<Causes_Despawn>No</Causes_Despawn>
-				<SFXEvent_Activate>RHD_Removing_Corruption</SFXEvent_Activate>
-			</Remove_Corruption_Ability>
 		</Abilities>
 	</HeroUnit>
 
@@ -436,10 +422,8 @@
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.75</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
-		<Affiliation>Empire,Federation</Affiliation>
-		<!-- If you want heroes to contribute to political control, use Political_Control_Bonus_Ability -->
+		<Affiliation>Empire</Affiliation>
 		<Political_Faction>Empire</Political_Faction>
 		<IsBuildable>No</IsBuildable>
 		<Spawn_Planet>Coruscant</Spawn_Planet>
@@ -802,7 +786,6 @@
 		<Icon_Name>i_button_grand_moff_tarkin.tga</Icon_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
@@ -830,7 +813,6 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 
 		<Abilities SubObjectList="Yes">
-
 			<Political_Transition_Bonus_Ability Name="Tarkin_Political_Transition_Bonus">
 				<Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
@@ -853,19 +835,25 @@
 				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
 				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
-				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Health_Bonus_Percentage>0.50</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.3</Damage_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.3</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.3</Defense_Bonus_Percentage>
 				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
 
 			<Retreat_Prevention_Ability Name="Tarkin_Retreat_Prevention">
-				<!-- maybe it should be space only? -->
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Retreat_Prevention_Ability>
+
+			<System_Spy_Ability Name="Tarkin_System_Spy_Force_Sensitive">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Force_Sensitive_Heroes>No</See_Force_Sensitive_Heroes>
+			</System_Spy_Ability>
 
 		</Abilities>
 	</HeroUnit>
