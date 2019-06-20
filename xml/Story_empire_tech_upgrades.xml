@@ -112,6 +112,14 @@
         <Prereq>Empire_Enters_Tech_03</Prereq>
     </Event>
 
+    <Event Name="Replace_Tie_Bomber">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Heavy_Bomber_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Bomber_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_03</Prereq>
+    </Event>
+
     <Event Name="Empire_Enters_Tech_04">
         <Event_Type>STORY_TECH_LEVEL</Event_Type>
         <Event_Param1>4</Event_Param1>
@@ -157,6 +165,14 @@
         <Prereq>Empire_Enters_Tech_04</Prereq>
     </Event>
 
+    <Event Name="Replace_Tie_Heavy_Bomber">
+        <Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+        <Reward_Param1>TIE_Advanced_Bomber_Squadron</Reward_Param1>
+        <Reward_Param2>TIE_Heavy_Bomber_Squadron</Reward_Param2>
+        <Prereq>Empire_Enters_Tech_04</Prereq>
+    </Event>
+
     <Event Name="Empire_Enters_Tech_05">
         <Event_Type>STORY_TECH_LEVEL</Event_Type>
         <Event_Param1>5</Event_Param1>
@@ -170,11 +186,11 @@
         <Prereq>Empire_Enters_Tech_05</Prereq>
     </Event>
 
-    <Event Name="Replace_Tie_Bomber">
+    <Event Name="Replace_Tie_Advanced_Bomber">
         <Event_Type>STORY_TRIGGER</Event_Type>
         <Reward_Type>BUILDABLE_UNIT</Reward_Type>
         <Reward_Param1>TIE_Neutralizer_Squadron</Reward_Param1>
-        <Reward_Param2>TIE_Bomber_Squadron</Reward_Param2>
+        <Reward_Param2>TIE_Advanced_Bomber_Squadron</Reward_Param2>
         <Prereq>Empire_Enters_Tech_05</Prereq>
     </Event>
 

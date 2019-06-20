@@ -6748,9 +6748,11 @@
         <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED, SPAWN_SQUADRON</Behavior>
         <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-        <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_1>
+        <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_2>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 0</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 0</Reserve_Spawned_Units_Tech_1>
+        <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 0</Reserve_Spawned_Units_Tech_2>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Death_Explosions>Large_Explosion_Space</Death_Explosions>
@@ -7670,14 +7672,14 @@
 
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_2>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_2>
 
         <Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
 
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_2>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_2>
 
         <HardPoints>
@@ -8439,10 +8441,12 @@
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 4</Starting_Spawned_Units_Tech_2>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
 
         <CategoryMask> Frigate | AntiCorvette</CategoryMask>
         <Icon_Name>I_BUTTON_VICTORY_CLASS.TGA</Icon_Name>
@@ -8613,10 +8617,15 @@
         <Death_Clone>Damage_Normal, Victory_Destroyer_Class_II_Death_Clone</Death_Clone>
 
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 4</Starting_Spawned_Units_Tech_2>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+
 
         <HardPoints>
             HP_Victory_Class_II_Main_Turret_01,
@@ -8853,12 +8862,12 @@
 
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 5</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 5</Starting_Spawned_Units_Tech_3>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 8</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 10</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 8</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 8</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 10</Reserve_Spawned_Units_Tech_3>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -9036,11 +9045,13 @@
 
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
 
         <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -9229,17 +9240,17 @@
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_2>
-        <Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_2>
+        <Starting_Spawned_Units_Tech_2>TIE_Heavy_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_3>
-        <Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
         <Starting_Spawned_Units_Tech_3>Missile_Boat_Squadron, 1</Starting_Spawned_Units_Tech_3>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_2>
-        <Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_3>
-        <Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_3>Missile_Boat_Squadron, 0</Reserve_Spawned_Units_Tech_3>
 
         <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -9485,23 +9496,17 @@
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_3>
-
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_2>
-        <Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
-
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
         <Starting_Spawned_Units_Tech_3>Alpha_XG1_Wing_Squadron, 1</Starting_Spawned_Units_Tech_3>
-
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_2>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_3>
-
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_2>
-        <Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
-
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_3>Alpha_XG1_Wing_Squadron, 0</Reserve_Spawned_Units_Tech_3>
 
         <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -9731,7 +9736,7 @@
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>5</Required_Star_Base_Level>
         <Required_Special_Structures>Empire_Heavy_Ship_Yard</Required_Special_Structures>
-        <Required_Planets>Kuat</Required_Planets>
+        <Required_Planets></Required_Planets>
 
         <Damage>70</Damage>
         <Autoresolve_Health>18000</Autoresolve_Health>
@@ -9754,15 +9759,15 @@
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 6</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_0>
-        <Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_3>
-        <Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_4>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 4</Starting_Spawned_Units_Tech_4>
         <Starting_Spawned_Units_Tech_4>TIE_Defender_Squadron, 4</Starting_Spawned_Units_Tech_4>
         <Spawned_Squadron_Delay_Seconds>8</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 16</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 24</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_0>
-        <Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_3>
-        <Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_4>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 16</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_4>TIE_Defender_Squadron, 10</Reserve_Spawned_Units_Tech_4>
 
         <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -9989,13 +9994,13 @@
 
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_4>TIE_Defender_Squadron, 5</Starting_Spawned_Units_Tech_4>
-        <Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_3>
-        <Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_4>
+        <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_4>
         <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_4>TIE_Defender_Squadron, 6</Reserve_Spawned_Units_Tech_4>
-        <Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_3>
-        <Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_4>
+        <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_4>
 
         <HardPoints>
             HP_Praetor_Medium_Turbolaser_01,
