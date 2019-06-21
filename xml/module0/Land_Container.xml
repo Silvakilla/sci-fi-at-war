@@ -363,6 +363,10 @@
         <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
         <CategoryMask>Infantry</CategoryMask>
 
+        <Show_Hero_Head>Yes</Show_Hero_Head>
+	    <Is_Generic_Hero>Yes</Is_Generic_Hero>
+	    <Lua_Script>FieldCommander</Lua_Script>
+
         <Unit_Abilities_Data SubObjectList="Yes">
             <Unit_Ability>
                 <Type>SPREAD_OUT</Type>
@@ -380,7 +384,7 @@
 
         <Show_Name>No</Show_Name>
         <Behavior>TEAM,SELECTABLE,UNIT_AI</Behavior>
-        <LandBehavior>REVEAL, LAND_TEAM_CONTAINER_LOCOMOTOR, TEAM_TARGETING, GARRISON_UNIT</LandBehavior>
+        <LandBehavior>ABILITY_COUNTDOWN, AMBIENT_SFX, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
         <SpaceBehavior>REVEAL</SpaceBehavior>
         <Land_FOW_Reveal_Range>380.0</Land_FOW_Reveal_Range>
         <Space_FOW_Reveal_Range>800.0</Space_FOW_Reveal_Range>

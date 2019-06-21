@@ -2571,7 +2571,7 @@
     <GroundInfantry Name="Squad_Scouttrooper_Sniper">
         <Variant_Of_Existing_Type>Scouttrooper_Sniper</Variant_Of_Existing_Type>
         <Text_ID>TEXT_UNIT_SCOUT_SNIPER</Text_ID>
-        <LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
+        <LandBehavior>ABILITY_COUNTDOWN, LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR, IDLE, TARGETING, WEAPON, STUNNABLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, GARRISON_UNIT</LandBehavior>
         <Is_Squashable> Yes </Is_Squashable>
         <Max_Speed> 1 </Max_Speed>
         <Space_Layer> None </Space_Layer>
