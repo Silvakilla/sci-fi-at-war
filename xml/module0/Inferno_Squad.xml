@@ -327,9 +327,7 @@
 		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>		
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
@@ -338,14 +336,28 @@
 			</Unit_Ability>
 
 			<Unit_Ability>
-				<Type>AREA_EFFECT_STUN</Type>
-				<Recharge_Seconds>40.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name/>
-				<!-- GUI Command Bar support -->
-				<Spawned_Object_Type> Proj_Special_Han_Solo_Stun_Blast </Spawned_Object_Type>
+				<Type>STICKY_BOMB</Type>
+				<Recharge_Seconds>26.0f </Recharge_Seconds>
+				<GUI_Activated_Ability_Name> Hask_Grenade_Attack </GUI_Activated_Ability_Name>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Grenade_Attack_Ability Name="Hask_Grenade_Attack">
+				<Activation_Style> User_Input </Activation_Style>
+				<Activation_Min_Range>5.0</Activation_Min_Range>
+				<Activation_Max_Range>100.0</Activation_Max_Range>
+				<Requires_Direct_Player_Command> No </Requires_Direct_Player_Command>
+				<Grenade_Type>Proj_Mara_Jade_Sticky_Bomb</Grenade_Type>
+				<Grenade_Toss_Anim>BOMBTOSS</Grenade_Toss_Anim>
+				<Grenade_Spawn_Frame>12.0</Grenade_Spawn_Frame>
+				<Grenade_Spawn_Bone>MuzzleB_00</Grenade_Spawn_Bone>
+				<Grenade_Explode_Timer_In_Secs>8.0</Grenade_Explode_Timer_In_Secs>
+				<Activation_Chance>0,0.0, 1,1.0, 5,1.0, 500,1.0</Activation_Chance>
+				<Applicable_Unit_Categories>Vehicle, Structure</Applicable_Unit_Categories>
+			</Grenade_Attack_Ability>
+		</Abilities>
 	</HeroUnit>
 
 	<HeroUnit Name="Del">
@@ -483,9 +495,6 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.1f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Take_Cover_Storm_Trooper</SFXEvent_GUI_Unit_Ability_Activated>		  			
 			</Unit_Ability>	
-
-
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">

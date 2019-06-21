@@ -1375,8 +1375,6 @@
 				<SFXEvent_Target_Ability> Unit_Convert_Emperor </SFXEvent_Target_Ability>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1436,9 +1434,8 @@
 				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Bomb_Mara_Jade</SFXEvent_Activate>
 			</Grenade_Attack_Ability>
-
-
 		</Abilities>
+
 	</HeroUnit>
 
 	<HeroUnit Name="Mon_Mothma">
