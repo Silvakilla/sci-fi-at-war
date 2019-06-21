@@ -563,7 +563,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Charon </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -571,7 +571,7 @@
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Charon">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>6</Damage_Multiplier>
@@ -753,7 +753,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>40.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Halcyon </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -761,7 +761,7 @@
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Halcyon">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>10</Damage_Multiplier>
@@ -934,7 +934,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Iliad </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -967,7 +967,7 @@
                 </Force_Healing_Ability>
             </Abilities>
 
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Iliad">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>10</Damage_Multiplier>
@@ -1298,7 +1298,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Marathon </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -1306,7 +1306,7 @@
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Marathon">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>11</Damage_Multiplier>
@@ -1475,7 +1475,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Midlothian </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -1483,7 +1483,7 @@
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Midlothian">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>10</Damage_Multiplier>
@@ -1668,7 +1668,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>20.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Orion </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -1676,7 +1676,7 @@
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Orion">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>15</Damage_Multiplier>
@@ -1833,7 +1833,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Paris </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -1841,7 +1841,7 @@
         </Unit_Abilities_Data>
 
         <Abilities SubObjectList="Yes">
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Paris">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>7</Damage_Multiplier>
@@ -2004,7 +2004,7 @@
             <Unit_Ability>
                 <Type>BLAST</Type>
                 <Recharge_Seconds>60.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MAC </GUI_Activated_Ability_Name>
+                <GUI_Activated_Ability_Name> MAC_Phoenix </GUI_Activated_Ability_Name>
                 <SFXEvent_GUI_Unit_Ability_Activated>GUI_Weapon_Boost_SFX</SFXEvent_GUI_Unit_Ability_Activated>
                 <Alternate_Name_Text>TEXT_TOOLTIP_MAC_GUN</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_TOOLTIP_MAC_GUN_DESCRIPTION</Alternate_Description_Text>
@@ -2037,7 +2037,7 @@
                 </Force_Healing_Ability>
             </Abilities>
 
-            <Blast_Ability Name="MAC">
+            <Blast_Ability Name="MAC_Phoenix">
                 <Activation_Style> User_Input </Activation_Style>
                 <Charge_Up_Seconds>0</Charge_Up_Seconds>
                 <Damage_Multiplier>15</Damage_Multiplier>
@@ -2184,7 +2184,7 @@
 
             <Unit_Ability>
                 <Type>HARMONIC_BOMB</Type>
-                <Recharge_Seconds>5</Recharge_Seconds>
+                <Recharge_Seconds>15</Recharge_Seconds>
                 <Alternate_Name_Text>TEXT_TOOLTIP_SPACE_MINE</Alternate_Name_Text>
                 <Alternate_Description_Text>TEXT_SPACE_MINE_DESCRIPTION</Alternate_Description_Text>
                 <Spawned_Object_Type>Proj_Space_Mine</Spawned_Object_Type>
