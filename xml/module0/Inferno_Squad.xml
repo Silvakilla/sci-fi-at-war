@@ -8,7 +8,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_IDEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEC</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>empire/inferno_suqad/Ei_Iden.alo</Land_Model_Name>
+		<Land_Model_Name>empire/inferno_squad/Ei_Iden.alo</Land_Model_Name>
 		<Icon_Name>i_button_idenversio.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
@@ -208,7 +208,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_HASK TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEC</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>empire/inferno_suqad/Ei_Hask.alo</Land_Model_Name>
+		<Land_Model_Name>empire/inferno_squad/Ei_Hask.alo</Land_Model_Name>
 		<Icon_Name>i_button_agent_hack.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
@@ -367,7 +367,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_DEL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEC</Encyclopedia_Unit_Class>
 
-		<Land_Model_Name>empire/inferno_suqad/Ei_Del.alo</Land_Model_Name>
+		<Land_Model_Name>empire/inferno_squad/Ei_Del.alo</Land_Model_Name>
 		<Icon_Name>I_Button_Del.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>

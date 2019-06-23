@@ -9242,6 +9242,7 @@
         <Starting_Spawned_Units_Tech_2>TIE_Heavy_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
+        <Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_4>
         <Starting_Spawned_Units_Tech_3>Missile_Boat_Squadron, 1</Starting_Spawned_Units_Tech_3>
         <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Reserve_Spawned_Units_Tech_0>
@@ -9249,6 +9250,7 @@
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_2>
         <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_3>Missile_Boat_Squadron, 0</Reserve_Spawned_Units_Tech_3>
 
@@ -9495,6 +9497,7 @@
         <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_2>
         <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_4>
         <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
         <Starting_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_3>
         <Starting_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_4>
@@ -9503,6 +9506,7 @@
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_2>
         <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_3>TIE_Heavy_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
         <Reserve_Spawned_Units_Tech_4>TIE_Advanced_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_4>
