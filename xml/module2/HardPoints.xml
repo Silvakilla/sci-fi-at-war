@@ -3071,6 +3071,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
 
+        <Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
+
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -3101,6 +3104,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
+
+        <Attachment_Bone>MuzzleB_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -3133,6 +3139,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
 
+        <Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
+
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -3164,6 +3173,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
 
+        <Attachment_Bone>MuzzleB_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_03</Collision_Mesh>
+
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -3194,6 +3206,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
+
+        <Attachment_Bone>MuzzleB_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_04</Collision_Mesh>
 		
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -3226,6 +3241,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
 
+        <Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
+
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -3257,6 +3275,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
 
+        <Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
+
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -3285,6 +3306,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -3314,6 +3338,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -3343,6 +3370,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -3372,6 +3402,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -3401,6 +3434,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -3430,6 +3466,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -3459,6 +3498,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -3488,6 +3530,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -3517,6 +3562,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -3546,6 +3594,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -3575,6 +3626,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -3604,6 +3658,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -3633,6 +3690,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -3663,6 +3723,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
 
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_14</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -3691,6 +3754,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -3720,6 +3786,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -3749,6 +3818,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -3778,6 +3850,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -3807,6 +3882,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_19</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -3837,6 +3915,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -3865,6 +3946,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleB_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -3893,6 +3977,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -3921,6 +4008,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -3952,6 +4042,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -3983,6 +4076,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -4014,6 +4110,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -4045,6 +4144,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -4076,6 +4178,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -4107,6 +4212,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -4138,6 +4246,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -4169,6 +4280,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -4200,6 +4314,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -4231,6 +4348,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -4262,6 +4382,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -4293,6 +4416,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -4324,6 +4450,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_14</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -4355,6 +4484,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -4386,6 +4518,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -4417,6 +4552,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -4448,6 +4586,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -4479,6 +4620,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_19</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -4510,6 +4654,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_20</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_20</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -4541,6 +4688,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_21</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_21</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -4572,6 +4722,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_22</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_22</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -4603,6 +4756,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_23</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_23</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -4634,6 +4790,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_24</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_24</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -4665,6 +4824,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_25</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_25</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -4696,6 +4858,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>600.0</Health>
+		
+		<Attachment_Bone>MuzzleA_26</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_26</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -4775,6 +4940,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -4806,6 +4974,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -4837,6 +5008,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -4868,6 +5042,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -4899,6 +5076,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -4930,6 +5110,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -4961,6 +5144,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -4992,6 +5178,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -5023,6 +5212,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -5054,6 +5246,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
@@ -5085,6 +5280,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
@@ -5116,6 +5314,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -5145,6 +5346,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -5174,6 +5378,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -5204,6 +5411,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
 		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5232,6 +5442,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -5261,6 +5474,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -5290,6 +5506,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -5319,6 +5538,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -5348,6 +5570,10 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_08</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5376,6 +5602,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -5405,6 +5634,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -5434,6 +5666,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -5464,6 +5699,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
 		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -5492,6 +5730,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -5521,6 +5762,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_14</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -5550,6 +5794,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -5579,6 +5826,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -5608,6 +5858,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -5637,6 +5890,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -5666,6 +5922,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_19</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -5695,6 +5954,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_20</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_20</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -5724,6 +5986,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_21</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_21</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -5753,6 +6018,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_22</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_22</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -5782,6 +6050,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_23</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_23</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -5811,6 +6082,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_24</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_24</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -5840,6 +6114,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_25</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_25</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -5869,6 +6146,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_26</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_26</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -5898,6 +6178,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_27</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_27</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_27</Fire_Bone_B>
@@ -5927,6 +6210,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_28</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_28</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_28</Fire_Bone_B>
@@ -5956,6 +6242,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_29</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_29</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_29</Fire_Bone_B>
@@ -5985,6 +6274,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_30</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_30</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_30</Fire_Bone_B>
@@ -6014,6 +6306,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_31</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_31</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
@@ -6043,6 +6338,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_32</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_32</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_32</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_32</Fire_Bone_B>
@@ -6072,6 +6370,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_33</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_33</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_33</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_33</Fire_Bone_B>
@@ -6101,6 +6402,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_34</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_34</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_34</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_34</Fire_Bone_B>
@@ -6130,6 +6434,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_35</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_35</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_35</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_35</Fire_Bone_B>
@@ -6159,6 +6466,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_36</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_36</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_36</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_36</Fire_Bone_B>
@@ -6188,6 +6498,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_37</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_37</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_37</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_37</Fire_Bone_B>
@@ -6217,6 +6530,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_38</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_38</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_38</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_38</Fire_Bone_B>
@@ -6246,6 +6562,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_39</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_39</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_39</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_39</Fire_Bone_B>
@@ -6275,6 +6594,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_40</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_40</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_40</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_40</Fire_Bone_B>
@@ -6304,6 +6626,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_41</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_41</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_41</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_41</Fire_Bone_B>
@@ -6333,6 +6658,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_42</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_42</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_42</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_42</Fire_Bone_B>
@@ -6363,6 +6691,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
 
+		<Attachment_Bone>MuzzleA_43</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_43</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_43</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_43</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -6391,6 +6722,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_44</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_44</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_44</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_44</Fire_Bone_B>
@@ -6420,6 +6754,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_45</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_45</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_45</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_45</Fire_Bone_B>
@@ -6449,6 +6786,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_46</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_46</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_46</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_46</Fire_Bone_B>
@@ -6478,6 +6818,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_47</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_47</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_47</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_47</Fire_Bone_B>
@@ -6507,6 +6850,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_48</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_48</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_48</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_48</Fire_Bone_B>
@@ -6536,6 +6882,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_49</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_49</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_49</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_49</Fire_Bone_B>
@@ -6565,6 +6914,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_50</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_50</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_50</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_50</Fire_Bone_B>
@@ -6594,6 +6946,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_51</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_51</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_51</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_51</Fire_Bone_B>
@@ -6623,35 +6978,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
-
-        <Fire_Bone_A>MuzzleA_52</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_52</Fire_Bone_B>
-        <Fire_Cone_Width>170.0</Fire_Cone_Width>
-        <Fire_Cone_Height>160.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_UNSC_Light_Missile</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>3</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_UNSC_Missile_Fire</Fire_SFXEvent>
-
-        <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
-
-    <HardPoint Name="Orion_52">
-        <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
-        <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_52</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_52</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_52</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_52</Fire_Bone_B>
@@ -6681,6 +7010,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_53</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_53</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_53</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_53</Fire_Bone_B>
@@ -6710,6 +7042,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_54</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_54</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_54</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_54</Fire_Bone_B>
@@ -6739,6 +7074,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_55</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_55</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_55</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_55</Fire_Bone_B>
@@ -6768,6 +7106,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_56</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_56</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_56</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_56</Fire_Bone_B>
@@ -6797,6 +7138,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_57</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_57</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_57</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_57</Fire_Bone_B>
@@ -6826,6 +7170,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_58</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_58</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_58</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_58</Fire_Bone_B>
@@ -6855,6 +7202,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_59</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_59</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_59</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_59</Fire_Bone_B>
@@ -6884,6 +7234,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_60</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_60</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_60</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_60</Fire_Bone_B>
@@ -6913,35 +7266,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
-
-        <Fire_Bone_A>MuzzleA_61</Fire_Bone_A>
-        <Fire_Bone_B>MuzzleA_61</Fire_Bone_B>
-        <Fire_Cone_Width>170.0</Fire_Cone_Width>
-        <Fire_Cone_Height>160.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_UNSC_Light_Missile</Fire_Projectile_Type>
-        <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>3</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_UNSC_Missile_Fire</Fire_SFXEvent>
-
-        <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
-        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
-
-    <HardPoint Name="Orion_61">
-        <Type> HARD_POINT_WEAPON_MISSILE </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
-        <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_61</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_61</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_61</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_61</Fire_Bone_B>
@@ -6971,6 +7298,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_62</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_62</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_62</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_62</Fire_Bone_B>
@@ -7000,6 +7330,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_63</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_63</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_63</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_63</Fire_Bone_B>
@@ -7029,6 +7362,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_64</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_64</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_64</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_64</Fire_Bone_B>
@@ -7058,6 +7394,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_65</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_65</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_65</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_65</Fire_Bone_B>
@@ -7087,6 +7426,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_66</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_66</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_66</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_66</Fire_Bone_B>
@@ -7116,6 +7458,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_67</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_67</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_67</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_67</Fire_Bone_B>
@@ -7145,6 +7490,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_68</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_68</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_68</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_68</Fire_Bone_B>
@@ -7174,6 +7522,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_69</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_69</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_69</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_69</Fire_Bone_B>
@@ -7203,6 +7554,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_70</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_70</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_70</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_70</Fire_Bone_B>
@@ -7232,6 +7586,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_71</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_71</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_71</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_71</Fire_Bone_B>
@@ -7261,6 +7618,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_72</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_72</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_72</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_72</Fire_Bone_B>
@@ -7290,6 +7650,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_73</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_73</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_73</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_73</Fire_Bone_B>
@@ -7319,6 +7682,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_74</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_74</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_74</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_74</Fire_Bone_B>
@@ -7348,6 +7714,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_75</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_75</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_75</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_75</Fire_Bone_B>
@@ -7377,6 +7746,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_76</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_76</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_76</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_76</Fire_Bone_B>
@@ -7406,6 +7778,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_77</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_77</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_77</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_77</Fire_Bone_B>
@@ -7435,6 +7810,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_78</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_78</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_78</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_78</Fire_Bone_B>
@@ -7464,6 +7842,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_79</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_79</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_79</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_79</Fire_Bone_B>
@@ -7486,7 +7867,7 @@
         <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
-
+    
     <!-- Prowler -->
     <HardPoint Name="HP_Prowler_Nuke">
         <Type> HARD_POINT_WEAPON_SPECIAL </Type>
@@ -7627,6 +8008,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -7656,6 +8040,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -7685,6 +8072,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -7714,6 +8104,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -7743,6 +8136,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -7772,6 +8168,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -7801,6 +8200,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -7830,6 +8232,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -7859,6 +8264,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -7888,6 +8296,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -7917,6 +8328,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -7946,6 +8360,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -7975,6 +8392,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -8004,6 +8424,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -8033,6 +8456,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_14</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -8063,6 +8489,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
 
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -8091,6 +8520,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -8120,6 +8552,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -8149,6 +8584,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -8179,6 +8617,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
 
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_19</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -8207,6 +8648,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_20</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_20</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -8236,6 +8680,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_21</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_21</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -8265,6 +8712,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_22</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_22</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -8294,6 +8744,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_23</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_23</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -8323,6 +8776,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_24</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_24</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -8352,6 +8808,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_25</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_25</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -8381,6 +8840,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_26</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_26</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -8410,6 +8872,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_27</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_27</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_27</Fire_Bone_B>
@@ -8439,6 +8904,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_28</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_28</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_28</Fire_Bone_B>
@@ -8468,6 +8936,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_29</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_29</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_29</Fire_Bone_B>
@@ -8497,6 +8968,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_30</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_30</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_30</Fire_Bone_B>
@@ -8526,6 +9000,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_31</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_31</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
@@ -8654,6 +9131,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -8685,6 +9165,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -8716,6 +9199,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -8747,6 +9233,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -8778,6 +9267,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -8809,6 +9301,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -8840,6 +9335,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -8869,6 +9367,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -8898,6 +9399,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -8927,6 +9431,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -8956,6 +9463,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -8985,6 +9495,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -9014,6 +9527,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -9043,6 +9559,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -9072,6 +9591,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -9101,6 +9623,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -9131,6 +9656,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
 
+		<Attachment_Bone>MuzzleB_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_10</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -9159,6 +9687,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
@@ -9188,6 +9719,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_12</Fire_Bone_B>
@@ -9217,6 +9751,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_13</Fire_Bone_B>
@@ -9246,6 +9783,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_14</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_14</Fire_Bone_B>
@@ -9275,6 +9815,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_15</Fire_Bone_B>
@@ -9304,6 +9847,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_16</Fire_Bone_B>
@@ -9333,6 +9879,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_17</Fire_Bone_B>
@@ -9362,6 +9911,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_18</Fire_Bone_B>
@@ -9391,6 +9943,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_19</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_19</Fire_Bone_B>
@@ -9420,6 +9975,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_20</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_20</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_20</Fire_Bone_B>
@@ -9449,6 +10007,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_21</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_21</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_21</Fire_Bone_B>
@@ -9478,6 +10039,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_22</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_22</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_22</Fire_Bone_B>
@@ -9507,6 +10071,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_23</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_23</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_23</Fire_Bone_B>
@@ -9536,6 +10103,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_24</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_24</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_24</Fire_Bone_B>
@@ -9565,6 +10135,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_25</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_25</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_25</Fire_Bone_B>
@@ -9595,6 +10168,9 @@
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
 
+		<Attachment_Bone>MuzzleB_26</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_26</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleB_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_26</Fire_Bone_B>
         <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -9623,6 +10199,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_27</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_27</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_27</Fire_Bone_B>
@@ -9652,6 +10231,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_28</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_28</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_28</Fire_Bone_B>
@@ -9681,6 +10263,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_29</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_29</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_29</Fire_Bone_B>
@@ -9710,6 +10295,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_30</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_30</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_30</Fire_Bone_B>
@@ -9739,6 +10327,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_31</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_31</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_31</Fire_Bone_B>
@@ -9768,6 +10359,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_32</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_32</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_32</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_32</Fire_Bone_B>
@@ -9797,6 +10391,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_33</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_33</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_33</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_33</Fire_Bone_B>
@@ -9826,6 +10423,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_34</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_34</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_34</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_34</Fire_Bone_B>
@@ -9855,6 +10455,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_35</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_35</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_35</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_35</Fire_Bone_B>
@@ -9884,6 +10487,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_36</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_36</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_36</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_36</Fire_Bone_B>
@@ -9913,6 +10519,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_37</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_37</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_37</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_37</Fire_Bone_B>
@@ -9942,6 +10551,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_38</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_38</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_38</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_38</Fire_Bone_B>
@@ -9971,6 +10583,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_39</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_39</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_39</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_39</Fire_Bone_B>
@@ -10000,6 +10615,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_40</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_40</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_40</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_40</Fire_Bone_B>
@@ -10029,6 +10647,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_41</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_41</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_41</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_41</Fire_Bone_B>
@@ -10058,6 +10679,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_42</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_42</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_42</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_42</Fire_Bone_B>
@@ -10087,6 +10711,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_43</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_43</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_43</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_43</Fire_Bone_B>
@@ -10116,6 +10743,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>800.0</Health>
+		
+		<Attachment_Bone>MuzzleB_44</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_44</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_44</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_44</Fire_Bone_B>
@@ -10138,7 +10768,6 @@
         <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
-
 
     <!-- Phoenix -->
     <HardPoint Name="HP_Phoenix_Hanger">
@@ -10194,6 +10823,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -10225,6 +10857,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
@@ -10256,6 +10891,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -10287,6 +10925,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
@@ -10318,6 +10959,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -10349,6 +10993,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -10380,6 +11027,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -10411,6 +11061,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -10442,6 +11095,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
@@ -10473,6 +11129,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleB_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
@@ -10504,6 +11163,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -10533,6 +11195,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -10562,6 +11227,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -10591,6 +11259,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -10620,6 +11291,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -10649,6 +11323,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -10678,6 +11355,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -10707,6 +11387,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -10736,6 +11419,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -10765,6 +11451,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -10794,6 +11483,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -10823,6 +11515,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -10852,6 +11547,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -10881,6 +11579,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -10910,6 +11611,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_14</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -10939,6 +11643,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -10968,6 +11675,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -10997,6 +11707,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -11026,6 +11739,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -11055,6 +11771,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_19</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -11084,6 +11803,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_20</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_20</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -11113,6 +11835,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_21</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_21</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -11142,6 +11867,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_22</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_22</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -11171,6 +11899,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_23</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_23</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -11200,6 +11931,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_24</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_24</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -11229,6 +11963,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_25</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_25</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -11258,6 +11995,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_26</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_26</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -11287,6 +12027,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_27</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_27</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_27</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_27</Fire_Bone_B>
@@ -11316,6 +12059,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_28</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_28</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_28</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_28</Fire_Bone_B>
@@ -11345,6 +12091,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_29</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_29</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_29</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_29</Fire_Bone_B>
@@ -11374,6 +12123,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_30</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_30</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_30</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_30</Fire_Bone_B>
@@ -11403,6 +12155,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_31</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_31</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_31</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_31</Fire_Bone_B>
@@ -11432,6 +12187,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_32</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_32</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_32</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_32</Fire_Bone_B>
@@ -11461,6 +12219,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_33</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_33</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_33</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_33</Fire_Bone_B>
@@ -11490,6 +12251,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_34</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_34</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_34</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_34</Fire_Bone_B>
@@ -11519,6 +12283,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_35</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_35</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_35</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_35</Fire_Bone_B>
@@ -11548,6 +12315,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_36</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_36</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_36</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_36</Fire_Bone_B>
@@ -11577,6 +12347,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_37</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_37</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_37</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_37</Fire_Bone_B>
@@ -11606,6 +12379,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_38</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_38</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_38</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_38</Fire_Bone_B>
@@ -11635,6 +12411,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>1000.0</Health>
+		
+		<Attachment_Bone>MuzzleA_39</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_39</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_39</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_39</Fire_Bone_B>
@@ -11865,9 +12644,11 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
 		
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -11893,10 +12674,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -11922,10 +12705,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -11951,10 +12736,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_03</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -11981,9 +12768,11 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
 
+		<Attachment_Bone>MuzzleB_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_04</Collision_Mesh>
+		
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12009,10 +12798,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12038,10 +12829,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12067,10 +12860,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12096,10 +12891,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_08</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12125,10 +12922,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_09</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12154,10 +12953,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_10</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12183,10 +12984,12 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleB_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_11</Fire_Bone_B>
-
         <Fire_Cone_Width>180.0</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Railgun</Fire_Projectile_Type>
@@ -12212,6 +13015,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -12243,7 +13049,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>300.0</Health>
-
+	
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -12275,7 +13083,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>300.0</Health>
-
+		
+		<Attachment_Bone>MuzzleA_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
@@ -12307,7 +13117,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>300.0</Health>
-
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -12339,7 +13151,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>300.0</Health>
-
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -12370,6 +13184,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>300.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -12402,6 +13219,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -12433,6 +13253,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_01</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_01</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
@@ -12464,6 +13287,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_03</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_03</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
@@ -12495,6 +13321,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
@@ -12526,6 +13355,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -12557,6 +13389,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
@@ -12588,6 +13423,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
@@ -12619,6 +13457,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_08</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_08</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
@@ -12650,6 +13491,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_09</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_09</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
@@ -12681,6 +13525,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_10</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_10</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
@@ -12712,6 +13559,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_11</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_11</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_11</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_11</Fire_Bone_B>
@@ -12743,6 +13593,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -12774,6 +13627,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_13</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_13</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_13</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_13</Fire_Bone_B>
@@ -12805,6 +13661,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_14</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_14</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_14</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_14</Fire_Bone_B>
@@ -12836,6 +13695,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -12867,6 +13729,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_16</Fire_Bone_B>
@@ -12898,6 +13763,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_17</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_17</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_17</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_17</Fire_Bone_B>
@@ -12929,6 +13797,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_18</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_18</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_18</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_18</Fire_Bone_B>
@@ -12960,6 +13831,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_19</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_19</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_19</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_19</Fire_Bone_B>
@@ -12991,6 +13865,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_20</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_20</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_20</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_20</Fire_Bone_B>
@@ -13022,6 +13899,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_21</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_21</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_21</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_21</Fire_Bone_B>
@@ -13053,6 +13933,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_22</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_22</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_22</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_22</Fire_Bone_B>
@@ -13084,6 +13967,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_23</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_23</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_23</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_23</Fire_Bone_B>
@@ -13115,6 +14001,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_24</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_24</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_24</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_24</Fire_Bone_B>
@@ -13146,6 +14035,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_25</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_25</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_25</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_25</Fire_Bone_B>
@@ -13177,6 +14069,9 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LIGHTMISSILE</Tooltip_Text>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_26</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_26</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_26</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_26</Fire_Bone_B>
@@ -13208,6 +14103,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_16</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_16</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_16</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_16</Fire_Bone_B>
@@ -13236,6 +14134,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_04</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_04</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_04</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_04</Fire_Bone_B>
@@ -13264,6 +14165,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -13292,6 +14196,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_06</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_06</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_06</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_06</Fire_Bone_B>
@@ -13320,6 +14227,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
@@ -13351,6 +14261,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_02</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_02</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_02</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_02</Fire_Bone_B>
@@ -13382,6 +14295,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_05</Fire_Bone_B>
@@ -13413,6 +14329,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleB_07</Attachment_Bone>
+        <Collision_Mesh>MuzzleB_07</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleB_07</Fire_Bone_A>
         <Fire_Bone_B>MuzzleB_07</Fire_Bone_B>
@@ -13444,6 +14363,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_15</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_15</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_15</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_15</Fire_Bone_B>
@@ -13472,6 +14394,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_12</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_12</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_12</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_12</Fire_Bone_B>
@@ -13500,6 +14425,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_00</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_00</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
@@ -13528,6 +14456,9 @@
         <Is_Targetable>yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>400.0</Health>
+		
+		<Attachment_Bone>MuzzleA_05</Attachment_Bone>
+        <Collision_Mesh>MuzzleA_05</Collision_Mesh>
 
         <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
         <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
@@ -13549,6 +14480,5 @@
         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
-
 
 </Hardpoints>
