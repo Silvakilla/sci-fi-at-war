@@ -2,8 +2,8 @@
 <Unit>
 
 	<SpaceUnit Name="Shielded_TIE_Fighter">
-		<Text_ID>TEXT_UNIT_SHIELDED_TIE_FIGHTER</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SHIELDED_TIE_FIGHTER</Encyclopedia_Text>
+		<Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against/>
 		<Encyclopedia_Vulnerable_To/>
@@ -143,8 +143,8 @@
 	</SpaceUnit>
 	
 	<Squadron Name="Shielded_TIE_Fighter_Squadron">
-        <Text_ID>TEXT_SHIELDED_TIE_FIGHTER_SQUADRON</Text_ID>
-        <Encyclopedia_Text>TEXT_TOOLTIP_SHIELDED_TIE_FIGHTER</Encyclopedia_Text>
+        <Text_ID>TEXT_TIE_FIGHTER_SQUADRON</Text_ID>
+        <Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against></Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To>
