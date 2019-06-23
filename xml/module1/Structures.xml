@@ -985,7 +985,7 @@
     </SpecialStructure>
 
     <SpecialStructure Name="Rebel_R_Skirmish_Medium_Ship_Yard">
-        <Text_ID>TEXT_STRUCTURE_D_MEDIUM_SHIP_YARD</Text_ID>
+        <Text_ID>TEXT_STRUCTURE_R_MEDIUM_SHIP_YARD</Text_ID>
         <Encyclopedia_Text>TEXT_TOOLTIP_MEDIUM_SHIP_YARD</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
