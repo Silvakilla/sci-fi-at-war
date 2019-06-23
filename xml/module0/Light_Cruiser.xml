@@ -4,7 +4,7 @@
 	<SpaceUnit Name="Imperial_Light_Cruiser">
         <Text_ID>TEXT_UNIT_IMPERIAL_LIGHT_CRUISER</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_IMPERIAL_LIGHT_CRUISER</Encyclopedia_Text>
-        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER</Encyclopedia_Unit_Class>
+        <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_CRUISER</Encyclopedia_Unit_Class>
 
         <GUI_Row>0</GUI_Row>
         <Build_Tab_Space_Station>0</Build_Tab_Space_Station>
