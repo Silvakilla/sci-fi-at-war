@@ -579,7 +579,7 @@
             </Blast_Ability>
         </Abilities>
 
-        <Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>800</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>1</Population_Value>
@@ -1491,7 +1491,7 @@
             </Blast_Ability>
         </Abilities>
 
-        <Tactical_Build_Cost_Multiplayer>900</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>2</Population_Value>
@@ -1657,7 +1657,7 @@
         <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
         <Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
-        <Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
         <Tactical_Build_Prerequisites/>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1849,7 +1849,7 @@
             </Blast_Ability>
         </Abilities>
 
-        <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>5</Tactical_Build_Time_Seconds>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>1</Population_Value>
@@ -2660,8 +2660,8 @@
             </Unit_Ability>
         </Unit_Abilities_Data>
 
-        <Score_Cost_Credits> 1250</Score_Cost_Credits>
-        <Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
+        <Score_Cost_Credits>1250</Score_Cost_Credits>
+        <Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2840,7 +2840,7 @@
         </Unit_Abilities_Data>
 
         <Score_Cost_Credits> 1250</Score_Cost_Credits>
-        <Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
         <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -3196,7 +3196,7 @@
 
         <Score_Cost_Credits> 2250</Score_Cost_Credits>
         <Tactical_Bribe_Cost>7000</Tactical_Bribe_Cost>
-        <Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>6</Population_Value>
@@ -3403,7 +3403,7 @@
 
         <Score_Cost_Credits> 2250</Score_Cost_Credits>
         <Tactical_Bribe_Cost>7000</Tactical_Bribe_Cost>
-        <Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
+        <Tactical_Build_Cost_Multiplayer>8000</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Population_Value>6</Population_Value>

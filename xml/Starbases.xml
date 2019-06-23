@@ -1943,7 +1943,9 @@
             Rebel_F_Skirmish_Medium_Ship_Yard,
             Rebel_K_Skirmish_Medium_Ship_Yard,
 			Rebel_D_Skirmish_Medium_Ship_Yard,
-            Rebel_R_Skirmish_Medium_Ship_Yard
+            Rebel_R_Skirmish_Medium_Ship_Yard,
+			Rebel_UNSC_Skirmish_Medium_Ship_Yard,
+			Rebel_Covenant_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2036,7 +2038,9 @@
             Rebel_F_Skirmish_Medium_Ship_Yard,
             Rebel_K_Skirmish_Medium_Ship_Yard,
 			Rebel_D_Skirmish_Medium_Ship_Yard,
-            Rebel_D_Skirmish_Medium_Ship_Yard
+            Rebel_D_Skirmish_Medium_Ship_Yard,
+			Rebel_UNSC_Skirmish_Medium_Ship_Yard,
+			Rebel_Covenant_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2152,7 +2156,9 @@
             Rebel_F_Skirmish_Medium_Ship_Yard,
             Rebel_K_Skirmish_Medium_Ship_Yard,
 			Rebel_D_Skirmish_Medium_Ship_Yard,
-            Rebel_D_Skirmish_Medium_Ship_Yard
+            Rebel_D_Skirmish_Medium_Ship_Yard,
+			Rebel_UNSC_Skirmish_Medium_Ship_Yard,
+			Rebel_Covenant_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2391,7 +2397,9 @@
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
 			Empire_D_Skirmish_Medium_Ship_Yard,
-			Empire_R_Skirmish_Medium_Ship_Yard
+			Empire_R_Skirmish_Medium_Ship_Yard,
+			Empire_UNSC_Skirmish_Medium_Ship_Yard,
+			Empire_Covenant_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2484,7 +2492,9 @@
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
 			Empire_D_Skirmish_Medium_Ship_Yard,
-            Empire_R_Skirmish_Medium_Ship_Yard
+            Empire_R_Skirmish_Medium_Ship_Yard,
+			Empire_UNSC_Skirmish_Medium_Ship_Yard,
+			Empire_Covenant_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -2604,7 +2614,9 @@
             Empire_K_Skirmish_Medium_Ship_Yard,
             Empire_F_Skirmish_Medium_Ship_Yard,
 			Empire_D_Skirmish_Medium_Ship_Yard,
-            Empire_R_Skirmish_Medium_Ship_Yard
+            Empire_R_Skirmish_Medium_Ship_Yard,
+			Empire_UNSC_Skirmish_Medium_Ship_Yard,
+			Empire_Covenant_Skirmish_Medium_Ship_Yard
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
