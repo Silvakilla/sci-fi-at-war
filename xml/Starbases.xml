@@ -343,6 +343,8 @@
 		<Reserve_Spawned_Units_Tech_0>Y_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Marauder_Missile_Cruiser, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Marauder_Missile_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 
 		<Tactical_Buildable_Objects_Campaign>
 			Rebel,
@@ -496,6 +498,8 @@
 		<Reserve_Spawned_Units_Tech_0>Y_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Marauder_Missile_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Marauder_Missile_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Nebulon_B, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Nebulon_B, -1</Reserve_Spawned_Units_Tech_0>
 
@@ -659,6 +663,8 @@
 		<Reserve_Spawned_Units_Tech_0>Y_Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Marauder_Missile_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Marauder_Missile_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Nebulon_B, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Nebulon_B, -1</Reserve_Spawned_Units_Tech_0>
 
@@ -962,8 +968,8 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0>
 		<!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Tartan_Patrol_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Imperial_Light_Cruiser, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Light_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 		<!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
@@ -1110,6 +1116,10 @@
 
 		<Starting_Spawned_Units_Tech_0>Lancer_Frigate, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Lancer_Frigate, -1</Reserve_Spawned_Units_Tech_0>
+		<!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Imperial_Light_Cruiser, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Light_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 		<!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
@@ -1265,6 +1275,10 @@
 		<Reserve_Spawned_Units_Tech_0>Lancer_Frigate, -1</Reserve_Spawned_Units_Tech_0>
 		<!-- -1 == no limit -->
 
+		<Starting_Spawned_Units_Tech_0>Imperial_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Light_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
+		<!-- -1 == no limit -->
+
 		<Starting_Spawned_Units_Tech_0>Acclamator, 1</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Acclamator, -1</Reserve_Spawned_Units_Tech_0>
 		<!-- -1 == no limit -->
@@ -1417,6 +1431,10 @@
 
 		<Starting_Spawned_Units_Tech_0>Lancer_Frigate, 2</Starting_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Lancer_Frigate, -1</Reserve_Spawned_Units_Tech_0>
+		<!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>Imperial_Light_Cruiser, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Imperial_Light_Cruiser, -1</Reserve_Spawned_Units_Tech_0>
 		<!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Acclamator, 2</Starting_Spawned_Units_Tech_0>

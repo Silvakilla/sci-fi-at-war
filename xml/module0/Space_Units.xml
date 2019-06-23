@@ -6368,16 +6368,15 @@
         <Hyperspace_Speed>1.5</Hyperspace_Speed>
         <Maintenance_Cost>0.05</Maintenance_Cost>
 
-        <Affiliation>Empire</Affiliation>
+        <Affiliation>Pirates</Affiliation>
 
         <Build_Cost_Credits>1250</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Build_Time_Seconds>15</Build_Time_Seconds>
-        <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+        <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 
-        <Tech_Level>0</Tech_Level>
+        <Tech_Level>99</Tech_Level>
 
-        <Required_Special_Structures>Empire_Light_Ship_Yard</Required_Special_Structures>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
 
