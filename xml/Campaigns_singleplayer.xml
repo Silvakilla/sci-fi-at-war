@@ -2808,7 +2808,7 @@
 
 	</Campaign>
 
-	<!-- Development -->
+	<!-- Development 
 	<Campaign Name="Sandbox_Development_Empire">
 
 		<Campaign_Set> Development </Campaign_Set>
@@ -2962,6 +2962,6 @@
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-	</Campaign>
+	</Campaign>-->
 
 </Campaigns>
