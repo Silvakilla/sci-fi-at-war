@@ -584,7 +584,7 @@
 
         <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 
-        <Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
+        <!--<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
         <Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
 
         <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
@@ -593,7 +593,21 @@
         <Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
         <Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>-->
+		
+		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
+		<Squadron_Offsets>175.0,75.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>125.0,25.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>100.0,-15.0,0.0</Squadron_Offsets>
+		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
+		<Squadron_Offsets>75.0,85.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>25.0,35.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-25.0,0.0</Squadron_Offsets>
+		<Squadron_Units>TIE_Fighter, TIE_Fighter, TIE_Fighter</Squadron_Units>
+		<Squadron_Offsets>-75.0,45.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-25.0,95.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-5.0,0.0</Squadron_Offsets>
+		<Max_Squad_Size>9</Max_Squad_Size>
 
         <Icon_Name>i_button_tie_fighter.tga</Icon_Name>
         <GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>

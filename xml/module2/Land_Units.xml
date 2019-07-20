@@ -421,6 +421,14 @@
         <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
         <Target_Stealth_Units>Yes</Target_Stealth_Units>
         <Movie_Object>false</Movie_Object>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="Squad_Mark_V_Spartan">
@@ -434,6 +442,14 @@
         <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
         <FormationRaggedness> .2 </FormationRaggedness>
         <MaxJiggleDistance> 2 </MaxJiggleDistance>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="Mark_VI_Spartan_Variant_01">
@@ -567,6 +583,14 @@
         <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
         <Target_Stealth_Units>Yes</Target_Stealth_Units>
         <Movie_Object>false</Movie_Object>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="Squad_Mark_VI_Spartan_Variant_01">
@@ -580,6 +604,14 @@
         <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
         <FormationRaggedness> .2 </FormationRaggedness>
         <MaxJiggleDistance> 2 </MaxJiggleDistance>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="Mark_VI_Spartan_Variant_02">
@@ -713,6 +745,14 @@
         <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
         <Target_Stealth_Units>Yes</Target_Stealth_Units>
         <Movie_Object>false</Movie_Object>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="Squad_Mark_VI_Spartan_Variant_02">
@@ -726,6 +766,14 @@
         <Max_Rate_Of_Turn>16.0</Max_Rate_Of_Turn>
         <FormationRaggedness> .2 </FormationRaggedness>
         <MaxJiggleDistance> 2 </MaxJiggleDistance>
+
+        <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Ability>
+                <Type>SPREAD_OUT</Type>
+                <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+            </Unit_Ability>
+        </Unit_Abilities_Data>
     </GroundInfantry>
 
     <GroundInfantry Name="ODST">

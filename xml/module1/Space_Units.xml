@@ -77,8 +77,8 @@
         <Required_Special_Structures>Rebel_F_Shipyard</Required_Special_Structures>
     </SpaceUnit>
 
-    <SpaceUnit Name="Rebel_Sorveign">
-        <Variant_Of_Existing_Type>Sorveign</Variant_Of_Existing_Type>
+    <SpaceUnit Name="Rebel_Sovereign">
+        <Variant_Of_Existing_Type>Sovereign</Variant_Of_Existing_Type>
         <Affiliation>Rebel</Affiliation>
         <Required_Special_Structures>Rebel_F_Shipyard</Required_Special_Structures>
     </SpaceUnit>
@@ -393,8 +393,8 @@
         <Required_Special_Structures>Empire_F_Shipyard</Required_Special_Structures>
     </SpaceUnit>
 
-    <SpaceUnit Name="Empire_Sorveign">
-        <Variant_Of_Existing_Type>Sorveign</Variant_Of_Existing_Type>
+    <SpaceUnit Name="Empire_Sovereign">
+        <Variant_Of_Existing_Type>Sovereign</Variant_Of_Existing_Type>
         <Affiliation>Empire</Affiliation>
         <Required_Special_Structures>Empire_F_Shipyard</Required_Special_Structures>
     </SpaceUnit>
@@ -3921,7 +3921,7 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
-        <Required_Special_Structures />
+        <Required_Special_Structures/>
         <Required_Planets></Required_Planets>
 
         <Formation_Priority>3</Formation_Priority>

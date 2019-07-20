@@ -6,7 +6,7 @@
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_IDEN</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_IDEN TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEC</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDOS</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>empire/inferno_squad/Ei_Iden.alo</Land_Model_Name>
 		<Icon_Name>i_button_idenversio.tga</Icon_Name>
@@ -130,7 +130,7 @@
 			<Unit_Ability>
 				<Type>PROXIMITY_MINES</Type>
 				<Recharge_Seconds>80.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name> Arc_Proximity </GUI_Activated_Ability_Name>
+				<GUI_Activated_Ability_Name> Grenadier_Proximity_Solo </GUI_Activated_Ability_Name>
 				<Effective_Radius> 500.0 </Effective_Radius>
 				<SFXEvent_Target_Ability />
 				<Area_Effect_Decal_Distance> 50.0 </Area_Effect_Decal_Distance>
@@ -206,7 +206,7 @@
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_HASK</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HASK TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEC</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDOS</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>empire/inferno_squad/Ei_Hask.alo</Land_Model_Name>
 		<Icon_Name>i_button_agent_hack.tga</Icon_Name>
@@ -365,7 +365,7 @@
 		<Is_Force_Sensitive>Yes</Is_Force_Sensitive>
 		<Text_ID>TEXT_HERO_DEL</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_DEL TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEC</Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_COMMANDOS</Encyclopedia_Unit_Class>
 
 		<Land_Model_Name>empire/inferno_squad/Ei_Del.alo</Land_Model_Name>
 		<Icon_Name>I_Button_Del.tga</Icon_Name>

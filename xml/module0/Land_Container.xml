@@ -420,7 +420,7 @@
         <CategoryMask>Infantry</CategoryMask>
 
         <Unit_Abilities_Data SubObjectList="Yes">
-            <Unit_Ability>
+			<Unit_Ability>
 				<Type>FOW_REVEAL_PING</Type>
 				<Recharge_Seconds> 90.0 </Recharge_Seconds>
 				<Spawned_Object_Type> Proj_Special_Land_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
