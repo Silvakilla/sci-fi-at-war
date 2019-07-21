@@ -1758,7 +1758,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>250.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1775,7 +1775,7 @@
         <Fire_Projectile_Type>Proj_Ship_Laser_Cannon_Red</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1150.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Pirate_Ship_Laser_Fire</Fire_SFXEvent>
@@ -1794,7 +1794,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>250.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1811,7 +1811,7 @@
         <Fire_Projectile_Type>Proj_Ship_Laser_Cannon_Red</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>10</Fire_Pulse_Count>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1150.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Pirate_Ship_Laser_Fire</Fire_SFXEvent>
@@ -1830,7 +1830,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>250.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1845,7 +1845,7 @@
         <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
@@ -1858,7 +1858,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>250.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1875,7 +1875,7 @@
         <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
@@ -1888,7 +1888,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>250.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1903,7 +1903,7 @@
         <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
@@ -1916,7 +1916,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-        <Health>350.0</Health>
+        <Health>250.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1933,7 +1933,7 @@
         <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
@@ -21356,7 +21356,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21403,7 +21403,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21450,7 +21450,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21497,7 +21497,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21544,7 +21544,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21591,7 +21591,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21638,7 +21638,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21685,7 +21685,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21732,7 +21732,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21779,7 +21779,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21826,7 +21826,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21873,7 +21873,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21920,7 +21920,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -21967,7 +21967,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22014,7 +22014,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22061,7 +22061,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22108,7 +22108,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22155,7 +22155,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22202,7 +22202,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22249,7 +22249,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22296,7 +22296,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22343,7 +22343,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22390,7 +22390,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -22437,7 +22437,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -22481,7 +22481,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -22525,7 +22525,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -22569,7 +22569,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -22789,7 +22789,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -22837,7 +22837,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -22885,7 +22885,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -22933,7 +22933,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -22981,7 +22981,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -23029,7 +23029,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -23543,7 +23543,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23590,7 +23590,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23637,7 +23637,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23684,7 +23684,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23731,7 +23731,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23778,7 +23778,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23825,7 +23825,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23872,7 +23872,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23919,7 +23919,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -23966,7 +23966,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24013,7 +24013,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24060,7 +24060,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24107,7 +24107,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24154,7 +24154,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24201,7 +24201,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24248,7 +24248,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24295,7 +24295,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24342,7 +24342,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24389,7 +24389,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24436,7 +24436,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24483,7 +24483,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24530,7 +24530,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24577,7 +24577,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24624,7 +24624,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24671,7 +24671,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24718,7 +24718,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24765,7 +24765,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24812,7 +24812,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24859,7 +24859,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24906,7 +24906,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -24953,7 +24953,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -25000,7 +25000,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2700.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
@@ -25047,7 +25047,7 @@
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -25095,7 +25095,7 @@
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -25143,7 +25143,7 @@
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -25191,7 +25191,7 @@
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -25239,7 +25239,7 @@
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -25287,7 +25287,7 @@
         <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>9</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
         <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
@@ -25335,7 +25335,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25381,7 +25381,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25427,7 +25427,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25471,7 +25471,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25515,7 +25515,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25559,7 +25559,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25603,7 +25603,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25647,7 +25647,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25691,7 +25691,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -25735,7 +25735,7 @@
         <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>8</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+        <Fire_Range_Distance>2200.0</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
         <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
@@ -29152,7 +29152,7 @@
 		<Fire_Bone_A>FP01_01</Fire_Bone_A>
 		<Fire_Bone_B>FP01_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>75.0</Fire_Cone_Width>
 		<Fire_Cone_Height>100.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Is_Turret> Yes </Is_Turret>
@@ -29164,22 +29164,21 @@
 		<Turret_Bone_Name> TURRET_01 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_01 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 18.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
 	</HardPoint>
 
 	<HardPoint Name="HP_Light_Cruiser_Turret_02">
@@ -29201,7 +29200,7 @@
 		<Fire_Bone_A>FP02_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>75.0</Fire_Cone_Width>
 		<Fire_Cone_Height>100.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Is_Turret> Yes </Is_Turret>
@@ -29213,22 +29212,21 @@
 		<Turret_Bone_Name> TURRET_02 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_02 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 18.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
 	</HardPoint>
 
 	<HardPoint Name="HP_Light_Cruiser_Turret_03">
@@ -29250,7 +29248,7 @@
 		<Fire_Bone_A>FP02_01</Fire_Bone_A>
 		<Fire_Bone_B>FP02_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>75.0</Fire_Cone_Width>
 		<Fire_Cone_Height>100.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Is_Turret> Yes </Is_Turret>
@@ -29262,22 +29260,21 @@
 		<Turret_Bone_Name> TURRET_02 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_02 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 18.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
 	</HardPoint>	
 
 	<HardPoint Name="HP_Light_Cruiser_Turret_04">
@@ -29300,7 +29297,7 @@
 		<Fire_Bone_A>FP04_01</Fire_Bone_A>
 		<Fire_Bone_B>FP04_02</Fire_Bone_B>
 		<Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
-		<Fire_Cone_Width>45.0</Fire_Cone_Width>
+		<Fire_Cone_Width>75.0</Fire_Cone_Width>
 		<Fire_Cone_Height>100.0</Fire_Cone_Height>
 		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 		<Is_Turret> Yes </Is_Turret>
@@ -29312,22 +29309,21 @@
 		<Turret_Bone_Name> TURRET_04 </Turret_Bone_Name>
 		<Barrel_Bone_Name> BARREL_04 </Barrel_Bone_Name>
 
-		<Fire_Projectile_Type>Proj_Ship_Light_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Heavy_Turbolaser_Green_Quad_Packed</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>2</Fire_Pulse_Count>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1000.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-		<Fire_Inaccuracy_Distance> Fighter, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 75.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 18.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Fighter, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 35.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
 	</HardPoint>	
 
 	<HardPoint Name="HP_Light_Cruiser_Laser_01">
@@ -29348,10 +29344,10 @@
 		<Fire_Bone_B>FP_01b</Fire_Bone_B>
 		<Fire_Cone_Width>175.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1150.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -29359,9 +29355,9 @@
 		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>	
 
@@ -29383,10 +29379,10 @@
 		<Fire_Bone_B>FP_02b</Fire_Bone_B>
 		<Fire_Cone_Width>175.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1150.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -29394,9 +29390,9 @@
 		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>	
 
@@ -29418,10 +29414,10 @@
 		<Fire_Bone_B>FP_03b</Fire_Bone_B>
 		<Fire_Cone_Width>175.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1150.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -29429,9 +29425,9 @@
 		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>	
 
@@ -29453,10 +29449,10 @@
 		<Fire_Bone_B>FP_04b</Fire_Bone_B>
 		<Fire_Cone_Width>175.0</Fire_Cone_Width>
 		<Fire_Cone_Height>160.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Single</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Count>6</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>1150.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
@@ -29464,9 +29460,9 @@
 		<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>	
 

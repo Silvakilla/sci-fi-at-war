@@ -1205,7 +1205,7 @@
     <Projectile Name="Proj_Ship_Pulse_Laser_UNSC">
         <!-- Prowler -->
         <Text_ID>TEXT_NONE</Text_ID>
-        <Space_Model_Name>p_pulse_laser.ALO</Space_Model_Name>
+        <Space_Model_Name>p_laser_r.ALO</Space_Model_Name>
         <Projectile_Width>1.0</Projectile_Width>
         <Projectile_Length>3.0</Projectile_Length>
         <Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>

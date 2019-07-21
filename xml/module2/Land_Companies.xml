@@ -268,9 +268,9 @@
 
         <Affiliation>UNSC</Affiliation>
 
-        <Build_Cost_Credits>600</Build_Cost_Credits>
+        <Build_Cost_Credits>200</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Time_Seconds>15</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 
@@ -357,7 +357,7 @@
 
         <Affiliation>UNSC</Affiliation>
 
-        <Build_Cost_Credits>100</Build_Cost_Credits>
+        <Build_Cost_Credits>200</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Build_Time_Seconds>15</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
@@ -411,9 +411,9 @@
 
         <Affiliation>UNSC</Affiliation>
 
-        <Build_Cost_Credits>600</Build_Cost_Credits>
+        <Build_Cost_Credits>400</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>30</Build_Time_Seconds>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 
@@ -495,9 +495,9 @@
 
         <Affiliation>UNSC</Affiliation>
 
-        <Build_Cost_Credits>75</Build_Cost_Credits>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>15</Build_Time_Seconds>
+        <Build_Time_Seconds>45</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -562,9 +562,9 @@
 
         <Affiliation>UNSC</Affiliation>
 
-        <Build_Cost_Credits>75</Build_Cost_Credits>
+        <Build_Cost_Credits>500</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>15</Build_Time_Seconds>
+        <Build_Time_Seconds>45</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -1007,9 +1007,9 @@
 
         <Affiliation>Covenant</Affiliation>
 
-        <Build_Cost_Credits>52</Build_Cost_Credits>
+        <Build_Cost_Credits>250</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>10</Build_Time_Seconds>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -1088,8 +1088,8 @@
 
         <Affiliation>Covenant</Affiliation>
 
-        <Build_Cost_Credits>52</Build_Cost_Credits>
-        <Build_Time_Seconds>8</Build_Time_Seconds>
+        <Build_Cost_Credits>300</Build_Cost_Credits>
+        <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -1291,7 +1291,7 @@
 
         <Build_Cost_Credits>1500</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>10</Build_Time_Seconds>
+        <Build_Time_Seconds>45</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
         <Build_Initially_Locked>No</Build_Initially_Locked>

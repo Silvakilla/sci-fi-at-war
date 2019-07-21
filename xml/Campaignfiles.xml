@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <Campaign_Files>
-	<File>Campaigns_singleplayer.xml</File>
-	<File>Campaigns_multiplayer.xml</File>
+	<File>campaigns/Campaigns_singleplayer.xml</File>
+	<File>campaigns/Campaigns_multiplayer.xml</File>
+	<File>campaigns/Campaigns_ground_zero.xml</File>
 </Campaign_Files>

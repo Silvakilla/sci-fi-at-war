@@ -2808,7 +2808,7 @@
 
 	</Campaign>
 
-	<!-- Development 
+	<!-- Development -->
 	<Campaign Name="Sandbox_Development_Empire">
 
 		<Campaign_Set> Development </Campaign_Set>
@@ -2877,9 +2877,7 @@
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Imperial_Light_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, TIE_Fighter_Squadron </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, TIE_Fighter_Squadron </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Star_Destroyer_Class_I </Starting_Forces>
 
 		<Starting_Forces> Pirates, Byss, MC_80_Liberty</Starting_Forces>
 		<Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
@@ -2887,9 +2885,7 @@
 		<Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Pirates, Byss, Imperial_Armytrooper_Squad </Starting_Forces>
 
-		<Starting_Forces> Pirates, Alderaan, MC_80_Liberty</Starting_Forces>
-		<Starting_Forces> Pirates, Alderaan, Nebulon_B</Starting_Forces>
-		<Starting_Forces> Pirates, Alderaan, MC_80_Liberty</Starting_Forces>
+		<Starting_Forces> Pirates, Alderaan, MC_40A</Starting_Forces>
 	</Campaign>
 
 	<Campaign Name="Sandbox_Development_Rebel">
@@ -2962,6 +2958,6 @@
 		<Starting_Forces> Empire, Coruscant, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Armytrooper_Squad </Starting_Forces>
-	</Campaign>-->
+	</Campaign>
 
 </Campaigns>

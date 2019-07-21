@@ -104,7 +104,7 @@
 		</Is_Like>		
 	</Build_Turbolasers>
 
-	<Generate_Magic_Ground_Defense>
+	<!--<Generate_Magic_Ground_Defense>
 		<AIGoalApplicationFlags> Friendly </AIGoalApplicationFlags>
 		<GameMode> Galactic </GameMode>
 		<Category> Defensive </Category>
@@ -191,5 +191,5 @@
 		<Reachability> Any </Reachability>
 		<Time_Limit> -1.0 </Time_Limit>			
 	</Generate_Magic_Cash_Drop>
-
+ -->
 </Goals>

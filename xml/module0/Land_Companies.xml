@@ -984,7 +984,7 @@
 
         <Build_Cost_Credits>300</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>25</Build_Time_Seconds>
+        <Build_Time_Seconds>15</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories>No</Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
 
@@ -1383,7 +1383,7 @@
         <Affiliation>Empire</Affiliation>
         <Build_Cost_Credits>125</Build_Cost_Credits>
         <Piracy_Value_Credits>50</Piracy_Value_Credits>
-        <Build_Time_Seconds>15</Build_Time_Seconds>
+        <Build_Time_Seconds>25</Build_Time_Seconds>
         <Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
         <Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
         <Tech_Level>1</Tech_Level>

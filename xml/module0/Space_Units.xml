@@ -1066,9 +1066,7 @@
             HP_Corellian_Corvette_03,
             HP_Corellian_Corvette_04,
             HP_Corellian_Corvette_05,
-            HP_Corellian_Corvette_06,
-            HP_Corellian_Corvette_07,
-            HP_Corellian_Corvette_08
+            HP_Corellian_Corvette_06
         </HardPoints>
 
         <Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
@@ -2412,7 +2410,7 @@
         <Autoresolve_Health>3500</Autoresolve_Health>
         <Shield_Points>1500</Shield_Points>
         <Tactical_Health>900</Tactical_Health>
-        <Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+        <Shield_Refresh_Rate>40</Shield_Refresh_Rate>
         <Energy_Capacity>3000</Energy_Capacity>
         <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
         <Armor_Type> Armor_MC30_Frigate </Armor_Type>
